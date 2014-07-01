@@ -1,0 +1,12 @@
+run
+-opt_mode speed
+-netlist_hierarchy as_optimized
+-opt_level 1
+-p xc2vp50ff1152-6
+-top gpio_leds_wrapper
+-ifmt MIXED
+-ifn gpio_leds_wrapper_xst.prj
+-ofn ../implementation/gpio_leds_wrapper.ngc
+-hierarchy_separator /
+-iobuf NO
+-sd {../implementation/gpio_leds_wrapper}

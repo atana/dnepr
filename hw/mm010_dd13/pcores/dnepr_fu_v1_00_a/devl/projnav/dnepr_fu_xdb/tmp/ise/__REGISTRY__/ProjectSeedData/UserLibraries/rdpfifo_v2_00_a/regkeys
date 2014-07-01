@@ -1,0 +1,12 @@
+NUM_LIB_SOURCE_FILES
+3
+s
+lib_src_1
+../../../../../../../../../../opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/rdpfifo_dp_cntl.vhd
+s
+lib_src_2
+../../../../../../../../../../opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/ipif_control_rd.vhd
+s
+lib_src_3
+../../../../../../../../../../opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/rdpfifo_top.vhd
+s

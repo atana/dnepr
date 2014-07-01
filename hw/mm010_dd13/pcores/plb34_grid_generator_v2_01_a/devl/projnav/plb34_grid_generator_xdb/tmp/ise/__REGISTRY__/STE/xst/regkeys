@@ -1,0 +1,6 @@
+CommandLine
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\xst.exe -ise D:/TEST/HW_SW_test/sym_plb34_grid_generator/pcores/plb34_grid_generator_v2_01_a/devl/projnav/plb34_grid_generator.ise -intstyle ise -ifn D:/TEST/HW_SW_test/sym_plb34_grid_generator/pcores/plb34_grid_generator_v2_01_a/devl/projnav/plb34_grid_generator.xst -ofn D:/TEST/HW_SW_test/sym_plb34_grid_generator/pcores/plb34_grid_generator_v2_01_a/devl/projnav/plb34_grid_generator.syr -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s

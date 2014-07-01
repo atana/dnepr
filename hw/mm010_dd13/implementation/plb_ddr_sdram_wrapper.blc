@@ -1,0 +1,39 @@
+Release 10.1.03 ngcbuild K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/10.1/ISE/bin/lin/unwrapped/ngcbuild -p xc2vp50ff1152-6
+-intstyle silent -sd .. plb_ddr_sdram_wrapper.ngc ../plb_ddr_sdram_wrapper.ngc
+
+Reading NGO file
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/plb_ddr_sdram_wrapper/pl
+b_ddr_sdram_wrapper.ngc" ...
+Executing edif2ngd -noa
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/plb_ddr_sdram_wrapper_as
+ync_fifo_v4_0.edn" "plb_ddr_sdram_wrapper_async_fifo_v4_0.ngo"
+Release 10.1.03 - edif2ngd K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 10.1.03 edif2ngd K.39 (lin)
+INFO:NgdBuild - Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file </opt/Xilinx/10.1/EDK/data/edif2ngd.pfd> with
+local file </opt/Xilinx/10.1/ISE/data/edif2ngd.pfd>
+Writing module to "plb_ddr_sdram_wrapper_async_fifo_v4_0.ngo"...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/plb_ddr_sdram_wrapper/pl
+b_ddr_sdram_wrapper_async_fifo_v4_0.ngo"...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 65076 kilobytes
+
+Writing NGC file "../plb_ddr_sdram_wrapper.ngc" ...
+
+Writing NGCBUILD log file "../plb_ddr_sdram_wrapper.blc"...

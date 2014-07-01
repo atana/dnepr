@@ -1,0 +1,2 @@
+VHDL dcm_module_v1_00_a /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/dcm_module_v1_00_a/hdl/vhdl/dcm_module.vhd
+vhdl work ../hdl/sys_dcm_wrapper.vhd

@@ -1,0 +1,6 @@
+CommandLine
+/opt/Xilinx/10.1/ISE/bin/lin/unwrapped/bitgen -ise /home/atana/RTI/FPO/newwork/6ma119-6mb261-hw/hw/mpgf13_6ma119_7mm008_dd1/fu2_119.ise -intstyle ise -f fu2_119.ut fu2_119.ncd
+s
+FormatString
+bitgen [-d] [-j] [-b] [-w] [-l] [-m] [-t] [-n] [-u] [-a] [--p] [-r <bitFile>] [-intstyle ise|xflow|silent] [-ise <projectrepositoryfile>] {-bd <BRAM_data_file> [tag <tagname>]} {-g <setting_value>} <infile[.ncd]> [<outfile>] [<pcffile[.pcf]>]
+s

@@ -1,0 +1,2 @@
+VHDL system_clk_v1_00_a /home/atana/RTI/dnepr/hw/mm010_dd13_dts/pcores/system_clk_v1_00_a/hdl/vhdl/system_clk.vhd
+vhdl work ../hdl/system_clk_0_wrapper.vhd

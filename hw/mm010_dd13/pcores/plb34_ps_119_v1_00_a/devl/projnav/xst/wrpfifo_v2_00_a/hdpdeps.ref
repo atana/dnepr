@@ -1,0 +1,39 @@
+V3 31
+FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/ipif_control_wr.vhd 2006/02/14.23:36:52 K.39
+EN wrpfifo_v2_00_a/ipif_control_wr 1271917209 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/ipif_control_wr.vhd \
+      PB ieee/std_logic_1164 1217055545 PB ieee/std_logic_arith 1217055546
+AR wrpfifo_v2_00_a/ipif_control_wr/implementation 1271917210 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/ipif_control_wr.vhd \
+      EN wrpfifo_v2_00_a/ipif_control_wr 1271917209 CP std_logic_vector CP Integer
+FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/pf_dly1_mux.vhd 2004/04/12.20:32:31 K.39
+EN wrpfifo_v2_00_a/pf_dly1_mux 1271917193 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/pf_dly1_mux.vhd \
+      PB ieee/std_logic_1164 1217055545 LB proc_common_v2_00_a LB unisim \
+      PH unisim/VCOMPONENTS 1217055545 EN proc_common_v2_00_a/inferred_lut4 1271917151
+AR wrpfifo_v2_00_a/pf_dly1_mux/implementation 1271917194 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/pf_dly1_mux.vhd \
+      EN wrpfifo_v2_00_a/pf_dly1_mux 1271917193 CP inferred_lut4 CP FDRE
+FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/wrpfifo_dp_cntl.vhd 2004/04/12.20:32:31 K.39
+EN wrpfifo_v2_00_a/wrpfifo_dp_cntl 1271917211 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/wrpfifo_dp_cntl.vhd \
+      PB ieee/std_logic_1164 1217055545 PB ieee/STD_LOGIC_UNSIGNED 1217055547 \
+      PB ieee/std_logic_arith 1217055546 LB proc_common_v2_00_a \
+      EN proc_common_v2_00_a/pf_counter_top 1271917165 \
+      EN proc_common_v2_00_a/pf_occ_counter_top 1271917163 \
+      EN proc_common_v2_00_a/pf_adder 1271917167
+AR wrpfifo_v2_00_a/wrpfifo_dp_cntl/implementation 1271917212 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/wrpfifo_dp_cntl.vhd \
+      EN wrpfifo_v2_00_a/wrpfifo_dp_cntl 1271917211 CP std_logic \
+      CP transition_state_type CP std_logic_vector CP pf_dly1_mux \
+      CP pf_occ_counter_top CP pf_counter_top CP Boolean CP pf_adder
+FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/wrpfifo_top.vhd 2006/02/14.23:36:52 K.39
+EN wrpfifo_v2_00_a/wrpfifo_top 1271917217 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/wrpfifo_top.vhd \
+      PB ieee/std_logic_1164 1217055545 PB ieee/std_logic_arith 1217055546 \
+      LB proc_common_v2_00_a EN proc_common_v2_00_a/srl16_fifo 1271917181 \
+      EN proc_common_v2_00_a/pf_dpram_select 1271917183
+AR wrpfifo_v2_00_a/wrpfifo_top/implementation 1271917218 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/wrpfifo_top.vhd \
+      EN wrpfifo_v2_00_a/wrpfifo_top 1271917217 CP ipif_control_wr CP Integer \
+      CP Boolean CP In CP Out CP wrpfifo_dp_cntl CP pf_dpram_select CP srl16_fifo

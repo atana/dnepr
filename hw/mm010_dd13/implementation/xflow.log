@@ -1,0 +1,2098 @@
+Release 10.1.03 Xflow K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+xflow -wd implementation -p xc2vp50ff1152-6 -implement xflow.opt system.ngc  
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/10.1/EDK/virtex2p/data/virtex2p.acd> with local file
+</opt/Xilinx/10.1/ISE/virtex2p/data/virtex2p.acd>
+.... Copying flowfile /opt/Xilinx/10.1/ISE/xilinx/data/fpga.flw into working
+directory /home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation 
+
+Using Flow File:
+/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/fpga.flw 
+Using Option File(s): 
+ /home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/xflow.opt 
+
+Creating Script File ... 
+
+#----------------------------------------------#
+# Starting program ngdbuild
+# ngdbuild -p xc2vp50ff1152-6 -nt timestamp -bm system.bmm
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/system.ngc" -uc
+system.ucf system.ngd 
+#----------------------------------------------#
+Release 10.1.03 - ngdbuild K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/10.1/EDK/virtex2p/data/virtex2p.acd> with local file
+</opt/Xilinx/10.1/ISE/virtex2p/data/virtex2p.acd>
+
+Command Line: /opt/Xilinx/10.1/ISE/bin/lin/unwrapped/ngdbuild -p xc2vp50ff1152-6
+-nt timestamp -bm system.bmm
+/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/system.ngc -uc system.ucf
+system.ngd
+
+Reading NGO file
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/system.ngc" ...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/dnepr_wrapper.ngc"...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/grid_gen_wrapper.ngc"...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/delay_meter_wrapper.ngc"
+...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/ft_fd_input_wrapper.ngc"
+...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/ppc405_1_wrapper.ngc"...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/ppc405_0_wrapper.ngc"...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/jtagppc_0_wrapper.ngc"..
+.
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/plb2opb_wrapper.ngc"...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/opb_wrapper.ngc"...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/plb_wrapper.ngc"...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/reset_block_wrapper.ngc"
+...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/system_clk_0_wrapper.ngc
+"...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/ddr_fb_dcm_wrapper.ngc".
+..
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/ddr90_dcm_wrapper.ngc"..
+.
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/sys_dcm_wrapper.ngc"...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/plb_eth2_contr_wrapper.n
+gc"...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/plb_eth1_contr_wrapper.n
+gc"...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/opb_intc_0_wrapper.ngc".
+..
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/opb_flash_wrapper.ngc"..
+.
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/boot_ppc_cntrl_wrapper.n
+gc"...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/boot_ppc_bram_wrapper.ng
+c"...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/plb_ddr_sdram_wrapper.ng
+c"...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/uart_tuts_wrapper.ngc"..
+.
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/rs232_1_wrapper.ngc"...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/rs232_2_wrapper.ngc"...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/gpio_leds_wrapper.ngc"..
+.
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/freq_detect_wrapper.ngc"
+...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/reg_version_wrapper.ngc"
+...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/f_gen_0_wrapper.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Applying constraints in "system.ucf" to the design...
+INFO:coreutil - Full license for component <plb_ethernet_v1> allows you to use
+   this component. This license does not give you access to source code
+   implementing this component.
+
+INFO:coreutil - Full license for component <plb_ethernet_v1> allows you to use
+   this component. This license does not give you access to source code
+   implementing this component.
+
+INFO:coreutil - Full license for component <plb_ethernet_v1> allows you to use
+   this component. This license does not give you access to source code
+   implementing this component.
+
+INFO:coreutil - Full license for component <plb_ethernet_v1> allows you to use
+   this component. This license does not give you access to source code
+   implementing this component.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:NgdBuild:1012 - The constraint <NET: UniqueName:
+   /system/EXPANDED/Eth2_PHY_rx_er_IBUF NODELAY> is overridden on the design
+   object Eth2_PHY_rx_er by the constraint <NET "Eth2_PHY_rx_er"				NODELAY;>
+   [system.ucf(122)].
+WARNING:NgdBuild:1012 - The constraint <NET: UniqueName:
+   /system/EXPANDED/Eth2_PHY_rx_data_3_IBUF NODELAY> is overridden on the design
+   object Eth2_PHY_rx_data<3> by the constraint <NET
+   "Eth2_PHY_rx_data<3>"		NODELAY;> [system.ucf(117)].
+WARNING:NgdBuild:1012 - The constraint <NET: UniqueName:
+   /system/EXPANDED/Eth2_PHY_rx_data_2_IBUF NODELAY> is overridden on the design
+   object Eth2_PHY_rx_data<2> by the constraint <NET
+   "Eth2_PHY_rx_data<2>"		NODELAY;> [system.ucf(118)].
+WARNING:NgdBuild:1012 - The constraint <NET: UniqueName:
+   /system/EXPANDED/Eth2_PHY_rx_data_1_IBUF NODELAY> is overridden on the design
+   object Eth2_PHY_rx_data<1> by the constraint <NET
+   "Eth2_PHY_rx_data<1>"		NODELAY;> [system.ucf(119)].
+WARNING:NgdBuild:1012 - The constraint <NET: UniqueName:
+   /system/EXPANDED/Eth2_PHY_rx_data_0_IBUF NODELAY> is overridden on the design
+   object Eth2_PHY_rx_data<0> by the constraint <NET
+   "Eth2_PHY_rx_data<0>"		NODELAY;> [system.ucf(120)].
+WARNING:NgdBuild:1012 - The constraint <NET: UniqueName:
+   /system/EXPANDED/Eth2_PHY_dv_IBUF NODELAY> is overridden on the design object
+   Eth2_PHY_dv by the constraint <NET "Eth2_PHY_dv"					NODELAY;>
+   [system.ucf(121)].
+WARNING:NgdBuild:1012 - The constraint <NET: UniqueName:
+   /system/EXPANDED/Eth2_PHY_crs_IBUF NODELAY> is overridden on the design
+   object Eth2_PHY_crs by the constraint <NET "Eth2_PHY_crs"				NODELAY;>
+   [system.ucf(123)].
+WARNING:NgdBuild:1012 - The constraint <NET: UniqueName:
+   /system/EXPANDED/Eth2_PHY_col_IBUF NODELAY> is overridden on the design
+   object Eth2_PHY_col by the constraint <NET "Eth2_PHY_col"				NODELAY;>
+   [system.ucf(124)].
+WARNING:NgdBuild:1012 - The constraint <NET: UniqueName:
+   /system/EXPANDED/Eth1_PHY_rx_er_IBUF NODELAY> is overridden on the design
+   object Eth1_PHY_rx_er by the constraint <NET "Eth1_PHY_rx_er"				NODELAY;>
+   [system.ucf(113)].
+WARNING:NgdBuild:1012 - The constraint <NET: UniqueName:
+   /system/EXPANDED/Eth1_PHY_rx_data_3_IBUF NODELAY> is overridden on the design
+   object Eth1_PHY_rx_data<3> by the constraint <NET
+   "Eth1_PHY_rx_data<3>"		NODELAY;> [system.ucf(108)].
+WARNING:NgdBuild:1012 - The constraint <NET: UniqueName:
+   /system/EXPANDED/Eth1_PHY_rx_data_2_IBUF NODELAY> is overridden on the design
+   object Eth1_PHY_rx_data<2> by the constraint <NET
+   "Eth1_PHY_rx_data<2>"		NODELAY;> [system.ucf(109)].
+WARNING:NgdBuild:1012 - The constraint <NET: UniqueName:
+   /system/EXPANDED/Eth1_PHY_rx_data_1_IBUF NODELAY> is overridden on the design
+   object Eth1_PHY_rx_data<1> by the constraint <NET
+   "Eth1_PHY_rx_data<1>"		NODELAY;> [system.ucf(110)].
+WARNING:NgdBuild:1012 - The constraint <NET: UniqueName:
+   /system/EXPANDED/Eth1_PHY_rx_data_0_IBUF NODELAY> is overridden on the design
+   object Eth1_PHY_rx_data<0> by the constraint <NET
+   "Eth1_PHY_rx_data<0>"		NODELAY;> [system.ucf(111)].
+WARNING:NgdBuild:1012 - The constraint <NET: UniqueName:
+   /system/EXPANDED/Eth1_PHY_dv_IBUF NODELAY> is overridden on the design object
+   Eth1_PHY_dv by the constraint <NET "Eth1_PHY_dv"					NODELAY;>
+   [system.ucf(112)].
+WARNING:NgdBuild:1012 - The constraint <NET: UniqueName:
+   /system/EXPANDED/Eth1_PHY_crs_IBUF NODELAY> is overridden on the design
+   object Eth1_PHY_crs by the constraint <NET "Eth1_PHY_crs"				NODELAY;>
+   [system.ucf(114)].
+WARNING:NgdBuild:1012 - The constraint <NET: UniqueName:
+   /system/EXPANDED/Eth1_PHY_col_IBUF NODELAY> is overridden on the design
+   object Eth1_PHY_col by the constraint <NET "Eth1_PHY_col"				NODELAY;>
+   [system.ucf(115)].
+Done...
+Checking Partitions ...
+
+Processing BMM file ...
+
+Checking expanded design ...
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_S_H_ADDR_REG[4].I_AD
+   DR_S_H_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_S_H_ADDR_REG[5].I_AD
+   DR_S_H_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/MEM_DECODE_GEN[0].I_BKEN
+   D_CS_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[0
+   ].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[1
+   ].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[2
+   ].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[3
+   ].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[4
+   ].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[5
+   ].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[6
+   ].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[7
+   ].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[8
+   ].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[9
+   ].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[1
+   0].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[1
+   1].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[1
+   2].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[1
+   3].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[1
+   4].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[1
+   5].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[1
+   5].I_BKEND_RDCE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'dnepr/dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[1
+   5].I_BKEND_WRCE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'grid_gen/grid_gen/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_S_H_ADDR_REG[2
+   ].I_ADDR_S_H_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'grid_gen/grid_gen/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_S_H_ADDR_REG[3
+   ].I_ADDR_S_H_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'grid_gen/grid_gen/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/MEM_DECODE_GEN[0].
+   I_BKEND_CS_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'grid_gen/grid_gen/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGIS
+   TERS[0].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'grid_gen/grid_gen/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGIS
+   TERS[1].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'grid_gen/grid_gen/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGIS
+   TERS[2].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'grid_gen/grid_gen/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGIS
+   TERS[3].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'delay_meter/delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_S_H_ADDR
+   _REG[3].I_ADDR_S_H_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'delay_meter/delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_S_H_ADDR
+   _REG[4].I_ADDR_S_H_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'delay_meter/delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/MEM_DECODE_G
+   EN[0].I_BKEND_CS_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'delay_meter/delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE
+   _REGISTERS[0].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'delay_meter/delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE
+   _REGISTERS[1].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'delay_meter/delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE
+   _REGISTERS[2].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'delay_meter/delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE
+   _REGISTERS[3].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'delay_meter/delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE
+   _REGISTERS[4].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'delay_meter/delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE
+   _REGISTERS[5].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'delay_meter/delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE
+   _REGISTERS[5].I_BKEND_RDCE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'delay_meter/delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE
+   _REGISTERS[5].I_BKEND_WRCE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'delay_meter/delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE
+   _REGISTERS[6].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'delay_meter/delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE
+   _REGISTERS[6].I_BKEND_RDCE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'delay_meter/delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE
+   _REGISTERS[6].I_BKEND_WRCE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'delay_meter/delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE
+   _REGISTERS[7].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'delay_meter/delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE
+   _REGISTERS[7].I_BKEND_RDCE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'delay_meter/delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE
+   _REGISTERS[7].I_BKEND_WRCE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/REQPRI_FF_GEN[1].FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/REQPRI_FF_GEN[0].FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/PENDREQ_FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/PENDPRI_FF_GEN[1].FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/PENDPRI_FF_GEN[0].FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/SSIZE_FF_GEN[1].FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/SSIZE_FF_GEN[0].FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/WRBTERM_FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/REARB_FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/RDWDADDR_FF_GEN[3].FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/RDWDADDR_FF_GEN[2].FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/RDWDADDR_FF_GEN[1].FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/RDWDADDR_FF_GEN[0].FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/RDBTERM_FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/ERR_FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/IP2INTC_IRPT_FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/tx
+   1a_generate.INST_PADCOUNTER/z_ff' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/TX
+   3_GENERATE.INST_COLRETRYCNT/z_ff' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/TX
+   3_GENERATE.INST_COLWINDOWNIBCNT/z_ff' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/TX
+   3_GENERATE.inst_jamTxNibCnt/z_ff' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_WRITE_ADDR_CNTR/I_UP_DWN_
+   COUNTER/I_CARRY_OUT' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_READ_ADDR_CNTR/I_UP_DWN_C
+   OUNTER/I_CARRY_OUT' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_MARKREG_ADDR_CNTR/I_UP_DW
+   N_COUNTER/I_CARRY_OUT' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[11].Counter
+   _Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[10].Counter
+   _Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[9].Counter_
+   Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[8].Counter_
+   Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[7].Counter_
+   Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[6].Counter_
+   Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[5].Counter_
+   Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[4].Counter_
+   Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[3].Counter_
+   Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[2].Counter_
+   Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[1].Counter_
+   Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[0].Counter_
+   Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[0].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[1].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[2].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[3].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[4].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[5].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[6].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[7].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[8].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[9].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[10].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[11].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[12].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[13].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_WRITE_ADDR_CNTR/I_UP
+   _DWN_COUNTER/I_CARRY_OUT' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_READ_ADDR_CNTR/I_UP_
+   DWN_COUNTER/I_CARRY_OUT' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_MARKREG_ADDR_CNTR/I_
+   UP_DWN_COUNTER/I_CARRY_OUT' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[11].Co
+   unter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[10].Co
+   unter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[9].Cou
+   nter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[8].Cou
+   nter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[7].Cou
+   nter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[6].Cou
+   nter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[5].Cou
+   nter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[4].Cou
+   nter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[3].Cou
+   nter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[2].Cou
+   nter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[1].Cou
+   nter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[0].Cou
+   nter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_B
+   URST.I_DTIME_CONTROLLER/CONTROL_CNTR_I/I_UP_DWN_COUNTER/I_CARRY_OUT' has
+   unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_B
+   URST.I_DTIME_CONTROLLER/RESPONSE_CNTR_I/I_UP_DWN_COUNTER/I_CARRY_OUT' has
+   unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_B
+   URST.I_DTIME_CONTROLLER/CONTROL_CYCLE_CNTR_I/I_UP_DWN_COUNTER/I_CARRY_OUT'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_B
+   URST.I_DTIME_CONTROLLER/RESPONSE_CYCLE_CNTR_I/I_UP_DWN_COUNTER/I_CARRY_OUT'
+   has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/IN
+   ST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU10' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/IN
+   ST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU15' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/IN
+   ST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU20' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/IN
+   ST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU25' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/IN
+   ST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU30' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/IN
+   ST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU35' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/IN
+   ST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU130' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/IN
+   ST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU237' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_WRAP_FIFO/BU10' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_WRAP_FIFO/BU15' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_WRAP_FIFO/BU20' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_WRAP_FIFO/BU25' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_WRAP_FIFO/BU30' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_WRAP_FIFO/BU35' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_WRAP_FIFO/BU130' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_WRAP_FIFO/BU237' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_RX_FIFO/BU10' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_RX_FIFO/BU15' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_RX_FIFO/BU20' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_RX_FIFO/BU25' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_RX_FIFO/BU30' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_RX_FIFO/BU35' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_RX_FIFO/BU130' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_RX_FIFO/BU237' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/REQPRI_FF_GEN[1].FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/REQPRI_FF_GEN[0].FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/PENDREQ_FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/PENDPRI_FF_GEN[1].FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/PENDPRI_FF_GEN[0].FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/SSIZE_FF_GEN[1].FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/SSIZE_FF_GEN[0].FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/WRBTERM_FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/REARB_FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/RDWDADDR_FF_GEN[3].FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/RDWDADDR_FF_GEN[2].FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/RDWDADDR_FF_GEN[1].FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/RDWDADDR_FF_GEN[0].FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/RDBTERM_FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/ERR_FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MAST
+   ER_ATTACH/IP2INTC_IRPT_FF_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/tx
+   1a_generate.INST_PADCOUNTER/z_ff' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/TX
+   3_GENERATE.INST_COLRETRYCNT/z_ff' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/TX
+   3_GENERATE.INST_COLWINDOWNIBCNT/z_ff' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/TX
+   3_GENERATE.inst_jamTxNibCnt/z_ff' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_WRITE_ADDR_CNTR/I_UP_DWN_
+   COUNTER/I_CARRY_OUT' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_READ_ADDR_CNTR/I_UP_DWN_C
+   OUNTER/I_CARRY_OUT' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_MARKREG_ADDR_CNTR/I_UP_DW
+   N_COUNTER/I_CARRY_OUT' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[11].Counter
+   _Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[10].Counter
+   _Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[9].Counter_
+   Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[8].Counter_
+   Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[7].Counter_
+   Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[6].Counter_
+   Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[5].Counter_
+   Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[4].Counter_
+   Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[3].Counter_
+   Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[2].Counter_
+   Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[1].Counter_
+   Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_
+   BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[0].Counter_
+   Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[0].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[1].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[2].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[3].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[4].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[5].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[6].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[7].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[8].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[9].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[10].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[11].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[12].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_DELAY_MUX/MAKE_DLY_M
+   UX[13].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_WRITE_ADDR_CNTR/I_UP
+   _DWN_COUNTER/I_CARRY_OUT' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_READ_ADDR_CNTR/I_UP_
+   DWN_COUNTER/I_CARRY_OUT' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_PACKET_FEATURES.I_MARKREG_ADDR_CNTR/I_
+   UP_DWN_COUNTER/I_CARRY_OUT' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[11].Co
+   unter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[10].Co
+   unter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[9].Cou
+   nter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[8].Cou
+   nter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[7].Cou
+   nter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[6].Cou
+   nter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[5].Cou
+   nter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[4].Cou
+   nter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[3].Cou
+   nter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[2].Cou
+   nter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[1].Cou
+   nter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP
+   /USE_BLOCK_RAM.I_DP_CONTROLLER/INCLUDE_VACANCY.I_VAC_CALC/I_ADDSUB_GEN[0].Cou
+   nter_Bit_I/FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_B
+   URST.I_DTIME_CONTROLLER/CONTROL_CNTR_I/I_UP_DWN_COUNTER/I_CARRY_OUT' has
+   unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_B
+   URST.I_DTIME_CONTROLLER/RESPONSE_CNTR_I/I_UP_DWN_COUNTER/I_CARRY_OUT' has
+   unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_B
+   URST.I_DTIME_CONTROLLER/CONTROL_CYCLE_CNTR_I/I_UP_DWN_COUNTER/I_CARRY_OUT'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_B
+   URST.I_DTIME_CONTROLLER/RESPONSE_CYCLE_CNTR_I/I_UP_DWN_COUNTER/I_CARRY_OUT'
+   has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/IN
+   ST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU10' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/IN
+   ST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU15' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/IN
+   ST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU20' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/IN
+   ST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU25' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/IN
+   ST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU30' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/IN
+   ST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU35' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/IN
+   ST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU130' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/IN
+   ST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU237' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_WRAP_FIFO/BU10' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_WRAP_FIFO/BU15' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_WRAP_FIFO/BU20' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_WRAP_FIFO/BU25' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_WRAP_FIFO/BU30' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_WRAP_FIFO/BU35' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_WRAP_FIFO/BU130' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_WRAP_FIFO/BU237' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_RX_FIFO/BU10' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_RX_FIFO/BU15' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_RX_FIFO/BU20' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_RX_FIFO/BU25' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_RX_FIFO/BU30' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_RX_FIFO/BU35' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_RX_FIFO/BU130' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE
+   /V2_DMEM.I_RX_FIFO/BU237' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[25].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[24].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[23].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[22].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[21].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[20].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[19].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[18].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[17].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[16].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[15].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[14].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[13].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[12].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[11].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[10].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[9].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[8].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[7].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[6].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[5].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[4].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[3].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[2].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[1].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_DBUS_REG_GEN[0].OPB_DBUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_ABUS_REG_GEN[31].OPB_ABUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_ABUS_REG_GEN[30].OPB_ABUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_ABUS_REG_GEN[26].OPB_ABUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_ABUS_REG_GEN[25].OPB_ABUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_ABUS_REG_GEN[24].OPB_ABUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_ABUS_REG_GEN[23].OPB_ABUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_ABUS_REG_GEN[22].OPB_ABUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_ABUS_REG_GEN[21].OPB_ABUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'opb_intc_0/opb_intc_0/OPB_INTFC_I/OPB_ABUS_REG_GEN[20].OPB_ABUS_REG_BIT_I'
+   has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   3].V2_ASYNCH_FIFO_I/BU11' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   3].V2_ASYNCH_FIFO_I/BU16' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   3].V2_ASYNCH_FIFO_I/BU21' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   3].V2_ASYNCH_FIFO_I/BU26' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   3].V2_ASYNCH_FIFO_I/BU31' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   3].V2_ASYNCH_FIFO_I/BU36' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   3].V2_ASYNCH_FIFO_I/BU41' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   3].V2_ASYNCH_FIFO_I/BU46' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   3].V2_ASYNCH_FIFO_I/BU51' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   3].V2_ASYNCH_FIFO_I/BU56' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   3].V2_ASYNCH_FIFO_I/BU61' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   3].V2_ASYNCH_FIFO_I/BU66' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   3].V2_ASYNCH_FIFO_I/BU71' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   3].V2_ASYNCH_FIFO_I/BU76' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   3].V2_ASYNCH_FIFO_I/BU81' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   3].V2_ASYNCH_FIFO_I/BU86' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   3].V2_ASYNCH_FIFO_I/BU173' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   3].V2_ASYNCH_FIFO_I/BU280' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   2].V2_ASYNCH_FIFO_I/BU11' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   2].V2_ASYNCH_FIFO_I/BU16' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   2].V2_ASYNCH_FIFO_I/BU21' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   2].V2_ASYNCH_FIFO_I/BU26' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   2].V2_ASYNCH_FIFO_I/BU31' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   2].V2_ASYNCH_FIFO_I/BU36' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   2].V2_ASYNCH_FIFO_I/BU41' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   2].V2_ASYNCH_FIFO_I/BU46' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   2].V2_ASYNCH_FIFO_I/BU51' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   2].V2_ASYNCH_FIFO_I/BU56' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   2].V2_ASYNCH_FIFO_I/BU61' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   2].V2_ASYNCH_FIFO_I/BU66' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   2].V2_ASYNCH_FIFO_I/BU71' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   2].V2_ASYNCH_FIFO_I/BU76' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   2].V2_ASYNCH_FIFO_I/BU81' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   2].V2_ASYNCH_FIFO_I/BU86' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   2].V2_ASYNCH_FIFO_I/BU173' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   2].V2_ASYNCH_FIFO_I/BU280' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   1].V2_ASYNCH_FIFO_I/BU11' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   1].V2_ASYNCH_FIFO_I/BU16' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   1].V2_ASYNCH_FIFO_I/BU21' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   1].V2_ASYNCH_FIFO_I/BU26' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   1].V2_ASYNCH_FIFO_I/BU31' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   1].V2_ASYNCH_FIFO_I/BU36' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   1].V2_ASYNCH_FIFO_I/BU41' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   1].V2_ASYNCH_FIFO_I/BU46' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   1].V2_ASYNCH_FIFO_I/BU51' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   1].V2_ASYNCH_FIFO_I/BU56' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   1].V2_ASYNCH_FIFO_I/BU61' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   1].V2_ASYNCH_FIFO_I/BU66' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   1].V2_ASYNCH_FIFO_I/BU71' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   1].V2_ASYNCH_FIFO_I/BU76' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   1].V2_ASYNCH_FIFO_I/BU81' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   1].V2_ASYNCH_FIFO_I/BU86' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   1].V2_ASYNCH_FIFO_I/BU173' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   1].V2_ASYNCH_FIFO_I/BU280' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   0].V2_ASYNCH_FIFO_I/BU11' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   0].V2_ASYNCH_FIFO_I/BU16' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   0].V2_ASYNCH_FIFO_I/BU21' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   0].V2_ASYNCH_FIFO_I/BU26' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   0].V2_ASYNCH_FIFO_I/BU31' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   0].V2_ASYNCH_FIFO_I/BU36' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   0].V2_ASYNCH_FIFO_I/BU41' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   0].V2_ASYNCH_FIFO_I/BU46' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   0].V2_ASYNCH_FIFO_I/BU51' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   0].V2_ASYNCH_FIFO_I/BU56' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   0].V2_ASYNCH_FIFO_I/BU61' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   0].V2_ASYNCH_FIFO_I/BU66' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   0].V2_ASYNCH_FIFO_I/BU71' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   0].V2_ASYNCH_FIFO_I/BU76' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   0].V2_ASYNCH_FIFO_I/BU81' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   0].V2_ASYNCH_FIFO_I/BU86' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   0].V2_ASYNCH_FIFO_I/BU173' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[
+   0].V2_ASYNCH_FIFO_I/BU280' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.DATASM_I/W_BURST.READCN
+   TR_I/CARRY_OUT_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MO
+   DE_BURSTXFER.I_BURST_SUPPORT/CONTROL_DBEAT_CNTR_I/I_UP_DWN_COUNTER/I_CARRY_OU
+   T' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MO
+   DE_BURSTXFER.I_BURST_SUPPORT/RESPONSE_DBEAT_CNTR_I/I_UP_DWN_COUNTER/I_CARRY_O
+   UT' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MO
+   DE_BURSTXFER.I_STEER_ADDRESS_COUNTER/GEN_S_H_SIZE_REG[0].I_SIZE_S_H_REG' has
+   unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MO
+   DE_BURSTXFER.I_STEER_ADDRESS_COUNTER/GEN_S_H_SIZE_REG[1].I_SIZE_S_H_REG' has
+   unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MO
+   DE_BURSTXFER.I_BUS_ADDRESS_COUNTER/GEN_S_H_SIZE_REG[0].I_SIZE_S_H_REG' has
+   unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MO
+   DE_BURSTXFER.I_BUS_ADDRESS_COUNTER/GEN_S_H_SIZE_REG[1].I_SIZE_S_H_REG' has
+   unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MO
+   DE_BURSTXFER.I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_4to7[7].I_FDR
+   SE_BE4to7' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MO
+   DE_BURSTXFER.I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_4to7[6].I_FDR
+   SE_BE4to7' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MO
+   DE_BURSTXFER.I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_4to7[5].I_FDR
+   SE_BE4to7' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MO
+   DE_BURSTXFER.I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_4to7[4].I_FDR
+   SE_BE4to7' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MO
+   DE_BURSTXFER.I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[3].I_FDR
+   SE_BE0to3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MO
+   DE_BURSTXFER.I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[2].I_FDR
+   SE_BE0to3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MO
+   DE_BURSTXFER.I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[1].I_FDR
+   SE_BE0to3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MO
+   DE_BURSTXFER.I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[0].I_FDR
+   SE_BE0to3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/G
+   EN_S_H_ADDR_REG[0].I_ADDR_S_H_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/G
+   EN_S_H_ADDR_REG[1].I_ADDR_S_H_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/G
+   EN_S_H_ADDR_REG[2].I_ADDR_S_H_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/G
+   EN_BKEND_CE_REGISTERS[0].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/G
+   EN_BKEND_CE_REGISTERS[0].I_BKEND_RDCE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/G
+   EN_BKEND_CE_REGISTERS[0].I_BKEND_WRCE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I
+   _CS_SIZE_REG0' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I
+   _CS_SIZE_REG1' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I
+   _CS_SIZE_REG2' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'reg_version/reg_version/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_S_H_ADDR
+   _REG[1].I_ADDR_S_H_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'reg_version/reg_version/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_S_H_ADDR
+   _REG[2].I_ADDR_S_H_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'reg_version/reg_version/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/MEM_DECODE_G
+   EN[0].I_BKEND_CS_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'reg_version/reg_version/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE
+   _REGISTERS[0].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'reg_version/reg_version/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE
+   _REGISTERS[1].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'f_gen_0/f_gen_0/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_S_H_ADDR_REG[1].
+   I_ADDR_S_H_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'f_gen_0/f_gen_0/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_S_H_ADDR_REG[2].
+   I_ADDR_S_H_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'f_gen_0/f_gen_0/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/MEM_DECODE_GEN[0].I_
+   BKEND_CS_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'f_gen_0/f_gen_0/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTE
+   RS[0].I_BKEND_CE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'f_gen_0/f_gen_0/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTE
+   RS[1].I_BKEND_CE_REG' has unconnected output pin
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings: 386
+
+Writing NGD file "system.ngd" ...
+
+Writing NGDBUILD log file "system.bld"...
+
+NGDBUILD done.
+
+
+
+#----------------------------------------------#
+# Starting program map
+# map -o system_map.ncd -pr b -ol high -timing system.ngd system.pcf 
+#----------------------------------------------#
+Release 10.1.03 - Map K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file </opt/Xilinx/10.1/EDK/data/Xdh_PrimTypeLib.xda>
+with local file </opt/Xilinx/10.1/ISE/data/Xdh_PrimTypeLib.xda>
+Using target part "2vp50ff1152-6".
+Mapping design into LUTs...
+Writing file system_map.ngm...
+Running directed packing...
+Running delay-based LUT packing...
+Running timing-driven packing...
+
+Phase 1.1
+Phase 1.1 (Checksum:18c0a3d9) REAL time: 28 secs 
+
+Phase 2.7
+WARNING:Place:838 - An IO Bus with more than one IO standard is found.
+   Components associated with this bus are as follows: 
+   	 Comp: Flash_A<31>   IOSTANDARD = LVCMOS25
+   	 Comp: Flash_A<30>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<29>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<28>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<27>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<26>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<25>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<24>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<23>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<22>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<21>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<20>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<19>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<18>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<17>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<16>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<15>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<14>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<13>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<12>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<11>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<10>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<9>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<8>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<7>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<6>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<5>   IOSTANDARD = LVCMOS25
+   	 Comp: Flash_A<4>   IOSTANDARD = LVCMOS25
+   	 Comp: Flash_A<3>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<2>   IOSTANDARD = LVCMOS25
+   	 Comp: Flash_A<1>   IOSTANDARD = LVCMOS25
+   	 Comp: Flash_A<0>   IOSTANDARD = LVCMOS25
+
+
+WARNING:Place:837 - Partially locked IO Bus is found. 
+    Following components of the bus are not locked: 
+   	 Comp: LEDS<0>
+
+WARNING:Place:838 - An IO Bus with more than one IO standard is found.
+   Components associated with this bus are as follows: 
+   	 Comp: LEDS<2>   IOSTANDARD = PCI33_3
+   	 Comp: LEDS<1>   IOSTANDARD = PCI33_3
+   	 Comp: LEDS<0>   IOSTANDARD = LVCMOS25
+
+
+INFO:Place:834 - Only a subset of IOs are locked. Out of 177 IOs, 173 are locked
+   and 4 are not locked. If you would like to print the names of these IOs,
+   please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1. 
+Phase 2.7 (Checksum:18c0a3d9) REAL time: 28 secs 
+
+Phase 3.31
+WARNING:Place:479 - Use of the left PPC405 has been detected. The left processor
+   requires special design considerations when operating above 350 MHz in the -7
+   speed grade part. Please see Xilinx Application Note XAPP755 for details.
+Phase 3.31 (Checksum:18c2bd91) REAL time: 28 secs 
+
+Phase 4.2
+...
+.....
+
+
+WARNING:Place:83 - This design either uses more than 8 clock buffers or has clock buffers locked into primary and
+   secondary sites. Since only one clock buffer output signal from a primary / secondary pair may enter any clock region
+   it is necessary to partition the clock logic being driven by these clocks into different clock regions. It may be
+   possible through Floorplanning all or just part of the logic being driven by the Global clocks to achieve a legal
+   placement for this design.........................................
+...........
+.................
+......
+...................
+Phase 4.2 (Checksum:890dd929) REAL time: 1 mins 17 secs 
+
+...
+Phase 5.30
+Phase 5.30 (Checksum:18ccac42) REAL time: 1 mins 18 secs 
+
+Phase 6.3
+....
+Phase 6.3 (Checksum:18d4291e) REAL time: 1 mins 19 secs 
+
+Phase 7.5
+Phase 7.5 (Checksum:18d4291e) REAL time: 1 mins 19 secs 
+
+Phase 8.4
+................................
+...........
+Phase 8.4 (Checksum:18d4291e) REAL time: 1 mins 29 secs 
+
+Phase 9.28
+Phase 9.28 (Checksum:18d4291e) REAL time: 1 mins 30 secs 
+
+Phase 10.8
+................................
+......................
+.....
+...................................
+...............
+...............
+...............
+.......................
+Phase 10.8 (Checksum:903a1a4f) REAL time: 2 mins 27 secs 
+
+Phase 11.29
+Phase 11.29 (Checksum:903a1a4f) REAL time: 2 mins 27 secs 
+
+Phase 12.5
+Phase 12.5 (Checksum:903a1a4f) REAL time: 2 mins 28 secs 
+
+Phase 13.18
+Phase 13.18 (Checksum:905ef2a4) REAL time: 3 mins 34 secs 
+
+Phase 14.5
+Phase 14.5 (Checksum:905ef2a4) REAL time: 3 mins 35 secs 
+
+Phase 15.27
+Phase 15.27 (Checksum:905ef2a4) REAL time: 3 mins 49 secs 
+
+Phase 16.24
+Phase 16.24 (Checksum:905ef2a4) REAL time: 3 mins 53 secs 
+
+REAL time consumed by placer: 3 mins 54 secs 
+CPU  time consumed by placer: 3 mins 53 secs 
+
+Design Summary:
+Number of errors:      0
+Number of warnings:  114
+Logic Utilization:
+  Number of Slice Flip Flops:        11,413 out of  47,232   24%
+  Number of 4 input LUTs:            14,179 out of  47,232   30%
+Logic Distribution:
+  Number of occupied Slices:         10,494 out of  23,616   44%
+    Number of Slices containing only related logic:  10,494 out of  10,494 100%
+    Number of Slices containing unrelated logic:          0 out of  10,494   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:      14,970 out of  47,232   31%
+    Number used as logic:            12,969
+    Number used as a route-thru:        791
+    Number used for Dual Port RAMs:     414
+      (Two LUTs used per Dual Port RAM)
+    Number used as Shift registers:     796
+  Number of bonded IOBs:                179 out of     692   25%
+    IOB Flip Flops:                     295
+    IOB Master Pads:                      1
+    IOB Slave Pads:                       1
+  Number of PPC405s:                      2 out of       2  100%
+  Number of JTAGPPCs:                     1 out of       1  100%
+  Number of RAMB16s:                     64 out of     232   27%
+  Number of BUFGMUXs:                    10 out of      16   62%
+  Number of DCMs:                         3 out of       8   37%
+
+Peak Memory Usage:  732 MB
+Total REAL time to MAP completion:  4 mins 36 secs 
+Total CPU time to MAP completion:   4 mins 35 secs 
+
+Mapping completed.
+See MAP report file "system_map.mrp" for details.
+
+
+
+#----------------------------------------------#
+# Starting program par
+# par -w -ol high system_map.ncd system.ncd system.pcf 
+#----------------------------------------------#
+Release 10.1.03 - par K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file </opt/Xilinx/10.1/EDK/data/parBmgr.acd> with local file
+</opt/Xilinx/10.1/ISE/data/parBmgr.acd>
+
+
+
+Constraints file: system.pcf.
+Loading device for application Rf_Device from file '2vp50.nph' in environment /opt/Xilinx/10.1/ISE:/opt/Xilinx/10.1/EDK.
+   "system" is an NCD, version 3.2, device xc2vp50, package ff1152, speed -6
+WARNING:ConstraintSystem:64 - Constraint <NET "Eth1_PHY_tx_clk_IBUF" MAXSKEW = 1.8 ns;> [system.pcf(23360)] overrides
+   constraint <NET "Eth1_PHY_tx_clk_IBUF" MAXSKEW = 2 ns;> [system.pcf(23359)] on the design object
+   'Eth1_PHY_tx_clk_IBUF'.
+
+WARNING:ConstraintSystem:65 - Constraint <NET "Eth1_PHY_tx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;> [system.pcf(23362)]
+   overrides constraint <NET "Eth1_PHY_tx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;> [system.pcf(23361)].
+
+WARNING:ConstraintSystem:64 - Constraint <NET "Eth2_PHY_tx_clk_IBUF" MAXSKEW = 1.8 ns;> [system.pcf(23364)] overrides
+   constraint <NET "Eth2_PHY_tx_clk_IBUF" MAXSKEW = 2 ns;> [system.pcf(23363)] on the design object
+   'Eth2_PHY_tx_clk_IBUF'.
+
+WARNING:ConstraintSystem:65 - Constraint <NET "Eth2_PHY_tx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;> [system.pcf(23366)]
+   overrides constraint <NET "Eth2_PHY_tx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;> [system.pcf(23365)].
+
+WARNING:ConstraintSystem:64 - Constraint <NET "Eth1_PHY_rx_clk_IBUF" MAXSKEW = 1.8 ns;> [system.pcf(23368)] overrides
+   constraint <NET "Eth1_PHY_rx_clk_IBUF" MAXSKEW = 2 ns;> [system.pcf(23367)] on the design object
+   'Eth1_PHY_rx_clk_IBUF'.
+
+WARNING:ConstraintSystem:65 - Constraint <NET "Eth1_PHY_rx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;> [system.pcf(23370)]
+   overrides constraint <NET "Eth1_PHY_rx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;> [system.pcf(23369)].
+
+WARNING:ConstraintSystem:64 - Constraint <NET "Eth2_PHY_rx_clk_IBUF" MAXSKEW = 1.8 ns;> [system.pcf(23372)] overrides
+   constraint <NET "Eth2_PHY_rx_clk_IBUF" MAXSKEW = 2 ns;> [system.pcf(23371)] on the design object
+   'Eth2_PHY_rx_clk_IBUF'.
+
+WARNING:ConstraintSystem:65 - Constraint <NET "Eth2_PHY_rx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;> [system.pcf(23374)]
+   overrides constraint <NET "Eth2_PHY_rx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;> [system.pcf(23373)].
+
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.400 Volts. (default - Range: 1.400 to 1.600 Volts)
+
+WARNING:Timing:3223 - Timing constraint PATH "TS_RST2_path" TIG; ignored during timing analysis.
+
+Device speed data version:  "PRODUCTION 1.94 2008-07-25".
+
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                       10 out of 16     62%
+   Number of DCMs                            3 out of 8      37%
+      Number of LOCed DCMs                   2 out of 3      66%
+
+   Number of External DIFFMs                 1 out of 344     1%
+      Number of LOCed DIFFMs                 1 out of 1     100%
+
+   Number of External DIFFSs                 1 out of 344     1%
+      Number of LOCed DIFFSs                 1 out of 1     100%
+
+   Number of External IOBs                 177 out of 692    25%
+      Number of LOCed IOBs                 173 out of 177    97%
+
+   Number of JTAGPPCs                        1 out of 1     100%
+   Number of PPC405s                         2 out of 2     100%
+      Number of LOCed PPC405s                1 out of 2      50%
+
+   Number of RAMB16s                        64 out of 232    27%
+   Number of SLICEs                      10494 out of 23616  44%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 25 secs 
+Finished initial Timing Analysis.  REAL time: 26 secs 
+
+WARNING:Par:288 - The signal boot_ppc_cntrl_port_BRAM_Addr<31> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<0> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<1> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<2> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<3> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<4> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<5> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<6> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<7> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<8> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<9> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<10> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<11> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<12> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<13> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<14> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<15> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<16> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<17> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<18> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<19> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<20> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<21> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<22> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<23> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<24> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<25> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<26> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<27> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<28> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<29> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<30> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<31> has no load.  PAR will not attempt to route this
+   signal.
+Starting Router
+
+Phase 1: 87104 unrouted;       REAL time: 38 secs 
+
+Phase 2: 76294 unrouted;       REAL time: 44 secs 
+
+Phase 3: 22811 unrouted;       REAL time: 58 secs 
+
+Phase 4: 22811 unrouted; (376840)      REAL time: 58 secs 
+
+Phase 5: 23341 unrouted; (5696)      REAL time: 1 mins 18 secs 
+
+Phase 6: 23384 unrouted; (0)      REAL time: 1 mins 19 secs 
+
+Phase 7: 0 unrouted; (295)      REAL time: 1 mins 45 secs 
+
+Phase 8: 0 unrouted; (295)      REAL time: 1 mins 56 secs 
+
+Updating file: system.ncd with current fully routed design.
+
+Phase 9: 0 unrouted; (0)      REAL time: 2 mins 28 secs 
+
+Phase 10: 0 unrouted; (0)      REAL time: 2 mins 31 secs 
+
+Phase 11: 0 unrouted; (0)      REAL time: 3 mins 1 secs 
+
+
+Total REAL time to Router completion: 3 mins 7 secs 
+Total CPU time to Router completion: 3 mins 6 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+WARNING:ParHelpers:81 - 
+   The following Clock signals have USELOWSKEWLINES constraint
+   specified. The router was not able to completely route using
+   the LOW SKEW resources. Check the timing report to verify the
+   delay and skew for this net.
+Net Name: Eth2_PHY_tx_clk_IBUF
+Net Name: Eth1_PHY_rx_clk_IBUF
+Net Name: Eth1_PHY_tx_clk_IBUF
+Net Name: Eth2_PHY_rx_clk_IBUF
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|boot_ppc_cntrl_port_ |              |      |      |            |             |
+|            BRAM_Clk |     BUFGMUX3S| No   | 8834 |  0.615     |  1.769      |
++---------------------+--------------+------+------+------------+-------------+
+|         sys_clk_n_s |     BUFGMUX7S| No   |   36 |  0.337     |  1.729      |
++---------------------+--------------+------+------+------------+-------------+
+|      ddr_clk_90_n_s |     BUFGMUX5P| No   |   32 |  0.337     |  1.729      |
++---------------------+--------------+------+------+------------+-------------+
+|        ddr_clk_90_s |     BUFGMUX4S| No   |  139 |  0.337     |  1.729      |
++---------------------+--------------+------+------+------------+-------------+
+|          clk_90_n_s |     BUFGMUX1S| No   |    6 |  0.251     |  1.723      |
++---------------------+--------------+------+------+------------+-------------+
+|            clk_90_s |     BUFGMUX0P| No   |   15 |  0.251     |  1.723      |
++---------------------+--------------+------+------+------------+-------------+
+|             cpu_clk |     BUFGMUX4P| No   |    1 |  0.000     |  1.529      |
++---------------------+--------------+------+------+------------+-------------+
+|Eth2_PHY_tx_clk_IBUF |              |      |      |            |             |
+|                     |         Local|      |   37 |  0.244     |  1.602      |
++---------------------+--------------+------+------+------------+-------------+
+|Eth1_PHY_rx_clk_IBUF |              |      |      |            |             |
+|                     |         Local|      |   20 |  0.137     |  1.427      |
++---------------------+--------------+------+------+------------+-------------+
+|Eth1_PHY_tx_clk_IBUF |              |      |      |            |             |
+|                     |         Local|      |   36 |  0.190     |  1.590      |
++---------------------+--------------+------+------+------------+-------------+
+|Eth2_PHY_rx_clk_IBUF |              |      |      |            |             |
+|                     |         Local|      |   21 |  0.206     |  1.520      |
++---------------------+--------------+------+------+------------+-------------+
+|jtagppc_0_0_JTGC405T |              |      |      |            |             |
+|                  CK |         Local|      |    2 |  2.682     |  6.297      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 0
+
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the constraint does not cover any paths or that it has no
+   requested value.
+Number of Timing Constraints that were not applied: 14
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+------------------------------------------------------------------------------------------------------
+  Constraint                                |  Check  | Worst Case |  Best Case | Timing |   Timing   
+                                            |         |    Slack   | Achievable | Errors |    Score   
+------------------------------------------------------------------------------------------------------
+  TS_sys_clk_s = PERIOD TIMEGRP "sys_clk_s" | SETUP   |     0.039ns|     9.657ns|       0|           0
+   9.7 ns HIGH 50%                          | HOLD    |     0.068ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  TSCLK2CLK90 = MAXDELAY FROM TIMEGRP "sys_ | SETUP   |     0.259ns|     2.441ns|       0|           0
+  clk_s" TO TIMEGRP "clk_90_s" 2.7 ns       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "Eth1_PHY_tx_clk_IBUF" MAXSKEW = 1.8  | NETSKEW |     1.085ns|     0.715ns|       0|           0
+  ns                                        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "Eth2_PHY_tx_clk_IBUF" MAXSKEW = 1.8  | NETSKEW |     1.086ns|     0.714ns|       0|           0
+  ns                                        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "Eth2_PHY_rx_clk_IBUF" MAXSKEW = 1.8  | NETSKEW |     1.332ns|     0.468ns|       0|           0
+  ns                                        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "Eth1_PHY_rx_clk_IBUF" MAXSKEW = 1.8  | NETSKEW |     1.405ns|     0.395ns|       0|           0
+  ns                                        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_CLK90 = PERIOD TIMEGRP "clk_90_s" 10 n | SETUP   |     1.625ns|     6.750ns|       0|           0
+  s HIGH 50%                                | HOLD    |     5.620ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  TS_ddr_Clk_90 = PERIOD TIMEGRP "ddr_clk_9 | SETUP   |     1.721ns|     7.979ns|       0|           0
+  0_s" 9.7 ns HIGH 50%                      | HOLD    |     0.515ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  TSRX2IN = MAXDELAY FROM TIMEGRP "PADS" TO | MAXDELAY|     3.592ns|     2.408ns|       0|           0
+   TIMEGRP "RX2CLK_GRP" 6 ns                |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TSRX1IN = MAXDELAY FROM TIMEGRP "PADS" TO | MAXDELAY|     3.662ns|     2.338ns|       0|           0
+   TIMEGRP "RX1CLK_GRP" 6 ns                |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TSTX1OUT = MAXDELAY FROM TIMEGRP "TX1CLK_ | MAXDELAY|     7.122ns|     2.878ns|       0|           0
+  GRP" TO TIMEGRP "PADS" 10 ns              |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TSTX2OUT = MAXDELAY FROM TIMEGRP "TX2CLK_ | MAXDELAY|     7.130ns|     2.870ns|       0|           0
+  GRP" TO TIMEGRP "PADS" 10 ns              |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "Eth2_PHY_rx_clk_IBUF" PERIOD = 40 ns | SETUP   |    11.066ns|     8.382ns|       0|           0
+   HIGH 14 ns                               | HOLD    |     0.539ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "Eth1_PHY_rx_clk_IBUF" PERIOD = 40 ns | SETUP   |    11.104ns|     8.274ns|       0|           0
+   HIGH 14 ns                               | HOLD    |     0.533ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "Eth2_PHY_tx_clk_IBUF" PERIOD = 40 ns | SETUP   |    22.655ns|     5.146ns|       0|           0
+   HIGH 14 ns                               | HOLD    |     0.632ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "Eth1_PHY_tx_clk_IBUF" PERIOD = 40 ns | SETUP   |    22.767ns|     4.973ns|       0|           0
+   HIGH 14 ns                               | HOLD    |     0.536ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  PATH "TS_RST3_path" TIG                   | SETUP   |         N/A|     2.304ns|     N/A|           0
+------------------------------------------------------------------------------------------------------
+  PATH "TS_RST2_path" TIG                   | N/A     |         N/A|         N/A|     N/A|         N/A
+------------------------------------------------------------------------------------------------------
+  PATH "TS_RST1_path" TIG                   | SETUP   |         N/A|     4.354ns|     N/A|           0
+------------------------------------------------------------------------------------------------------
+  TS_cpu_clk = PERIOD TIMEGRP "cpu_clk" 3 n | N/A     |         N/A|         N/A|     N/A|         N/A
+  s HIGH 50%                                |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TSRXIN_plb_eth1_contr = MAXDELAY FROM TIM | N/A     |         N/A|         N/A|     N/A|         N/A
+  EGRP "PADS" TO TIMEGRP         "RXCLK_GRP |         |            |            |        |            
+  _plb_eth1_contr" 6 ns                     |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TSTXOUT_plb_eth1_contr = MAXDELAY FROM TI | N/A     |         N/A|         N/A|     N/A|         N/A
+  MEGRP "TXCLK_GRP_plb_eth1_contr" TO       |         |            |            |        |            
+     TIMEGRP "PADS" 10 ns                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TSRXIN_plb_eth2_contr = MAXDELAY FROM TIM | N/A     |         N/A|         N/A|     N/A|         N/A
+  EGRP "PADS" TO TIMEGRP         "RXCLK_GRP |         |            |            |        |            
+  _plb_eth2_contr" 6 ns                     |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TSTXOUT_plb_eth2_contr = MAXDELAY FROM TI | N/A     |         N/A|         N/A|     N/A|         N/A
+  MEGRP "TXCLK_GRP_plb_eth2_contr" TO       |         |            |            |        |            
+     TIMEGRP "PADS" 10 ns                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "Eth2_PHY_rx_clk_IBUF" PERIOD = 40 ns | N/A     |         N/A|         N/A|     N/A|         N/A
+   HIGH 14 ns                               |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "Eth2_PHY_rx_clk_IBUF" MAXSKEW = 2 ns | N/A     |         N/A|         N/A|     N/A|         N/A
+------------------------------------------------------------------------------------------------------
+  NET "Eth1_PHY_rx_clk_IBUF" PERIOD = 40 ns | N/A     |         N/A|         N/A|     N/A|         N/A
+   HIGH 14 ns                               |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "Eth1_PHY_rx_clk_IBUF" MAXSKEW = 2 ns | N/A     |         N/A|         N/A|     N/A|         N/A
+------------------------------------------------------------------------------------------------------
+  NET "Eth2_PHY_tx_clk_IBUF" PERIOD = 40 ns | N/A     |         N/A|         N/A|     N/A|         N/A
+   HIGH 14 ns                               |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "Eth2_PHY_tx_clk_IBUF" MAXSKEW = 2 ns | N/A     |         N/A|         N/A|     N/A|         N/A
+------------------------------------------------------------------------------------------------------
+  NET "Eth1_PHY_tx_clk_IBUF" PERIOD = 40 ns | N/A     |         N/A|         N/A|     N/A|         N/A
+   HIGH 14 ns                               |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "Eth1_PHY_tx_clk_IBUF" MAXSKEW = 2 ns | N/A     |         N/A|         N/A|     N/A|         N/A
+------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the 
+   constraint does not cover any paths or that it has no requested value.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 33 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 3 mins 16 secs 
+Total CPU time to PAR completion: 3 mins 16 secs 
+
+Peak Memory Usage:  651 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 45
+Number of info messages: 1
+
+Writing design to file system.ncd
+
+
+
+PAR done!
+
+
+
+#----------------------------------------------#
+# Starting program post_par_trce
+# trce -e 3 -xml system.twx system.ncd system.pcf 
+#----------------------------------------------#
+Release 10.1.03 - Trace  (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/10.1/EDK/virtex2p/data/virtex2p.acd> with local file
+</opt/Xilinx/10.1/ISE/virtex2p/data/virtex2p.acd>
+Loading device for application Rf_Device from file '2vp50.nph' in environment
+/opt/Xilinx/10.1/ISE:/opt/Xilinx/10.1/EDK.
+   "system" is an NCD, version 3.2, device xc2vp50, package ff1152, speed -6
+WARNING:ConstraintSystem:64 - Constraint <NET "Eth1_PHY_tx_clk_IBUF" MAXSKEW =
+   1.8 ns;> [system.pcf(23360)] overrides constraint <NET "Eth1_PHY_tx_clk_IBUF"
+   MAXSKEW = 2 ns;> [system.pcf(23359)] on the design object
+   'Eth1_PHY_tx_clk_IBUF'.
+
+WARNING:ConstraintSystem:65 - Constraint <NET "Eth1_PHY_tx_clk_IBUF" PERIOD = 40
+   ns HIGH 14 ns;> [system.pcf(23362)] overrides constraint <NET
+   "Eth1_PHY_tx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;> [system.pcf(23361)].
+
+WARNING:ConstraintSystem:64 - Constraint <NET "Eth2_PHY_tx_clk_IBUF" MAXSKEW =
+   1.8 ns;> [system.pcf(23364)] overrides constraint <NET "Eth2_PHY_tx_clk_IBUF"
+   MAXSKEW = 2 ns;> [system.pcf(23363)] on the design object
+   'Eth2_PHY_tx_clk_IBUF'.
+
+WARNING:ConstraintSystem:65 - Constraint <NET "Eth2_PHY_tx_clk_IBUF" PERIOD = 40
+   ns HIGH 14 ns;> [system.pcf(23366)] overrides constraint <NET
+   "Eth2_PHY_tx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;> [system.pcf(23365)].
+
+WARNING:ConstraintSystem:64 - Constraint <NET "Eth1_PHY_rx_clk_IBUF" MAXSKEW =
+   1.8 ns;> [system.pcf(23368)] overrides constraint <NET "Eth1_PHY_rx_clk_IBUF"
+   MAXSKEW = 2 ns;> [system.pcf(23367)] on the design object
+   'Eth1_PHY_rx_clk_IBUF'.
+
+WARNING:ConstraintSystem:65 - Constraint <NET "Eth1_PHY_rx_clk_IBUF" PERIOD = 40
+   ns HIGH 14 ns;> [system.pcf(23370)] overrides constraint <NET
+   "Eth1_PHY_rx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;> [system.pcf(23369)].
+
+WARNING:ConstraintSystem:64 - Constraint <NET "Eth2_PHY_rx_clk_IBUF" MAXSKEW =
+   1.8 ns;> [system.pcf(23372)] overrides constraint <NET "Eth2_PHY_rx_clk_IBUF"
+   MAXSKEW = 2 ns;> [system.pcf(23371)] on the design object
+   'Eth2_PHY_rx_clk_IBUF'.
+
+WARNING:ConstraintSystem:65 - Constraint <NET "Eth2_PHY_rx_clk_IBUF" PERIOD = 40
+   ns HIGH 14 ns;> [system.pcf(23374)] overrides constraint <NET
+   "Eth2_PHY_rx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;> [system.pcf(23373)].
+
+WARNING:Timing:3223 - Timing constraint PATH "TS_RST2_path" TIG; ignored during
+   timing analysis.
+--------------------------------------------------------------------------------
+Release 10.1.03 Trace  (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/10.1/ISE/bin/lin/unwrapped/trce -e 3 -xml system.twx system.ncd
+system.pcf
+
+
+Design file:              system.ncd
+Physical constraint file: system.pcf
+Device,speed:             xc2vp50,-6 (PRODUCTION 1.94 2008-07-25)
+Report level:             error report
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on a
+   50 Ohm transmission line loading model.  For the details of this model, and
+   for more information on accounting for different loading conditions, please
+   see the device datasheet.
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 1082741 paths, 4 nets, and 86231 connections
+
+Design statistics:
+   Minimum period:   9.657ns (Maximum frequency: 103.552MHz)
+   Maximum path delay from/to any node:   2.878ns
+   Maximum net skew:   0.715ns
+
+
+Analysis completed Tue Jun 24 16:12:40 2014
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 9
+Number of info messages: 2
+Total time: 30 secs 
+
+

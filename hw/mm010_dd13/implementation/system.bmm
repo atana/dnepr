@@ -1,0 +1,42 @@
+// File: /home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/system.bmm
+
+ADDRESS_MAP ppc405_0 PPC405 100
+	ADDRESS_SPACE boot_ppc_bram_combined COMBINED [0xffff0000:0xffffffff]
+		ADDRESS_RANGE RAMB16
+		BUS_BLOCK
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_0 [31:31] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_1 [30:30] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_2 [29:29] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_3 [28:28] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_4 [27:27] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_5 [26:26] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_6 [25:25] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_7 [24:24] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_8 [23:23] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_9 [22:22] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_10 [21:21] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_11 [20:20] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_12 [19:19] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_13 [18:18] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_14 [17:17] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_15 [16:16] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_16 [15:15] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_17 [14:14] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_18 [13:13] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_19 [12:12] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_20 [11:11] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_21 [10:10] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_22 [9:9] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_23 [8:8] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_24 [7:7] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_25 [6:6] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_26 [5:5] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_27 [4:4] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_28 [3:3] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_29 [2:2] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_30 [1:1] ;
+			boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_31 [0:0] ;
+		END_BUS_BLOCK;
+		END_ADDRESS_RANGE;
+	END_ADDRESS_SPACE;
+END_ADDRESS_MAP;

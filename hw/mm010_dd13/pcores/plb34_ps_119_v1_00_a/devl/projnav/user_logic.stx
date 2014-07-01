@@ -1,0 +1,40 @@
+Release 10.1.03 - xst K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/devl/projnav/SM_wait_imp.vhd" in Library work.
+Architecture behavioral of Entity sm_wait_imp is up to date.
+Compiling vhdl file "C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/devl/projnav/FIFO_secure_uc.vhd" in Library work.
+Architecture behavioral of Entity fifo_secure_uc is up to date.
+Compiling vhdl file "C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" in Library proc_common_v2_00_a.
+Package <proc_common_pkg> compiled.
+Package body <proc_common_pkg> compiled.
+Compiling vhdl file "C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/devl/projnav/pulse_fr_form.vhd" in Library work.
+Entity <pulse_fr_form> compiled.
+Entity <pulse_fr_form> (Architecture <struct>) compiled.
+Compiling vhdl file "C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/devl/projnav/PS_isp_avt.vhd" in Library work.
+Architecture behavioral of Entity ps_isp_avt is up to date.
+Compiling vhdl file "C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/user_logic.vhd" in Library plb34_ps_119_v1_00_a.
+Entity <user_logic> compiled.
+Entity <user_logic> (Architecture <IMP>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.34 secs
+ 
+--> 
+
+Total memory usage is 143668 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

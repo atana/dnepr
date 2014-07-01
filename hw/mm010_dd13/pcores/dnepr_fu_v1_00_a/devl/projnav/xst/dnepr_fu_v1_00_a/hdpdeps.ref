@@ -1,0 +1,22 @@
+V3 12
+FL /home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd 2014/04/11.15:07:45 K.39
+EN dnepr_fu_v1_00_a/dnepr_fu 1397215052 \
+      FL /home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd \
+      PB ieee/std_logic_1164 1217055545 PB ieee/std_logic_arith 1217055546 \
+      PB ieee/STD_LOGIC_UNSIGNED 1217055547 LB proc_common_v2_00_a \
+      PB proc_common_v2_00_a/proc_common_pkg 1397214991 \
+      PB proc_common_v2_00_a/ipif_pkg 1397214999 LB plb_ipif_v1_00_f \
+      LB dnepr_fu_v1_00_a
+AR dnepr_fu_v1_00_a/dnepr_fu/IMP 1397215053 \
+      FL /home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd \
+      EN dnepr_fu_v1_00_a/dnepr_fu 1397215052 CP plb_ipif_v1_00_f/plb_ipif \
+      CP dnepr_fu_v1_00_a/user_logic
+FL /home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/user_logic.vhd 2014/04/11.15:01:08 K.39
+EN dnepr_fu_v1_00_a/user_logic 1397215050 \
+      FL /home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/user_logic.vhd \
+      PB ieee/std_logic_1164 1217055545 PB ieee/std_logic_arith 1217055546 \
+      PB ieee/STD_LOGIC_UNSIGNED 1217055547 LB proc_common_v2_00_a \
+      PB proc_common_v2_00_a/proc_common_pkg 1397214991
+AR dnepr_fu_v1_00_a/user_logic/IMP 1397215051 \
+      FL /home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/user_logic.vhd \
+      EN dnepr_fu_v1_00_a/user_logic 1397215050 CP core

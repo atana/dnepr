@@ -1,0 +1,31 @@
+V3 24
+FL /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/ipif_control_rd.vhd 2006/02/14.22:29:12 K.39
+EN rdpfifo_v2_00_a/ipif_control_rd 1397215026 \
+      FL /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/ipif_control_rd.vhd \
+      PB ieee/std_logic_1164 1217055545 PB ieee/std_logic_arith 1217055546
+AR rdpfifo_v2_00_a/ipif_control_rd/implementation 1397215027 \
+      FL /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/ipif_control_rd.vhd \
+      EN rdpfifo_v2_00_a/ipif_control_rd 1397215026 CP std_logic_vector CP Integer
+FL /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/rdpfifo_dp_cntl.vhd 2004/04/12.20:52:39 K.39
+EN rdpfifo_v2_00_a/rdpfifo_dp_cntl 1397215028 \
+      FL /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/rdpfifo_dp_cntl.vhd \
+      PB ieee/std_logic_1164 1217055545 PB ieee/std_logic_arith 1217055546 \
+      PB ieee/STD_LOGIC_UNSIGNED 1217055547 LB proc_common_v2_00_a \
+      EN proc_common_v2_00_a/pf_counter_top 1397214986 \
+      EN proc_common_v2_00_a/pf_occ_counter_top 1397214984 \
+      EN proc_common_v2_00_a/pf_adder 1397214988
+AR rdpfifo_v2_00_a/rdpfifo_dp_cntl/implementation 1397215029 \
+      FL /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/rdpfifo_dp_cntl.vhd \
+      EN rdpfifo_v2_00_a/rdpfifo_dp_cntl 1397215028 CP std_logic \
+      CP transition_state_type CP std_logic_vector CP pf_occ_counter_top \
+      CP pf_counter_top CP Boolean CP pf_adder
+FL /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/rdpfifo_top.vhd 2006/02/14.22:29:12 K.39
+EN rdpfifo_v2_00_a/rdpfifo_top 1397215038 \
+      FL /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/rdpfifo_top.vhd \
+      PB ieee/std_logic_1164 1217055545 PB ieee/std_logic_arith 1217055546 \
+      LB proc_common_v2_00_a EN proc_common_v2_00_a/pf_dpram_select 1397215004 \
+      EN proc_common_v2_00_a/srl16_fifo 1397215002
+AR rdpfifo_v2_00_a/rdpfifo_top/implementation 1397215039 \
+      FL /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/rdpfifo_top.vhd \
+      EN rdpfifo_v2_00_a/rdpfifo_top 1397215038 CP ipif_control_rd CP Integer \
+      CP Boolean CP In CP Out CP rdpfifo_dp_cntl CP pf_dpram_select CP srl16_fifo

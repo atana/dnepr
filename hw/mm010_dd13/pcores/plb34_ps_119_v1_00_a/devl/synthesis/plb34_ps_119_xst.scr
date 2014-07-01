@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "C:\active_work\ise\sim\sym_plb34_plb_ps34_sim\pcores\plb34_ps_119_v1_00_a\devl\synthesis\plb34_ps_119_xst.prj"
+-top plb34_ps_119
+-p virtex2p
+-ofn "C:\active_work\ise\sim\sym_plb34_plb_ps34_sim\pcores\plb34_ps_119_v1_00_a\devl\synthesis\plb34_ps_119_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib plb34_ps_119_v1_00_a

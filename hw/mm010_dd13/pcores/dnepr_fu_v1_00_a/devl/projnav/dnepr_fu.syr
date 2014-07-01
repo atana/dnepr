@@ -1,0 +1,1494 @@
+Release 10.1.03 - xst K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/devl/projnav/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/devl/projnav/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: dnepr_fu.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "dnepr_fu.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "dnepr_fu"
+Output Format                      : NGC
+Target Device                      : xc2vp50-6-ff1152
+
+---- Source Options
+Top Module Name                    : dnepr_fu
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Convert Tristates To Logic         : Yes
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : dnepr_fu.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/inferred_lut4.vhd" in Library proc_common_v2_00_a.
+Architecture implementation of Entity inferred_lut4 is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pf_counter_bit.vhd" in Library proc_common_v2_00_a.
+Architecture implementation of Entity pf_counter_bit is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pf_adder_bit.vhd" in Library proc_common_v2_00_a.
+Architecture implementation of Entity pf_adder_bit is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pf_counter.vhd" in Library proc_common_v2_00_a.
+Architecture implementation of Entity pf_counter is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pf_occ_counter.vhd" in Library proc_common_v2_00_a.
+Architecture implementation of Entity pf_occ_counter is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/counter_bit.vhd" in Library proc_common_v2_00_a.
+Architecture imp of Entity counter_bit is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pf_occ_counter_top.vhd" in Library proc_common_v2_00_a.
+Architecture implementation of Entity pf_occ_counter_top is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pf_counter_top.vhd" in Library proc_common_v2_00_a.
+Architecture implementation of Entity pf_counter_top is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pf_adder.vhd" in Library proc_common_v2_00_a.
+Architecture implementation of Entity pf_adder is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" in Library proc_common_v2_00_a.
+Architecture proc_common_pkg of Entity proc_common_pkg is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/or_muxcy.vhd" in Library proc_common_v2_00_a.
+Architecture implementation of Entity or_muxcy is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pselect.vhd" in Library proc_common_v2_00_a.
+Architecture imp of Entity pselect is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/or_gate.vhd" in Library proc_common_v2_00_a.
+Architecture imp of Entity or_gate is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/ipif_pkg.vhd" in Library proc_common_v2_00_a.
+Architecture ipif_pkg of Entity ipif_pkg is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/srl_fifo2.vhd" in Library proc_common_v2_00_a.
+Architecture imp of Entity srl_fifo2 is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/srl16_fifo.vhd" in Library proc_common_v2_00_a.
+Architecture implementation of Entity srl16_fifo is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pf_dpram_select.vhd" in Library proc_common_v2_00_a.
+Architecture implementation of Entity pf_dpram_select is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/counter.vhd" in Library proc_common_v2_00_a.
+Architecture imp of Entity counter is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/ipif_steer.vhd" in Library proc_common_v2_00_a.
+Architecture imp of Entity ipif_steer is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/family.vhd" in Library proc_common_v2_00_a.
+Architecture family of Entity family is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/flex_addr_cntr.vhd" in Library plb_ipif_v1_00_f.
+Architecture implementation of Entity flex_addr_cntr is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/pf_dly1_mux.vhd" in Library wrpfifo_v2_00_a.
+Architecture implementation of Entity pf_dly1_mux is up to date.
+Compiling vhdl file "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/ring.vhd" in Library work.
+Architecture behavioral of Entity ring is up to date.
+Compiling vhdl file "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/fsm.vhd" in Library work.
+Architecture behavioral of Entity fsm is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_address_decoder.vhd" in Library plb_ipif_v1_00_f.
+Architecture imp of Entity plb_address_decoder is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/burst_support.vhd" in Library plb_ipif_v1_00_f.
+Architecture implementation of Entity burst_support is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/addr_reg_cntr_brst_flex.vhd" in Library plb_ipif_v1_00_f.
+Architecture implementation of Entity addr_reg_cntr_brst_flex is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/ipif_control_rd.vhd" in Library rdpfifo_v2_00_a.
+Architecture implementation of Entity ipif_control_rd is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/rdpfifo_dp_cntl.vhd" in Library rdpfifo_v2_00_a.
+Architecture implementation of Entity rdpfifo_dp_cntl is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/ipif_control_wr.vhd" in Library wrpfifo_v2_00_a.
+Architecture implementation of Entity ipif_control_wr is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/wrpfifo_dp_cntl.vhd" in Library wrpfifo_v2_00_a.
+Architecture implementation of Entity wrpfifo_dp_cntl is up to date.
+Compiling vhdl file "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/core.vhd" in Library work.
+Architecture behavioral of Entity core is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/wrpfifo_top.vhd" in Library wrpfifo_v2_00_a.
+Architecture implementation of Entity wrpfifo_top is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/rdpfifo_top.vhd" in Library rdpfifo_v2_00_a.
+Architecture implementation of Entity rdpfifo_top is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_slave_attachment_indet.vhd" in Library plb_ipif_v1_00_f.
+Architecture implementation of Entity plb_slave_attachment_indet is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_ipif_reset.vhd" in Library plb_ipif_v1_00_f.
+Architecture implementation of Entity plb_ipif_reset is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_interrupt_control.vhd" in Library plb_ipif_v1_00_f.
+Architecture implementation of Entity plb_interrupt_control is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_sesr_sear.vhd" in Library plb_ipif_v1_00_f.
+Architecture implementation of Entity plb_sesr_sear is up to date.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_ipif.vhd" in Library plb_ipif_v1_00_f.
+Architecture implementation of Entity plb_ipif is up to date.
+Compiling vhdl file "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/user_logic.vhd" in Library dnepr_fu_v1_00_a.
+Architecture imp of Entity user_logic is up to date.
+Compiling vhdl file "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" in Library dnepr_fu_v1_00_a.
+Architecture imp of Entity dnepr_fu is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <dnepr_fu> in library <dnepr_fu_v1_00_a> (architecture <imp>) with generics.
+	C_BASEADDR = "11111111111111111111111111111111"
+	C_FAMILY = "virtex2p"
+	C_HIGHADDR = "00000000000000000000000000000000"
+	C_PLB_AWIDTH = 32
+	C_PLB_DWIDTH = 64
+	C_PLB_MID_WIDTH = 3
+	C_PLB_NUM_MASTERS = 8
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+
+Analyzing hierarchy for entity <plb_ipif> in library <plb_ipif_v1_00_f> (architecture <implementation>) with generics.
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011111111111111111111111111111111",
+	                          "0000000000000000000000000000000000000000000000000000000000000000")
+	C_ARD_DWIDTH_ARRAY = (32)
+	C_ARD_ID_ARRAY = (100)
+	C_ARD_NUM_CE_ARRAY = (16)
+	C_CACHLINE_ADDR_MODE = 0
+	C_DEV_BLK_ID = 0
+	C_DEV_BURST_ENABLE = false
+	C_DEV_BURST_PAGE_SIZE = 1024
+	C_DEV_DPHASE_TIMEOUT = 64
+	C_DEV_FAST_DATA_XFER = false
+	C_DEV_MAX_BURST_SIZE = 64
+	C_DEV_MIR_ENABLE = false
+	C_FAMILY = "virtex2p"
+	C_INCLUDE_DEV_ISC = false
+	C_INCLUDE_DEV_PENCODER = false
+	C_IPIF_AWIDTH = 32
+	C_IPIF_DWIDTH = 64
+	C_IP_INTR_MODE_ARRAY = (0)
+	C_IP_MASTER_PRESENT = false
+	C_PLB_AWIDTH = 32
+	C_PLB_CLK_PERIOD_PS = 10000
+	C_PLB_DWIDTH = 64
+	C_PLB_MID_WIDTH = 3
+	C_PLB_NUM_MASTERS = 8
+	C_RDFIFO_DEPTH = 512
+	C_RDFIFO_INCLUDE_PACKET_MODE = false
+	C_RDFIFO_INCLUDE_VACANCY = true
+	C_WRFIFO_DEPTH = 512
+	C_WRFIFO_INCLUDE_PACKET_MODE = false
+	C_WRFIFO_INCLUDE_VACANCY = true
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+
+Analyzing hierarchy for entity <user_logic> in library <dnepr_fu_v1_00_a> (architecture <IMP>) with generics.
+	C_DWIDTH = 32
+	C_NUM_CE = 15
+
+Analyzing hierarchy for entity <or_gate> in library <proc_common_v2_00_a> (architecture <imp>) with generics.
+	C_BUS_WIDTH = 8
+	C_OR_WIDTH = 1
+	C_USE_LUT_OR = true
+
+Analyzing hierarchy for entity <or_gate> in library <proc_common_v2_00_a> (architecture <imp>) with generics.
+	C_BUS_WIDTH = 64
+	C_OR_WIDTH = 1
+	C_USE_LUT_OR = true
+
+Analyzing hierarchy for entity <plb_slave_attachment_indet> in library <plb_ipif_v1_00_f> (architecture <implementation>) with generics.
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011111111111111111111111111111111",
+	                          "0000000000000000000000000000000000000000000000000000000000000000")
+	C_ARD_DWIDTH_ARRAY = (32)
+	C_ARD_NUM_CE_ARRAY = (16)
+	C_BURST_PAGE_SIZE = 1024
+	C_CACHLINE_ADDR_MODE = 0
+	C_DPHASE_TIMEOUT = 64
+	C_FAST_DATA_XFER = false
+	C_IPIF_ABUS_WIDTH = 32
+	C_IPIF_DBUS_WIDTH = 64
+	C_MA2SA_NUM_WIDTH = 4
+	C_PLB_ABUS_WIDTH = 32
+	C_PLB_DBUS_WIDTH = 64
+	C_PLB_MID_WIDTH = 3
+	C_PLB_NUM_MASTERS = 8
+	C_SLN_BUFFER_DEPTH = 8
+	C_SL_ATT_ADDR_SEL_WIDTH = 2
+	C_STEER_ADDR_SIZE = 10
+	C_SUPPORT_BURST = false
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+
+Analyzing hierarchy for entity <IPIF_Steer> in library <proc_common_v2_00_a> (architecture <IMP>) with generics.
+	C_AWIDTH = 32
+	C_DWIDTH = 64
+	C_SMALLEST = 32
+
+Analyzing hierarchy for entity <core> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <plb_address_decoder> in library <plb_ipif_v1_00_f> (architecture <IMP>) with generics.
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011111111111111111111111111111111",
+	                          "0000000000000000000000000000000000000000000000000000000000000000")
+	C_ARD_DWIDTH_ARRAY = (32)
+	C_ARD_NUM_CE_ARRAY = (16)
+	C_BUS_AWIDTH = 32
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+
+Analyzing hierarchy for entity <Counter> in library <proc_common_v2_00_a> (architecture <imp>) with generics.
+	C_NUM_BITS = 7
+
+Analyzing hierarchy for entity <ring> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <fsm> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <pselect> in library <proc_common_v2_00_a> (architecture <imp>) with generics.
+	C_AB = 0
+	C_AW = 32
+	C_BAR = "11111111111111111111111111111111"
+
+Analyzing hierarchy for entity <or_gate> in library <proc_common_v2_00_a> (architecture <imp>) with generics.
+	C_BUS_WIDTH = 3
+	C_OR_WIDTH = 1
+	C_USE_LUT_OR = true
+
+Analyzing hierarchy for entity <or_gate> in library <proc_common_v2_00_a> (architecture <imp>) with generics.
+	C_BUS_WIDTH = 1
+	C_OR_WIDTH = 1
+	C_USE_LUT_OR = true
+
+Analyzing hierarchy for entity <counter_bit> in library <proc_common_v2_00_a> (architecture <imp>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <dnepr_fu> in library <dnepr_fu_v1_00_a> (Architecture <imp>).
+	C_BASEADDR = "11111111111111111111111111111111"
+	C_FAMILY = "virtex2p"
+	C_HIGHADDR = "00000000000000000000000000000000"
+	C_PLB_AWIDTH = 32
+	C_PLB_DWIDTH = 64
+	C_PLB_MID_WIDTH = 3
+	C_PLB_NUM_MASTERS = 8
+WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'IP2INTC_Irpt' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'M_request' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'M_priority' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'M_buslock' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'M_RNW' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'M_BE' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'M_MSize' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'M_size' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'M_type' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'M_compress' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'M_guarded' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'M_ordered' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'M_lockErr' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'M_abort' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'M_ABus' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'M_wrDBus' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'M_wrBurst' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'M_rdBurst' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'Bus2IP_Freeze' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'Bus2IP_Addr' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'Bus2IP_RNW' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'Bus2IP_Burst' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'Bus2IP_IBurst' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'Bus2IP_RNW_Early' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'Bus2IP_PselHit' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'Bus2IP_CS' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'Bus2IP_CE' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'Bus2IP_MstWrAck' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'Bus2IP_MstRdAck' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'Bus2IP_MstRetry' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'Bus2IP_MstError' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'Bus2IP_MstTimeOut' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'Bus2IP_MstLastAck' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'RFIFO2IP_WrAck' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'RFIFO2IP_AlmostFull' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'RFIFO2IP_Full' of component 'plb_ipif'.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'RFIFO2IP_Vacancy' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'WFIFO2IP_Data' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'WFIFO2IP_RdAck' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'WFIFO2IP_AlmostEmpty' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'WFIFO2IP_Empty' of component 'plb_ipif'.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'WFIFO2IP_Occupancy' of component 'plb_ipif'.
+WARNING:Xst:753 - "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd" line 348: Unconnected output port 'Bus2IP_DMA_Ack' of component 'plb_ipif'.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
+Entity <dnepr_fu> analyzed. Unit <dnepr_fu> generated.
+
+Analyzing generic Entity <plb_ipif> in library <plb_ipif_v1_00_f> (Architecture <implementation>).
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011111111111111111111111111111111",
+	                          "0000000000000000000000000000000000000000000000000000000000000000")
+	C_ARD_DWIDTH_ARRAY = (32)
+	C_ARD_ID_ARRAY = (100)
+	C_ARD_NUM_CE_ARRAY = (16)
+	C_CACHLINE_ADDR_MODE = 0
+	C_DEV_BLK_ID = 0
+	C_DEV_BURST_ENABLE = false
+	C_DEV_BURST_PAGE_SIZE = 1024
+	C_DEV_DPHASE_TIMEOUT = 64
+	C_DEV_FAST_DATA_XFER = false
+	C_DEV_MAX_BURST_SIZE = 64
+	C_DEV_MIR_ENABLE = false
+	C_FAMILY = "virtex2p"
+	C_INCLUDE_DEV_ISC = false
+	C_INCLUDE_DEV_PENCODER = false
+	C_IPIF_AWIDTH = 32
+	C_IPIF_DWIDTH = 64
+	C_IP_INTR_MODE_ARRAY = (0)
+	C_IP_MASTER_PRESENT = false
+	C_PLB_AWIDTH = 32
+	C_PLB_CLK_PERIOD_PS = 10000
+	C_PLB_DWIDTH = 64
+	C_PLB_MID_WIDTH = 3
+	C_PLB_NUM_MASTERS = 8
+	C_RDFIFO_DEPTH = 512
+	C_RDFIFO_INCLUDE_PACKET_MODE = false
+	C_RDFIFO_INCLUDE_VACANCY = true
+	C_WRFIFO_DEPTH = 512
+	C_WRFIFO_INCLUDE_PACKET_MODE = false
+	C_WRFIFO_INCLUDE_VACANCY = true
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:753 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_ipif.vhd" line 1412: Unconnected output port 'Sl_SSize' of component 'plb_slave_attachment_indet'.
+WARNING:Xst:753 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_ipif.vhd" line 1412: Unconnected output port 'Bus2IP_BE' of component 'plb_slave_attachment_indet'.
+Entity <plb_ipif> analyzed. Unit <plb_ipif> generated.
+
+Analyzing generic Entity <or_gate.1> in library <proc_common_v2_00_a> (Architecture <imp>).
+	C_BUS_WIDTH = 8
+	C_OR_WIDTH = 1
+	C_USE_LUT_OR = true
+Entity <or_gate.1> analyzed. Unit <or_gate.1> generated.
+
+Analyzing generic Entity <or_gate.2> in library <proc_common_v2_00_a> (Architecture <imp>).
+	C_BUS_WIDTH = 64
+	C_OR_WIDTH = 1
+	C_USE_LUT_OR = true
+Entity <or_gate.2> analyzed. Unit <or_gate.2> generated.
+
+Analyzing generic Entity <plb_slave_attachment_indet> in library <plb_ipif_v1_00_f> (Architecture <implementation>).
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011111111111111111111111111111111",
+	                          "0000000000000000000000000000000000000000000000000000000000000000")
+	C_ARD_DWIDTH_ARRAY = (32)
+	C_ARD_NUM_CE_ARRAY = (16)
+	C_BURST_PAGE_SIZE = 1024
+	C_CACHLINE_ADDR_MODE = 0
+	C_DPHASE_TIMEOUT = 64
+	C_FAST_DATA_XFER = false
+	C_IPIF_ABUS_WIDTH = 32
+	C_IPIF_DBUS_WIDTH = 64
+	C_MA2SA_NUM_WIDTH = 4
+	C_PLB_ABUS_WIDTH = 32
+	C_PLB_DBUS_WIDTH = 64
+	C_PLB_MID_WIDTH = 3
+	C_PLB_NUM_MASTERS = 8
+	C_SLN_BUFFER_DEPTH = 8
+	C_SL_ATT_ADDR_SEL_WIDTH = 2
+	C_STEER_ADDR_SIZE = 10
+	C_SUPPORT_BURST = false
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:753 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_slave_attachment_indet.vhd" line 1579: Unconnected output port 'Count_Out' of component 'Counter'.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+Entity <plb_slave_attachment_indet> analyzed. Unit <plb_slave_attachment_indet> generated.
+
+Analyzing generic Entity <plb_address_decoder> in library <plb_ipif_v1_00_f> (Architecture <IMP>).
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011111111111111111111111111111111",
+	                          "0000000000000000000000000000000000000000000000000000000000000000")
+	C_ARD_DWIDTH_ARRAY = (32)
+	C_ARD_NUM_CE_ARRAY = (16)
+	C_BUS_AWIDTH = 32
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+    Set user-defined property "INIT =  0" for instance <GEN_S_H_ADDR_REG[0].I_ADDR_S_H_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_S_H_ADDR_REG[1].I_ADDR_S_H_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_S_H_ADDR_REG[2].I_ADDR_S_H_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_S_H_ADDR_REG[3].I_ADDR_S_H_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_S_H_ADDR_REG[4].I_ADDR_S_H_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_S_H_ADDR_REG[5].I_ADDR_S_H_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <I_RNW_S_H_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <MEM_DECODE_GEN[0].I_CS_S_H_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <MEM_DECODE_GEN[0].I_BKEND_CS_REG> in unit <plb_address_decoder>.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+WARNING:Xst:1748 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" line 281: VHDL Assertion Statement with non constant condition is ignored.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[0].I_BKEND_CE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[0].I_BKEND_RDCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[0].I_BKEND_WRCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[1].I_BKEND_CE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[1].I_BKEND_RDCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[1].I_BKEND_WRCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[2].I_BKEND_CE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[2].I_BKEND_RDCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[2].I_BKEND_WRCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[3].I_BKEND_CE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[3].I_BKEND_RDCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[3].I_BKEND_WRCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[4].I_BKEND_CE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[4].I_BKEND_RDCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[4].I_BKEND_WRCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[5].I_BKEND_CE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[5].I_BKEND_RDCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[5].I_BKEND_WRCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[6].I_BKEND_CE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[6].I_BKEND_RDCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[6].I_BKEND_WRCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[7].I_BKEND_CE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[7].I_BKEND_RDCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[7].I_BKEND_WRCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[8].I_BKEND_CE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[8].I_BKEND_RDCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[8].I_BKEND_WRCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[9].I_BKEND_CE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[9].I_BKEND_RDCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[9].I_BKEND_WRCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[10].I_BKEND_CE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[10].I_BKEND_RDCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[10].I_BKEND_WRCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[11].I_BKEND_CE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[11].I_BKEND_RDCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[11].I_BKEND_WRCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[12].I_BKEND_CE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[12].I_BKEND_RDCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[12].I_BKEND_WRCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[13].I_BKEND_CE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[13].I_BKEND_RDCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[13].I_BKEND_WRCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[14].I_BKEND_CE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[14].I_BKEND_RDCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[14].I_BKEND_WRCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[15].I_BKEND_CE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[15].I_BKEND_RDCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <GEN_BKEND_CE_REGISTERS[15].I_BKEND_WRCE_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <I_ADDR_MATCH_REG> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <I_CS_SIZE_REG0> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <I_CS_SIZE_REG1> in unit <plb_address_decoder>.
+    Set user-defined property "INIT =  0" for instance <I_CS_SIZE_REG2> in unit <plb_address_decoder>.
+Entity <plb_address_decoder> analyzed. Unit <plb_address_decoder> generated.
+
+Analyzing generic Entity <pselect> in library <proc_common_v2_00_a> (Architecture <imp>).
+	C_AB = 0
+	C_AW = 32
+	C_BAR = "11111111111111111111111111111111"
+Entity <pselect> analyzed. Unit <pselect> generated.
+
+Analyzing generic Entity <or_gate.3> in library <proc_common_v2_00_a> (Architecture <imp>).
+	C_BUS_WIDTH = 3
+	C_OR_WIDTH = 1
+	C_USE_LUT_OR = true
+Entity <or_gate.3> analyzed. Unit <or_gate.3> generated.
+
+Analyzing generic Entity <or_gate.4> in library <proc_common_v2_00_a> (Architecture <imp>).
+	C_BUS_WIDTH = 1
+	C_OR_WIDTH = 1
+	C_USE_LUT_OR = true
+Entity <or_gate.4> analyzed. Unit <or_gate.4> generated.
+
+Analyzing generic Entity <Counter> in library <proc_common_v2_00_a> (Architecture <imp>).
+	C_NUM_BITS = 7
+    Set user-defined property "INIT =  0" for instance <CARRY_OUT_I> in unit <Counter>.
+Entity <Counter> analyzed. Unit <Counter> generated.
+
+Analyzing Entity <counter_bit> in library <proc_common_v2_00_a> (Architecture <imp>).
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/counter_bit.vhd" line 126: Instantiating black box module <LUT4>.
+    Set user-defined property "INIT =  36C6" for instance <I_ALU_LUT> in unit <counter_bit>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/counter_bit.vhd" line 137: Instantiating black box module <MUXCY_L>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/counter_bit.vhd" line 144: Instantiating black box module <XORCY>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/counter_bit.vhd" line 150: Instantiating black box module <FDRE>.
+Entity <counter_bit> analyzed. Unit <counter_bit> generated.
+
+Analyzing generic Entity <IPIF_Steer> in library <proc_common_v2_00_a> (Architecture <IMP>).
+	C_AWIDTH = 32
+	C_DWIDTH = 64
+	C_SMALLEST = 32
+Entity <IPIF_Steer> analyzed. Unit <IPIF_Steer> generated.
+
+Analyzing generic Entity <user_logic> in library <dnepr_fu_v1_00_a> (Architecture <IMP>).
+	C_DWIDTH = 32
+	C_NUM_CE = 15
+WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
+Entity <user_logic> analyzed. Unit <user_logic> generated.
+
+Analyzing Entity <core> in library <work> (Architecture <behavioral>).
+Entity <core> analyzed. Unit <core> generated.
+
+Analyzing Entity <ring> in library <work> (Architecture <behavioral>).
+Entity <ring> analyzed. Unit <ring> generated.
+
+Analyzing Entity <fsm> in library <work> (Architecture <behavioral>).
+Entity <fsm> analyzed. Unit <fsm> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <or_gate_1>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/or_gate.vhd".
+WARNING:Xst:1780 - Signal <test> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <or_gate_1> synthesized.
+
+
+Synthesizing Unit <or_gate_2>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/or_gate.vhd".
+WARNING:Xst:1780 - Signal <test> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <or_gate_2> synthesized.
+
+
+Synthesizing Unit <IPIF_Steer>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/ipif_steer.vhd".
+WARNING:Xst:647 - Input <Addr<0:28>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Addr<30:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <IPIF_Steer> synthesized.
+
+
+Synthesizing Unit <pselect>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pselect.vhd".
+WARNING:Xst:647 - Input <A> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <lut_out> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <pselect> synthesized.
+
+
+Synthesizing Unit <or_gate_3>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/or_gate.vhd".
+WARNING:Xst:1780 - Signal <test> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <or_gate_3> synthesized.
+
+
+Synthesizing Unit <or_gate_4>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/or_gate.vhd".
+WARNING:Xst:1780 - Signal <test> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <or_gate_4> synthesized.
+
+
+Synthesizing Unit <ring>.
+    Related source file is "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/ring.vhd".
+    Found 64-bit register for signal <DOUT>.
+    Found 64-bit 4-to-1 multiplexer for signal <$varindex0000> created at line 58.
+    Found 3-bit updown counter for signal <amount>.
+    Found 3-bit comparator greatequal for signal <amount$cmp_ge0000> created at line 70.
+    Found 3-bit comparator lessequal for signal <amount$cmp_le0000> created at line 72.
+    Found 3-bit comparator less for signal <amount$cmp_lt0000> created at line 70.
+    Found 2-bit up counter for signal <read_point>.
+    Found 3-bit comparator greater for signal <read_point$cmp_gt0000> created at line 56.
+    Found 256-bit register for signal <ring_buf>.
+    Found 2-bit up counter for signal <write_point>.
+INFO:Xst:738 - HDL ADVISOR - 256 flip-flops were inferred for signal <ring_buf>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+    Summary:
+	inferred   3 Counter(s).
+	inferred 320 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred  64 Multiplexer(s).
+Unit <ring> synthesized.
+
+
+Synthesizing Unit <fsm>.
+    Related source file is "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/fsm.vhd".
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 2                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | synchronous                                    |
+    | Reset State        | st1_wait_data                                  |
+    | Power Up State     | st1_wait_data                                  |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <start_pulse>.
+    Found 1-bit register for signal <RE>.
+    Found 1-bit register for signal <data_valid>.
+    Found 20-bit comparator greater for signal <data_valid$cmp_gt0000> created at line 127.
+    Found 16-bit comparator less for signal <data_valid$cmp_lt0000> created at line 127.
+    Found 32-bit comparator less for signal <data_valid$cmp_lt0001> created at line 127.
+    Found 32-bit register for signal <delay_time>.
+    Found 32-bit adder for signal <delay_time$add0000> created at line 111.
+    Found 1-bit register for signal <end_strob>.
+    Found 32-bit register for signal <operative_time>.
+    Found 32-bit adder for signal <operative_time$add0000> created at line 112.
+    Found 32-bit register for signal <reserv_time>.
+    Found 32-bit subtractor for signal <reserv_time$sub0000> created at line 124.
+    Found 32-bit comparator not equal for signal <start_pulse$cmp_ne0000> created at line 142.
+    Found 1-bit register for signal <stop_pulse_internal>.
+    Found 32-bit comparator not equal for signal <stop_pulse_internal$cmp_ne0000> created at line 148.
+    Found 1-bit register for signal <stop_pulse_internal_t>.
+    Found 32-bit register for signal <strob_length>.
+    Found 32-bit subtractor for signal <strob_length$sub0000> created at line 125.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred 134 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   5 Comparator(s).
+Unit <fsm> synthesized.
+
+
+Synthesizing Unit <plb_address_decoder>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_address_decoder.vhd".
+WARNING:Xst:646 - Signal <Addr_Out_S_H<4:5>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <plb_address_decoder> synthesized.
+
+
+Synthesizing Unit <counter_bit>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/counter_bit.vhd".
+Unit <counter_bit> synthesized.
+
+
+Synthesizing Unit <core>.
+    Related source file is "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/core.vhd".
+Unit <core> synthesized.
+
+
+Synthesizing Unit <user_logic>.
+    Related source file is "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/user_logic.vhd".
+WARNING:Xst:647 - Input <Bus2IP_RdReq> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Bus2IP_WrReq> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 32-bit register for signal <slv_reg0>.
+    Found 32-bit register for signal <slv_reg1>.
+    Found 32-bit register for signal <slv_reg10>.
+    Found 32-bit register for signal <slv_reg11>.
+    Found 32-bit register for signal <slv_reg12>.
+    Found 32-bit register for signal <slv_reg13>.
+    Found 32-bit register for signal <slv_reg14>.
+    Found 32-bit register for signal <slv_reg2>.
+    Found 32-bit register for signal <slv_reg3>.
+    Found 32-bit register for signal <slv_reg4>.
+    Found 32-bit register for signal <slv_reg5>.
+    Found 32-bit register for signal <slv_reg6>.
+    Found 32-bit register for signal <slv_reg7>.
+    Found 32-bit register for signal <slv_reg8>.
+    Found 32-bit register for signal <slv_reg9>.
+    Summary:
+	inferred 480 D-type flip-flop(s).
+Unit <user_logic> synthesized.
+
+
+Synthesizing Unit <Counter>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/counter.vhd".
+Unit <Counter> synthesized.
+
+
+Synthesizing Unit <plb_slave_attachment_indet>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_slave_attachment_indet.vhd".
+WARNING:Xst:647 - Input <MA2SA_Num> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MUX2SA_BTerm> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MA2SA_XferAck> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MUX2SA_Retry> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MUX2SA_AddrAck> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MA2SA_Rd> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MA2SA_Select> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <sl_wrdack_ns> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sl_wrcomp_ns> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sl_wrbterm_ns> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sl_rdwdaddr_ns> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sl_rddack_ns> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sl_rdcomp_ns> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sl_rdbterm_ns> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <single_transfer_reg> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <single_transfer> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <sig_inhib_Addr_cntr_ld> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <read_data_xfer> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <rdwdaddr> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <rd_dphase_active_ns> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <rd_ce_ld_enable> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <plb_wrprim_reg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <plb_wrburst_reg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <plb_savalid_reg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <plb_reqpri_reg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <plb_rdprim_reg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <plb_rdburst_reg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <plb_pendreq_reg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <plb_pendpri_reg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <plb_ordered_reg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <plb_msize_reg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <plb_lockerr_reg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <plb_guarded_reg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <plb_compress_reg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <plb_buslock_reg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <line_count_done> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <line_count_almostdone> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <indeterminate_burst_reg> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <indeterminate_burst> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <clear_sl_rd_busy_ns> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <clear_sl_rd_busy> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <clear_rd_ce> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <cacheln_transfer> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <cacheln_burst_reg> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <bus2ip_rdreq_ns> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <burst_transfer_reg> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <addr_cntr_clken_i> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CS_Early_i<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <Bus2IP_RdBurst_ns> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Register <sl_addrack_i> equivalent to <set_sl_busy> has been removed
+    Found finite state machine <FSM_1> for signal <addr_cntl_state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 2                                              |
+    | Clock              | Bus_Clk (rising_edge)                          |
+    | Reset              | Bus_Reset (positive)                           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | validate_req                                   |
+    | Power Up State     | validate_req                                   |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_2> for signal <data_cntl_state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 4                                              |
+    | Outputs            | 3                                              |
+    | Clock              | Bus_Clk (rising_edge)                          |
+    | Reset              | Bus_Reset (positive)                           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <addr_cycle_flush>.
+    Found 32-bit register for signal <bus2ip_addr_i>.
+    Found 8-bit register for signal <bus2ip_be_i>.
+    Found 3-bit register for signal <Bus2IP_masterID_i>.
+    Found 1-bit register for signal <bus2ip_rdreq_i>.
+    Found 1-bit register for signal <bus2ip_rnw_i>.
+    Found 4-bit register for signal <bus2ip_size_i>.
+    Found 3-bit register for signal <bus2ip_type_i>.
+    Found 1-bit register for signal <bus2ip_wrreq_i>.
+    Found 1-bit register for signal <clear_sl_busy>.
+    Found 3-bit register for signal <master_id>.
+    Found 1-bit register for signal <plb_abort_reg>.
+    Found 32-bit register for signal <plb_abus_reg>.
+    Found 8-bit register for signal <plb_be_reg>.
+    Found 3-bit register for signal <plb_masterid_reg>.
+    Found 1-bit register for signal <plb_pavalid_reg>.
+    Found 1-bit register for signal <plb_rnw_reg>.
+    Found 4-bit register for signal <plb_size_reg>.
+    Found 3-bit register for signal <plb_type_reg>.
+    Found 64-bit register for signal <plb_wrdbus_reg>.
+    Found 1-bit register for signal <set_sl_busy>.
+    Found 1-bit register for signal <sl_busy>.
+    Found 8-bit register for signal <sl_mbusy_i>.
+    Found 8-bit register for signal <sl_merr_i>.
+    Found 1-bit register for signal <sl_rdcomp_i>.
+    Found 1-bit register for signal <sl_rddack_i>.
+    Found 64-bit register for signal <sl_rddbus_i>.
+    Found 1-bit register for signal <sl_rearbitrate_i>.
+    Found 1-bit register for signal <sl_wait_i>.
+    Found 1-bit register for signal <sl_wrcomp_i>.
+    Found 1-bit register for signal <sl_wrdack_i>.
+    Summary:
+	inferred   2 Finite State Machine(s).
+	inferred 263 D-type flip-flop(s).
+Unit <plb_slave_attachment_indet> synthesized.
+
+
+Synthesizing Unit <plb_ipif>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_ipif.vhd".
+WARNING:Xst:647 - Input <IP2DMA_RxLength_Empty> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2Bus_DMA_Req> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_MWrBTerm> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2RFIFO_WrRelease> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_MWrDAck> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2Bus_MstWrReq> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2Bus_MstBusLock> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2RFIFO_WrRestore> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2RFIFO_WrMark> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2WFIFO_RdMark> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2Bus_Clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2DMA_RxStatus_Empty> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_MRdWdAddr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2Bus_PostedWrInh> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2IP_Addr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_MBusy> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_MRdDBus> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2Bus_MstBurst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_MSSize> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2DMA_TxLength_Full> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_MAddrAck> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_MRdBTerm> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2Bus_MstBE> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2RFIFO_Data> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2RFIFO_WrReq> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2DMA_TxStatus_Empty> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2WFIFO_RdRelease> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_MRearbitrate> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_MRdDAck> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_MErr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2Bus_Addr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2WFIFO_RdReq> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2WFIFO_RdRestore> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2Bus_MstRdReq> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <WFIFO2DMA_Vacancy> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <WFIFO2DMA_Full> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <WFIFO2DMA_AlmostFull> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <SA2MA_WrAck> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <SA2MA_Retry> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <SA2MA_RdRdy> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <SA2MA_ErrAck> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RFIFO2DMA_Occupancy> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RFIFO2DMA_Empty> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RFIFO2DMA_AlmostEmpty> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <Intr2Bus_WrAck> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <Intr2Bus_ToutSup> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <Intr2Bus_Retry> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <Intr2Bus_RdAck> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <Intr2Bus_Error> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <IRPT2Bus_Data> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <IPIF_Reg_Interrupts> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <IPIF_Lvl_Interrupts> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <IP2Bus_AddrSel_i> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <DMA_SG_WrAck> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <DMA_SG_ToutSup> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <DMA_SG_Retry> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <DMA_SG_RdAck> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <DMA_SG_Error> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <DMA_MstWrReq> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <DMA_MstRdReq> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <DMA_MstBusLock> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <DMA_MstBurst> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <DMA_MstBE> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <DMA2Intr_Intr> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <DMA2IP_Addr> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <DMA2Bus_Data> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <DMA2Bus_Addr> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Bus_MnGrant> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Bus2IP_type_i> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Bus2IP_size_i> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Bus2IP_masterID_i> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Bus2IP_SSize_i> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Bus2IP_Freeze_i> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <Bus2IP_BE_sa> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <plb_ipif> synthesized.
+
+
+Synthesizing Unit <dnepr_fu>.
+    Related source file is "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl/vhdl/dnepr_fu.vhd".
+WARNING:Xst:653 - Signal <iIP2Bus_Data<32:63>> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000000000000.
+WARNING:Xst:646 - Signal <iBus2IP_WrCE<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <iBus2IP_RdCE<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <iBus2IP_Data<32:63>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <iBus2IP_BE<4:7>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <ZERO_PLB_MSSize> is used but never assigned. This sourceless signal will be automatically connected to value 00.
+WARNING:Xst:653 - Signal <ZERO_PLB_MRdWdAddr> is used but never assigned. This sourceless signal will be automatically connected to value 0000.
+WARNING:Xst:653 - Signal <ZERO_PLB_MRdDBus> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000000000000000000000000000000000000000000000000000.
+WARNING:Xst:653 - Signal <ZERO_IP2RFIFO_Data> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000000000000000000000000000000000000000000000000000.
+WARNING:Xst:653 - Signal <ZERO_IP2IP_Addr> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000000000000.
+WARNING:Xst:653 - Signal <ZERO_IP2Bus_MstBE> is used but never assigned. This sourceless signal will be automatically connected to value 00000000.
+WARNING:Xst:653 - Signal <ZERO_IP2Bus_IntrEvent<0>> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ZERO_IP2Bus_Addr> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000000000000.
+Unit <dnepr_fu> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 16
+ 32-bit adder                                          : 8
+ 32-bit subtractor                                     : 8
+# Counters                                             : 12
+ 2-bit up counter                                      : 8
+ 3-bit updown counter                                  : 4
+# Registers                                            : 585
+ 1-bit register                                        : 536
+ 3-bit register                                        : 5
+ 32-bit register                                       : 18
+ 4-bit register                                        : 2
+ 64-bit register                                       : 22
+ 8-bit register                                        : 2
+# Comparators                                          : 36
+ 16-bit comparator less                                : 4
+ 20-bit comparator greater                             : 4
+ 3-bit comparator greatequal                           : 4
+ 3-bit comparator greater                              : 4
+ 3-bit comparator less                                 : 4
+ 3-bit comparator lessequal                            : 4
+ 32-bit comparator less                                : 4
+ 32-bit comparator not equal                           : 8
+# Multiplexers                                         : 4
+ 64-bit 4-to-1 multiplexer                             : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <PLB_IPIF_I/I_SLAVE_ATTACHMENT/data_cntl_state/FSM> on signal <data_cntl_state[1:2]> with gray encoding.
+---------------------
+ State   | Encoding
+---------------------
+ idle    | 00
+ wr_xfer | 01
+ rd_xfer | 11
+---------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <PLB_IPIF_I/I_SLAVE_ATTACHMENT/addr_cntl_state/FSM> on signal <addr_cntl_state[1:2]> with gray encoding.
+--------------------------
+ State        | Encoding
+--------------------------
+ validate_req | 00
+ rearbitrate  | 01
+ gen_wait     | 11
+ gen_addrack  | 10
+--------------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <USER_LOGIC_I/core_inst/TR_fsm/state/FSM> on signal <state[1:3]> with johnson encoding.
+Optimizing FSM <USER_LOGIC_I/core_inst/RC_fsm/state/FSM> on signal <state[1:3]> with johnson encoding.
+Optimizing FSM <USER_LOGIC_I/core_inst/dTR_fsm/state/FSM> on signal <state[1:3]> with johnson encoding.
+Optimizing FSM <USER_LOGIC_I/core_inst/dRC_fsm/state/FSM> on signal <state[1:3]> with johnson encoding.
+-------------------------------------
+ State                   | Encoding
+-------------------------------------
+ st1_wait_data           | 000
+ st2_read_data           | 001
+ st3_calc_delay_time     | 011
+ st4_calc_operative_time | 111
+ st5_validate            | 110
+ st6_wait_stop           | 100
+-------------------------------------
+Loading device for application Rf_Device from file '2vp50.nph' in environment /opt/Xilinx/10.1/ISE.
+INFO:Xst:2261 - The FF/Latch <sl_rddack_i> in Unit <plb_slave_attachment_indet> is equivalent to the following FF/Latch, which will be removed : <sl_rdcomp_i> 
+INFO:Xst:2261 - The FF/Latch <master_id_1> in Unit <plb_slave_attachment_indet> is equivalent to the following FF/Latch, which will be removed : <Bus2IP_masterID_i_1> 
+INFO:Xst:2261 - The FF/Latch <sl_wrdack_i> in Unit <plb_slave_attachment_indet> is equivalent to the following FF/Latch, which will be removed : <sl_wrcomp_i> 
+INFO:Xst:2261 - The FF/Latch <master_id_0> in Unit <plb_slave_attachment_indet> is equivalent to the following FF/Latch, which will be removed : <Bus2IP_masterID_i_2> 
+INFO:Xst:2261 - The FF/Latch <master_id_2> in Unit <plb_slave_attachment_indet> is equivalent to the following FF/Latch, which will be removed : <Bus2IP_masterID_i_0> 
+WARNING:Xst:1710 - FF/Latch <sl_rearbitrate_i> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <bus2ip_wrreq_i> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_25> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_24> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_23> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_22> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_21> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_20> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_19> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_18> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_17> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_16> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_15> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_14> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_13> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_12> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_11> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_10> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_9> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_8> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_7> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_6> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_5> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_4> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_3> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_2> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_1> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_0> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_rdreq_i> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_rnw_i> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_size_i_3> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_size_i_2> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_size_i_1> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_size_i_0> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_type_i_2> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_type_i_1> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_type_i_0> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_31> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_30> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_28> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_27> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_26> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_25> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_24> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_23> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_22> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_21> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_20> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_19> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_18> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_17> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_16> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_15> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_14> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_13> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_12> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_11> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_10> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_9> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_8> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_7> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_6> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_5> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_4> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_3> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_2> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_1> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <bus2ip_addr_i_0> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 16
+ 32-bit adder                                          : 8
+ 32-bit subtractor                                     : 8
+# Counters                                             : 12
+ 2-bit up counter                                      : 8
+ 3-bit updown counter                                  : 4
+# Registers                                            : 2639
+ Flip-Flops                                            : 2639
+# Comparators                                          : 36
+ 16-bit comparator less                                : 4
+ 20-bit comparator greater                             : 4
+ 3-bit comparator greatequal                           : 4
+ 3-bit comparator greater                              : 4
+ 3-bit comparator less                                 : 4
+ 3-bit comparator lessequal                            : 4
+ 32-bit comparator less                                : 4
+ 32-bit comparator not equal                           : 8
+# Multiplexers                                         : 4
+ 64-bit 4-to-1 multiplexer                             : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <strob_length_0> of sequential type is unconnected in block <fsm>.
+WARNING:Xst:2677 - Node <strob_length_1> of sequential type is unconnected in block <fsm>.
+WARNING:Xst:2677 - Node <strob_length_2> of sequential type is unconnected in block <fsm>.
+WARNING:Xst:2677 - Node <strob_length_3> of sequential type is unconnected in block <fsm>.
+WARNING:Xst:2677 - Node <strob_length_4> of sequential type is unconnected in block <fsm>.
+WARNING:Xst:2677 - Node <strob_length_5> of sequential type is unconnected in block <fsm>.
+WARNING:Xst:2677 - Node <strob_length_6> of sequential type is unconnected in block <fsm>.
+WARNING:Xst:2677 - Node <strob_length_7> of sequential type is unconnected in block <fsm>.
+WARNING:Xst:2677 - Node <strob_length_8> of sequential type is unconnected in block <fsm>.
+WARNING:Xst:2677 - Node <strob_length_9> of sequential type is unconnected in block <fsm>.
+WARNING:Xst:2677 - Node <strob_length_10> of sequential type is unconnected in block <fsm>.
+WARNING:Xst:2677 - Node <strob_length_11> of sequential type is unconnected in block <fsm>.
+WARNING:Xst:2677 - Node <strob_length_12> of sequential type is unconnected in block <fsm>.
+WARNING:Xst:2677 - Node <strob_length_13> of sequential type is unconnected in block <fsm>.
+WARNING:Xst:2677 - Node <strob_length_14> of sequential type is unconnected in block <fsm>.
+WARNING:Xst:2677 - Node <strob_length_15> of sequential type is unconnected in block <fsm>.
+
+Optimizing unit <dnepr_fu> ...
+
+Optimizing unit <ring> ...
+
+Optimizing unit <fsm> ...
+
+Optimizing unit <plb_address_decoder> ...
+
+Optimizing unit <user_logic> ...
+
+Optimizing unit <plb_slave_attachment_indet> ...
+WARNING:Xst:1710 - FF/Latch <PLB_IPIF_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i> (without init value) has a constant value of 0 in block <dnepr_fu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_0> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_1> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_2> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_3> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_4> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_5> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_6> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_7> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_8> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_9> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_10> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_11> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_12> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_13> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_14> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_15> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_16> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_17> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_18> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_19> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_20> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_21> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_22> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_23> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_24> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_25> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_26> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_27> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_28> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_30> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_31> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_type_i_0> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_type_i_1> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_type_i_2> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_size_i_0> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_size_i_1> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_size_i_2> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_size_i_3> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_rdreq_i> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_0> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_1> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_2> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_3> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_4> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_5> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_6> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_7> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_8> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_9> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_10> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_11> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_12> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_13> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_14> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_15> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_16> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_17> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_18> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_19> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_20> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_21> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_22> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_23> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_24> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_25> of sequential type is unconnected in block <dnepr_fu>.
+WARNING:Xst:2677 - Node <PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_wrreq_i> of sequential type is unconnected in block <dnepr_fu>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <PLB_IPIF_I/I_SLAVE_ATTACHMENT/addr_cntl_state_FSM_FFd1> in Unit <dnepr_fu> is equivalent to the following FF/Latch, which will be removed : <PLB_IPIF_I/I_SLAVE_ATTACHMENT/sl_wait_i> 
+Found area constraint ratio of 100 (+ 5) on block dnepr_fu, actual ratio is 8.
+INFO:Xst:2260 - The FF/Latch <PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG1> in Unit <dnepr_fu> is equivalent to the following FF/Latch : <PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG2> 
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 2534
+ Flip-Flops                                            : 2534
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : dnepr_fu.ngr
+Top Level Output File Name         : dnepr_fu
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 271
+
+Cell Usage :
+# BELS                             : 3547
+#      BUF                         : 1
+#      GND                         : 1
+#      INV                         : 21
+#      LUT1                        : 172
+#      LUT2                        : 429
+#      LUT2_L                      : 1
+#      LUT3                        : 714
+#      LUT3_D                      : 6
+#      LUT3_L                      : 2
+#      LUT4                        : 563
+#      LUT4_D                      : 80
+#      LUT4_L                      : 100
+#      MUXCY                       : 692
+#      MUXCY_L                     : 7
+#      MUXF5                       : 302
+#      VCC                         : 1
+#      XORCY                       : 455
+# FlipFlops/Latches                : 2534
+#      FD                          : 452
+#      FDE                         : 4
+#      FDR                         : 206
+#      FDRE                        : 1869
+#      FDRS                        : 1
+#      FDRSE                       : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 227
+#      IBUF                        : 124
+#      OBUF                        : 103
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2vp50ff1152-6 
+
+ Number of Slices:                     1892  out of  23616     8%  
+ Number of Slice Flip Flops:           2534  out of  47232     5%  
+ Number of 4 input LUTs:               2088  out of  47232     4%  
+ Number of IOs:                         271
+ Number of bonded IOBs:                 228  out of    692    32%  
+ Number of GCLKs:                         1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+PLB_Clk                            | BUFGP                  | 2534  |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: 6.586ns (Maximum Frequency: 151.832MHz)
+   Minimum input arrival time before clock: 4.672ns
+   Maximum output required time after clock: 3.749ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'PLB_Clk'
+  Clock period: 6.586ns (frequency: 151.832MHz)
+  Total number of paths / destination ports: 53200 / 5781
+-------------------------------------------------------------------------
+Delay:               6.586ns (Levels of Logic = 12)
+  Source:            PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[2].I_BKEND_RDCE_REG (FF)
+  Destination:       PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/CARRY_OUT_I (FF)
+  Source Clock:      PLB_Clk rising
+  Destination Clock: PLB_Clk rising
+
+  Data Path: PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[2].I_BKEND_RDCE_REG to PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/CARRY_OUT_I
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            67   0.374   0.964  PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[2].I_BKEND_RDCE_REG (iBus2IP_RdCE<2>)
+     LUT4:I1->O            1   0.313   0.418  USER_LOGIC_I/slv_read_ack7 (USER_LOGIC_I/slv_read_ack7)
+     LUT4:I2->O            6   0.313   0.552  USER_LOGIC_I/slv_read_ack33 (iIP2Bus_RdAck)
+     LUT4:I2->O            8   0.313   0.590  PLB_IPIF_I/I_SLAVE_ATTACHMENT/dpto_cntr_ld_en1 (PLB_IPIF_I/I_SLAVE_ATTACHMENT/dpto_cntr_ld_en)
+     LUT4:I2->O            1   0.313   0.000  PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/I_ADDSUB_GEN[0].Counter_Bit_I/I_ALU_LUT (PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/I_ADDSUB_GEN[0].Counter_Bit_I/count_AddSub)
+     MUXCY_L:S->LO         1   0.377   0.000  PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/I_ADDSUB_GEN[0].Counter_Bit_I/MUXCY_I (PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/alu_cy<1>)
+     MUXCY_L:CI->LO        1   0.042   0.000  PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/I_ADDSUB_GEN[1].Counter_Bit_I/MUXCY_I (PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/alu_cy<2>)
+     MUXCY_L:CI->LO        1   0.042   0.000  PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/I_ADDSUB_GEN[2].Counter_Bit_I/MUXCY_I (PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/alu_cy<3>)
+     MUXCY_L:CI->LO        1   0.041   0.000  PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/I_ADDSUB_GEN[3].Counter_Bit_I/MUXCY_I (PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/alu_cy<4>)
+     MUXCY_L:CI->LO        1   0.041   0.000  PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/I_ADDSUB_GEN[4].Counter_Bit_I/MUXCY_I (PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/alu_cy<5>)
+     MUXCY_L:CI->LO        1   0.041   0.000  PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/I_ADDSUB_GEN[5].Counter_Bit_I/MUXCY_I (PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/alu_cy<6>)
+     MUXCY_L:CI->LO        1   0.525   0.390  PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/I_ADDSUB_GEN[6].Counter_Bit_I/MUXCY_I (PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/alu_cy<7>)
+     INV:I->O              1   0.313   0.390  PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/carry_active_high1_INV_0 (PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/carry_active_high)
+     FDRE:D                    0.234          PLB_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/CARRY_OUT_I
+    ----------------------------------------
+    Total                      6.586ns (3.282ns logic, 3.304ns route)
+                                       (49.8% logic, 50.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'PLB_Clk'
+  Total number of paths / destination ports: 5901 / 2349
+-------------------------------------------------------------------------
+Offset:              4.672ns (Levels of Logic = 2)
+  Source:            PLB_Rst (PAD)
+  Destination:       USER_LOGIC_I/core_inst/dRC_fsm/state_FSM_FFd3 (FF)
+  Destination Clock: PLB_Clk rising
+
+  Data Path: PLB_Rst to USER_LOGIC_I/core_inst/dRC_fsm/state_FSM_FFd3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           303   0.919   1.386  PLB_Rst_IBUF (PLB_Rst_IBUF)
+     LUT2:I0->O          440   0.313   1.472  USER_LOGIC_I/rst1 (USER_LOGIC_I/rst)
+     FDRE:R                    0.583          USER_LOGIC_I/core_inst/dTR_ring/ring_buf_0_0
+    ----------------------------------------
+    Total                      4.672ns (1.815ns logic, 2.857ns route)
+                                       (38.8% logic, 61.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'PLB_Clk'
+  Total number of paths / destination ports: 94 / 94
+-------------------------------------------------------------------------
+Offset:              3.749ns (Levels of Logic = 1)
+  Source:            PLB_IPIF_I/I_SLAVE_ATTACHMENT/set_sl_busy (FF)
+  Destination:       Sl_addrAck (PAD)
+  Source Clock:      PLB_Clk rising
+
+  Data Path: PLB_IPIF_I/I_SLAVE_ATTACHMENT/set_sl_busy to Sl_addrAck
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              6   0.374   0.524  PLB_IPIF_I/I_SLAVE_ATTACHMENT/set_sl_busy (PLB_IPIF_I/I_SLAVE_ATTACHMENT/set_sl_busy)
+     OBUF:I->O                 2.851          Sl_addrAck_OBUF (Sl_addrAck)
+    ----------------------------------------
+    Total                      3.749ns (3.225ns logic, 0.524ns route)
+                                       (86.0% logic, 14.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 30.00 secs
+Total CPU time to Xst completion: 29.38 secs
+ 
+--> 
+
+
+Total memory usage is 288156 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  431 (   0 filtered)
+Number of infos    :    8 (   0 filtered)
+

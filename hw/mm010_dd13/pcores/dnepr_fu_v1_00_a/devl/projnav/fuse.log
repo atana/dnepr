@@ -1,0 +1,39 @@
+Running : /opt/Xilinx/10.1/ISE/bin/lin/unwrapped/fuse -ise
+/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/devl/projnav/dnepr_f
+u.ise -intstyle ise -incremental -o tb_fsm_isim_beh.exe -prj tb_fsm_beh.prj -top
+tb_fsm
+Determining compilation order of HDL files
+Analyzing VHDL file ../../hdl/vhdl/fsm.vhd
+Restoring VHDL parse-tree ieee.std_logic_1164 from
+/opt/Xilinx/10.1/ISE/vhdl/hdp/lin/ieee/std_logic_1164.vdb
+Restoring VHDL parse-tree std.standard from
+/opt/Xilinx/10.1/ISE/vhdl/hdp/lin/std/standard.vdb
+Restoring VHDL parse-tree ieee.std_logic_arith from
+/opt/Xilinx/10.1/ISE/vhdl/hdp/lin/ieee/std_logic_arith.vdb
+Restoring VHDL parse-tree ieee.std_logic_unsigned from
+/opt/Xilinx/10.1/ISE/vhdl/hdp/lin/ieee/std_logic_unsigned.vdb
+Analyzing VHDL file tb_fsm.vhd
+Restoring VHDL parse-tree ieee.numeric_std from
+/opt/Xilinx/10.1/ISE/vhdl/hdp/lin/ieee/numeric_std.vdb
+Saving VHDL parse-tree work.fsm into
+/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/devl/projnav/isim/wo
+rk/fsm.vdb
+Saving VHDL parse-tree work.tb_fsm into
+/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/devl/projnav/isim/wo
+rk/tb_fsm.vdb
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 26548 Kb
+Fuse CPU Usage: 370 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Using precompiled package numeric_std from library ieee
+Compiling architecture behavioral of entity fsm [fsm_default]
+Compiling architecture behavior of entity tb_fsm
+Compiled 8 VHDL Units
+Built simulation executable tb_fsm_isim_beh.exe
+Fuse Memory Usage: 27576 Kb
+Fuse CPU Usage: 390 ms
+GCC CPU Usage: 210 ms

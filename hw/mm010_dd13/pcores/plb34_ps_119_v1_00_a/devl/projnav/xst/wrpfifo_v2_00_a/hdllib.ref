@@ -1,0 +1,8 @@
+AR wrpfifo_dp_cntl implementation C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/wrpfifo_dp_cntl.vhd sub00/vhpl05 1271917212
+AR pf_dly1_mux implementation C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/pf_dly1_mux.vhd sub00/vhpl01 1271917194
+AR wrpfifo_top implementation C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/wrpfifo_top.vhd sub00/vhpl07 1271917218
+EN pf_dly1_mux NULL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/pf_dly1_mux.vhd sub00/vhpl00 1271917193
+AR ipif_control_wr implementation C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/ipif_control_wr.vhd sub00/vhpl03 1271917210
+EN wrpfifo_dp_cntl NULL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/wrpfifo_dp_cntl.vhd sub00/vhpl04 1271917211
+EN ipif_control_wr NULL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/ipif_control_wr.vhd sub00/vhpl02 1271917209
+EN wrpfifo_top NULL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/wrpfifo_top.vhd sub00/vhpl06 1271917217

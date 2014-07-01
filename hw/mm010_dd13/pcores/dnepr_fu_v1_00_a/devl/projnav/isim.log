@@ -1,0 +1,55 @@
+Command line:
+   ./tb_fsm_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  49791
+
+Fri Apr 11 15:15:26 2014
+
+Total Line Count : 68
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 231.87 Meg
+
+ Total Signals          : 41
+ Total Nets             : 364
+ Total Signal Drivers   : 24
+ Total Blocks           : 6
+ Total Primitive Blocks : 1
+ Total Processes        : 17
+ Total Traceable Variables  : 17
+ Total Scalar Nets and Variables : 867
+ntrace select -o on -n /tb_fsm/clk 
+ntrace select -o on -n /tb_fsm/rst 
+ntrace select -o on -n /tb_fsm/tact 
+ntrace select -o on -n /tb_fsm/discr 
+ntrace select -o on -n /tb_fsm/optical_line_delay 
+ntrace select -o on -n /tb_fsm/outrun 
+ntrace select -o on -n /tb_fsm/tstart 
+ntrace select -o on -n /tb_fsm/dstart 
+ntrace select -o on -n /tb_fsm/tstop 
+ntrace select -o on -n /tb_fsm/dstop 
+ntrace select -o on -n /tb_fsm/empty 
+ntrace select -o on -n /tb_fsm/re 
+ntrace select -o on -n /tb_fsm/start_pulse 
+ntrace select -o on -n /tb_fsm/stop_pulse 
+ntrace select -o on -n /tb_fsm/clk_period 
+ntrace select -o on -n /tb_fsm/discr_period 
+ntrace select -o on -n /tb_fsm/uut/state 
+ntrace select -o on -n /tb_fsm/uut/data_valid 
+ntrace select -o on -n /tb_fsm/uut/operative_time 
+ntrace select -o on -n /tb_fsm/uut/start_time 
+ntrace select -o on -n /tb_fsm/uut/strob_length 
+ntrace select -o on -n /tb_fsm/uut/reserv_time 
+ntrace start 
+isimrun 10000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Total Simulation Time: 0.07 sec
+
+ Current Memory Usage: 243.11 Meg
+
+Fri Apr 11 15:15:51 2014
+

@@ -1,0 +1,39 @@
+Running : /opt/Xilinx/10.1/ISE/bin/lin/unwrapped/fuse -ise
+/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/optical_delay_meter_v1_00_a/test_mete
+r/test_meter.ise -intstyle ise -incremental -o tb_meter_isim_beh.exe -prj
+tb_meter_beh.prj -top tb_meter
+Determining compilation order of HDL files
+Analyzing VHDL file ../hdl/vhdl/meter.vhd
+Restoring VHDL parse-tree ieee.std_logic_1164 from
+/opt/Xilinx/10.1/ISE/vhdl/hdp/lin/ieee/std_logic_1164.vdb
+Restoring VHDL parse-tree std.standard from
+/opt/Xilinx/10.1/ISE/vhdl/hdp/lin/std/standard.vdb
+Restoring VHDL parse-tree ieee.std_logic_arith from
+/opt/Xilinx/10.1/ISE/vhdl/hdp/lin/ieee/std_logic_arith.vdb
+Restoring VHDL parse-tree ieee.std_logic_unsigned from
+/opt/Xilinx/10.1/ISE/vhdl/hdp/lin/ieee/std_logic_unsigned.vdb
+Analyzing VHDL file tb_meter.vhd
+Restoring VHDL parse-tree ieee.numeric_std from
+/opt/Xilinx/10.1/ISE/vhdl/hdp/lin/ieee/numeric_std.vdb
+Saving VHDL parse-tree work.meter into
+/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/optical_delay_meter_v1_00_a/test_mete
+r/isim/work/meter.vdb
+Saving VHDL parse-tree work.tb_meter into
+/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/optical_delay_meter_v1_00_a/test_mete
+r/isim/work/tb_meter.vdb
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 26544 Kb
+Fuse CPU Usage: 380 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Using precompiled package numeric_std from library ieee
+Compiling architecture imp of entity meter [\meter(('0','0','1','1','0','0',...]
+Compiling architecture behavior of entity tb_meter
+Compiled 8 VHDL Units
+Built simulation executable tb_meter_isim_beh.exe
+Fuse Memory Usage: 27572 Kb
+Fuse CPU Usage: 380 ms
+GCC CPU Usage: 240 ms

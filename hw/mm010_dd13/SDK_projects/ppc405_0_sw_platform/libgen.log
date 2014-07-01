@@ -1,0 +1,410 @@
+Release 10.1.03 - libgen Xilinx EDK 10.1.03
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -mhs /home/atana/RTI/dnepr/hw/mm010_dd13_dts/system.mhs
+-xmpdir /home/atana/RTI/dnepr/hw/mm010_dd13_dts -p xc2vp50ff1152-6 -pe ppc405_0
+-od /home/atana/RTI/dnepr/hw/mm010_dd13_dts/SDK_projects/ppc405_0_sw_platform
+-log
+/home/atana/RTI/dnepr/hw/mm010_dd13_dts/SDK_projects/ppc405_0_sw_platform/libgen
+.log
+/home/atana/RTI/dnepr/hw/mm010_dd13_dts/SDK_projects/ppc405_0_sw_platform/system
+.mss 
+
+Output Directory (-od)		:
+/home/atana/RTI/dnepr/hw/mm010_dd13_dts/SDK_projects/ppc405_0_sw_platform/
+Part (-p)			: virtex2p
+
+Software Specification file	:
+/home/atana/RTI/dnepr/hw/mm010_dd13_dts/SDK_projects/ppc405_0_sw_platform/system
+.mss
+WARNING:MDT - IPNAME:jtagppc_cntlr INSTANCE:jtagppc_0 -
+   /home/atana/RTI/dnepr/hw/mm010_dd13_dts/system.mhs line 134 - deprecated core
+   for architecture 'virtex2p'!
+WARNING:MDT - IPNAME:proc_sys_reset INSTANCE:reset_block -
+   /home/atana/RTI/dnepr/hw/mm010_dd13_dts/system.mhs line 173 - deprecated core
+   for architecture 'virtex2p'!
+WARNING:MDT - IPNAME:dcm_module INSTANCE:ddr_fb_dcm -
+   /home/atana/RTI/dnepr/hw/mm010_dd13_dts/system.mhs line 199 - deprecated core
+   for architecture 'virtex2p'!
+WARNING:MDT - IPNAME:dcm_module INSTANCE:ddr90_dcm -
+   /home/atana/RTI/dnepr/hw/mm010_dd13_dts/system.mhs line 217 - deprecated core
+   for architecture 'virtex2p'!
+WARNING:MDT - IPNAME:dcm_module INSTANCE:sys_dcm -
+   /home/atana/RTI/dnepr/hw/mm010_dd13_dts/system.mhs line 237 - deprecated core
+   for architecture 'virtex2p'!
+WARNING:MDT - IPNAME:plb_ddr INSTANCE:plb_ddr_sdram -
+   /home/atana/RTI/dnepr/hw/mm010_dd13_dts/system.mhs line 360 - deprecated core
+   for architecture 'virtex2p'!
+
+Overriding IP level properties ...
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor ppc405_1
+  (0b0000010000-0b0000010011) ppc405_1	
+  (0b0000100000-0b0000100011) ppc405_1	
+Address Map for Processor ppc405_0
+  (0b0000010000-0b0000010011) ppc405_0	
+  (0b0000100000-0b0000100011) ppc405_0	
+  (0000000000-0x07ffffff) plb_DDR_SDRAM	plb
+  (0x0a000000-0x0a00ffff) plb_eth1_contr	plb
+  (0x0b000000-0x0b00ffff) plb_eth2_contr	plb
+  (0x0d000000-0x0d00000f) reg_version	plb
+  (0x10000000-0x100003ff) delay_meter	plb
+  (0x20000000-0x200000ff) grid_gen	plb
+  (0x30000000-0x300000ff) dnepr	plb
+  (0xcc000000-0xcfffffff) opb_flash	plb->plb2opb->opb
+  (0xd0000000-0xd3ffffff) opb_flash	plb->plb2opb->opb
+  (0xd4000000-0xd7ffffff) opb_flash	plb->plb2opb->opb
+  (0xd8000000-0xdbffffff) opb_flash	plb->plb2opb->opb
+  (0xe0000000-0xe0000fff) gpio_LEDS	plb->plb2opb->opb
+  (0xe0001000-0xe0001fff) freq_detect	plb->plb2opb->opb
+  (0xfe010000-0xfe010fff) RS232_1	plb->plb2opb->opb
+  (0xfe020000-0xfe020fff) RS232_2	plb->plb2opb->opb
+  (0xfe030000-0xfe030fff) opb_intc_0	plb->plb2opb->opb
+  (0xfe040000-0xfe040fff) UART_TUTS	plb->plb2opb->opb
+  (0xffff0000-0xffffffff) boot_ppc_cntrl	plb->plb2opb->opb
+
+Check platform address map ...
+
+Computing clock values...
+
+Overriding system level properties ...
+INFO:MDT - IPNAME:dnepr INSTANCE:dnepr_fu -
+   /home/atana/RTI/dnepr/hw/mm010_dd13_dts/pcores/dnepr_fu_v1_00_a/data/dnepr_fu
+   _v2_1_0.mpd line 28 - tool is overriding PARAMETER C_PLB_NUM_MASTERS value to
+   4
+INFO:MDT - IPNAME:dnepr INSTANCE:dnepr_fu -
+   /home/atana/RTI/dnepr/hw/mm010_dd13_dts/pcores/dnepr_fu_v1_00_a/data/dnepr_fu
+   _v2_1_0.mpd line 29 - tool is overriding PARAMETER C_PLB_MID_WIDTH value to 2
+INFO:MDT - IPNAME:grid_gen INSTANCE:plb34_grid_generator125 -
+   /home/atana/RTI/dnepr/hw/mm010_dd13_dts/pcores/plb34_grid_generator125_v4_00_
+   a/data/plb34_grid_generator125_v2_1_0.mpd line 27 - tool is overriding
+   PARAMETER C_PLB_NUM_MASTERS value to 4
+INFO:MDT - IPNAME:grid_gen INSTANCE:plb34_grid_generator125 -
+   /home/atana/RTI/dnepr/hw/mm010_dd13_dts/pcores/plb34_grid_generator125_v4_00_
+   a/data/plb34_grid_generator125_v2_1_0.mpd line 28 - tool is overriding
+   PARAMETER C_PLB_MID_WIDTH value to 2
+INFO:MDT - IPNAME:delay_meter INSTANCE:optical_delay_meter -
+   /home/atana/RTI/dnepr/hw/mm010_dd13_dts/pcores/optical_delay_meter_v1_00_a/da
+   ta/optical_delay_meter_v2_1_0.mpd line 28 - tool is overriding PARAMETER
+   C_PLB_NUM_MASTERS value to 4
+INFO:MDT - IPNAME:delay_meter INSTANCE:optical_delay_meter -
+   /home/atana/RTI/dnepr/hw/mm010_dd13_dts/pcores/optical_delay_meter_v1_00_a/da
+   ta/optical_delay_meter_v2_1_0.mpd line 29 - tool is overriding PARAMETER
+   C_PLB_MID_WIDTH value to 2
+INFO:MDT - IPNAME:plb2opb INSTANCE:plb2opb_bridge -
+   /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb2opb_bridge_v1_01_a/da
+   ta/plb2opb_bridge_v2_1_0.mpd line 50 - tool is overriding PARAMETER
+   C_PLB_MID_WIDTH value to 2
+INFO:MDT - IPNAME:opb INSTANCE:opb_v20 -
+   /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_v20_v1_10_c/data/opb_
+   v20_v2_1_0.mpd line 38 - tool is overriding PARAMETER C_NUM_MASTERS value to
+   1
+INFO:MDT - IPNAME:opb INSTANCE:opb_v20 -
+   /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_v20_v1_10_c/data/opb_
+   v20_v2_1_0.mpd line 39 - tool is overriding PARAMETER C_NUM_SLAVES value to 8
+INFO:MDT - IPNAME:plb INSTANCE:plb_v34 -
+   /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_v34_v1_02_a/data/plb_
+   v34_v2_1_0.mpd line 41 - tool is overriding PARAMETER C_PLB_NUM_SLAVES value
+   to 8
+INFO:MDT - IPNAME:plb_eth2_contr INSTANCE:plb_ethernet -
+   /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ethernet_v1_01_a/data
+   /plb_ethernet_v2_1_0.mpd line 52 - tool is overriding PARAMETER
+   C_PLB_NUM_MASTERS value to 4
+INFO:MDT - IPNAME:plb_eth2_contr INSTANCE:plb_ethernet -
+   /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ethernet_v1_01_a/data
+   /plb_ethernet_v2_1_0.mpd line 53 - tool is overriding PARAMETER
+   C_PLB_MID_WIDTH value to 2
+INFO:MDT - IPNAME:plb_eth1_contr INSTANCE:plb_ethernet -
+   /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ethernet_v1_01_a/data
+   /plb_ethernet_v2_1_0.mpd line 52 - tool is overriding PARAMETER
+   C_PLB_NUM_MASTERS value to 4
+INFO:MDT - IPNAME:plb_eth1_contr INSTANCE:plb_ethernet -
+   /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ethernet_v1_01_a/data
+   /plb_ethernet_v2_1_0.mpd line 53 - tool is overriding PARAMETER
+   C_PLB_MID_WIDTH value to 2
+INFO:MDT - IPNAME:opb_intc_0 INSTANCE:opb_intc -
+   /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/data/opb
+   _intc_v2_1_0.mpd line 45 - tcl is overriding PARAMETER C_NUM_INTR_INPUTS
+   value to 6
+INFO:MDT - IPNAME:opb_intc_0 INSTANCE:opb_intc -
+   /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/data/opb
+   _intc_v2_1_0.mpd line 46 - tcl is overriding PARAMETER C_KIND_OF_INTR value
+   to 0b00000000000000000000000000111100
+INFO:MDT - IPNAME:opb_intc_0 INSTANCE:opb_intc -
+   /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/data/opb
+   _intc_v2_1_0.mpd line 47 - tcl is overriding PARAMETER C_KIND_OF_EDGE value
+   to 0b00000000000000000000000000111100
+INFO:MDT - IPNAME:opb_intc_0 INSTANCE:opb_intc -
+   /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/data/opb
+   _intc_v2_1_0.mpd line 48 - tcl is overriding PARAMETER C_KIND_OF_LVL value to
+   0b00000000000000000000000000000011
+INFO:MDT - IPNAME:boot_ppc_bram INSTANCE:bram_block -
+   /opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/bram_block_v1_00_a/data/b
+   ram_block_v2_1_0.mpd line 36 - tool is overriding PARAMETER C_MEMSIZE value
+   to 0x10000
+INFO:MDT - IPNAME:plb_DDR_SDRAM INSTANCE:plb_ddr -
+   /home/atana/RTI/dnepr/hw/mm010_dd13_dts/pcores/plb_ddr_v1_11_a/data/plb_ddr_v
+   2_1_0.mpd line 80 - tool is overriding PARAMETER C_PLB_NUM_MASTERS value to 4
+INFO:MDT - IPNAME:plb_DDR_SDRAM INSTANCE:plb_ddr -
+   /home/atana/RTI/dnepr/hw/mm010_dd13_dts/pcores/plb_ddr_v1_11_a/data/plb_ddr_v
+   2_1_0.mpd line 81 - tool is overriding PARAMETER C_PLB_MID_WIDTH value to 2
+INFO:MDT - IPNAME:reg_version INSTANCE:plb34_reg_version -
+   /home/atana/RTI/dnepr/hw/mm010_dd13_dts/pcores/plb34_reg_version_v1_00_a/data
+   /plb34_reg_version_v2_1_0.mpd line 30 - tool is overriding PARAMETER
+   C_PLB_NUM_MASTERS value to 4
+INFO:MDT - IPNAME:reg_version INSTANCE:plb34_reg_version -
+   /home/atana/RTI/dnepr/hw/mm010_dd13_dts/pcores/plb34_reg_version_v1_00_a/data
+   /plb34_reg_version_v2_1_0.mpd line 31 - tool is overriding PARAMETER
+   C_PLB_MID_WIDTH value to 2
+
+Running system level Update ...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+
+Check platform configuration ...
+INFO:MDT - IPNAME:plb_ethernet INSTANCE:plb_eth2_contr -
+   /home/atana/RTI/dnepr/hw/mm010_dd13_dts/system.mhs line 255 - This design
+   requires design constraints to guarantee performance. 
+   Please refer to the plb_ethernet_v1_01_a data sheet for details.
+   The PLB Bus clock frequency must be greater than or equal to 65 MHz for 100
+   Mbs Ethernet operation and greater than or equal to 6.5 MHz for 10 Mbs
+   Ethernet operation.
+INFO:MDT - IPNAME:plb_ethernet INSTANCE:plb_eth1_contr -
+   /home/atana/RTI/dnepr/hw/mm010_dd13_dts/system.mhs line 282 - This design
+   requires design constraints to guarantee performance. 
+   Please refer to the plb_ethernet_v1_01_a data sheet for details.
+   The PLB Bus clock frequency must be greater than or equal to 65 MHz for 100
+   Mbs Ethernet operation and greater than or equal to 6.5 MHz for 10 Mbs
+   Ethernet operation.
+INFO:MDT - IPNAME:plb_ddr INSTANCE:plb_DDR_SDRAM -
+   /home/atana/RTI/dnepr/hw/mm010_dd13_dts/system.mhs line 360 - An example UCF
+   for this core is available and must be modified for use in the system. Please
+   refer to the EDK Getting Started guide for the location of this file.
+IPNAME:opb_v20 INSTANCE:opb - /home/atana/RTI/dnepr/hw/mm010_dd13_dts/system.mhs
+line 155 - 1 master(s) : 8 slave(s)
+IPNAME:plb_v34 INSTANCE:plb - /home/atana/RTI/dnepr/hw/mm010_dd13_dts/system.mhs
+line 163 - 4 master(s) : 8 slave(s)
+
+Check port drivers...
+
+Performing Clock DRCs...
+
+INFO:MDT - List of peripherals addressable from processor instance ppc405_1 : 
+INFO:MDT - List of peripherals addressable from processor instance ppc405_0 : 
+  - dnepr
+  - grid_gen
+  - delay_meter
+  - opb
+  - opb_intc_0
+  - opb_flash
+  - boot_ppc_cntrl
+  - UART_TUTS
+  - RS232_1
+  - RS232_2
+  - gpio_LEDS
+  - freq_detect
+  - plb_eth2_contr
+  - plb_eth1_contr
+  - plb_DDR_SDRAM
+  - reg_version
+
+Building Directory Structure for ppc405_0
+
+Generating platform libraries and device drivers ...
+
+Running CopyFiles ...
+
+Copying files for driver opbarb_v1_02_a from
+/opt/Xilinx/10.1/EDK/sw/XilinxProcessorIPLib/drivers/opbarb_v1_02_a/src/ to
+/home/atana/RTI/dnepr/hw/mm010_dd13_dts/SDK_projects/ppc405_0_sw_platform/ppc405
+_0/libsrc/opbarb_v1_02_a/ ...
+
+Copying files for driver intc_v1_11_a from
+/opt/Xilinx/10.1/EDK/sw/XilinxProcessorIPLib/drivers/intc_v1_11_a/src/ to
+/home/atana/RTI/dnepr/hw/mm010_dd13_dts/SDK_projects/ppc405_0_sw_platform/ppc405
+_0/libsrc/intc_v1_11_a/ ...
+
+Copying files for driver uartlite_v1_13_a from
+/opt/Xilinx/10.1/EDK/sw/XilinxProcessorIPLib/drivers/uartlite_v1_13_a/src/ to
+/home/atana/RTI/dnepr/hw/mm010_dd13_dts/SDK_projects/ppc405_0_sw_platform/ppc405
+_0/libsrc/uartlite_v1_13_a/ ...
+
+Copying files for driver gpio_v2_12_a from
+/opt/Xilinx/10.1/EDK/sw/XilinxProcessorIPLib/drivers/gpio_v2_12_a/src/ to
+/home/atana/RTI/dnepr/hw/mm010_dd13_dts/SDK_projects/ppc405_0_sw_platform/ppc405
+_0/libsrc/gpio_v2_12_a/ ...
+
+Copying files for driver emac_v1_00_e from
+/opt/Xilinx/10.1/EDK/sw/XilinxProcessorIPLib/drivers/emac_v1_00_e/src/ to
+/home/atana/RTI/dnepr/hw/mm010_dd13_dts/SDK_projects/ppc405_0_sw_platform/ppc405
+_0/libsrc/emac_v1_00_e/ ...
+
+Copying files for driver ddr_v1_10_b from
+/opt/Xilinx/10.1/EDK/sw/XilinxProcessorIPLib/drivers/ddr_v1_10_b/src/ to
+/home/atana/RTI/dnepr/hw/mm010_dd13_dts/SDK_projects/ppc405_0_sw_platform/ppc405
+_0/libsrc/ddr_v1_10_b/ ...
+
+Copying files for driver plb34_reg_version_v1_00_a from
+/home/atana/RTI/dnepr/hw/mm010_dd13_dts/drivers/plb34_reg_version_v1_00_a/src/
+to
+/home/atana/RTI/dnepr/hw/mm010_dd13_dts/SDK_projects/ppc405_0_sw_platform/ppc405
+_0/libsrc/plb34_reg_version_v1_00_a/ ...
+
+Copying files for driver cpu_ppc405_v1_10_b from
+/opt/Xilinx/10.1/EDK/sw/XilinxProcessorIPLib/drivers/cpu_ppc405_v1_10_b/src/ to
+/home/atana/RTI/dnepr/hw/mm010_dd13_dts/SDK_projects/ppc405_0_sw_platform/ppc405
+_0/libsrc/cpu_ppc405_v1_10_b/ ...
+
+Running DRCs for OSes, Drivers and Libraries ... 
+#--------------------------------------
+# device-tree BSP DRC...
+#--------------------------------------
+
+Running generate for OS'es, Drivers and Libraries ... 
+#--------------------------------------
+# device-tree BSP generate...
+#--------------------------------------
+--- device tree generator version: v1.1 ---
+generating xilinx.dts
+Clock Port Summary:
+dnepr.PLB_Clk connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+grid_gen.PLB_Clk connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+delay_meter.PLB_Clk connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+ppc405_0.CPMC405CLOCK connected to cpu_clk:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+ppc405_0.PLBCLK connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+plb2opb.PLB_Clk connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+plb2opb.OPB_Clk connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+opb.OPB_Clk connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+plb.PLB_Clk connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+reset_block.Slowest_sync_clk connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+ddr_fb_dcm.CLKIN connected to ddr_feedback_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+ddr_fb_dcm.CLK0 connected to dcm_2_FB:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+    CLK_INPORT = CLKIN
+    CLK_FACTOR = 1.0 / ( (C_CLKIN_DIVIDE_BY_2)? 2 : 1 )
+ddr_fb_dcm.CLK90 connected to ddr_clk_90_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+    CLK_INPORT = CLKIN
+    CLK_FACTOR = 1.0 / ( (C_CLKIN_DIVIDE_BY_2)? 2 : 1 )
+ddr_fb_dcm.CLK270 connected to ddr_clk_90_n_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+    CLK_INPORT = CLKIN
+    CLK_FACTOR = 1.0 / ( (C_CLKIN_DIVIDE_BY_2)? 2 : 1 )
+ddr90_dcm.CLKIN connected to dcm_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+ddr90_dcm.CLK0 connected to dcm_1_FB:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+    CLK_INPORT = CLKIN
+    CLK_FACTOR = 1.0 / ( (C_CLKIN_DIVIDE_BY_2)? 2 : 1 )
+ddr90_dcm.CLK90 connected to clk_90_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+    CLK_INPORT = CLKIN
+    CLK_FACTOR = 1.0 / ( (C_CLKIN_DIVIDE_BY_2)? 2 : 1 )
+ddr90_dcm.CLK180 connected to sys_clk_n_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+    CLK_INPORT = CLKIN
+    CLK_FACTOR = 1.0 / ( (C_CLKIN_DIVIDE_BY_2)? 2 : 1 )
+ddr90_dcm.CLK270 connected to clk_90_n_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+    CLK_INPORT = CLKIN
+    CLK_FACTOR = 1.0 / ( (C_CLKIN_DIVIDE_BY_2)? 2 : 1 )
+sys_dcm.CLKIN connected to dcm_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+sys_dcm.CLK0 connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+    CLK_INPORT = CLKIN
+    CLK_FACTOR = 1.0 / ( (C_CLKIN_DIVIDE_BY_2)? 2 : 1 )
+sys_dcm.CLKFX connected to cpu_clk:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+    CLK_INPORT = CLKIN
+    CLK_FACTOR = 1.0 *  C_CLKFX_MULTIPLY / ((C_CLKFX_DIVIDE) *
+((C_CLKIN_DIVIDE_BY_2)? 2 : 1 ))
+plb_eth2_contr.PLB_Clk connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+plb_eth1_contr.PLB_Clk connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+opb_intc_0.OPB_Clk connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+opb_flash.OPB_Clk connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+boot_ppc_cntrl.opb_clk connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+boot_ppc_bram.BRAM_Clk_A connected to boot_ppc_cntrl_port_BRAM_Clk:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+plb_DDR_SDRAM.PLB_Clk connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+UART_TUTS.OPB_Clk connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+RS232_1.OPB_Clk connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+RS232_2.OPB_Clk connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+gpio_LEDS.OPB_Clk connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+freq_detect.OPB_Clk connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+reg_version.PLB_Clk connected to sys_clk_s:
+    CLK_FREQ_HZ = WARNING: no frequency found!
+Clock Frequency: 400000000
+IP connected to bus: plb
+-master DPLB plb ppc405_0
+-master IPLB plb ppc405_0
+-master MSPLB plb plb_eth2_contr
+-master MSPLB plb plb_eth1_contr
+-slave SPLB plb dnepr
+-slave SPLB plb grid_gen
+-slave SPLB plb delay_meter
+-slave SPLB plb plb2opb
+-slave MSPLB plb plb_eth2_contr
+-slave MSPLB plb plb_eth1_contr
+-slave SPLB plb plb_DDR_SDRAM
+-slave SPLB plb reg_version
+dnepr
+grid_gen
+delay_meter
+IP connected to bus: opb
+-master MOPB opb plb2opb
+-slave SOPB opb opb_intc_0
+-slave SOPB opb opb_flash
+-slave SOPB opb boot_ppc_cntrl
+-slave SOPB opb UART_TUTS
+-slave SOPB opb RS232_1
+-slave SOPB opb RS232_2
+-slave SOPB opb gpio_LEDS
+-slave SOPB opb freq_detect
+opb_flash
+reg_version
+{serial1 aliasref UART_TUTS 1} {serial2 aliasref RS232_1 2} {serial3 aliasref
+RS232_2 3} {ethernet0 aliasref plb_eth2_contr 0} {ethernet1 aliasref
+plb_eth1_contr 1}
+WARNING:MDT - : no console ip was specified.  This may prevent output from
+   appearing on the boot console.
+expected integer but got ""
+expected integer but got ""
+expected integer but got ""
+
+Running post_generate for OS'es, Drivers and Libraries ... 
+INFO:MDT - The standalone BSP (libxil.a) will not be generated for the processor
+   cpu_ppc405, because device-tree has been selected as the OS. 
+
+Running execs_generate for OS'es, Drivers and Libraries ... 
+
+LibGen Done. 

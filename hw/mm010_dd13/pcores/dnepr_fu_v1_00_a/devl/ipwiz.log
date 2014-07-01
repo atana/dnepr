@@ -1,0 +1,278 @@
+
+----------------------------------------------------------------------------
+--                            Design Analysis                             --
+----------------------------------------------------------------------------
+Analyze pcore dnepr_fu ...
+
+INFO:MDT - Generic parameter C_USER_ID_CODE will not be used since user does not
+   use Module Identification Register (MIR) ...
+
+----------------------------------------------------------------------------
+--                            File Generation                             --
+----------------------------------------------------------------------------
+Creating HDL source directory ...
+Generating top peripheral VHDL template ...
+Generating stub user logic VHDL template ...
+HDL templates successfully generated ...
+Creating data directory ...
+Generating XPS inteface files ...
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhd
+l/inferred_lut4.vhd" in Library proc_common_v2_00_a.
+Entity <inferred_lut4> compiled.
+Entity <inferred_lut4> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhd
+l/pf_counter_bit.vhd" in Library proc_common_v2_00_a.
+Entity <pf_counter_bit> compiled.
+Entity <pf_counter_bit> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhd
+l/pf_adder_bit.vhd" in Library proc_common_v2_00_a.
+Entity <pf_adder_bit> compiled.
+Entity <pf_adder_bit> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhd
+l/pf_counter.vhd" in Library proc_common_v2_00_a.
+Entity <pf_counter> compiled.
+Entity <pf_counter> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhd
+l/pf_occ_counter.vhd" in Library proc_common_v2_00_a.
+Entity <pf_occ_counter> compiled.
+Entity <pf_occ_counter> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhd
+l/pf_occ_counter_top.vhd" in Library proc_common_v2_00_a.
+Entity <pf_occ_counter_top> compiled.
+Entity <pf_occ_counter_top> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhd
+l/pf_counter_top.vhd" in Library proc_common_v2_00_a.
+Entity <pf_counter_top> compiled.
+Entity <pf_counter_top> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhd
+l/pf_adder.vhd" in Library proc_common_v2_00_a.
+Entity <pf_adder> compiled.
+Entity <pf_adder> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhd
+l/proc_common_pkg.vhd" in Library proc_common_v2_00_a.
+Package <proc_common_pkg> compiled.
+Package body <proc_common_pkg> compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhd
+l/counter_bit.vhd" in Library proc_common_v2_00_a.
+Entity <counter_bit> compiled.
+Entity <counter_bit> (Architecture <imp>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhd
+l/or_muxcy.vhd" in Library proc_common_v2_00_a.
+Entity <or_muxcy> compiled.
+Entity <or_muxcy> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhd
+l/family.vhd" in Library proc_common_v2_00_a.
+Package <family> compiled.
+Package body <family> compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhd
+l/or_gate.vhd" in Library proc_common_v2_00_a.
+Entity <or_gate> compiled.
+Entity <or_gate> (Architecture <imp>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhd
+l/pselect.vhd" in Library proc_common_v2_00_a.
+Entity <pselect> compiled.
+Entity <pselect> (Architecture <imp>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhd
+l/srl_fifo2.vhd" in Library proc_common_v2_00_a.
+Entity <srl_fifo2> compiled.
+Entity <srl_fifo2> (Architecture <imp>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhd
+l/counter.vhd" in Library proc_common_v2_00_a.
+Entity <Counter> compiled.
+Entity <Counter> (Architecture <imp>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhd
+l/ipif_pkg.vhd" in Library proc_common_v2_00_a.
+Package <ipif_pkg> compiled.
+Package body <ipif_pkg> compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhd
+l/ipif_steer.vhd" in Library proc_common_v2_00_a.
+Entity <IPIF_Steer> compiled.
+Entity <IPIF_Steer> (Architecture <IMP>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhd
+l/pf_dpram_select.vhd" in Library proc_common_v2_00_a.
+Entity <pf_dpram_select> compiled.
+Entity <pf_dpram_select> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhd
+l/srl16_fifo.vhd" in Library proc_common_v2_00_a.
+Entity <srl16_fifo> compiled.
+Entity <srl16_fifo> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/f
+lex_addr_cntr.vhd" in Library plb_ipif_v1_00_f.
+Entity <flex_addr_cntr> compiled.
+Entity <flex_addr_cntr> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/pf
+_dly1_mux.vhd" in Library wrpfifo_v2_00_a.
+Entity <pf_dly1_mux> compiled.
+Entity <pf_dly1_mux> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/p
+lb_address_decoder.vhd" in Library plb_ipif_v1_00_f.
+Entity <plb_address_decoder> compiled.
+Entity <plb_address_decoder> (Architecture <IMP>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/b
+urst_support.vhd" in Library plb_ipif_v1_00_f.
+Entity <burst_support> compiled.
+Entity <burst_support> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/a
+ddr_reg_cntr_brst_flex.vhd" in Library plb_ipif_v1_00_f.
+Entity <addr_reg_cntr_brst_flex> compiled.
+Entity <addr_reg_cntr_brst_flex> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/ip
+if_control_rd.vhd" in Library rdpfifo_v2_00_a.
+Entity <ipif_control_rd> compiled.
+Entity <ipif_control_rd> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/rd
+pfifo_dp_cntl.vhd" in Library rdpfifo_v2_00_a.
+Entity <rdpfifo_dp_cntl> compiled.
+Entity <rdpfifo_dp_cntl> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/ip
+if_control_wr.vhd" in Library wrpfifo_v2_00_a.
+Entity <ipif_control_wr> compiled.
+Entity <ipif_control_wr> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/wr
+pfifo_dp_cntl.vhd" in Library wrpfifo_v2_00_a.
+Entity <wrpfifo_dp_cntl> compiled.
+Entity <wrpfifo_dp_cntl> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/wr
+pfifo_top.vhd" in Library wrpfifo_v2_00_a.
+Entity <wrpfifo_top> compiled.
+Entity <wrpfifo_top> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/rd
+pfifo_top.vhd" in Library rdpfifo_v2_00_a.
+Entity <rdpfifo_top> compiled.
+Entity <rdpfifo_top> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/p
+lb_slave_attachment_indet.vhd" in Library plb_ipif_v1_00_f.
+Entity <plb_slave_attachment_indet> compiled.
+Entity <plb_slave_attachment_indet> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/p
+lb_ipif_reset.vhd" in Library plb_ipif_v1_00_f.
+Entity <plb_ipif_reset> compiled.
+Entity <plb_ipif_reset> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/p
+lb_interrupt_control.vhd" in Library plb_ipif_v1_00_f.
+Entity <plb_interrupt_control> compiled.
+Entity <plb_interrupt_control> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/p
+lb_sesr_sear.vhd" in Library plb_ipif_v1_00_f.
+Entity <plb_sesr_sear> compiled.
+Entity <plb_sesr_sear> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/p
+lb_ipif.vhd" in Library plb_ipif_v1_00_f.
+Entity <plb_ipif> compiled.
+Entity <plb_ipif> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/data/../hdl/vhdl/us
+er_logic.vhd" in Library dnepr_fu_v1_00_a.
+Entity <user_logic> compiled.
+Entity <user_logic> (Architecture <IMP>) compiled.
+Compiling vhdl file
+"/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/data/../hdl/vhdl/dn
+epr_fu.vhd" in Library dnepr_fu_v1_00_a.
+Entity <dnepr_fu> compiled.
+Entity <dnepr_fu> (Architecture <IMP>) compiled.
+
+
+Analyzing HDL attributes ...
+INFO:MDT - IPTYPE set to value : PERIPHERAL
+INFO:MDT - IMP_NETLIST set to value : TRUE
+INFO:MDT - HDL set to value : VHDL
+XPS interface files successfully generated ...
+Creating development directory ...
+Generating command option file ...
+Generating readme file ...
+Development misc files successfully generated ...
+Creating projnav directory ...
+Generating ProjNav support files ...
+ProjNav support files successfully generated ...
+Creating synthesis directory ...
+Generating XST synthesis support files ...
+XST synthesis support files successfully generated ...
+No BFM simulation files will be generated at this time ...
+No software driver files will be generated at this time ...
+
+----------------------------------------------------------------------------
+--                              Final Report                              --
+----------------------------------------------------------------------------
+Thank you for using Create and Import Peripheral Wizard! Please find your
+peripheral hardware templates under
+/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a.
+
+Peripheral Summary:
+
+  top name       : dnepr_fu
+  version        : 1.00.a
+  type           : PLB slave
+  features       : slave attachment
+                   user s/w registers
+
+Address Block Summary:
+
+  user logic slv : C_BASEADDR + 0x00000000
+                 : C_BASEADDR + 0x000000FF
+
+File Summary
+
+  - HDL source -
+  /home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/hdl
+  top entity     : vhdl/dnepr_fu.vhd
+  user logic     : vhdl/user_logic.vhd
+
+  - XPS interface -
+  /home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/data
+  mpd            : dnepr_fu_v2_1_0.mpd
+  pao            : dnepr_fu_v2_1_0.pao
+
+  - ISE project -
+  /home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/devl/projnav
+  ise project    : dnepr_fu.ise
+  cli command    : dnepr_fu.cli
+
+
+  - XST synthesis -
+  /home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/devl/synthesis
+  xst script     : dnepr_fu_xst.scr
+  xst project    : dnepr_fu_xst.prj
+
+  - Misc file -
+  /home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/devl
+  help           : README.txt
+  option         : ipwiz.opt
+  log            : ipwiz.log
+
+

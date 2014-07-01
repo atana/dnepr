@@ -1,0 +1,6 @@
+vhdl work "C:\active_work\ise\debug\6MPGM_6MPS5_6B261_6A119_7M010_DD13\system\pcores\plb34_ps_119_v1_00_a\devl\projnav\SM_wait_imp.vhd"
+vhdl work "C:\active_work\ise\debug\6MPGM_6MPS5_6B261_6A119_7M010_DD13\system\pcores\plb34_ps_119_v1_00_a\devl\projnav\FIFO_secure_uc.vhd"
+vhdl proc_common_v2_00_a "C:\Xilinx\10.1\EDK\hw\XilinxProcessorIPLib\pcores\proc_common_v2_00_a\hdl\vhdl\proc_common_pkg.vhd"
+vhdl work "C:\active_work\ise\debug\6MPGM_6MPS5_6B261_6A119_7M010_DD13\system\pcores\plb34_ps_119_v1_00_a\devl\projnav\pulse_fr_form.vhd"
+vhdl work "C:\active_work\ise\debug\6MPGM_6MPS5_6B261_6A119_7M010_DD13\system\pcores\plb34_ps_119_v1_00_a\devl\projnav\PS_isp_avt.vhd"
+vhdl plb34_ps_119_v1_00_a "C:\active_work\ise\debug\6MPGM_6MPS5_6B261_6A119_7M010_DD13\system\pcores\plb34_ps_119_v1_00_a\hdl\vhdl\user_logic.vhd"

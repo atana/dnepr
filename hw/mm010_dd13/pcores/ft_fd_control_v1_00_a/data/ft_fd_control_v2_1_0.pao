@@ -1,0 +1,7 @@
+##############################################################################
+## Filename:          /home/atana/RTI/dnepr/hw/mm010_dd13/pcores/ft_fd_control_v1_00_a/data/ft_fd_control_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Tue Apr  8 17:04:30 2014 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib ft_fd_control_v1_00_a ft_fd_control vhdl

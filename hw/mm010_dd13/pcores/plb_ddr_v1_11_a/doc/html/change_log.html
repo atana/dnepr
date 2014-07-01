@@ -1,0 +1,427 @@
+<html>
+<head>
+	<title>
+Change log for plb_ddr, 1.11.a
+	</title>
+	<meta cvs_header="$Id: ip_change_log_template.html,v 1.7 2007/01/25 01:13:42 somn Exp $">
+	<link href="../../../../../../doc/usenglish/css/xilhtml.css" rel="stylesheet" type="text/css">
+	<style>
+		P.Level1Heading {
+			color: #000000;
+			font-weight: bold;
+			font-size: 1.05em;
+			margin-bottom: 0em;
+			margin-top: 0em;
+		}
+		P.Level2Heading  {
+			font-weight: bold;
+			margin-top: 2em;
+			margin-bottom: 0em;
+		}
+		P.Level3Heading {
+			font-weight: bold;
+			margin-top: 2em;
+		}
+		.GreyBackground {
+			background-color:#CCCCCC;
+		}
+		.PreformatFont  {
+			font-family: Fixed, Mono, Courier New, Courier;
+			font-size: .95em;
+		}
+	</style>
+</head>
+<body>
+	<h3 class="PageHeader">Xilinx Processor IP Library</h3>
+	<h1>
+Change log for plb_ddr, 1.11.a
+	</h1>
+	<hr class="whs1">
+
+<!CORE-CHANGE-DATA>
+<!bgn-change-data-table>
+<!--@BEGIN_CHANGELOG SUMMARY CORE_NAME=plb_ddr_v1_11_a STATE=DEPRECATED LAST_UPDATED=8.2.1 -->
+<!--@END_CHANGELOG -->
+<table cellpadding="1" cellspacing="0" border="0"
+	style="text-align: left; vertical-align: top;"
+>
+	<tbody>
+		<!spacer><tr><td><p><br></p></td></tr>
+		<tr>
+			<td class="GreyBackground">
+				<p class="Level1Heading">
+Changes in 8.2.1, Update # 090
+				</p>
+				</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p class="Level2Heading">
+8.2.1 - Changes in tool interface files (.mpd)
+				</p>
+				<hr class="whs1">
+			</td>
+		</tr>
+		<tr>
+			<td>
+<!--@BEGIN_CHANGELOG EDK_Im_SP1 CORE_NAME=plb_ddr_v1_11_a TYPE=mpd --><pre>
+- remove PERMIT property from parameter C_INCLUDE_CURST_CACHELN_SUPPORT
+
+<!--@END_CHANGELOG --></pre>
+			</td>
+		</tr>
+		<tr>
+			<td>
+<!--@BEGIN_CHANGELOG EDK_Im_SP1 CORE_NAME=plb_ddr_v1_11_a STATE=DEPRECATED TYPE=mpd --><pre>
+Deprecated in 6.2.2.
+<!--@END_CHANGELOG --></pre>
+			</td>
+		</tr>
+		<!spacer><tr><td><p><br></p></td></tr>
+		<tr>
+			<td class="GreyBackground">
+				<p class="Level1Heading">
+Changes in 8.2, Update # 080
+				</p>
+				</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p class="Level2Heading">
+8.2 - Changes in tool interface files (.mpd)
+				</p>
+				<hr class="whs1">
+			</td>
+		</tr>
+		<tr>
+			<td>
+<!--@BEGIN_CHANGELOG EDK_Im CORE_NAME=plb_ddr_v1_11_a TYPE=mpd --><pre>
+
+- remove IO_IF and IO_IS proberties from
+parameter C_INCLUDE_BURST_CACHELN_SUPPORT
+
+<!--@END_CHANGELOG --></pre>
+			</td>
+		</tr>
+		<!spacer><tr><td><p><br></p></td></tr>
+		<tr>
+			<td class="GreyBackground">
+				<p class="Level1Heading">
+Changes in 8.1.2, Update # 070
+				</p>
+				</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p class="Level2Heading">
+8.1.2 - Changes in VHDL sources (.vhd)
+				</p>
+				<hr class="whs1">
+			</td>
+		</tr>
+		<tr>
+			<td>
+<!--@BEGIN_CHANGELOG EDK_I_SP2 CORE_NAME=plb_ddr_v1_11_a TYPE=vhdl SUBTYPE=plb_ddr --><pre>
+***************************************************************************
+
+Fix issue when PLB indeterminate read burst is followed by a cacheline read
+operation.  Only effects design implementations when C_DDR_WIDTH = 64.
+Modified behavior of Addr28 FIFO reset signal in DDR v1.11a helper library.
+
+***************************************************************************
+<!--@END_CHANGELOG --></pre>
+			</td>
+		</tr>
+		<tr>
+			<td>
+<!--@BEGIN_CHANGELOG EDK_I_SP2 CORE_NAME=rdpfifo_v2_00_a TYPE=vhdl SUBTYPE=rdpfifo_top --><pre>
+
+Fixed issue where a write to the RESET register caused an error
+to be generated when the bus width configuration was set to 64.
+
+Fixed issue where a write to the STATUS register also reset the FIFO
+when the bus width configuration was set to 64.
+
+<!--@END_CHANGELOG --></pre>
+			</td>
+		</tr>
+		<!spacer><tr><td><p><br></p></td></tr>
+		<tr>
+			<td class="GreyBackground">
+				<p class="Level1Heading">
+Changes in 8.1.1, Update # 060
+				</p>
+				</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p class="Level2Heading">
+8.1.1 - Changes in VHDL sources (.vhd)
+				</p>
+				<hr class="whs1">
+			</td>
+		</tr>
+		<tr>
+			<td>
+<!--@BEGIN_CHANGELOG EDK_I_SP1 CORE_NAME=plb_ddr_v1_11_a TYPE=vhdl SUBTYPE=plb_ddr --><pre>
+***************************************************************************
+Updated Read Data Path module for ECC to combine DQ & DQ_ECC FIFO read
+enable signals.
+Removed ALERT statement in MPD file generation.
+***************************************************************************
+<!--@END_CHANGELOG --></pre>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p class="Level2Heading">
+8.1.1 - Changes in tool interface files (.mpd)
+				</p>
+				<hr class="whs1">
+			</td>
+		</tr>
+		<tr>
+			<td>
+<!--@BEGIN_CHANGELOG EDK_I_SP1 CORE_NAME=plb_ddr_v1_11_a TYPE=mpd --><pre>
+
+- added RANGE attribute to the following parameters
+C_INCLUDE_BURST_CACHELN_SUPPORT, C_REG_DIMM, C_INCLUDE_ECC_SUPPORT,
+C_INCLUDE_ECC_INTR, C_INCLUDE_ECC_TEST
+
+<!--@END_CHANGELOG --></pre>
+			</td>
+		</tr>
+		<!spacer><tr><td><p><br></p></td></tr>
+		<tr>
+			<td class="GreyBackground">
+				<p class="Level1Heading">
+Changes in 8.1, Update # 050
+				</p>
+				</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p class="Level2Heading">
+8.1 - Changes in TCL files associated with core (.tcl)
+				</p>
+				<hr class="whs1">
+			</td>
+		</tr>
+		<tr>
+			<td>
+<!--@BEGIN_CHANGELOG EDK_I CORE_NAME=plb_ddr_v1_11_a TYPE=tcl --><pre>
+
+- added IOBDELAY=NONE constraints to ports DDR_DQ and DDR_DQS
+- removed FROM:TO constraints
+- clean up old datastructure APIs
+
+<!--@END_CHANGELOG --></pre>
+			</td>
+		</tr>
+		<!spacer><tr><td><p><br></p></td></tr>
+		<tr>
+			<td class="GreyBackground">
+				<p class="Level1Heading">
+Changes in 7.1.2, Update # 040
+				</p>
+				</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p class="Level2Heading">
+7.1.2 - Changes in VHDL sources (.vhd)
+				</p>
+				<hr class="whs1">
+			</td>
+		</tr>
+		<tr>
+			<td>
+<!--@BEGIN_CHANGELOG EDK_H_SP2 CORE_NAME=plb_ddr_v1_11_a TYPE=vhdl SUBTYPE=plb_ddr --><pre>
+***************************************************************************
+Modified read_data_path_64.vhd to fix bug.
+***************************************************************************
+<!--@END_CHANGELOG --></pre>
+			</td>
+		</tr>
+		<!spacer><tr><td><p><br></p></td></tr>
+		<tr>
+			<td class="GreyBackground">
+				<p class="Level1Heading">
+Changes in 7.1.1, Update # 030
+				</p>
+				</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p class="Level2Heading">
+7.1.1 - Changes in VHDL sources (.vhd)
+				</p>
+				<hr class="whs1">
+			</td>
+		</tr>
+		<tr>
+			<td>
+<!--@BEGIN_CHANGELOG EDK_H_SP1 CORE_NAME=plb_ddr_v1_11_a TYPE=vhdl SUBTYPE=plb_ddr --><pre>
+***************************************************************************
+Modified ddr_controller.vhd:
+Write enable for Addr_28FIFO is directly connected to ip2bus_rdaddrack.
+***************************************************************************
+<!--@END_CHANGELOG --></pre>
+			</td>
+		</tr>
+		<!spacer><tr><td><p><br></p></td></tr>
+		<tr>
+			<td class="GreyBackground">
+				<p class="Level1Heading">
+Changes in 7.1, Update # 020
+				</p>
+				</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p class="Level2Heading">
+7.1 - Changes in VHDL sources (.vhd)
+				</p>
+				<hr class="whs1">
+			</td>
+		</tr>
+		<tr>
+			<td>
+<!--@BEGIN_CHANGELOG EDK_H CORE_NAME=plb_ddr_v1_11_a TYPE=vhdl SUBTYPE=plb_ddr --><pre>
+***************************************************************************
+
+Modified underlying library file ddr_v1_11_a/command_statemachine.vhd to
+fix the constant ZERO_ADDR28_FIFO_OCC so that it is not a null array when
+C_ADDR28_FIFO_OCC_WIDTH = 0.
+
+***************************************************************************
+<!--@END_CHANGELOG --></pre>
+			</td>
+		</tr>
+		<!spacer><tr><td><p><br></p></td></tr>
+		<tr>
+			<td class="GreyBackground">
+				<p class="Level1Heading">
+Changes in 6.3.1, Update # 010
+				</p>
+				</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p class="Level2Heading">
+6.3.1 - Changes in VHDL sources (.vhd)
+				</p>
+				<hr class="whs1">
+			</td>
+		</tr>
+		<tr>
+			<td>
+<!--@BEGIN_CHANGELOG EDK_Gmm_SP1 CORE_NAME=plb_ddr_v1_11_a TYPE=vhdl SUBTYPE=plb_ddr --><pre>
+***************************************************************************
+
+Modified the support for 64-bit DDR - now all 128-bits of DDR data are captured
+in the Read Data FIFO. The muxing of the low and high double words based
+off Bus2IP_Addr(28) now occurs after the Read Data FIFO on the PLB clock
+domain. This reduces the amount of logic on the DDR feedback clock as well
+as the number of signals required to cross clock domains. Also, generated
+new signal, Addr28_fifo_wren, to write Bus2IP_Addr(28) into the Addr28 FIFO.
+
+Modified DDR_DQS IOB input register instantiation for Virtex-4 systems.
+DDR_DQS register is no longer registered in IOB, due to reset/set signal
+differences in the Virtex-4 ILOGIC cell model.  Please note that UCF
+timing constraints are necessary with this modification.  Please refer
+to Xilinx Solution Record # 20202 found on http://www.support.xilinx.com/
+for more information.
+
+***************************************************************************
+<!--@END_CHANGELOG --></pre>
+			</td>
+		</tr>
+		<!spacer><tr><td><p><br></p></td></tr>
+		<tr>
+			<td class="GreyBackground">
+				<p class="Level1Heading">
+Changes in 6.2.2, Update # 010
+				</p>
+				</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p class="Level2Heading">
+6.2.2 - Changes in VHDL sources (.vhd)
+				</p>
+				<hr class="whs1">
+			</td>
+		</tr>
+		<tr>
+			<td>
+<!--@BEGIN_CHANGELOG EDK_Gm_SP2 CORE_NAME=plb_ddr_v1_11_a TYPE=vhdl SUBTYPE=plb_ddr --><pre>
+***************************************************************************
+New version: v1.11a
+
+Parameter modications:
+=> Supports multiple memory banks (up to 4) with C_NUM_BANKS_MEM generic.
+=> C_BASEADDR generic is now C_MEM0_BASEADDR.
+=> C_HIGHADDR generic is now C_MEM0_HIGHADDR.
+=> Supports multiple DDR clock paris (up to 4) with C_NUM_CLK_PAIRS generic.
+=> C_DQS_PULLUPS parameter is removed.  The new default setting assumes pullups.
+=> Supports ECC write/read logic with C_INCLUDE_ECC_SUPPORT generic.
+=> Supports DDR data widths of 64 bits. C_DDR_DWIDTH can now be 32 or 64.
+=>      -- NOTE: C_DDR_DWIDTH can only be 64 if C_INCLUDE_ECC_SUPPORT=0
+=>               ECC support is for 32-bit wide DDR only
+
+Port modifications:
+=> Requires additional clock inputs: plb_clk_n, clk90_in_n, and ddr_clk90_in_n
+=> DDR_Clk is now a vectorized signal, DDR_Clk = DDR_Clk(0)
+=> DDR_Clkn is now a vectorized signal, DDR_Clkn = DDR_Clkn(0)
+=> DDR_CKE is now a vectorized signal, DDR_CKE = DDR_CKE(0)
+=> DDR_CSn is now a vectorized signal, DDR_CSn = DDR_CSn(0)
+=> New port signal: ddr_dq_ecc_o
+=> New port signal: ddr_dq_ecc_i
+=> New port signal: ddr_dq_ecc_t
+=> New port signal: ddr_dqs_ecc_o
+=> New port signal: ddr_dqs_ecc_i
+=> New port signal: ddr_dqs_ecc_t
+=> New port signal: ddr_dm_ecc
+=> New port signal: IP2INTC_Irpt
+
+**************************************************************************
+<!--@END_CHANGELOG --></pre>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p class="Level2Heading">
+6.2.2 - Changes in TCL files associated with core (.tcl)
+				</p>
+				<hr class="whs1">
+			</td>
+		</tr>
+		<tr>
+			<td>
+<!--@BEGIN_CHANGELOG EDK_Gm_SP2 CORE_NAME=plb_ddr_v1_11_a TYPE=tcl --><pre>
+
+remove the check for parameter C_DDR_DWIDTH,  this check has been done in MPD
+
+<!--@END_CHANGELOG --></pre>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!end-change-data-table>
+
+	<p class="Copyright">
+	Copyright &copy; 1995-2007 Xilinx, Inc. All rights reserved.
+	</p>
+</body>
+</html>

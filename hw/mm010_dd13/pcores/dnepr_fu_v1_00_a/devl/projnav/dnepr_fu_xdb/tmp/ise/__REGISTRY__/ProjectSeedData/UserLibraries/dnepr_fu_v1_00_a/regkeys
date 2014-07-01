@@ -1,0 +1,9 @@
+NUM_LIB_SOURCE_FILES
+2
+s
+lib_src_1
+../../hdl/vhdl/dnepr_fu.vhd
+s
+lib_src_2
+../../hdl/vhdl/user_logic.vhd
+s

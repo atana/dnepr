@@ -1,0 +1,25 @@
+##############################################################################
+##
+## ***************************************************************************
+## **                                                                       **
+## ** Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.            **
+## **                                                                       **
+## ** You may copy and modify these files for your own internal use solely  **
+## ** with Xilinx programmable logic devices and Xilinx EDK system or       **
+## ** create IP modules solely for Xilinx programmable logic devices and    **
+## ** Xilinx EDK system. No rights are granted to distribute any files      **
+## ** unless they are distributed in Xilinx programmable logic devices.     **
+## **                                                                       **
+## ***************************************************************************
+##
+##############################################################################
+## Filename:          opb_flash_controller_v1_00_a
+## Description:       
+## Date:              
+##############################################################################
+
+lib opb_flash_controller_v1_00_a opb_addr_dec.vhd
+lib opb_flash_controller_v1_00_a opb_flash_control.vhd
+lib opb_flash_controller_v1_00_a opb_inreg.vhd
+lib opb_flash_controller_v1_00_a opb_outreg.vhd
+lib opb_flash_controller_v1_00_a opb_flash_controller.vhd

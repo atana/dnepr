@@ -1,0 +1,296 @@
+Release 10.1.03 - xst K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> 
+PMSPEC -- Overriding Xilinx file </opt/Xilinx/10.1/EDK/virtex2p/data/virtex2p.acd> with local file </opt/Xilinx/10.1/ISE/virtex2p/data/virtex2p.acd>
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "ddr_fb_dcm_wrapper_xst.prj"
+
+---- Target Parameters
+Target Device                      : xc2vp50ff1152-6
+Output File Name                   : "../implementation/ddr_fb_dcm_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : ddr_fb_dcm_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation/ddr_fb_dcm_wrapper}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/dcm_module_v1_00_a/hdl/vhdl/dcm_module.vhd" in Library dcm_module_v1_00_a.
+Entity <dcm_module> compiled.
+Entity <dcm_module> (Architecture <STRUCT>) compiled.
+Compiling vhdl file "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/ddr_fb_dcm_wrapper.vhd" in Library work.
+Entity <ddr_fb_dcm_wrapper> compiled.
+Entity <ddr_fb_dcm_wrapper> (Architecture <STRUCTURE>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <ddr_fb_dcm_wrapper> in library <work> (architecture <STRUCTURE>).
+
+Analyzing hierarchy for entity <dcm_module> in library <dcm_module_v1_00_a> (architecture <STRUCT>) with generics.
+	C_CLK0_BUF = true
+	C_CLK180_BUF = false
+	C_CLK270_BUF = true
+	C_CLK2X180_BUF = false
+	C_CLK2X_BUF = false
+	C_CLK90_BUF = true
+	C_CLKDV_BUF = false
+	C_CLKDV_DIVIDE = 2.000000
+	C_CLKFB_BUF = false
+	C_CLKFX180_BUF = false
+	C_CLKFX_BUF = false
+	C_CLKFX_DIVIDE = 1
+	C_CLKFX_MULTIPLY = 4
+	C_CLKIN_BUF = false
+	C_CLKIN_DIVIDE_BY_2 = false
+	C_CLKIN_PERIOD = 10.000000
+	C_CLKOUT_PHASE_SHIFT = "NONE"
+	C_CLK_FEEDBACK = "1X"
+	C_DESKEW_ADJUST = "SYSTEM_SYNCHRONOUS"
+	C_DFS_FREQUENCY_MODE = "LOW"
+	C_DLL_FREQUENCY_MODE = "LOW"
+	C_DSS_MODE = "NONE"
+	C_DUTY_CYCLE_CORRECTION = true
+	C_EXT_RESET_HIGH = 0
+	C_FAMILY = "virtex2p"
+	C_PHASE_SHIFT = 0
+	C_STARTUP_WAIT = false
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ddr_fb_dcm_wrapper> in library <work> (Architecture <STRUCTURE>).
+Entity <ddr_fb_dcm_wrapper> analyzed. Unit <ddr_fb_dcm_wrapper> generated.
+
+Analyzing generic Entity <dcm_module> in library <dcm_module_v1_00_a> (Architecture <STRUCT>).
+	C_CLK0_BUF = true
+	C_CLK180_BUF = false
+	C_CLK270_BUF = true
+	C_CLK2X180_BUF = false
+	C_CLK2X_BUF = false
+	C_CLK90_BUF = true
+	C_CLKDV_BUF = false
+	C_CLKDV_DIVIDE = 2.000000
+	C_CLKFB_BUF = false
+	C_CLKFX180_BUF = false
+	C_CLKFX_BUF = false
+	C_CLKFX_DIVIDE = 1
+	C_CLKFX_MULTIPLY = 4
+	C_CLKIN_BUF = false
+	C_CLKIN_DIVIDE_BY_2 = false
+	C_CLKIN_PERIOD = 10.000000
+	C_CLKOUT_PHASE_SHIFT = "NONE"
+	C_CLK_FEEDBACK = "1X"
+	C_DESKEW_ADJUST = "SYSTEM_SYNCHRONOUS"
+	C_DFS_FREQUENCY_MODE = "LOW"
+	C_DLL_FREQUENCY_MODE = "LOW"
+	C_DSS_MODE = "NONE"
+	C_DUTY_CYCLE_CORRECTION = true
+	C_EXT_RESET_HIGH = 0
+	C_FAMILY = "virtex2p"
+	C_PHASE_SHIFT = 0
+	C_STARTUP_WAIT = false
+    Set user-defined property "CLKDV_DIVIDE =  2.0000000000000000" for instance <Using_Virtex.DCM_INST> in unit <dcm_module>.
+    Set user-defined property "CLKFX_DIVIDE =  1" for instance <Using_Virtex.DCM_INST> in unit <dcm_module>.
+    Set user-defined property "CLKFX_MULTIPLY =  4" for instance <Using_Virtex.DCM_INST> in unit <dcm_module>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <Using_Virtex.DCM_INST> in unit <dcm_module>.
+    Set user-defined property "CLKIN_PERIOD =  10.0000000000000000" for instance <Using_Virtex.DCM_INST> in unit <dcm_module>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <Using_Virtex.DCM_INST> in unit <dcm_module>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <Using_Virtex.DCM_INST> in unit <dcm_module>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <Using_Virtex.DCM_INST> in unit <dcm_module>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <Using_Virtex.DCM_INST> in unit <dcm_module>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <Using_Virtex.DCM_INST> in unit <dcm_module>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <Using_Virtex.DCM_INST> in unit <dcm_module>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <Using_Virtex.DCM_INST> in unit <dcm_module>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <Using_Virtex.DCM_INST> in unit <dcm_module>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <Using_Virtex.DCM_INST> in unit <dcm_module>.
+    Set user-defined property "SIM_MODE =  SAFE" for instance <Using_Virtex.DCM_INST> in unit <dcm_module>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <Using_Virtex.DCM_INST> in unit <dcm_module>.
+Entity <dcm_module> analyzed. Unit <dcm_module> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <dcm_module>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/dcm_module_v1_00_a/hdl/vhdl/dcm_module.vhd".
+Unit <dcm_module> synthesized.
+
+
+Synthesizing Unit <ddr_fb_dcm_wrapper>.
+    Related source file is "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/ddr_fb_dcm_wrapper.vhd".
+Unit <ddr_fb_dcm_wrapper> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '2vp50.nph' in environment /opt/Xilinx/10.1/ISE:/opt/Xilinx/10.1/EDK.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ddr_fb_dcm_wrapper> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+Top Level Output File Name         : ../implementation/ddr_fb_dcm_wrapper.ngc
+Output Format                      : ngc
+Optimization Goal                  : speed
+Keep Hierarchy                     : no
+
+Design Statistics
+# IOs                              : 26
+
+Cell Usage :
+# BELS                             : 1
+#      INV                         : 1
+# Clock Buffers                    : 3
+#      BUFG                        : 3
+# DCMs                             : 1
+#      DCM                         : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2vp50ff1152-6 
+
+ Number of Slices:                        1  out of  23616     0%  
+ Number of 4 input LUTs:                  1  out of  47232     0%  
+ Number of IOs:                          26
+ Number of bonded IOBs:                   0  out of    692     0%  
+ Number of GCLKs:                         3  out of     16    18%  
+ Number of DCMs:                          1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.04 secs
+ 
+--> 
+
+
+Total memory usage is 222260 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

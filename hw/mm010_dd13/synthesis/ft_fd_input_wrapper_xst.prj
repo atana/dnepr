@@ -1,0 +1,2 @@
+vhdl ft_fd_control_v1_00_b /home/atana/RTI/dnepr/hw/mm010_dd13_dts/pcores/ft_fd_control_v1_00_b/hdl/vhdl/ft_fd_control.vhd
+vhdl work ../hdl/ft_fd_input_wrapper.vhd

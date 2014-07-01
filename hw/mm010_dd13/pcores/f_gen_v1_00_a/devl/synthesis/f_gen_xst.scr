@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/pcores/f_gen_v1_00_a/devl/synthesis/f_gen_xst.prj"
+-top f_gen
+-p virtex2p
+-ofn "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/pcores/f_gen_v1_00_a/devl/synthesis/f_gen_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib f_gen_v1_00_a

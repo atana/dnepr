@@ -1,0 +1,47 @@
+##############################################################################
+## Filename:          D:/TEST/HW_SW_test/sym_plb34_grid_generator/pcores/plb34_grid_generator_v2_01_a/data/plb34_grid_generator_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Mon Mar 29 18:03:43 2010 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v2_00_a proc_common_pkg vhdl
+lib proc_common_v2_00_a family vhdl
+lib proc_common_v2_00_a or_muxcy vhdl
+lib proc_common_v2_00_a or_gate vhdl
+lib proc_common_v2_00_a pselect vhdl
+lib proc_common_v2_00_a inferred_lut4 vhdl
+lib proc_common_v2_00_a srl_fifo2 vhdl
+lib proc_common_v2_00_a counter_bit vhdl
+lib proc_common_v2_00_a counter vhdl
+lib proc_common_v2_00_a ipif_pkg vhdl
+lib proc_common_v2_00_a ipif_steer vhdl
+lib proc_common_v2_00_a pf_counter_bit vhdl
+lib proc_common_v2_00_a pf_counter vhdl
+lib proc_common_v2_00_a pf_counter_top vhdl
+lib proc_common_v2_00_a pf_occ_counter vhdl
+lib proc_common_v2_00_a pf_occ_counter_top vhdl
+lib proc_common_v2_00_a pf_adder_bit vhdl
+lib proc_common_v2_00_a pf_adder vhdl
+lib proc_common_v2_00_a pf_dpram_select vhdl
+lib proc_common_v2_00_a srl16_fifo vhdl
+lib wrpfifo_v2_00_a pf_dly1_mux vhdl
+lib wrpfifo_v2_00_a wrpfifo_dp_cntl vhdl
+lib wrpfifo_v2_00_a ipif_control_wr vhdl
+lib wrpfifo_v2_00_a wrpfifo_top vhdl
+lib rdpfifo_v2_00_a rdpfifo_dp_cntl vhdl
+lib rdpfifo_v2_00_a ipif_control_rd vhdl
+lib rdpfifo_v2_00_a rdpfifo_top vhdl
+lib plb_ipif_v1_00_f flex_addr_cntr vhdl
+lib plb_ipif_v1_00_f addr_reg_cntr_brst_flex vhdl
+lib plb_ipif_v1_00_f plb_address_decoder vhdl
+lib plb_ipif_v1_00_f burst_support vhdl
+lib plb_ipif_v1_00_f plb_slave_attachment_indet vhdl
+lib plb_ipif_v1_00_f plb_sesr_sear vhdl
+lib plb_ipif_v1_00_f plb_ipif_reset vhdl
+lib plb_ipif_v1_00_f plb_interrupt_control vhdl
+lib plb_ipif_v1_00_f plb_ipif vhdl
+lib plb34_grid_generator_v2_01_a user_logic vhdl
+lib plb34_grid_generator_v2_01_a plb34_grid_generator vhdl
+lib plb34_grid_generator_v2_01_a pulse_fr_form vhdl
+lib plb34_grid_generator_v2_01_a clk_mux vhdl
+lib plb34_grid_generator_v2_01_a Grid_Gen vhdl

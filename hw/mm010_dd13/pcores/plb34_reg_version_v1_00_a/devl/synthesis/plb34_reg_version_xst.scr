@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "C:\Xilinx\10.1\edk_user_repository\MyProcessorIPLib\pcores\plb34_reg_version_v1_00_a\devl\synthesis\plb34_reg_version_xst.prj"
+-top plb34_reg_version
+-p virtex2p
+-ofn "C:\Xilinx\10.1\edk_user_repository\MyProcessorIPLib\pcores\plb34_reg_version_v1_00_a\devl\synthesis\plb34_reg_version_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib plb34_reg_version_v1_00_a

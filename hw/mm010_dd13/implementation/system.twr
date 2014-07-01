@@ -1,0 +1,420 @@
+--------------------------------------------------------------------------------
+Release 10.1.03 Trace  (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/10.1/ISE/bin/lin/unwrapped/trce -e 3 -xml system.twx system.ncd
+system.pcf
+
+Design file:              system.ncd
+Physical constraint file: system.pcf
+Device,package,speed:     xc2vp50,ff1152,-6 (PRODUCTION 1.94 2008-07-25)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+WARNING:Timing:3223 - Timing constraint PATH "TS_RST2_path" TIG; ignored during 
+   timing analysis.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: NET "Eth1_PHY_tx_clk_IBUF" MAXSKEW = 2 ns;
+
+ 0 nets analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "Eth1_PHY_tx_clk_IBUF" MAXSKEW = 1.8 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net skew is   0.715ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "Eth1_PHY_tx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "Eth1_PHY_tx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;
+
+ 228 paths analyzed, 143 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   4.973ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "Eth2_PHY_tx_clk_IBUF" MAXSKEW = 2 ns;
+
+ 0 nets analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "Eth2_PHY_tx_clk_IBUF" MAXSKEW = 1.8 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net skew is   0.714ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "Eth2_PHY_tx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "Eth2_PHY_tx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;
+
+ 228 paths analyzed, 143 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   5.146ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "Eth1_PHY_rx_clk_IBUF" MAXSKEW = 2 ns;
+
+ 0 nets analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "Eth1_PHY_rx_clk_IBUF" MAXSKEW = 1.8 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net skew is   0.395ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "Eth1_PHY_rx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "Eth1_PHY_rx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;
+
+ 114 paths analyzed, 92 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   8.274ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "Eth2_PHY_rx_clk_IBUF" MAXSKEW = 2 ns;
+
+ 0 nets analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "Eth2_PHY_rx_clk_IBUF" MAXSKEW = 1.8 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net skew is   0.468ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "Eth2_PHY_rx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "Eth2_PHY_rx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;
+
+ 114 paths analyzed, 92 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   8.382ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TSTXOUT_plb_eth2_contr = MAXDELAY FROM TIMEGRP 
+"TXCLK_GRP_plb_eth2_contr" TO         TIMEGRP "PADS" 10 ns;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TSRXIN_plb_eth2_contr = MAXDELAY FROM TIMEGRP "PADS" TO 
+TIMEGRP         "RXCLK_GRP_plb_eth2_contr" 6 ns;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TSTXOUT_plb_eth1_contr = MAXDELAY FROM TIMEGRP 
+"TXCLK_GRP_plb_eth1_contr" TO         TIMEGRP "PADS" 10 ns;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TSRXIN_plb_eth1_contr = MAXDELAY FROM TIMEGRP "PADS" TO 
+TIMEGRP         "RXCLK_GRP_plb_eth1_contr" 6 ns;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_cpu_clk = PERIOD TIMEGRP "cpu_clk" 3 ns HIGH 50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_sys_clk_s = PERIOD TIMEGRP "sys_clk_s" 9.7 ns HIGH 50%;
+
+ 1080801 paths analyzed, 30198 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   9.657ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PATH "TS_RST1_path" TIG;
+
+ 3 paths analyzed, 3 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PATH "TS_RST2_path" TIG;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PATH "TS_RST3_path" TIG;
+
+ 3 paths analyzed, 3 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TSTX1OUT = MAXDELAY FROM TIMEGRP "TX1CLK_GRP" TO TIMEGRP 
+"PADS" 10 ns;
+
+ 6 paths analyzed, 6 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Maximum delay is   2.878ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TSRX1IN = MAXDELAY FROM TIMEGRP "PADS" TO TIMEGRP 
+"RX1CLK_GRP" 6 ns;
+
+ 43 paths analyzed, 43 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Maximum delay is   2.338ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TSTX2OUT = MAXDELAY FROM TIMEGRP "TX2CLK_GRP" TO TIMEGRP 
+"PADS" 10 ns;
+
+ 6 paths analyzed, 6 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Maximum delay is   2.870ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TSRX2IN = MAXDELAY FROM TIMEGRP "PADS" TO TIMEGRP 
+"RX2CLK_GRP" 6 ns;
+
+ 43 paths analyzed, 43 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Maximum delay is   2.408ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_CLK90 = PERIOD TIMEGRP "clk_90_s" 10 ns HIGH 50%;
+
+ 16 paths analyzed, 16 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   6.750ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TSCLK2CLK90 = MAXDELAY FROM TIMEGRP "sys_clk_s" TO TIMEGRP 
+"clk_90_s" 2.7 ns;
+
+ 28 paths analyzed, 16 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Maximum delay is   2.441ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_ddr_Clk_90 = PERIOD TIMEGRP "ddr_clk_90_s" 9.7 ns HIGH 
+50%;
+
+ 1108 paths analyzed, 788 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   7.979ns.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock Eth1_PHY_rx_clk
+-------------------+------------+------------+--------------------+--------+
+                   |  Setup to  |  Hold to   |                    | Clock  |
+Source             | clk (edge) | clk (edge) |Internal Clock(s)   | Phase  |
+-------------------+------------+------------+--------------------+--------+
+Eth1_PHY_dv        |   -0.856(R)|    1.509(R)|Eth1_PHY_rx_clk_IBUF|   0.000|
+Eth1_PHY_rx_data<0>|   -0.941(R)|    1.619(R)|Eth1_PHY_rx_clk_IBUF|   0.000|
+Eth1_PHY_rx_data<1>|   -0.951(R)|    1.629(R)|Eth1_PHY_rx_clk_IBUF|   0.000|
+Eth1_PHY_rx_data<2>|   -0.964(R)|    1.645(R)|Eth1_PHY_rx_clk_IBUF|   0.000|
+Eth1_PHY_rx_data<3>|   -0.955(R)|    1.636(R)|Eth1_PHY_rx_clk_IBUF|   0.000|
+Eth1_PHY_rx_er     |   -0.875(R)|    1.532(R)|Eth1_PHY_rx_clk_IBUF|   0.000|
+-------------------+------------+------------+--------------------+--------+
+
+Setup/Hold to clock Eth2_PHY_rx_clk
+-------------------+------------+------------+--------------------+--------+
+                   |  Setup to  |  Hold to   |                    | Clock  |
+Source             | clk (edge) | clk (edge) |Internal Clock(s)   | Phase  |
+-------------------+------------+------------+--------------------+--------+
+Eth2_PHY_dv        |   -0.873(R)|    1.534(R)|Eth2_PHY_rx_clk_IBUF|   0.000|
+Eth2_PHY_rx_data<0>|   -0.953(R)|    1.634(R)|Eth2_PHY_rx_clk_IBUF|   0.000|
+Eth2_PHY_rx_data<1>|   -0.961(R)|    1.642(R)|Eth2_PHY_rx_clk_IBUF|   0.000|
+Eth2_PHY_rx_data<2>|   -1.011(R)|    1.710(R)|Eth2_PHY_rx_clk_IBUF|   0.000|
+Eth2_PHY_rx_data<3>|   -0.976(R)|    1.662(R)|Eth2_PHY_rx_clk_IBUF|   0.000|
+Eth2_PHY_rx_er     |   -0.879(R)|    1.536(R)|Eth2_PHY_rx_clk_IBUF|   0.000|
+-------------------+------------+------------+--------------------+--------+
+
+Clock Eth1_PHY_tx_clk to Pad
+-------------------+------------+--------------------+--------+
+                   | clk (edge) |                    | Clock  |
+Destination        |   to PAD   |Internal Clock(s)   | Phase  |
+-------------------+------------+--------------------+--------+
+Eth1_PHY_tx_data<0>|    5.157(R)|Eth1_PHY_tx_clk_IBUF|   0.000|
+Eth1_PHY_tx_data<1>|    5.124(R)|Eth1_PHY_tx_clk_IBUF|   0.000|
+Eth1_PHY_tx_data<2>|    5.175(R)|Eth1_PHY_tx_clk_IBUF|   0.000|
+Eth1_PHY_tx_data<3>|    5.304(R)|Eth1_PHY_tx_clk_IBUF|   0.000|
+Eth1_PHY_tx_en     |    5.120(R)|Eth1_PHY_tx_clk_IBUF|   0.000|
+Eth1_PHY_tx_er     |    5.166(R)|Eth1_PHY_tx_clk_IBUF|   0.000|
+-------------------+------------+--------------------+--------+
+
+Clock Eth2_PHY_tx_clk to Pad
+-------------------+------------+--------------------+--------+
+                   | clk (edge) |                    | Clock  |
+Destination        |   to PAD   |Internal Clock(s)   | Phase  |
+-------------------+------------+--------------------+--------+
+Eth2_PHY_tx_data<0>|    5.285(R)|Eth2_PHY_tx_clk_IBUF|   0.000|
+Eth2_PHY_tx_data<1>|    5.096(R)|Eth2_PHY_tx_clk_IBUF|   0.000|
+Eth2_PHY_tx_data<2>|    5.070(R)|Eth2_PHY_tx_clk_IBUF|   0.000|
+Eth2_PHY_tx_data<3>|    5.040(R)|Eth2_PHY_tx_clk_IBUF|   0.000|
+Eth2_PHY_tx_en     |    5.088(R)|Eth2_PHY_tx_clk_IBUF|   0.000|
+Eth2_PHY_tx_er     |    5.124(R)|Eth2_PHY_tx_clk_IBUF|   0.000|
+-------------------+------------+--------------------+--------+
+
+Clock to Setup on destination clock DDR_CLK_FB
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+DDR_CLK_FB     |    7.979|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock Eth1_PHY_rx_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Eth1_PHY_rx_clk|         |         |    2.896|    2.612|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock Eth1_PHY_tx_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Eth1_PHY_tx_clk|         |    3.233|         |    4.558|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock Eth2_PHY_rx_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Eth2_PHY_rx_clk|         |         |    2.934|    3.423|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock Eth2_PHY_tx_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Eth2_PHY_tx_clk|         |    3.345|         |    3.435|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock LVPECLK_n
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+LVPECLK_n      |    9.657|    4.521|    4.811|    1.582|
+LVPECLK_p      |    9.657|    4.521|    4.811|    1.582|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock LVPECLK_p
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+LVPECLK_n      |    9.657|    4.521|    4.811|    1.582|
+LVPECLK_p      |    9.657|    4.521|    4.811|    1.582|
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 1082741 paths, 4 nets, and 86231 connections
+
+Design statistics:
+   Minimum period:   9.657ns   (Maximum frequency: 103.552MHz)
+   Maximum path delay from/to any node:   2.878ns
+   Maximum net skew:   0.715ns
+
+
+Analysis completed Tue Jun 24 16:12:40 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 449 MB
+
+
+

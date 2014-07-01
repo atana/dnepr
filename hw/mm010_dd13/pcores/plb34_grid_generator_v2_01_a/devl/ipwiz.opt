@@ -1,0 +1,10 @@
+-batch 
+-create plb34_grid_generator 
+-ver 2.01.a 
+-dir "D:\TEST\HW_SW_test\sym_plb34_grid_generator" 
+-lang vhdl 
+-bus plb s 
+-regn 4 32 
+-xps 
+-ise 
+-driver 

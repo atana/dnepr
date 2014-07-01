@@ -1,0 +1,952 @@
+Release 10.1.03 - xst K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> 
+PMSPEC -- Overriding Xilinx file </opt/Xilinx/10.1/EDK/virtex2p/data/virtex2p.acd> with local file </opt/Xilinx/10.1/ISE/virtex2p/data/virtex2p.acd>
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "opb_intc_0_wrapper_xst.prj"
+
+---- Target Parameters
+Target Device                      : xc2vp50ff1152-6
+Output File Name                   : "../implementation/opb_intc_0_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : opb_intc_0_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation/opb_intc_0_wrapper}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/intc_pkg.vhd" in Library intc_core_v1_00_c.
+Package <intc_pkg> compiled.
+Package body <intc_pkg> compiled.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/bus_mux_le.vhd" in Library intc_core_v1_00_c.
+Entity <bus_mux_le> compiled.
+Entity <bus_mux_le> (Architecture <imp>) compiled.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/edge_det_bit.vhd" in Library intc_core_v1_00_c.
+Entity <edge_det_bit> compiled.
+Entity <edge_det_bit> (Architecture <imp>) compiled.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/lvl_det_bit.vhd" in Library intc_core_v1_00_c.
+Entity <lvl_det_bit> compiled.
+Entity <lvl_det_bit> (Architecture <imp>) compiled.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v1_00_a/hdl/vhdl/or_muxcy.vhd" in Library proc_common_v1_00_a.
+Entity <or_muxcy> compiled.
+Entity <or_muxcy> (Architecture <implementation>) compiled.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/wr_reg_decode.vhd" in Library intc_core_v1_00_c.
+Entity <wr_reg_decode> compiled.
+Entity <wr_reg_decode> (Architecture <imp>) compiled.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/ier_logic.vhd" in Library intc_core_v1_00_c.
+Entity <ier_logic> compiled.
+Entity <ier_logic> (Architecture <imp>) compiled.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/mer_reg.vhd" in Library intc_core_v1_00_c.
+Entity <mer_reg> compiled.
+Entity <mer_reg> (Architecture <imp>) compiled.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/opt_regs.vhd" in Library intc_core_v1_00_c.
+Entity <opt_regs> compiled.
+Entity <opt_regs> (Architecture <imp>) compiled.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/detect_intr.vhd" in Library intc_core_v1_00_c.
+Entity <detect_intr> compiled.
+Entity <detect_intr> (Architecture <imp>) compiled.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v1_00_a/hdl/vhdl/or_gate.vhd" in Library proc_common_v1_00_a.
+Entity <or_gate> compiled.
+Entity <or_gate> (Architecture <imp>) compiled.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/pulse_gen.vhd" in Library intc_core_v1_00_c.
+Entity <pulse_gen> compiled.
+Entity <pulse_gen> (Architecture <imp>) compiled.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/irq_gen.vhd" in Library intc_core_v1_00_c.
+Entity <irq_gen> compiled.
+Entity <irq_gen> (Architecture <imp>) compiled.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/int_det.vhd" in Library intc_core_v1_00_c.
+Entity <int_det> compiled.
+Entity <int_det> (Architecture <imp>) compiled.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/regs.vhd" in Library intc_core_v1_00_c.
+Entity <regs> compiled.
+Entity <regs> (Architecture <imp>) compiled.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/kind_of_edge.vhd" in Library intc_core_v1_00_c.
+Entity <kind_of_edge> compiled.
+Entity <kind_of_edge> (Architecture <imp>) compiled.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/intc_core.vhd" in Library intc_core_v1_00_c.
+Entity <intc_core> compiled.
+Entity <intc_core> (Architecture <imp>) compiled.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" in Library opb_intc_v1_00_c.
+Entity <opb_intfc> compiled.
+Entity <opb_intfc> (Architecture <imp>) compiled.
+Compiling vhdl file "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intc.vhd" in Library opb_intc_v1_00_c.
+Entity <opb_intc> compiled.
+Entity <opb_intc> (Architecture <imp>) compiled.
+Compiling vhdl file "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/opb_intc_0_wrapper.vhd" in Library work.
+Entity <opb_intc_0_wrapper> compiled.
+Entity <opb_intc_0_wrapper> (Architecture <STRUCTURE>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <opb_intc_0_wrapper> in library <work> (architecture <STRUCTURE>).
+
+Analyzing hierarchy for entity <opb_intc> in library <opb_intc_v1_00_c> (architecture <imp>) with generics.
+	C_BASEADDR = "11111110000000110000000000000000"
+	C_FAMILY = "virtex2p"
+	C_HAS_CIE = 1
+	C_HAS_IPR = 1
+	C_HAS_IVR = 1
+	C_HAS_SIE = 1
+	C_HIGHADDR = "11111110000000110000111111111111"
+	C_IRQ_ACTIVE = '1'
+	C_IRQ_IS_LEVEL = 1
+	C_KIND_OF_EDGE = "00000000000000000000000000111100"
+	C_KIND_OF_INTR = "00000000000000000000000000111100"
+	C_KIND_OF_LVL = "00000000000000000000000000000011"
+	C_NUM_INTR_INPUTS = 6
+	C_OPB_AWIDTH = 32
+	C_OPB_DWIDTH = 32
+	C_U_SET = "intc"
+	C_X = 0
+	C_Y = 0
+
+Analyzing hierarchy for entity <intc_core> in library <intc_core_v1_00_c> (architecture <imp>) with generics.
+	C_DWIDTH = 32
+	C_FAMILY = "virtex2p"
+	C_HAS_CIE = true
+	C_HAS_IPR = true
+	C_HAS_IVR = true
+	C_HAS_SIE = true
+	C_IRQ_ACTIVE = '1'
+	C_IRQ_IS_LEVEL = true
+	C_KIND_OF_EDGE = "00000000000000000000000000111100"
+	C_KIND_OF_INTR = "00000000000000000000000000111100"
+	C_KIND_OF_LVL = "00000000000000000000000000000011"
+	C_NUM_INTR_INPUTS = 6
+	C_U_SET = "intc"
+	C_X = 0
+	C_Y = 0
+
+Analyzing hierarchy for entity <opb_intfc> in library <opb_intc_v1_00_c> (architecture <imp>) with generics.
+	C_BASE_NUM_BITS = 20
+	C_FAMILY = "virtex2p"
+	C_INTC_BASEADDR = "11111110000000110000000000000000"
+	C_OPB_AWIDTH = 32
+	C_OPB_DWIDTH = 32
+	C_U_SET = "intc"
+	C_X = 0
+	C_Y = 0
+
+Analyzing hierarchy for entity <irq_gen> in library <intc_core_v1_00_c> (architecture <imp>) with generics.
+	C_ACK_ACTIVE = '1'
+	C_INT_ACTIVE = '1'
+	C_IRQ_ACTIVE = '1'
+	C_IRQ_IS_LEVEL = true
+	C_NUM_INTS = 6
+
+Analyzing hierarchy for entity <int_det> in library <intc_core_v1_00_c> (architecture <imp>) with generics.
+	C_FAMILY = "virtex2p"
+	C_KIND_OF_EDGE = "00000000000000000000000000111100"
+	C_KIND_OF_INTR = "00000000000000000000000000111100"
+	C_KIND_OF_LVL = "00000000000000000000000000000011"
+	C_NUM_INTS = 6
+	C_U_SET = "intc"
+	C_X = 0
+	C_Y = 0
+
+Analyzing hierarchy for entity <regs> in library <intc_core_v1_00_c> (architecture <imp>) with generics.
+	C_DWIDTH = 32
+	C_FAMILY = "virtex2p"
+	C_HAS_CIE = true
+	C_HAS_IPR = true
+	C_HAS_IVR = true
+	C_HAS_SIE = true
+	C_RWIDTH = 6
+	C_U_SET = "intc"
+	C_X = 0
+	C_Y = 0
+
+Analyzing hierarchy for entity <pulse_gen> in library <intc_core_v1_00_c> (architecture <imp>) with generics.
+	C_ACK_ACTIVE = '1'
+	C_ACK_ENDS_PLS = true
+	C_OUT_ACTIVE = '1'
+	C_TRIG_ACTIVE = '1'
+
+Analyzing hierarchy for entity <or_gate> in library <proc_common_v1_00_a> (architecture <imp>) with generics.
+	C_BUS_WIDTH = 1
+	C_OR_WIDTH = 6
+	C_USE_LUT_OR = true
+
+Analyzing hierarchy for entity <detect_intr> in library <intc_core_v1_00_c> (architecture <imp>) with generics.
+	C_FAMILY = "virtex2p"
+	C_KIND_OF_EDGE = "00000000000000000000000000111100"
+	C_KIND_OF_INTR = "00000000000000000000000000111100"
+	C_KIND_OF_LVL = "00000000000000000000000000000011"
+	C_NUM_INTS = 6
+	C_U_SET = "intc"
+	C_X = 0
+	C_Y = 0
+
+Analyzing hierarchy for entity <bus_mux_le> in library <intc_core_v1_00_c> (architecture <imp>) with generics.
+	C_N = 8
+	C_SW = 3
+	C_W = 6
+
+Analyzing hierarchy for entity <wr_reg_decode> in library <intc_core_v1_00_c> (architecture <imp>) with generics.
+	C_HAS_CIE = true
+	C_HAS_SIE = true
+	C_WIDTH = 6
+
+Analyzing hierarchy for entity <ier_logic> in library <intc_core_v1_00_c> (architecture <imp>) with generics.
+	C_HAS_CIE = true
+	C_HAS_SIE = true
+	C_SEL_WIDTH = 2
+	C_WIDTH = 6
+
+Analyzing hierarchy for entity <mer_reg> in library <intc_core_v1_00_c> (architecture <imp>) with generics.
+	C_WIDTH = 6
+
+Analyzing hierarchy for entity <opt_regs> in library <intc_core_v1_00_c> (architecture <imp>) with generics.
+	C_HAS_IPR = true
+	C_HAS_IVR = true
+	C_WIDTH = 6
+
+Analyzing hierarchy for entity <lvl_det_bit> in library <intc_core_v1_00_c> (architecture <imp>) with generics.
+	C_FAMILY = "virtex2p"
+	C_LVL_POLARITY = '1'
+	C_U_SET = "intc"
+	C_X = 0
+	C_Y = 0
+
+Analyzing hierarchy for entity <edge_det_bit> in library <intc_core_v1_00_c> (architecture <imp>) with generics.
+	C_EDGE_POLARITY = '1'
+	C_FAMILY = "virtex2p"
+	C_U_SET = "intc"
+	C_X = 0
+	C_Y = 0
+
+Analyzing hierarchy for entity <bus_mux_le> in library <intc_core_v1_00_c> (architecture <imp>) with generics.
+	C_N = 3
+	C_SW = 2
+	C_W = 6
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <opb_intc_0_wrapper> in library <work> (Architecture <STRUCTURE>).
+Entity <opb_intc_0_wrapper> analyzed. Unit <opb_intc_0_wrapper> generated.
+
+Analyzing generic Entity <opb_intc> in library <opb_intc_v1_00_c> (Architecture <imp>).
+	C_BASEADDR = "11111110000000110000000000000000"
+	C_FAMILY = "virtex2p"
+	C_HAS_CIE = 1
+	C_HAS_IPR = 1
+	C_HAS_IVR = 1
+	C_HAS_SIE = 1
+	C_HIGHADDR = "11111110000000110000111111111111"
+	C_IRQ_ACTIVE = '1'
+	C_IRQ_IS_LEVEL = 1
+	C_KIND_OF_EDGE = "00000000000000000000000000111100"
+	C_KIND_OF_INTR = "00000000000000000000000000111100"
+	C_KIND_OF_LVL = "00000000000000000000000000000011"
+	C_NUM_INTR_INPUTS = 6
+	C_OPB_AWIDTH = 32
+	C_OPB_DWIDTH = 32
+	C_U_SET = "intc"
+	C_X = 0
+	C_Y = 0
+Entity <opb_intc> analyzed. Unit <opb_intc> generated.
+
+Analyzing generic Entity <intc_core> in library <intc_core_v1_00_c> (Architecture <imp>).
+	C_DWIDTH = 32
+	C_FAMILY = "virtex2p"
+	C_HAS_CIE = true
+	C_HAS_IPR = true
+	C_HAS_IVR = true
+	C_HAS_SIE = true
+	C_IRQ_ACTIVE = '1'
+	C_IRQ_IS_LEVEL = true
+	C_KIND_OF_EDGE = "00000000000000000000000000111100"
+	C_KIND_OF_INTR = "00000000000000000000000000111100"
+	C_KIND_OF_LVL = "00000000000000000000000000000011"
+	C_NUM_INTR_INPUTS = 6
+	C_U_SET = "intc"
+	C_X = 0
+	C_Y = 0
+Entity <intc_core> analyzed. Unit <intc_core> generated.
+
+Analyzing generic Entity <irq_gen> in library <intc_core_v1_00_c> (Architecture <imp>).
+	C_ACK_ACTIVE = '1'
+	C_INT_ACTIVE = '1'
+	C_IRQ_ACTIVE = '1'
+	C_IRQ_IS_LEVEL = true
+	C_NUM_INTS = 6
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/irq_gen.vhd" line 216: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/irq_gen.vhd" line 216: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/irq_gen.vhd" line 216: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/irq_gen.vhd" line 216: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/irq_gen.vhd" line 216: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/irq_gen.vhd" line 216: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/irq_gen.vhd" line 226: Instantiating black box module <fdr>.
+Entity <irq_gen> analyzed. Unit <irq_gen> generated.
+
+Analyzing generic Entity <pulse_gen> in library <intc_core_v1_00_c> (Architecture <imp>).
+	C_ACK_ACTIVE = '1'
+	C_ACK_ENDS_PLS = true
+	C_OUT_ACTIVE = '1'
+	C_TRIG_ACTIVE = '1'
+Entity <pulse_gen> analyzed. Unit <pulse_gen> generated.
+
+Analyzing generic Entity <or_gate> in library <proc_common_v1_00_a> (Architecture <imp>).
+	C_BUS_WIDTH = 1
+	C_OR_WIDTH = 6
+	C_USE_LUT_OR = true
+Entity <or_gate> analyzed. Unit <or_gate> generated.
+
+Analyzing generic Entity <int_det> in library <intc_core_v1_00_c> (Architecture <imp>).
+	C_FAMILY = "virtex2p"
+	C_KIND_OF_EDGE = "00000000000000000000000000111100"
+	C_KIND_OF_INTR = "00000000000000000000000000111100"
+	C_KIND_OF_LVL = "00000000000000000000000000000011"
+	C_NUM_INTS = 6
+	C_U_SET = "intc"
+	C_X = 0
+	C_Y = 0
+Entity <int_det> analyzed. Unit <int_det> generated.
+
+Analyzing generic Entity <detect_intr> in library <intc_core_v1_00_c> (Architecture <imp>).
+	C_FAMILY = "virtex2p"
+	C_KIND_OF_EDGE = "00000000000000000000000000111100"
+	C_KIND_OF_INTR = "00000000000000000000000000111100"
+	C_KIND_OF_LVL = "00000000000000000000000000000011"
+	C_NUM_INTS = 6
+	C_U_SET = "intc"
+	C_X = 0
+	C_Y = 0
+Entity <detect_intr> analyzed. Unit <detect_intr> generated.
+
+Analyzing generic Entity <lvl_det_bit> in library <intc_core_v1_00_c> (Architecture <imp>).
+	C_FAMILY = "virtex2p"
+	C_LVL_POLARITY = '1'
+	C_U_SET = "intc"
+	C_X = 0
+	C_Y = 0
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/lvl_det_bit.vhd" line 138: Instantiating black box module <fdre>.
+Entity <lvl_det_bit> analyzed. Unit <lvl_det_bit> generated.
+
+Analyzing generic Entity <edge_det_bit> in library <intc_core_v1_00_c> (Architecture <imp>).
+	C_EDGE_POLARITY = '1'
+	C_FAMILY = "virtex2p"
+	C_U_SET = "intc"
+	C_X = 0
+	C_Y = 0
+Entity <edge_det_bit> analyzed. Unit <edge_det_bit> generated.
+
+Analyzing generic Entity <regs> in library <intc_core_v1_00_c> (Architecture <imp>).
+	C_DWIDTH = 32
+	C_FAMILY = "virtex2p"
+	C_HAS_CIE = true
+	C_HAS_IPR = true
+	C_HAS_IVR = true
+	C_HAS_SIE = true
+	C_RWIDTH = 6
+	C_U_SET = "intc"
+	C_X = 0
+	C_Y = 0
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/regs.vhd" line 285: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/regs.vhd" line 285: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/regs.vhd" line 285: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/regs.vhd" line 285: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/regs.vhd" line 285: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/regs.vhd" line 285: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/regs.vhd" line 299: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/regs.vhd" line 299: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/regs.vhd" line 299: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/regs.vhd" line 299: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/regs.vhd" line 299: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/regs.vhd" line 299: Instantiating black box module <fdre>.
+Entity <regs> analyzed. Unit <regs> generated.
+
+Analyzing generic Entity <bus_mux_le.1> in library <intc_core_v1_00_c> (Architecture <imp>).
+	C_N = 8
+	C_SW = 3
+	C_W = 6
+Entity <bus_mux_le.1> analyzed. Unit <bus_mux_le.1> generated.
+
+Analyzing generic Entity <wr_reg_decode> in library <intc_core_v1_00_c> (Architecture <imp>).
+	C_HAS_CIE = true
+	C_HAS_SIE = true
+	C_WIDTH = 6
+INFO:Xst:1561 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/wr_reg_decode.vhd" line 161: Mux is complete : default of case is discarded
+Entity <wr_reg_decode> analyzed. Unit <wr_reg_decode> generated.
+
+Analyzing generic Entity <ier_logic> in library <intc_core_v1_00_c> (Architecture <imp>).
+	C_HAS_CIE = true
+	C_HAS_SIE = true
+	C_SEL_WIDTH = 2
+	C_WIDTH = 6
+Entity <ier_logic> analyzed. Unit <ier_logic> generated.
+
+Analyzing generic Entity <bus_mux_le.2> in library <intc_core_v1_00_c> (Architecture <imp>).
+	C_N = 3
+	C_SW = 2
+	C_W = 6
+Entity <bus_mux_le.2> analyzed. Unit <bus_mux_le.2> generated.
+
+Analyzing generic Entity <mer_reg> in library <intc_core_v1_00_c> (Architecture <imp>).
+	C_WIDTH = 6
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/mer_reg.vhd" line 125: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/mer_reg.vhd" line 135: Instantiating black box module <fdre>.
+Entity <mer_reg> analyzed. Unit <mer_reg> generated.
+
+Analyzing generic Entity <opt_regs> in library <intc_core_v1_00_c> (Architecture <imp>).
+	C_HAS_IPR = true
+	C_HAS_IVR = true
+	C_WIDTH = 6
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/opt_regs.vhd" line 149: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/opt_regs.vhd" line 149: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/opt_regs.vhd" line 149: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/opt_regs.vhd" line 149: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/opt_regs.vhd" line 149: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/opt_regs.vhd" line 149: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/opt_regs.vhd" line 198: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/opt_regs.vhd" line 198: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/opt_regs.vhd" line 198: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/opt_regs.vhd" line 198: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/opt_regs.vhd" line 198: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/opt_regs.vhd" line 198: Instantiating black box module <fdr>.
+Entity <opt_regs> analyzed. Unit <opt_regs> generated.
+
+Analyzing generic Entity <opb_intfc> in library <opb_intc_v1_00_c> (Architecture <imp>).
+	C_BASE_NUM_BITS = 20
+	C_FAMILY = "virtex2p"
+	C_INTC_BASEADDR = "11111110000000110000000000000000"
+	C_OPB_AWIDTH = 32
+	C_OPB_DWIDTH = 32
+	C_U_SET = "intc"
+	C_X = 0
+	C_Y = 0
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 222: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 235: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 248: Instantiating black box module <fdre>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 259: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 268: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 277: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 289: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 289: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 289: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 289: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 299: Instantiating black box module <fdr>.
+WARNING:Xst:2211 - "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd" line 308: Instantiating black box module <fdr>.
+Entity <opb_intfc> analyzed. Unit <opb_intfc> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <pulse_gen>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/pulse_gen.vhd".
+    Found finite state machine <FSM_0> for signal <current_state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 5                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 1                                              |
+    | Clock              | Clk (rising_edge)                              |
+    | Reset              | Rst (positive)                                 |
+    | Reset type         | synchronous                                    |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | automatic                                      |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <pulse_gen> synthesized.
+
+
+Synthesizing Unit <or_gate>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v1_00_a/hdl/vhdl/or_gate.vhd".
+WARNING:Xst:1780 - Signal <test> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <or_gate> synthesized.
+
+
+Synthesizing Unit <edge_det_bit>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/edge_det_bit.vhd".
+    Found 1-bit register for signal <Active_intr>.
+    Found 1-bit register for signal <edge_d1>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <edge_det_bit> synthesized.
+
+
+Synthesizing Unit <bus_mux_le_1>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/bus_mux_le.vhd".
+    Found 6-bit 8-to-1 multiplexer for signal <Bus_out>.
+    Summary:
+	inferred   6 Multiplexer(s).
+Unit <bus_mux_le_1> synthesized.
+
+
+Synthesizing Unit <wr_reg_decode>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/wr_reg_decode.vhd".
+Unit <wr_reg_decode> synthesized.
+
+
+Synthesizing Unit <bus_mux_le_2>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/bus_mux_le.vhd".
+    Found 6-bit 4-to-1 multiplexer for signal <Bus_out>.
+    Summary:
+	inferred   6 Multiplexer(s).
+Unit <bus_mux_le_2> synthesized.
+
+
+Synthesizing Unit <opb_intfc>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intfc.vhd".
+WARNING:Xst:647 - Input <OPB_seqAddr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <intc_addr<20:26>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <intc_addr<30:31>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <opb_intfc> synthesized.
+
+
+Synthesizing Unit <irq_gen>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/irq_gen.vhd".
+Unit <irq_gen> synthesized.
+
+
+Synthesizing Unit <lvl_det_bit>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/lvl_det_bit.vhd".
+Unit <lvl_det_bit> synthesized.
+
+
+Synthesizing Unit <ier_logic>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/ier_logic.vhd".
+Unit <ier_logic> synthesized.
+
+
+Synthesizing Unit <mer_reg>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/mer_reg.vhd".
+Unit <mer_reg> synthesized.
+
+
+Synthesizing Unit <opt_regs>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/opt_regs.vhd".
+Unit <opt_regs> synthesized.
+
+
+Synthesizing Unit <regs>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/regs.vhd".
+WARNING:Xst:647 - Input <Wr_data<31:6>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <regs> synthesized.
+
+
+Synthesizing Unit <detect_intr>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/detect_intr.vhd".
+Unit <detect_intr> synthesized.
+
+
+Synthesizing Unit <int_det>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/int_det.vhd".
+Unit <int_det> synthesized.
+
+
+Synthesizing Unit <intc_core>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/intc_core_v1_00_c/hdl/vhdl/intc_core.vhd".
+WARNING:Xst:646 - Signal <one_sw_int> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <one_int_en> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <clr_int> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <intc_core> synthesized.
+
+
+Synthesizing Unit <opb_intc>.
+    Related source file is "/opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_intc_v1_00_c/hdl/vhdl/opb_intc.vhd".
+Unit <opb_intc> synthesized.
+
+
+Synthesizing Unit <opb_intc_0_wrapper>.
+    Related source file is "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/opb_intc_0_wrapper.vhd".
+Unit <opb_intc_0_wrapper> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 8
+ 1-bit register                                        : 8
+# Multiplexers                                         : 2
+ 6-bit 4-to-1 multiplexer                              : 1
+ 6-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <opb_intc_0/INTC_CORE_I/IRQ_GEN_I/IRQ_PUSLE_GEN_I/current_state/FSM> on signal <current_state[1:2]> with gray encoding.
+-----------------------
+ State     | Encoding
+-----------------------
+ idle      | 00
+ gen_pulse | 01
+ wait_ack  | 11
+-----------------------
+Loading device for application Rf_Device from file '2vp50.nph' in environment /opt/Xilinx/10.1/ISE:/opt/Xilinx/10.1/EDK.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Registers                                            : 148
+ Flip-Flops                                            : 148
+# Multiplexers                                         : 2
+ 6-bit 4-to-1 multiplexer                              : 1
+ 6-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <opb_intc_0_wrapper> ...
+
+Optimizing unit <opb_intfc> ...
+
+Optimizing unit <irq_gen> ...
+
+Optimizing unit <regs> ...
+
+Optimizing unit <int_det> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[25].INTC_DBUS_BIT_I> in Unit <opb_intc_0_wrapper> is equivalent to the following 25 FFs/Latches : <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[24].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[23].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[22].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[21].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[20].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[19].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[18].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[17].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[16].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[15].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[14].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[13].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[12].INTC_DBUS_BIT_I>
+   <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[11].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[10].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[9].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[8].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[7].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[6].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[5].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[4].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[3].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[2].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[1].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[0].INTC_DBUS_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/IRQ_GEN_I/MASKED_INTS_REG_GEN[2].MASKED_INTS_REG_BIT_I> in Unit <opb_intc_0_wrapper> is equivalent to the following FF/Latch : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IPR_GEN.IPR_REG_GEN[2].IPR_REG_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/IRQ_GEN_I/MASKED_INTS_REG_GEN[1].MASKED_INTS_REG_BIT_I> in Unit <opb_intc_0_wrapper> is equivalent to the following FF/Latch : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IPR_GEN.IPR_REG_GEN[1].IPR_REG_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IVR_GEN.IVR_REG_GEN[5].IVR_REG_BIT_I> in Unit <opb_intc_0_wrapper> is equivalent to the following 2 FFs/Latches : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IVR_GEN.IVR_REG_GEN[4].IVR_REG_BIT_I> <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IVR_GEN.IVR_REG_GEN[3].IVR_REG_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/IRQ_GEN_I/MASKED_INTS_REG_GEN[0].MASKED_INTS_REG_BIT_I> in Unit <opb_intc_0_wrapper> is equivalent to the following FF/Latch : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IPR_GEN.IPR_REG_GEN[0].IPR_REG_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/IRQ_GEN_I/MASKED_INTS_REG_GEN[5].MASKED_INTS_REG_BIT_I> in Unit <opb_intc_0_wrapper> is equivalent to the following FF/Latch : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IPR_GEN.IPR_REG_GEN[5].IPR_REG_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/IRQ_GEN_I/MASKED_INTS_REG_GEN[4].MASKED_INTS_REG_BIT_I> in Unit <opb_intc_0_wrapper> is equivalent to the following FF/Latch : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IPR_GEN.IPR_REG_GEN[4].IPR_REG_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/IRQ_GEN_I/MASKED_INTS_REG_GEN[3].MASKED_INTS_REG_BIT_I> in Unit <opb_intc_0_wrapper> is equivalent to the following FF/Latch : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IPR_GEN.IPR_REG_GEN[3].IPR_REG_BIT_I> 
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 150
+ Flip-Flops                                            : 150
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+Top Level Output File Name         : ../implementation/opb_intc_0_wrapper.ngc
+Output Format                      : ngc
+Optimization Goal                  : speed
+Keep Hierarchy                     : no
+
+Design Statistics
+# IOs                              : 116
+
+Cell Usage :
+# BELS                             : 184
+#      GND                         : 1
+#      INV                         : 3
+#      LUT2                        : 17
+#      LUT2_D                      : 3
+#      LUT2_L                      : 5
+#      LUT3                        : 13
+#      LUT4                        : 94
+#      LUT4_D                      : 2
+#      LUT4_L                      : 31
+#      MUXCY                       : 6
+#      MUXF5                       : 8
+#      VCC                         : 1
+# FlipFlops/Latches                : 150
+#      FDR                         : 103
+#      FDRE                        : 46
+#      FDRS                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2vp50ff1152-6 
+
+ Number of Slices:                      131  out of  23616     0%  
+ Number of Slice Flip Flops:            150  out of  47232     0%  
+ Number of 4 input LUTs:                168  out of  47232     0%  
+ Number of IOs:                         116
+ Number of bonded IOBs:                   0  out of    692     0%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+---------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                 | Load  |
+-----------------------------------+---------------------------------------+-------+
+OPB_Clk                            | NONE(opb_intc_0/OPB_INTFC_I/RNW_REG_I)| 150   |
+-----------------------------------+---------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: 4.873ns (Maximum Frequency: 205.222MHz)
+   Minimum input arrival time before clock: 2.441ns
+   Maximum output required time after clock: 1.306ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'OPB_Clk'
+  Clock period: 4.873ns (frequency: 205.222MHz)
+  Total number of paths / destination ports: 3128 / 173
+-------------------------------------------------------------------------
+Delay:               4.873ns (Levels of Logic = 8)
+  Source:            opb_intc_0/OPB_INTFC_I/OPB_ABUS_REG_GEN[12].OPB_ABUS_REG_BIT_I (FF)
+  Destination:       opb_intc_0/INTC_CORE_I/IRQ_GEN_I/IRQ_PUSLE_GEN_I/current_state_FSM_FFd1 (FF)
+  Source Clock:      OPB_Clk rising
+  Destination Clock: OPB_Clk rising
+
+  Data Path: opb_intc_0/OPB_INTFC_I/OPB_ABUS_REG_GEN[12].OPB_ABUS_REG_BIT_I to opb_intc_0/INTC_CORE_I/IRQ_GEN_I/IRQ_PUSLE_GEN_I/current_state_FSM_FFd1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.374   0.533  opb_intc_0/OPB_INTFC_I/OPB_ABUS_REG_GEN[12].OPB_ABUS_REG_BIT_I (opb_intc_0/OPB_INTFC_I/intc_addr<12>)
+     LUT4:I0->O            1   0.313   0.000  opb_intc_0/OPB_INTFC_I/intc_select_and0000_wg_lut<1> (opb_intc_0/OPB_INTFC_I/intc_select_and0000_wg_lut<1>)
+     MUXCY:S->O            1   0.377   0.000  opb_intc_0/OPB_INTFC_I/intc_select_and0000_wg_cy<1> (opb_intc_0/OPB_INTFC_I/intc_select_and0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.042   0.000  opb_intc_0/OPB_INTFC_I/intc_select_and0000_wg_cy<2> (opb_intc_0/OPB_INTFC_I/intc_select_and0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.042   0.000  opb_intc_0/OPB_INTFC_I/intc_select_and0000_wg_cy<3> (opb_intc_0/OPB_INTFC_I/intc_select_and0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.042   0.000  opb_intc_0/OPB_INTFC_I/intc_select_and0000_wg_cy<4> (opb_intc_0/OPB_INTFC_I/intc_select_and0000_wg_cy<4>)
+     MUXCY:CI->O          44   0.750   0.953  opb_intc_0/OPB_INTFC_I/intc_select_and0000_wg_cy<5> (opb_intc_0/OPB_INTFC_I/intc_select)
+     LUT4:I0->O            2   0.313   0.588  opb_intc_0/INTC_CORE_I/IRQ_GEN_I/OR_ACKS_I/Y_0_or000050 (opb_intc_0/INTC_CORE_I/IRQ_GEN_I/OR_ACKS_I/Y_0_or000050)
+     LUT4:I0->O            1   0.313   0.000  opb_intc_0/INTC_CORE_I/IRQ_GEN_I/IRQ_PUSLE_GEN_I/current_state_FSM_FFd1-In1 (opb_intc_0/INTC_CORE_I/IRQ_GEN_I/IRQ_PUSLE_GEN_I/current_state_FSM_FFd1-In)
+     FDR:D                     0.234          opb_intc_0/INTC_CORE_I/IRQ_GEN_I/IRQ_PUSLE_GEN_I/current_state_FSM_FFd1
+    ----------------------------------------
+    Total                      4.873ns (2.799ns logic, 2.074ns route)
+                                       (57.4% logic, 42.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'OPB_Clk'
+  Total number of paths / destination ports: 228 / 224
+-------------------------------------------------------------------------
+Offset:              2.441ns (Levels of Logic = 3)
+  Source:            Intr<5> (PAD)
+  Destination:       opb_intc_0/INTC_CORE_I/MANY_INTR_DET_GEN.INTR_DET_I/DETECT_INTR_I/INTR_DETECT_GEN[5].EDGE_DETECT_GEN.EDGE_DET_BIT_I/Active_intr (FF)
+  Destination Clock: OPB_Clk rising
+
+  Data Path: Intr<5> to opb_intc_0/INTC_CORE_I/MANY_INTR_DET_GEN.INTR_DET_I/DETECT_INTR_I/INTR_DETECT_GEN[5].EDGE_DETECT_GEN.EDGE_DET_BIT_I/Active_intr
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT2:I0->O            1   0.313   0.506  opb_intc_0/INTC_CORE_I/REGS_I/Sw_ints<0>11_SW0_SW1 (N187)
+     LUT4_L:I1->LO         1   0.313   0.128  opb_intc_0/INTC_CORE_I/REGS_I/Sw_ints<0>11_SW0 (N152)
+     LUT4:I2->O            1   0.313   0.390  opb_intc_0/INTC_CORE_I/MANY_INTR_DET_GEN.INTR_DET_I/DETECT_INTR_I/INTR_DETECT_GEN[5].EDGE_DETECT_GEN.EDGE_DET_BIT_I/edge_and00001 (opb_intc_0/INTC_CORE_I/MANY_INTR_DET_GEN.INTR_DET_I/DETECT_INTR_I/INTR_DETECT_GEN[5].EDGE_DETECT_GEN.EDGE_DET_BIT_I/edge)
+     FDRE:CE                   0.335          opb_intc_0/INTC_CORE_I/MANY_INTR_DET_GEN.INTR_DET_I/DETECT_INTR_I/INTR_DETECT_GEN[5].EDGE_DETECT_GEN.EDGE_DET_BIT_I/Active_intr
+    ----------------------------------------
+    Total                      2.441ns (1.417ns logic, 1.024ns route)
+                                       (58.0% logic, 42.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'OPB_Clk'
+  Total number of paths / destination ports: 36 / 35
+-------------------------------------------------------------------------
+Offset:              1.306ns (Levels of Logic = 1)
+  Source:            opb_intc_0/INTC_CORE_I/IRQ_GEN_I/IRQ_PUSLE_GEN_I/current_state_FSM_FFd2 (FF)
+  Destination:       Irq (PAD)
+  Source Clock:      OPB_Clk rising
+
+  Data Path: opb_intc_0/INTC_CORE_I/IRQ_GEN_I/IRQ_PUSLE_GEN_I/current_state_FSM_FFd2 to Irq
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRS:C->Q             5   0.374   0.619  opb_intc_0/INTC_CORE_I/IRQ_GEN_I/IRQ_PUSLE_GEN_I/current_state_FSM_FFd2 (opb_intc_0/INTC_CORE_I/IRQ_GEN_I/IRQ_PUSLE_GEN_I/current_state_FSM_FFd2)
+     LUT2:I1->O            0   0.313   0.000  opb_intc_0/INTC_CORE_I/IRQ_GEN_I/Irq1 (Irq)
+    ----------------------------------------
+    Total                      1.306ns (0.687ns logic, 0.619ns route)
+                                       (52.6% logic, 47.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.81 secs
+ 
+--> 
+
+
+Total memory usage is 229264 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  147 (   0 filtered)
+Number of infos    :   10 (   0 filtered)
+

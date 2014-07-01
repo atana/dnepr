@@ -1,0 +1,6 @@
+AR ipif_control_rd implementation C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/ipif_control_rd.vhd sub00/vhpl01 1271917206
+AR rdpfifo_top implementation C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/rdpfifo_top.vhd sub00/vhpl05 1271917220
+EN rdpfifo_dp_cntl NULL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/rdpfifo_dp_cntl.vhd sub00/vhpl02 1271917207
+EN ipif_control_rd NULL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/ipif_control_rd.vhd sub00/vhpl00 1271917205
+AR rdpfifo_dp_cntl implementation C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/rdpfifo_dp_cntl.vhd sub00/vhpl03 1271917208
+EN rdpfifo_top NULL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/rdpfifo_top.vhd sub00/vhpl04 1271917219

@@ -1,0 +1,15 @@
+##############################################################################
+## Filename:          D:\6MB261\FPO\6A118_7M010_DD13_v5_00\6A118_7M010_DD13_v5_00_ISE\system/drivers/plb34_grid_generator_v2_00_a/data/plb34_grid_generator_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Tue Mar 16 16:26:29 2010 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER plb34_grid_generator
+
+  OPTION supported_peripherals = (plb34_grid_generator);
+  OPTION depends = (common_v1_00_a);
+  OPTION copyfiles = all;
+
+END DRIVER

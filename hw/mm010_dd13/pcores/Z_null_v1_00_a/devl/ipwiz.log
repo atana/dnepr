@@ -1,0 +1,46 @@
+HDL language for the peripheral (top level) design unit Z_null is vhdl ...
+INFO:MDT - Create temparary xst project file:
+   D:\work\project_work\6M073\prj\6MM073\pcores/Z_null.prj
+Compiling vhdl file "D:/work/project_work/components/Z_null/Z_null.vhd" in
+Library Z_null_v1_00_a.
+Entity <Z_null> compiled.
+Entity <Z_null> (Architecture <Behavioral>) compiled.
+
+
+Analyzing HDL attributes ...
+INFO:MDT - IPTYPE set to value : PERIPHERAL
+INFO:MDT - IMP_NETLIST set to value : TRUE
+INFO:MDT - HDL set to value : VHDL
+WARNING:MDT - Unable to delete temparary project file
+   D:\work\project_work\6M073\prj\6MM073\pcores\Z_null.prj : 13
+Copying file Z_null.vhd to
+D:\work\project_work\6M073\prj\6MM073\pcores/Z_null_v1_00_a/hdl/vhdl/ ...
+
+Thank you for using Create and Import Peripheral Wizard! Please find your
+imported peripheral under
+D:\work\project_work\6M073\prj\6MM073\pcores\Z_null_v1_00_a.
+
+Summary:
+
+  Logical library     : Z_null_v1_00_a
+  Version             : 1.00.a
+  Bus interface(s)    : None
+
+The following sub-directories will be created:
+
+  - Z_null_v1_00_a\data
+  - Z_null_v1_00_a\hdl
+  - Z_null_v1_00_a\hdl\vhdl
+
+
+The following HDL source files will be copied into the z_null_v1_00_a\hdl\vhdl
+directory:
+
+  - Z_null.vhd
+
+The following files will be created under the Z_null_v1_00_a\data directory:
+
+  - Z_null_v2_1_0.mpd
+  - Z_null_v2_1_0.pao
+
+

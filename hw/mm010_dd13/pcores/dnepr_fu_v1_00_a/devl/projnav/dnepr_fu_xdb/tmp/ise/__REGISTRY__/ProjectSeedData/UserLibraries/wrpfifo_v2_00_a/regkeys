@@ -1,0 +1,15 @@
+NUM_LIB_SOURCE_FILES
+4
+s
+lib_src_1
+../../../../../../../../../../opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/pf_dly1_mux.vhd
+s
+lib_src_2
+../../../../../../../../../../opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/wrpfifo_dp_cntl.vhd
+s
+lib_src_3
+../../../../../../../../../../opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/ipif_control_wr.vhd
+s
+lib_src_4
+../../../../../../../../../../opt/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/wrpfifo_top.vhd
+s

@@ -1,0 +1,16 @@
+NET "PHY_rx_clk" TNM_NET = "RXCLK_GRP_plb_eth1_contr";
+NET "PHY_tx_clk" TNM_NET = "TXCLK_GRP_plb_eth1_contr";
+TIMESPEC "TSTXOUT_plb_eth1_contr" = FROM "TXCLK_GRP_plb_eth1_contr" TO "PADS" 10 ns;
+TIMESPEC "TSRXIN_plb_eth1_contr" = FROM "PADS" TO "RXCLK_GRP_plb_eth1_contr" 6 ns;
+NET "PHY_tx_clk" MAXSKEW= 2.0 ns;
+NET "PHY_rx_clk" MAXSKEW= 2.0 ns;
+NET "PHY_rx_clk" PERIOD = 40 ns HIGH 14 ns;
+NET "PHY_tx_clk" PERIOD = 40 ns HIGH 14 ns;
+NET "PHY_rx_data<3>" NODELAY;
+NET "PHY_rx_data<2>" NODELAY;
+NET "PHY_rx_data<1>" NODELAY;
+NET "PHY_rx_data<0>" NODELAY;
+NET "PHY_dv" NODELAY;
+NET "PHY_rx_er" NODELAY;
+NET "PHY_crs" NODELAY;
+NET "PHY_col" NODELAY;

@@ -1,0 +1,524 @@
+
+ PARAMETER VERSION = 2.1.0
+
+
+ PORT DDR_Addr = DDR_Addr, VEC = [0:12], DIR = O
+ PORT DDR_BankAddr = DDR_BankAddr, VEC = [0:1], DIR = O
+ PORT DDR_CASn = DDR_CASn, DIR = O
+ PORT DDR_CKE = DDR_CKE, DIR = O
+ PORT DDR_CLK_FB = ddr_feedback_s, DIR = I
+ PORT DDR_CSn = DDR_CSn, DIR = O
+ PORT DDR_Clk = DDR_Clk, DIR = O
+ PORT DDR_Clkn = DDR_Clkn, DIR = O
+ PORT DDR_DM = DDR_DM, VEC = [0:3], DIR = O
+ PORT DDR_DQ = DDR_DQ, VEC = [0:31], DIR = IO
+ PORT DDR_DQS = DDR_DQS, VEC = [0:3], DIR = IO
+ PORT DDR_RASn = DDR_RASn, DIR = O
+ PORT DDR_WEn = DDR_WEn, DIR = O
+ PORT Eth1_PHY_Mii_clk = Eth1_PHY_Mii_clk, DIR = IO
+ PORT Eth1_PHY_Mii_data = Eth1_PHY_Mii_data, DIR = IO
+ PORT Eth1_PHY_col = Eth1_PHY_col, DIR = I
+ PORT Eth1_PHY_crs = Eth1_PHY_crs, DIR = I
+ PORT Eth1_PHY_dv = Eth1_PHY_dv, DIR = I
+ PORT Eth1_PHY_rst_n = Eth1_PHY_rst_n, DIR = O
+ PORT Eth1_PHY_rx_clk = Eth1_PHY_rx_clk, DIR = I
+ PORT Eth1_PHY_rx_data = Eth1_PHY_rx_data, VEC = [3:0], DIR = I
+ PORT Eth1_PHY_rx_er = Eth1_PHY_rx_er, DIR = I
+ PORT Eth1_PHY_tx_clk = Eth1_PHY_tx_clk, DIR = I
+ PORT Eth1_PHY_tx_data = Eth1_PHY_tx_data, VEC = [3:0], DIR = O
+ PORT Eth1_PHY_tx_en = Eth1_PHY_tx_en, DIR = O
+ PORT Eth1_PHY_tx_er = Eth1_PHY_tx_er, DIR = O
+ PORT Eth2_PHY_Mii_clk = Eth2_PHY_Mii_clk, DIR = IO
+ PORT Eth2_PHY_Mii_data = Eth2_PHY_Mii_data, DIR = IO
+ PORT Eth2_PHY_col = Eth2_PHY_col, DIR = I
+ PORT Eth2_PHY_crs = Eth2_PHY_crs, DIR = I
+ PORT Eth2_PHY_dv = Eth2_PHY_dv, DIR = I
+ PORT Eth2_PHY_rst_n = Eth2_PHY_rst_n, DIR = O
+ PORT Eth2_PHY_rx_clk = Eth2_PHY_rx_clk, DIR = I
+ PORT Eth2_PHY_rx_data = Eth2_PHY_rx_data, VEC = [3:0], DIR = I
+ PORT Eth2_PHY_rx_er = Eth2_PHY_rx_er, DIR = I
+ PORT Eth2_PHY_tx_clk = Eth2_PHY_tx_clk, DIR = I
+ PORT Eth2_PHY_tx_data = Eth2_PHY_tx_data, VEC = [3:0], DIR = O
+ PORT Eth2_PHY_tx_en = Eth2_PHY_tx_en, DIR = O
+ PORT Eth2_PHY_tx_er = Eth2_PHY_tx_er, DIR = O
+ PORT Flash_A = Flash_A, VEC = [0:31], DIR = O
+ PORT Flash_CEN = Flash_CEN, VEC = [0:3], DIR = O
+ PORT Flash_DQ = Flash_DQ, VEC = [0:15], DIR = IO
+ PORT Flash_OEN = Flash_OEN, DIR = O
+ PORT Flash_Rst = Flash_Rst, DIR = O
+ PORT Flash_WEN = Flash_WEN, DIR = O
+ PORT LVPECLK_n = LVPECLK_n, DIR = I
+ PORT LVPECLK_p = LVPECLK_p, DIR = I
+ PORT RS232_1_RX = RS232_1_RX, DIR = I
+ PORT RS232_1_TX = RS232_1_TX, DIR = O
+ PORT RS232_2_RX = RS232_2_RX, DIR = I
+ PORT RS232_2_TX = RS232_2_TX, DIR = O
+ PORT dnepr_RX = UART_TUTS_RX, DIR = I
+ PORT dnepr_TX = UART_TUTS_TX, DIR = O
+ PORT LEDS = LEDS, DIR = O, VEC = [0:2]
+ PORT clk_19 = clk_19_ext, DIR = I
+ PORT clk_10 = clk_10_ext, DIR = I
+ PORT delay_out = delay_meter_signal_out, DIR = O
+ PORT delay_in = delay_meter_signal_in, DIR = I
+ PORT dnepr_dRC_stop_pin = dnepr_dRC_stop, DIR = O
+ PORT dnepr_dRC_start_pin = dnepr_dRC_start, DIR = O
+ PORT dnepr_dTR_stop_pin = dnepr_dTR_stop, DIR = O
+ PORT dnepr_dTR_start_pin = dnepr_dTR_start, DIR = O
+ PORT dnepr_RC_stop_pin = dnepr_RC_stop, DIR = O
+ PORT dnepr_RC_start_pin = dnepr_RC_start, DIR = O
+ PORT dnepr_TR_stop_pin = dnepr_TR_stop, DIR = O
+ PORT dnepr_TR_start_pin = dnepr_TR_start, DIR = O
+
+
+# PORT clk_1_25_out_pin = clk_1_25_int, DIR = O
+# PORT clk_19_out_pin = clk_19_int, DIR = O
+# PORT test_sig = plb34_grid_generator_0_test_sig, DIR = O
+BEGIN dnepr_fu
+ PARAMETER INSTANCE = dnepr
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x30000000
+ PARAMETER C_HIGHADDR = 0x300000FF
+ BUS_INTERFACE SPLB = plb
+ PORT tact = tact
+ PORT discr = discr
+ PORT dRC_stop = dnepr_dRC_stop
+ PORT dRC_start = dnepr_dRC_start
+ PORT dTR_stop = dnepr_dTR_stop
+ PORT dTR_start = dnepr_dTR_start
+ PORT RC_stop = dnepr_RC_stop
+ PORT RC_start = dnepr_RC_start
+ PORT TR_stop = dnepr_TR_stop
+ PORT TR_start = dnepr_TR_start
+END
+
+BEGIN plb34_grid_generator125
+ PARAMETER INSTANCE = grid_gen
+ PARAMETER HW_VER = 4.00.a
+ PARAMETER C_BASEADDR = 0x20000000
+ PARAMETER C_HIGHADDR = 0x200000FF
+ BUS_INTERFACE SPLB = plb
+ PORT clk_1_25 = edge_discr_clk
+ PORT clk_19 = edge_tact_clk
+ PORT tact = tact
+ PORT discr = discr
+END
+
+BEGIN optical_delay_meter
+ PARAMETER INSTANCE = delay_meter
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x10000000
+ PARAMETER C_HIGHADDR = 0x100003FF
+ BUS_INTERFACE SPLB = plb
+ PORT ft_edge = edge_tact_clk
+ PORT signal_out = delay_meter_signal_out
+ PORT signal_in = delay_meter_signal_in
+END
+
+BEGIN ft_fd_control
+ PARAMETER INSTANCE = ft_fd_input
+ PARAMETER HW_VER = 1.00.b
+ PORT clk = sys_clk_s
+ PORT rst = sys_bus_reset
+ PORT clk_19 = clk_19_int
+ PORT clk_10M = clk_10_int
+ PORT fd_edge = edge_discr_clk
+ PORT ft_edge = edge_tact_clk
+ PORT fd_ok = fd_ok
+ PORT ft_ok = ft_ok
+ PORT ft_int = ft_fd_input_ft_int
+END
+
+BEGIN ppc405
+ PARAMETER INSTANCE = ppc405_1
+ PARAMETER HW_VER = 2.00.c
+ BUS_INTERFACE JTAGPPC = jtagppc_0_1
+END
+
+BEGIN ppc405
+ PARAMETER INSTANCE = ppc405_0
+ PARAMETER HW_VER = 2.00.c
+ BUS_INTERFACE DPLB = plb
+ BUS_INTERFACE IPLB = plb
+ BUS_INTERFACE JTAGPPC = jtagppc_0_0
+ PORT CPMC405CLOCK = cpu_clk
+ PORT EICC405EXTINPUTIRQ = EICC405EXTINPUTIRQ
+ PORT RSTC405RESETSYS = RSTC405RESETSYS
+ PORT RSTC405RESETCORE = RSTC405RESETCORE
+ PORT RSTC405RESETCHIP = RSTC405RESETCHIP
+ PORT C405RSTSYSRESETREQ = C405RSTSYSRESETREQ
+ PORT C405RSTCORERESETREQ = C405RSTCORERESETREQ
+ PORT C405RSTCHIPRESETREQ = C405RSTCHIPRESETREQ
+ PORT PLBCLK = sys_clk_s
+END
+
+BEGIN jtagppc_cntlr
+ PARAMETER INSTANCE = jtagppc_0
+ PARAMETER HW_VER = 2.00.a
+ BUS_INTERFACE JTAGPPC0 = jtagppc_0_0
+ BUS_INTERFACE JTAGPPC1 = jtagppc_0_1
+END
+
+# ####################################################################
+BEGIN plb2opb_bridge
+ PARAMETER INSTANCE = plb2opb
+ PARAMETER HW_VER = 1.01.a
+ PARAMETER C_DCR_INTFCE = 0
+ PARAMETER C_NUM_ADDR_RNG = 1
+ PARAMETER C_RNG0_BASEADDR = 0xC0000000
+ PARAMETER C_RNG0_HIGHADDR = 0xFFFFFFFF
+ BUS_INTERFACE SPLB = plb
+ BUS_INTERFACE MOPB = opb
+ PORT OPB_Clk = sys_clk_s
+ PORT PLB_Clk = sys_clk_s
+END
+
+BEGIN opb_v20
+ PARAMETER INSTANCE = opb
+ PARAMETER HW_VER = 1.10.c
+ PARAMETER C_EXT_RESET_HIGH = 1
+ PORT OPB_Clk = sys_clk_s
+ PORT SYS_Rst = sys_bus_reset
+END
+
+BEGIN plb_v34
+ PARAMETER INSTANCE = plb
+ PARAMETER HW_VER = 1.02.a
+ PARAMETER C_DCR_INTFCE = 0
+ PARAMETER C_EXT_RESET_HIGH = 1
+ PORT PLB_Clk = sys_clk_s
+ PORT SYS_Rst = sys_bus_reset
+END
+
+# sys_clk_reset ####################################################################
+BEGIN proc_sys_reset
+ PARAMETER INSTANCE = reset_block
+ PARAMETER HW_VER = 1.00.a
+ PORT Core_Reset_Req = C405RSTCORERESETREQ
+ PORT System_Reset_Req = C405RSTSYSRESETREQ
+ PORT Rstc405resetchip = RSTC405RESETCHIP
+ PORT Rstc405resetcore = RSTC405RESETCORE
+ PORT Rstc405resetsys = RSTC405RESETSYS
+ PORT Bus_Struct_Reset = sys_bus_reset
+ PORT Dcm_locked = dcm_2_lock
+ PORT Chip_Reset_Req = C405RSTCHIPRESETREQ
+ PORT Slowest_sync_clk = sys_clk_s
+ PORT Ext_Reset_In = net_gnd
+ PORT Aux_Reset_In = net_gnd
+ PORT Peripheral_Reset = sys_per_rst
+END
+
+BEGIN system_clk
+ PARAMETER INSTANCE = system_clk_0
+ PARAMETER HW_VER = 1.00.a
+ PORT clk_in_n = LVPECLK_n
+ PORT clk_in_p = LVPECLK_p
+ PORT clk_out = dcm_clk_s
+END
+
+# # ddr_dcm ####################################################################
+BEGIN dcm_module
+ PARAMETER INSTANCE = ddr_fb_dcm
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_CLK0_BUF = TRUE
+ PARAMETER C_CLK270_BUF = TRUE
+ PARAMETER C_CLK90_BUF = TRUE
+ PARAMETER C_CLKIN_PERIOD = 10.000000
+ PARAMETER C_CLK_FEEDBACK = 1X
+ PARAMETER C_EXT_RESET_HIGH = 0
+ PORT CLKIN = ddr_feedback_s
+ PORT CLK90 = ddr_clk_90_s
+ PORT CLK270 = ddr_clk_90_n_s
+ PORT CLK0 = dcm_2_FB
+ PORT CLKFB = dcm_2_FB
+ PORT RST = dcm_1_lock
+ PORT LOCKED = dcm_2_lock
+END
+
+BEGIN dcm_module
+ PARAMETER INSTANCE = ddr90_dcm
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_CLK0_BUF = TRUE
+ PARAMETER C_CLK180_BUF = TRUE
+ PARAMETER C_CLK270_BUF = TRUE
+ PARAMETER C_CLK90_BUF = TRUE
+ PARAMETER C_CLKIN_PERIOD = 10.000000
+ PARAMETER C_CLK_FEEDBACK = 1X
+ PARAMETER C_EXT_RESET_HIGH = 0
+ PORT CLKIN = dcm_clk_s
+ PORT CLK90 = clk_90_s
+ PORT CLK180 = sys_clk_n_s
+ PORT CLK270 = clk_90_n_s
+ PORT CLK0 = dcm_1_FB
+ PORT CLKFB = dcm_1_FB
+ PORT RST = dcm_0_lock
+ PORT LOCKED = dcm_1_lock
+END
+
+BEGIN dcm_module
+ PARAMETER INSTANCE = sys_dcm
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_CLK0_BUF = TRUE
+ PARAMETER C_CLKFX_BUF = TRUE
+ PARAMETER C_CLKFX_MULTIPLY = 3
+ PARAMETER C_CLKIN_PERIOD = 10.000000
+ PARAMETER C_CLK_FEEDBACK = 1X
+ PARAMETER C_EXT_RESET_HIGH = 1
+ PORT LOCKED = dcm_0_lock
+ PORT RST = net_gnd
+ PORT CLKFB = sys_clk_s
+ PORT CLK0 = sys_clk_s
+ PORT CLKIN = dcm_clk_s
+ PORT CLKFX = cpu_clk
+END
+
+# ####################################################################
+BEGIN plb_ethernet
+ PARAMETER INSTANCE = plb_eth2_contr
+ PARAMETER HW_VER = 1.01.a
+ PARAMETER C_DEV_BLK_ID = 0
+ PARAMETER C_PLB_CLK_PERIOD_PS = 10000
+ PARAMETER C_IPIF_FIFO_DEPTH = 131072
+ PARAMETER C_DMA_PRESENT = 3
+ PARAMETER C_BASEADDR = 0x0B000000
+ PARAMETER C_HIGHADDR = 0x0B00FFFF
+ BUS_INTERFACE MSPLB = plb
+ PORT PLB_Clk = sys_clk_s
+ PORT IP2INTC_Irpt = eth_2_int
+ PORT PHY_rst_n = Eth2_PHY_rst_n
+ PORT PHY_crs = Eth2_PHY_crs
+ PORT PHY_col = Eth2_PHY_col
+ PORT PHY_tx_data = Eth2_PHY_tx_data
+ PORT PHY_tx_en = Eth2_PHY_tx_en
+ PORT PHY_tx_clk = Eth2_PHY_tx_clk
+ PORT PHY_tx_er = Eth2_PHY_tx_er
+ PORT PHY_rx_er = Eth2_PHY_rx_er
+ PORT PHY_rx_clk = Eth2_PHY_rx_clk
+ PORT PHY_dv = Eth2_PHY_dv
+ PORT PHY_rx_data = Eth2_PHY_rx_data
+ PORT PHY_Mii_clk = Eth2_PHY_Mii_clk
+ PORT PHY_Mii_data = Eth2_PHY_Mii_data
+END
+
+BEGIN plb_ethernet
+ PARAMETER INSTANCE = plb_eth1_contr
+ PARAMETER HW_VER = 1.01.a
+ PARAMETER C_DEV_BLK_ID = 0
+ PARAMETER C_PLB_CLK_PERIOD_PS = 10000
+ PARAMETER C_IPIF_FIFO_DEPTH = 131072
+ PARAMETER C_DMA_PRESENT = 3
+ PARAMETER C_BASEADDR = 0x0A000000
+ PARAMETER C_HIGHADDR = 0x0A00FFFF
+ BUS_INTERFACE MSPLB = plb
+ PORT PHY_crs = Eth1_PHY_crs
+ PORT PHY_rst_n = Eth1_PHY_rst_n
+ PORT IP2INTC_Irpt = eth_1_int
+ PORT PLB_Clk = sys_clk_s
+ PORT PHY_col = Eth1_PHY_col
+ PORT PHY_tx_data = Eth1_PHY_tx_data
+ PORT PHY_tx_en = Eth1_PHY_tx_en
+ PORT PHY_tx_clk = Eth1_PHY_tx_clk
+ PORT PHY_tx_er = Eth1_PHY_tx_er
+ PORT PHY_rx_er = Eth1_PHY_rx_er
+ PORT PHY_rx_clk = Eth1_PHY_rx_clk
+ PORT PHY_dv = Eth1_PHY_dv
+ PORT PHY_rx_data = Eth1_PHY_rx_data
+ PORT PHY_Mii_clk = Eth1_PHY_Mii_clk
+ PORT PHY_Mii_data = Eth1_PHY_Mii_data
+END
+
+# ####################################################################
+BEGIN opb_intc
+ PARAMETER INSTANCE = opb_intc_0
+ PARAMETER HW_VER = 1.00.c
+ PARAMETER C_BASEADDR = 0xFE030000
+ PARAMETER C_HIGHADDR = 0xFE030FFF
+ BUS_INTERFACE SOPB = opb
+ PORT Irq = EICC405EXTINPUTIRQ
+ PORT Intr = ft_fd_input_ft_int&UART_TUTS_int&rs232_2_int&rs232_1_int&eth_2_int&eth_1_int
+END
+
+BEGIN opb_flash_controller
+ PARAMETER INSTANCE = opb_flash
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER FL0_BASEADDR = 0xCC000000
+ PARAMETER FL0_HIGHADDR = 0xCFFFFFFF
+ PARAMETER FL1_BASEADDR = 0xD0000000
+ PARAMETER FL1_HIGHADDR = 0xD3FFFFFF
+ PARAMETER FL2_BASEADDR = 0xD4000000
+ PARAMETER FL2_HIGHADDR = 0xD7FFFFFF
+ PARAMETER FL3_BASEADDR = 0xD8000000
+ PARAMETER FL3_HIGHADDR = 0xDBFFFFFF
+ BUS_INTERFACE SOPB = opb
+ PORT OPB_Clk = sys_clk_s
+ PORT Flash_A = Flash_A
+ PORT Flash_DQ = Flash_DQ
+ PORT Flash_CEN = Flash_CEN
+ PORT Flash_OEN = Flash_OEN
+ PORT Flash_WEN = Flash_WEN
+ PORT Flash_Rst = Flash_Rst
+ PORT periph_reset = sys_per_rst
+END
+
+BEGIN opb_bram_if_cntlr
+ PARAMETER INSTANCE = boot_ppc_cntrl
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER c_opb_clk_period_ps = 10000
+ PARAMETER c_baseaddr = 0xFFFF0000
+ PARAMETER c_highaddr = 0xFFFFFFFF
+ BUS_INTERFACE PORTA = boot_ppc_cntrl_port
+ BUS_INTERFACE SOPB = opb
+ PORT OPB_Clk = sys_clk_s
+END
+
+BEGIN bram_block
+ PARAMETER INSTANCE = boot_ppc_bram
+ PARAMETER HW_VER = 1.00.a
+ BUS_INTERFACE PORTA = boot_ppc_cntrl_port
+END
+
+# ####################################################################
+BEGIN plb_ddr
+ PARAMETER INSTANCE = plb_DDR_SDRAM
+ PARAMETER HW_VER = 1.11.a
+ PARAMETER C_DDR_DWIDTH = 32
+ PARAMETER C_PLB_CLK_PERIOD_PS = 10000
+ PARAMETER C_INCLUDE_BURST_CACHELN_SUPPORT = 1
+ PARAMETER C_REG_DIMM = 0
+ PARAMETER C_DDR_TMRD = 12000
+ PARAMETER C_DDR_TWR = 15000
+ PARAMETER C_DDR_TWTR = 1
+ PARAMETER C_DDR_TRAS = 70000
+ PARAMETER C_DDR_TRC = 60000
+ PARAMETER C_DDR_TRFC = 100000
+ PARAMETER C_DDR_TRCD = 15000
+ PARAMETER C_DDR_TRRD = 12000
+ PARAMETER C_DDR_TRP = 15000
+ PARAMETER C_DDR_TREFC = 70300
+ PARAMETER C_DDR_TREFI = 7800000
+ PARAMETER C_DDR_AWIDTH = 13
+ PARAMETER C_DDR_COL_AWIDTH = 10
+ PARAMETER C_DDR_BANK_AWIDTH = 2
+ PARAMETER C_NUM_BANKS_MEM = 1
+ PARAMETER C_NUM_CLK_PAIRS = 1
+ PARAMETER C_MEM0_BASEADDR = 0x00000000
+ PARAMETER C_MEM0_HIGHADDR = 0x07ffffff
+ BUS_INTERFACE SPLB = plb
+ PORT DDR_Clk90_in_n = ddr_clk_90_n_s
+ PORT DDR_Clk90_in = ddr_clk_90_s
+ PORT PLB_Clk_n = sys_clk_n_s
+ PORT Clk90_in_n = clk_90_n_s
+ PORT Clk90_in = clk_90_s
+ PORT DDR_Clkn = DDR_Clkn
+ PORT DDR_Clk = DDR_Clk
+ PORT DDR_DQ = DDR_DQ
+ PORT DDR_DQS = DDR_DQS
+ PORT DDR_DM = DDR_DM
+ PORT DDR_WEn = DDR_WEn
+ PORT DDR_RASn = DDR_RASn
+ PORT DDR_CSn = DDR_CSn
+ PORT DDR_CKE = DDR_CKE
+ PORT DDR_CASn = DDR_CASn
+ PORT DDR_BankAddr = DDR_BankAddr
+ PORT DDR_Addr = DDR_Addr
+ PORT PLB_Clk = sys_clk_s
+END
+
+# ##### RS232 ##########################
+BEGIN opb_uartlite
+ PARAMETER INSTANCE = UART_TUTS
+ PARAMETER HW_VER = 1.00.b
+ PARAMETER C_BAUDRATE = 115200
+ PARAMETER C_DATA_BITS = 8
+ PARAMETER C_ODD_PARITY = 1
+ PARAMETER C_USE_PARITY = 0
+ PARAMETER C_CLK_FREQ = 100000000
+ PARAMETER C_BASEADDR = 0xFE040000
+ PARAMETER C_HIGHADDR = 0xFE040FFF
+ BUS_INTERFACE SOPB = opb
+ PORT TX = UART_TUTS_TX
+ PORT RX = UART_TUTS_RX
+ PORT OPB_Clk = sys_clk_s
+ PORT Interrupt = UART_TUTS_int
+END
+
+BEGIN opb_uartlite
+ PARAMETER INSTANCE = RS232_1
+ PARAMETER HW_VER = 1.00.b
+ PARAMETER C_BAUDRATE = 115200
+ PARAMETER C_DATA_BITS = 8
+ PARAMETER C_ODD_PARITY = 1
+ PARAMETER C_USE_PARITY = 0
+ PARAMETER C_CLK_FREQ = 100000000
+ PARAMETER C_BASEADDR = 0xFE010000
+ PARAMETER C_HIGHADDR = 0xFE010FFF
+ BUS_INTERFACE SOPB = opb
+ PORT TX = RS232_1_TX
+ PORT RX = RS232_1_RX
+ PORT OPB_Clk = sys_clk_s
+ PORT Interrupt = rs232_1_int
+END
+
+BEGIN opb_uartlite
+ PARAMETER INSTANCE = RS232_2
+ PARAMETER HW_VER = 1.00.b
+ PARAMETER C_BAUDRATE = 115200
+ PARAMETER C_DATA_BITS = 8
+ PARAMETER C_ODD_PARITY = 1
+ PARAMETER C_USE_PARITY = 0
+ PARAMETER C_CLK_FREQ = 100000000
+ PARAMETER C_BASEADDR = 0xFE020000
+ PARAMETER C_HIGHADDR = 0xFE020FFF
+ BUS_INTERFACE SOPB = opb
+ PORT RX = RS232_2_RX
+ PORT TX = RS232_2_TX
+ PORT OPB_Clk = sys_clk_s
+ PORT Interrupt = rs232_2_int
+END
+
+# ####################################################################
+BEGIN opb_gpio
+ PARAMETER INSTANCE = gpio_LEDS
+ PARAMETER HW_VER = 3.01.b
+ PARAMETER C_BASEADDR = 0xE0000000
+ PARAMETER C_HIGHADDR = 0xE0000FFF
+ PARAMETER C_GPIO_WIDTH = 3
+ BUS_INTERFACE SOPB = opb
+ PORT OPB_Clk = sys_clk_s
+ PORT GPIO_d_out = LEDS
+END
+
+BEGIN opb_gpio
+ PARAMETER INSTANCE = freq_detect
+ PARAMETER HW_VER = 3.01.b
+ PARAMETER C_BASEADDR = 0xE0001000
+ PARAMETER C_HIGHADDR = 0xE0001FFF
+ PARAMETER C_GPIO_WIDTH = 2
+ PARAMETER C_IS_BIDIR = 0
+ PARAMETER C_ALL_INPUTS = 1
+ BUS_INTERFACE SOPB = opb
+ PORT OPB_Clk = sys_clk_s
+ PORT GPIO_in = ft_ok & fd_ok
+END
+
+BEGIN plb34_reg_version
+ PARAMETER INSTANCE = reg_version
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x0D000000
+ PARAMETER C_HIGHADDR = 0x0D00000F
+ PARAMETER C_VERSION = 0x14060300
+ PARAMETER C_ID = 0x53785654
+ BUS_INTERFACE SPLB = plb
+END
+
+BEGIN f_gen
+ PARAMETER INSTANCE = f_gen_0
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x40000000
+ PARAMETER C_HIGHADDR = 0x400000FF
+ BUS_INTERFACE SPLB = plb
+ PORT ft_in = clk_19_ext
+ PORT fd_in = clk_10_ext
+ PORT ft_out = clk_19_int
+ PORT fd_out = clk_10_int
+END
+

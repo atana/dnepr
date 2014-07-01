@@ -1,0 +1,2 @@
+VHDL boot_ppc_bram_elaborate_v1_00_a /home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/elaborate/boot_ppc_bram_elaborate_v1_00_a/hdl/vhdl/boot_ppc_bram_elaborate.vhd
+vhdl work ../hdl/boot_ppc_bram_wrapper.vhd

@@ -1,0 +1,54 @@
+Command line:
+   ./tb_meter_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  36105
+
+Mon Apr  7 16:54:03 2014
+
+Total Line Count : 42
+
+ Elaboration Time: 0 sec
+
+ Current Memory Usage: 231.731 Meg
+
+ Total Signals          : 24
+ Total Nets             : 109
+ Total Signal Drivers   : 16
+ Total Blocks           : 6
+ Total Primitive Blocks : 1
+ Total Processes        : 15
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 624
+ntrace select -o on -n /tb_meter/clk 
+ntrace select -o on -n /tb_meter/rst 
+ntrace select -o on -n /tb_meter/ft_edge 
+ntrace select -o on -n /tb_meter/signal_in 
+ntrace select -o on -n /tb_meter/signal_out 
+ntrace select -o on -n /tb_meter/uut/rc_buf 
+ntrace select -o on -n /tb_meter/uut/end_tr 
+ntrace select -o on -n /tb_meter/uut/rc_complete 
+ntrace select -o on -n /tb_meter/uut/counter 
+ntrace select -o on -n /tb_meter/uut/cnt 
+ntrace select -o on -n /tb_meter/uut/state 
+ntrace select -o on -n /tb_meter/clk_period 
+ntrace select -o on -n /tb_meter/delay 
+ntrace start 
+isimrun 5000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+restart
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+isimrun 1000 ns 
+isimrun 1000 ns 
+isimrun 1000 ns 
+isimrun 1000 ns 
+
+ Total Simulation Time: 0.06 sec
+
+ Current Memory Usage: 243.991 Meg
+
+Mon Apr  7 16:58:25 2014
+

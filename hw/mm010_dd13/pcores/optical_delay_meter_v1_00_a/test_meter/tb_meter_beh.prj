@@ -1,0 +1,2 @@
+vhdl work "../hdl/vhdl/meter.vhd"
+vhdl work "tb_meter.vhd"

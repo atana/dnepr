@@ -1,0 +1,1 @@
+xst -ise "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/devl/projnav/dnepr_fu.ise" -intstyle ise -ifn "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/devl/projnav/dnepr_fu.xst" -ofn "/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/dnepr_fu_v1_00_a/devl/projnav/dnepr_fu.syr"

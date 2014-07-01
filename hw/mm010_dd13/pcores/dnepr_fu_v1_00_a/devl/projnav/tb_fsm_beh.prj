@@ -1,0 +1,2 @@
+vhdl work "../../hdl/vhdl/fsm.vhd"
+vhdl work "tb_fsm.vhd"

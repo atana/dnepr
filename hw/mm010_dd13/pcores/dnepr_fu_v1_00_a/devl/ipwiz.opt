@@ -1,0 +1,9 @@
+-batch 
+-create dnepr_fu 
+-ver 1.00.a 
+-dir "/home/atana/RTI/dnepr/hw/mm010_dd13" 
+-lang vhdl 
+-bus plb s 
+-regn 15 32 
+-xps 
+-ise 

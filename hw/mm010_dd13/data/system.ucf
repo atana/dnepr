@@ -1,0 +1,602 @@
+#INST "ddr90_dcm/ddr90_dcm/Using_Virtex.DCM_INST" LOC = DCM_X3Y0;
+#INST "ddr_fb_dcm/ddr_fb_dcm/Using_Virtex.DCM_INST" LOC = DCM_X1Y0;
+#INST "sys_dcm/sys_dcm/using_virtex.DCM_INST" LOC = DCM_X2Y0;
+
+#work
+INST "ddr90_dcm/ddr90_dcm/Using_Virtex.DCM_INST" LOC = DCM_X3Y0;
+#INST "ddr_fb_dcm/ddr_fb_dcm/Using_Virtex.DCM_INST" LOC = DCM_X1Y1;
+INST "sys_dcm/sys_dcm/Using_Virtex.DCM_INST" LOC = DCM_X0Y0;
+
+##################################################
+##						CPU									##
+##################################################
+
+INST "ppc405_0/ppc405_0/PPC405_i" LOC = "PPC405_X1Y0"  ;
+
+##################################################
+##						PLB_OPB_Period						##
+##################################################
+
+NET "cpu_clk" TNM_NET = "cpu_clk";
+TIMESPEC "TS_cpu_clk" = PERIOD "cpu_clk" 3 ns HIGH 50 %;
+
+NET "sys_clk_s" TNM_NET = "sys_clk_s";
+#TIMESPEC "TS_sys_clk_s" = PERIOD "sys_clk_s" 10 ns HIGH 50 %;
+TIMESPEC "TS_sys_clk_s" = PERIOD "sys_clk_s" 9.7 ns HIGH 50 %;
+
+
+##################################################
+##						REST									##
+##################################################
+
+NET "RSTC405RESETSYS" TPTHRU = "RST_GRP";
+NET "RSTC405RESETCHIP" TPTHRU = "RST_GRP";
+NET "RSTC405RESETCORE" TPTHRU = "RST_GRP";
+
+NET "C405RSTSYSRESETREQ" TPTHRU = "RST_GRP";
+NET "C405RSTCHIPRESETREQ" TPTHRU = "RST_GRP";
+NET "C405RSTCORERESETREQ" TPTHRU = "RST_GRP";
+
+TIMESPEC "TS_RST1" = FROM CPUS THRU RST_GRP TO FFS  TIG;
+TIMESPEC "TS_RST2" = FROM FFS  THRU RST_GRP TO FFS  TIG;
+TIMESPEC "TS_RST3" = FROM FFS  THRU RST_GRP TO CPUS TIG; 
+
+NET dcm_0_lock 				TIG;
+NET dcm_1_lock 				TIG;
+NET opb_OPB_Rst 				TIG;
+NET plb_PLB_Rst 				TIG; 
+NET sys_bus_reset 			TIG;
+
+##################################################
+##						CLK      							##
+##################################################
+
+NET "LVPECLK_n"				LOC="AH17";
+NET "LVPECLK_p"				LOC="AJ17";
+
+NET "clk_19"				LOC="J18"	| IOSTANDARD = LVTTL;
+NET "clk_10"				LOC="J17"	| IOSTANDARD = PCI33_3;	#	X8.64
+
+##################################################
+##						UART									##
+##################################################
+
+NET "RS232_1_RX"			LOC="AJ30" | IOSTANDARD = LVTTL | TIG;	# UART1_RX<1>
+NET "RS232_1_TX"			LOC="AD26" | IOSTANDARD = LVTTL | TIG;	# UART1_TX<1>
+
+NET "RS232_2_RX"			LOC="AF27" | IOSTANDARD = LVTTL | TIG;	# UART2_RX<1>
+NET "RS232_2_TX"			LOC="AG28" | IOSTANDARD = LVTTL | TIG;	# UART2_TX<1>
+
+#NET "dnepr_RX"			LOC="AF27" | IOSTANDARD = LVTTL | TIG;
+#NET "dnepr_TX"			LOC="AG28" | IOSTANDARD = LVTTL | TIG;
+
+##################################################
+##						LEDS									##
+##################################################
+
+NET "LEDS<1>"	LOC="K12"	|	IOSTANDARD = PCI33_3;	#	X8:2	PMCOK	
+NET "LEDS<2>"	LOC="M9"	|	IOSTANDARD = PCI33_3;	#	X8:4 	PMCPT
+NET "LEDS*"										TIG;
+
+##################################################
+##						Ethernet								##
+##################################################
+
+NET "Eth1_PHY_rx_clk" TNM_NET = "RX1CLK_GRP";
+NET "Eth1_PHY_tx_clk" TNM_NET = "TX1CLK_GRP";
+NET "Eth2_PHY_rx_clk" TNM_NET = "RX2CLK_GRP";
+NET "Eth2_PHY_tx_clk" TNM_NET = "TX2CLK_GRP";
+
+TIMESPEC "TSTX1OUT" = FROM "TX1CLK_GRP" TO "PADS" 10 ns;
+TIMESPEC "TSRX1IN" = FROM "PADS" TO "RX1CLK_GRP" 6 ns;
+
+TIMESPEC "TSTX2OUT" = FROM "TX2CLK_GRP" TO "PADS" 10 ns;
+TIMESPEC "TSRX2IN" = FROM "PADS" TO "RX2CLK_GRP" 6 ns;
+
+NET "Eth1_PHY_rx_clk" PERIOD = 40 ns HIGH 14 ns;
+NET "Eth1_PHY_tx_clk" PERIOD = 40 ns HIGH 14 ns;
+
+NET "Eth2_PHY_rx_clk" PERIOD = 40 ns HIGH 14 ns;
+NET "Eth2_PHY_tx_clk" PERIOD = 40 ns HIGH 14 ns;
+
+NET "Eth1_PHY_tx_clk"			MAXSKEW= 1.8 ns;
+NET "Eth1_PHY_rx_clk"			MAXSKEW= 1.8 ns;
+
+NET "Eth2_PHY_tx_clk"			MAXSKEW= 1.8 ns;
+NET "Eth2_PHY_rx_clk"			MAXSKEW= 1.8 ns;
+
+NET "Eth1_PHY_rx_data<3>"		NODELAY;
+NET "Eth1_PHY_rx_data<2>"		NODELAY;
+NET "Eth1_PHY_rx_data<1>"		NODELAY;
+NET "Eth1_PHY_rx_data<0>"		NODELAY;
+NET "Eth1_PHY_dv"					NODELAY;
+NET "Eth1_PHY_rx_er"				NODELAY;
+NET "Eth1_PHY_crs"				NODELAY;
+NET "Eth1_PHY_col"				NODELAY;
+
+NET "Eth2_PHY_rx_data<3>"		NODELAY;
+NET "Eth2_PHY_rx_data<2>"		NODELAY;
+NET "Eth2_PHY_rx_data<1>"		NODELAY;
+NET "Eth2_PHY_rx_data<0>"		NODELAY;
+NET "Eth2_PHY_dv"					NODELAY;
+NET "Eth2_PHY_rx_er"				NODELAY;
+NET "Eth2_PHY_crs"				NODELAY;
+NET "Eth2_PHY_col"				NODELAY;
+
+NET "Eth1_PHY_rst_n"				LOC="K30";
+NET "Eth1_PHY_crs"				LOC="G30";
+NET "Eth1_PHY_col"				LOC="G29";
+NET "Eth1_PHY_tx_data<0>"		LOC="D30";
+NET "Eth1_PHY_tx_data<1>"		LOC="J27";
+NET "Eth1_PHY_tx_data<2>"		LOC="E31";
+NET "Eth1_PHY_tx_data<3>"		LOC="K27";
+NET "Eth1_PHY_tx_en"				LOC="L26";
+NET "Eth1_PHY_tx_clk"			LOC="F28";
+NET "Eth1_PHY_tx_er"				LOC="F30";
+NET "Eth1_PHY_rx_data<0>"		LOC="D34";
+NET "Eth1_PHY_rx_data<1>"		LOC="D33";
+NET "Eth1_PHY_rx_data<2>"		LOC="E33";
+NET "Eth1_PHY_rx_data<3>"		LOC="E34";
+NET "Eth1_PHY_rx_clk"			LOC="F34";
+NET "Eth1_PHY_dv"					LOC="F33";
+NET "Eth1_PHY_rx_er"				LOC="G33";
+NET "Eth1_PHY_Mii_clk"			LOC="L25";
+NET "Eth1_PHY_Mii_data"			LOC="M25";
+
+NET "Eth2_PHY_rst_n"				LOC="M28";
+NET "Eth2_PHY_crs"				LOC="L28";
+NET "Eth2_PHY_col"				LOC="L27";
+NET "Eth2_PHY_tx_data<0>"		LOC="P30";
+NET "Eth2_PHY_tx_data<1>"		LOC="J28";
+NET "Eth2_PHY_tx_data<2>"		LOC="H29";
+NET "Eth2_PHY_tx_data<3>"		LOC="K28";
+NET "Eth2_PHY_tx_en"				LOC="N30";
+NET "Eth2_PHY_tx_clk"			LOC="M26";
+NET "Eth2_PHY_tx_er"				LOC="N34";
+NET "Eth2_PHY_rx_data<0>"		LOC="H34";
+NET "Eth2_PHY_rx_data<1>"		LOC="H33";
+NET "Eth2_PHY_rx_data<2>"		LOC="G34";
+NET "Eth2_PHY_rx_data<3>"		LOC="L34";
+NET "Eth2_PHY_rx_clk"			LOC="M34";
+NET "Eth2_PHY_dv"					LOC="M33";
+NET "Eth2_PHY_rx_er"				LOC="N33";
+NET "Eth2_PHY_Mii_clk"			LOC="M29";
+NET "Eth2_PHY_Mii_data"			LOC="L30";
+
+NET Eth1_PHY_rst_n				IOSTANDARD = LVTTL;
+NET Eth1_PHY_crs					IOSTANDARD = LVTTL;
+NET Eth1_PHY_col					IOSTANDARD = LVTTL;
+NET Eth1_PHY_tx_data<0>			IOSTANDARD = LVTTL;
+NET Eth1_PHY_tx_data<1>			IOSTANDARD = LVTTL;
+NET Eth1_PHY_tx_data<2>			IOSTANDARD = LVTTL;
+NET Eth1_PHY_tx_data<3>			IOSTANDARD = LVTTL;
+NET Eth1_PHY_tx_en				IOSTANDARD = LVTTL;
+NET Eth1_PHY_tx_clk				IOSTANDARD = LVTTL;
+NET Eth1_PHY_tx_er				IOSTANDARD = LVTTL;
+NET Eth1_PHY_rx_data<0>			IOSTANDARD = LVTTL;
+NET Eth1_PHY_rx_data<1>			IOSTANDARD = LVTTL;
+NET Eth1_PHY_rx_data<2>			IOSTANDARD = LVTTL;
+NET Eth1_PHY_rx_data<3>			IOSTANDARD = LVTTL;
+NET Eth1_PHY_rx_clk				IOSTANDARD = LVTTL;
+NET Eth1_PHY_dv					IOSTANDARD = LVTTL;
+NET Eth1_PHY_rx_er				IOSTANDARD = LVTTL;
+NET Eth1_PHY_Mii_clk				IOSTANDARD = LVTTL;
+NET Eth1_PHY_Mii_data			IOSTANDARD = LVTTL;
+
+NET Eth2_PHY_rst_n				IOSTANDARD = LVTTL;
+NET Eth2_PHY_crs					IOSTANDARD = LVTTL;
+NET Eth2_PHY_col					IOSTANDARD = LVTTL;
+NET Eth2_PHY_tx_data<0>			IOSTANDARD = LVTTL;
+NET Eth2_PHY_tx_data<1>			IOSTANDARD = LVTTL;
+NET Eth2_PHY_tx_data<2>			IOSTANDARD = LVTTL;
+NET Eth2_PHY_tx_data<3>			IOSTANDARD = LVTTL;
+NET Eth2_PHY_tx_en				IOSTANDARD = LVTTL;
+NET Eth2_PHY_tx_clk				IOSTANDARD = LVTTL;
+NET Eth2_PHY_tx_er				IOSTANDARD = LVTTL;
+NET Eth2_PHY_rx_data<0>			IOSTANDARD = LVTTL;
+NET Eth2_PHY_rx_data<1>			IOSTANDARD = LVTTL;
+NET Eth2_PHY_rx_data<2>			IOSTANDARD = LVTTL;
+NET Eth2_PHY_rx_data<3>			IOSTANDARD = LVTTL;
+NET Eth2_PHY_rx_clk				IOSTANDARD = LVTTL;
+NET Eth2_PHY_dv					IOSTANDARD = LVTTL;
+NET Eth2_PHY_rx_er				IOSTANDARD = LVTTL;
+NET Eth2_PHY_Mii_clk				IOSTANDARD = LVTTL;
+NET Eth2_PHY_Mii_data			IOSTANDARD = LVTTL;
+
+##################################################
+##						Flash									##
+##################################################
+
+
+NET "Flash_DQ<*>"			TNM_NET = "Flash_IO_GRP";
+NET "Flash_A<*>"			TNM_NET = "Flash_CNTRL_GRP";
+NET "Flash_OEN"			TNM_NET = "Flash_CNTRL_GRP";
+NET "Flash_CEN<*>"		TNM_NET = "Flash_CNTRL_GRP";
+NET "Flash_WEN"			TNM_NET = "Flash_CNTRL_GRP";
+NET "Flash_Rst"			TNM_NET = "Flash_CNTRL_GRP";
+
+NET "Flash_A<30>"			LOC="AC34";
+NET "Flash_A<29>"			LOC="AA30";
+NET "Flash_A<28>"			LOC="Y29";
+NET "Flash_A<27>"			LOC="W29";
+NET "Flash_A<26>"			LOC="W30";
+NET "Flash_A<25>"			LOC="V30";
+NET "Flash_A<24>"			LOC="V29";
+NET "Flash_A<23>"			LOC="U26";
+NET "Flash_A<22>"			LOC="T27";
+NET "Flash_A<21>"			LOC="T28";
+NET "Flash_A<20>"			LOC="T25";
+NET "Flash_A<19>"			LOC="U24";
+NET "Flash_A<18>"			LOC="T24";
+NET "Flash_A<17>"			LOC="R26";
+NET "Flash_A<16>"			LOC="P28";
+NET "Flash_A<15>"			LOC="P27";
+NET "Flash_A<14>"			LOC="T30";
+NET "Flash_A<13>"			LOC="U27";
+NET "Flash_A<12>"			LOC="T26";
+NET "Flash_A<11>"			LOC="U29";
+NET "Flash_A<10>"			LOC="U28";
+NET "Flash_A<9>"			LOC="U25";
+NET "Flash_A<8>"			LOC="P26";
+NET "Flash_A<7>"			LOC="R25";
+NET "Flash_A<6>"			LOC="P29";
+
+NET "Flash_A<31>"			LOC="AF25"; # unused
+NET "Flash_A<5>"			LOC="AL28"; # unused
+NET "Flash_A<4>"			LOC="AE24"; # unused
+NET "Flash_A<3>"			LOC="AA27"; # unused
+NET "Flash_A<2>"			LOC="AG25"; # unused
+NET "Flash_A<1>"			LOC="AH25"; # unused
+NET "Flash_A<0>"			LOC="AE22"; # unused
+
+NET "Flash_OEN"			LOC="AB34";
+NET "Flash_CEN<3>"		LOC="AB30";
+NET "Flash_CEN<2>"		LOC="AD34";
+NET "Flash_CEN<1>"		LOC="AC33";
+NET "Flash_CEN<0>"		LOC="AB33";
+NET "Flash_WEN"			LOC="V24";
+NET "Flash_Rst"			LOC="V25";
+
+NET "Flash_DQ<15>"		LOC="U30";
+NET "Flash_DQ<14>"		LOC="R28";
+NET "Flash_DQ<13>"		LOC="AA33";
+NET "Flash_DQ<12>"		LOC="Y33";
+NET "Flash_DQ<11>"		LOC="T32";
+NET "Flash_DQ<10>"		LOC="N25";
+NET "Flash_DQ<9>"			LOC="N27";
+NET "Flash_DQ<8>"			LOC="N28";
+NET "Flash_DQ<7>"			LOC="T29";
+NET "Flash_DQ<6>"			LOC="T33";
+NET "Flash_DQ<5>"			LOC="AA34";
+NET "Flash_DQ<4>"			LOC="Y34";
+NET "Flash_DQ<3>"			LOC="U33";
+NET "Flash_DQ<2>"			LOC="N26";
+NET "Flash_DQ<1>"			LOC="P25";
+NET "Flash_DQ<0>"			LOC="R29";
+
+NET Flash_A<30>			IOSTANDARD = LVTTL;
+NET Flash_A<29>			IOSTANDARD = LVTTL;
+NET Flash_A<28>			IOSTANDARD = LVTTL;
+NET Flash_A<27>			IOSTANDARD = LVTTL;
+NET Flash_A<26>			IOSTANDARD = LVTTL;
+NET Flash_A<25>			IOSTANDARD = LVTTL;
+NET Flash_A<24>			IOSTANDARD = LVTTL;
+NET Flash_A<23>			IOSTANDARD = LVTTL;
+NET Flash_A<22>			IOSTANDARD = LVTTL;
+NET Flash_A<21>			IOSTANDARD = LVTTL;
+NET Flash_A<20>			IOSTANDARD = LVTTL;
+NET Flash_A<19>			IOSTANDARD = LVTTL;
+NET Flash_A<18>			IOSTANDARD = LVTTL;
+NET Flash_A<17>			IOSTANDARD = LVTTL;
+NET Flash_A<16>			IOSTANDARD = LVTTL;
+NET Flash_A<15>			IOSTANDARD = LVTTL;
+NET Flash_A<14>			IOSTANDARD = LVTTL;
+NET Flash_A<13>			IOSTANDARD = LVTTL;
+NET Flash_A<12>			IOSTANDARD = LVTTL;
+NET Flash_A<11>			IOSTANDARD = LVTTL;
+NET Flash_A<10>			IOSTANDARD = LVTTL;
+NET Flash_A<9>				IOSTANDARD = LVTTL;
+NET Flash_A<8>				IOSTANDARD = LVTTL;
+NET Flash_A<7>				IOSTANDARD = LVTTL;
+NET Flash_A<6>				IOSTANDARD = LVTTL;
+
+NET Flash_A<31>			IOSTANDARD = LVCMOS25;	# unused
+NET Flash_A<5>				IOSTANDARD = LVCMOS25;	# unused
+NET Flash_A<4>				IOSTANDARD = LVCMOS25;	# unused
+NET Flash_A<3>				IOSTANDARD = LVTTL; 	# unused
+NET Flash_A<2>				IOSTANDARD = LVCMOS25;	# unused
+NET Flash_A<1>				IOSTANDARD = LVCMOS25;	# unused
+NET Flash_A<0>				IOSTANDARD = LVCMOS25;	# unused
+
+NET Flash_DQ<15>			IOSTANDARD = LVTTL;
+NET Flash_DQ<14>			IOSTANDARD = LVTTL;
+NET Flash_DQ<13>			IOSTANDARD = LVTTL;
+NET Flash_DQ<12>			IOSTANDARD = LVTTL;
+NET Flash_DQ<11>			IOSTANDARD = LVTTL;
+NET Flash_DQ<10>			IOSTANDARD = LVTTL;
+NET Flash_DQ<9>			IOSTANDARD = LVTTL;
+NET Flash_DQ<8>			IOSTANDARD = LVTTL;
+NET Flash_DQ<7>			IOSTANDARD = LVTTL;
+NET Flash_DQ<6>			IOSTANDARD = LVTTL;
+NET Flash_DQ<5>			IOSTANDARD = LVTTL;
+NET Flash_DQ<4>			IOSTANDARD = LVTTL;
+NET Flash_DQ<3>			IOSTANDARD = LVTTL;
+NET Flash_DQ<2>			IOSTANDARD = LVTTL;
+NET Flash_DQ<1>			IOSTANDARD = LVTTL;
+NET Flash_DQ<0>			IOSTANDARD = LVTTL;
+
+NET Flash_CEN<0>			IOSTANDARD = LVTTL;
+NET Flash_CEN<1>			IOSTANDARD = LVTTL;
+NET Flash_CEN<2>			IOSTANDARD = LVTTL;
+NET Flash_CEN<3>			IOSTANDARD = LVTTL;
+
+NET Flash_OEN				IOSTANDARD = LVTTL;
+NET Flash_WEN				IOSTANDARD = LVTTL;
+NET Flash_Rst				IOSTANDARD = LVTTL;
+NET Flash_DQ<0>			PULLUP;
+NET Flash_DQ<1>			PULLUP;
+NET Flash_DQ<2>			PULLUP;
+NET Flash_DQ<3>			PULLUP;
+NET Flash_DQ<4>			PULLUP;
+NET Flash_DQ<5>			PULLUP;
+NET Flash_DQ<6>			PULLUP;
+NET Flash_DQ<7>			PULLUP;
+NET Flash_DQ<8>			PULLUP;
+NET Flash_DQ<9>			PULLUP;
+NET Flash_DQ<10>			PULLUP;
+NET Flash_DQ<11>			PULLUP;
+NET Flash_DQ<12>			PULLUP;
+NET Flash_DQ<13>			PULLUP;
+NET Flash_DQ<14>			PULLUP;
+NET Flash_DQ<15>			PULLUP;
+
+NET Flash_A<0>				PULLUP;
+NET Flash_A<1>				PULLUP;
+NET Flash_A<2>				PULLUP;
+NET Flash_A<3>				PULLUP;
+NET Flash_A<4>				PULLUP;
+NET Flash_A<5>				PULLUP;
+NET Flash_A<6>				PULLUP;
+NET Flash_A<7>				PULLUP;
+NET Flash_A<8>				PULLUP;
+NET Flash_A<9>				PULLUP;
+NET Flash_A<10>			PULLUP;
+NET Flash_A<11>			PULLUP;
+NET Flash_A<12>			PULLUP;
+NET Flash_A<13>			PULLUP;
+NET Flash_A<14>			PULLUP;
+NET Flash_A<15>			PULLUP;
+NET Flash_A<16>			PULLUP;
+NET Flash_A<17>			PULLUP;
+NET Flash_A<18>			PULLUP;
+NET Flash_A<19>			PULLUP;
+NET Flash_A<20>			PULLUP;
+NET Flash_A<21>			PULLUP;
+NET Flash_A<22>			PULLUP;
+NET Flash_A<23>			PULLUP;
+NET Flash_A<24>			PULLUP;
+NET Flash_A<25>			PULLUP;
+NET Flash_A<26>			PULLUP;
+NET Flash_A<27>			PULLUP;
+NET Flash_A<28>			PULLUP;
+NET Flash_A<29>			PULLUP;
+NET Flash_A<30>			PULLUP;
+
+
+NET Flash_CEN<0>			PULLDOWN;
+NET Flash_CEN<1>			PULLDOWN;
+NET Flash_CEN<2>			PULLDOWN;
+NET Flash_CEN<3>			PULLDOWN;
+
+NET Flash_OEN				PULLDOWN;
+NET Flash_WEN				PULLDOWN;
+
+NET Flash_Rst				PULLUP;
+
+
+##################################################
+##						DDR									##
+##################################################
+
+NET "clk_90_s" TNM_NET = "clk_90_s";
+TIMESPEC "TS_CLK90" = PERIOD "clk_90_s" 10 ns HIGH 50% ;
+
+#TIMESPEC "TSCLK2CLK90" = FROM "sys_clk_s" TO "clk_90_s" 3 ns;
+TIMESPEC "TSCLK2CLK90" = FROM "sys_clk_s" TO "clk_90_s" 2.7 ns;
+
+NET "ddr_clk_90_s" TNM_NET = "ddr_clk_90_s";
+#TIMESPEC "TS_ddr_Clk_90" = PERIOD "ddr_clk_90_s" 10 ns HIGH 50 %;
+TIMESPEC "TS_ddr_Clk_90" = PERIOD "ddr_clk_90_s" 9.7 ns HIGH 50 %;
+
+NET "DDR_BankAddr<1>"	LOC="AM21";
+NET "DDR_BankAddr<0>"	LOC="AE18";
+
+NET "DDR_Addr<12>"		LOC="AK16";
+NET "DDR_Addr<11>"		LOC="AL11";
+NET "DDR_Addr<10>"		LOC="AJ13";
+NET "DDR_Addr<9>"			LOC="AM14";
+NET "DDR_Addr<8>"			LOC="AM13";
+NET "DDR_Addr<7>"			LOC="AL14";
+NET "DDR_Addr<6>"			LOC="AJ14";
+NET "DDR_Addr<5>"			LOC="AG17";
+NET "DDR_Addr<4>"			LOC="AF16";
+NET "DDR_Addr<3>"			LOC="AE15";
+NET "DDR_Addr<2>"			LOC="AJ15";
+NET "DDR_Addr<1>"			LOC="AE16";
+NET "DDR_Addr<0>"			LOC="AH15";
+
+NET "DDR_DQ<31>"			LOC="AF18";
+NET "DDR_DQ<30>"			LOC="AF19";
+NET "DDR_DQ<29>"			LOC="AH20";
+NET "DDR_DQ<28>"			LOC="AL22";
+NET "DDR_DQ<27>"			LOC="AM22";
+NET "DDR_DQ<26>"			LOC="AE11";
+NET "DDR_DQ<25>"			LOC="AJ22";
+NET "DDR_DQ<24>"			LOC="AJ21";
+NET "DDR_DQ<23>"			LOC="AK25";
+NET "DDR_DQ<22>"			LOC="AL24";
+NET "DDR_DQ<21>"			LOC="AM26";
+NET "DDR_DQ<20>"			LOC="AH23";
+NET "DDR_DQ<19>"			LOC="AH21";
+NET "DDR_DQ<18>"			LOC="AG21";
+NET "DDR_DQ<17>"			LOC="AH22";
+NET "DDR_DQ<16>"			LOC="AK24";
+NET "DDR_DQ<15>"			LOC="AK8";
+NET "DDR_DQ<14>"			LOC="AL9";
+NET "DDR_DQ<13>"			LOC="AG10";
+NET "DDR_DQ<12>"			LOC="AK10";
+NET "DDR_DQ<11>"			LOC="AK11";
+NET "DDR_DQ<10>"			LOC="AG14";
+NET "DDR_DQ<9>"			LOC="AL12";
+NET "DDR_DQ<8>"			LOC="AH14";
+NET "DDR_DQ<7>"			LOC="AH13";
+NET "DDR_DQ<6>"			LOC="AH12";
+NET "DDR_DQ<5>"			LOC="AG13";
+NET "DDR_DQ<4>"			LOC="AF13";
+NET "DDR_DQ<3>"			LOC="AG16";
+NET "DDR_DQ<2>"			LOC="AF15";
+NET "DDR_DQ<1>"			LOC="AF17";
+NET "DDR_DQ<0>"			LOC="AE17";
+
+NET "DDR_DM<3>"			LOC="AH11";
+NET "DDR_DM<2>"			LOC="AL13";
+NET "DDR_DM<1>"			LOC="AG11";
+NET "DDR_DM<0>"			LOC="AM9";
+
+NET "DDR_DQS<3>"			LOC="AF12";
+NET "DDR_DQS<2>"			LOC="AE12";
+NET "DDR_DQS<1>"			LOC="AK9";
+NET "DDR_DQS<0>"			LOC="AJ9";
+
+NET "DDR_CASn"				LOC="AE20";
+NET "DDR_RASn"				LOC="AF23";
+NET "DDR_WEn"				LOC="AG19";
+
+NET "DDR_CKE"				LOC="AF21";
+NET "DDR_CSn"				LOC="AJ16";
+
+NET "DDR_CLK_FB"			LOC="AK18";
+NET "DDR_Clkn"				LOC="AH19";
+NET "DDR_Clk"				LOC="AJ19";
+
+
+NET DDR_CLK_FB				IOSTANDARD = SSTL2_I;
+NET DDR_Clkn				IOSTANDARD = SSTL2_I;
+NET DDR_Clk					IOSTANDARD = SSTL2_I;
+
+Net DDR_Addr<12>			IOSTANDARD = SSTL2_I;
+Net DDR_Addr<11>			IOSTANDARD = SSTL2_I;
+Net DDR_Addr<10>			IOSTANDARD = SSTL2_I;
+Net DDR_Addr<9>			IOSTANDARD = SSTL2_I;
+Net DDR_Addr<8>			IOSTANDARD = SSTL2_I;
+Net DDR_Addr<7>			IOSTANDARD = SSTL2_I;
+Net DDR_Addr<6>			IOSTANDARD = SSTL2_I;
+Net DDR_Addr<5>			IOSTANDARD = SSTL2_I;
+Net DDR_Addr<4>			IOSTANDARD = SSTL2_I;
+Net DDR_Addr<3>			IOSTANDARD = SSTL2_I;
+Net DDR_Addr<2>			IOSTANDARD = SSTL2_I;
+Net DDR_Addr<1>			IOSTANDARD = SSTL2_I;
+Net DDR_Addr<0>			IOSTANDARD = SSTL2_I;
+
+Net DDR_BankAddr<1>		IOSTANDARD = SSTL2_I;
+Net DDR_BankAddr<0>		IOSTANDARD = SSTL2_I;
+
+Net DDR_RASn				IOSTANDARD = SSTL2_I;
+Net DDR_CASn				IOSTANDARD = SSTL2_I;
+Net DDR_WEn					IOSTANDARD = SSTL2_I;
+Net DDR_CKE					IOSTANDARD = SSTL2_I;
+Net DDR_CSn					IOSTANDARD = SSTL2_I;
+Net DDR_DM<3>				IOSTANDARD = SSTL2_I;
+Net DDR_DM<2>				IOSTANDARD = SSTL2_I;
+Net DDR_DM<1>				IOSTANDARD = SSTL2_I;
+Net DDR_DM<0>				IOSTANDARD = SSTL2_I;
+
+Net DDR_DQS<3>				IOSTANDARD = SSTL2_I;
+Net DDR_DQS<2>				IOSTANDARD = SSTL2_I;
+Net DDR_DQS<1>				IOSTANDARD = SSTL2_I;
+Net DDR_DQS<0>				IOSTANDARD = SSTL2_I;
+
+Net DDR_DQS<3>				PULLDOWN;
+Net DDR_DQS<2>				PULLDOWN;
+Net DDR_DQS<1>				PULLDOWN;
+Net DDR_DQS<0>				PULLDOWN;
+
+Net DDR_DQ<31>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<30>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<29>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<28>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<27>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<26>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<25>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<24>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<23>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<22>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<21>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<20>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<19>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<18>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<17>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<16>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<15>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<14>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<13>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<12>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<11>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<10>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<9>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<8>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<7>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<6>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<5>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<4>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<3>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<2>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<1>				IOSTANDARD = SSTL2_I;
+Net DDR_DQ<0>				IOSTANDARD = SSTL2_I;
+
+
+#NET "fu1<1>" LOC="L10" | IOSTANDARD = PCI33_3; #X8:1
+#NET "fu1<2>" LOC="M10" | IOSTANDARD = PCI33_3; #X8:3
+#NET "fu1<3>" LOC="N10" | IOSTANDARD = PCI33_3; #X8:5
+#NET "fu1<4>" LOC="P10" | IOSTANDARD = PCI33_3; #X8:7
+#NET "fu1<5>" LOC="T11" | IOSTANDARD = PCI33_3; #X8:9
+#NET "fu1<6>" LOC="R10" | IOSTANDARD = PCI33_3; #X8:11
+#NET "fu1<7>" LOC="U11" | IOSTANDARD = PCI33_3; #X8:13
+#NET "fu1<8>" LOC="T10" | IOSTANDARD = PCI33_3; #X8:15
+#NET "fu1<9>" LOC="U10" | IOSTANDARD = PCI33_3; #X8:17
+#NET "fu1<10>" LOC="V10" | IOSTANDARD = PCI33_3; #X8:19
+#NET "fu1<11>" LOC="W10" | IOSTANDARD = PCI33_3; #X8:21
+#NET "fu1<12>" LOC="Y10" | IOSTANDARD = PCI33_3; #X8:23
+#NET "fu1<13>" LOC="V9"  | IOSTANDARD = PCI33_3; #X8:25
+#NET "fu1<14>" LOC="AA9" | IOSTANDARD = PCI33_3; #X8:27
+#NET "fu1<15>" LOC="AB9" | IOSTANDARD = PCI33_3; #X8:29
+#NET "fu1<16>" LOC="Y9"  | IOSTANDARD = PCI33_3; #X8:31
+#
+#NET "fu2<1>" LOC="AB8" | IOSTANDARD = PCI33_3; #X8:33
+#NET "fu2<2>" LOC="W9"  | IOSTANDARD = PCI33_3; #X8:35
+#NET "fu2<3>" LOC="Y7"  | IOSTANDARD = PCI33_3; #X8:37
+#NET "fu2<4>" LOC="W8"  | IOSTANDARD = PCI33_3; #X8:39
+#NET "fu2<5>" LOC="W7"  | IOSTANDARD = PCI33_3; #X8:41
+#NET "fu2<6>" LOC="U9"  | IOSTANDARD = PCI33_3; #X8:43
+#NET "fu2<7>" LOC="T9"  | IOSTANDARD = PCI33_3; #X8:45
+#NET "fu2<8>" LOC="U8"  | IOSTANDARD = PCI33_3; #X8:47
+#NET "fu2<9>" LOC="R9"  | IOSTANDARD = PCI33_3; #X8:49
+#NET "fu2<10>" LOC="U7"  | IOSTANDARD = PCI33_3; #X8:51
+#NET "fu2<11>" LOC="T8"  | IOSTANDARD = PCI33_3; #X8:53
+#NET "fu2<12>" LOC="P9"  | IOSTANDARD = PCI33_3; #X8:55
+#NET "fu2<13>" LOC="M7"  | IOSTANDARD = PCI33_3; #X8:57
+#NET "fu2<14>" LOC="P7"  | IOSTANDARD = PCI33_3; #X8:59
+#NET "fu2<15>" LOC="N7"  | IOSTANDARD = PCI33_3; #X8:61
+#NET "fu2<16>" LOC="P8"  | IOSTANDARD = PCI33_3; #X8:63
+#
+#NET "fu*"				TIG;
+
+NET "dnepr_TR_start_pin"    LOC="L10" | IOSTANDARD = PCI33_3    | TIG; #X8:1
+NET "dnepr_TR_stop_pin"     LOC="M10" | IOSTANDARD = PCI33_3    | TIG; #X8:3
+NET "dnepr_RC_start_pin"    LOC="N10" | IOSTANDARD = PCI33_3    | TIG; #X8:5
+NET "dnepr_RC_stop_pin"     LOC="P10" | IOSTANDARD = PCI33_3    | TIG; #X8:7
+NET "dnepr_dTR_start_pin"   LOC="T11" | IOSTANDARD = PCI33_3    | TIG; #X8:9
+NET "dnepr_dTR_stop_pin"    LOC="R10" | IOSTANDARD = PCI33_3    | TIG; #X8:11
+NET "dnepr_dRC_start_pin"   LOC="U11" | IOSTANDARD = PCI33_3    | TIG; #X8:13
+NET "dnepr_dRC_stop_pin"    LOC="T10" | IOSTANDARD = PCI33_3    | TIG; #X8:15
+NET "delay_out"             LOC="U10" | IOSTANDARD = PCI33_3    | TIG; #X8:17

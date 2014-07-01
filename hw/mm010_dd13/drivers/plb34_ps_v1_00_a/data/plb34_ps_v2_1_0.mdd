@@ -1,0 +1,15 @@
+##############################################################################
+## Filename:          D:\temp\6MPGM_6MPS5_6B261_6A119_7M010_DD13\system/drivers/plb34_ps_v1_00_a/data/plb34_ps_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Mon Mar 15 16:04:35 2010 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER plb34_ps
+
+  OPTION supported_peripherals = (plb34_ps);
+  OPTION depends = (common_v1_00_a);
+  OPTION copyfiles = all;
+
+END DRIVER

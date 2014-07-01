@@ -1,0 +1,47 @@
+HDL language for the peripheral (top level) design unit ft_fd_control is vhdl
+...
+INFO:MDT - Create temparary xst project file:
+   /home/atana/RTI/dnepr/hw/mm010_dd13/pcores/ft_fd_control.prj
+Compiling vhdl file
+"/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/ft_fd_control/ft_fd_control.vhd" in
+Library ft_fd_control_v1_00_a.
+Entity <ft_fd_control> compiled.
+Entity <ft_fd_control> (Architecture <Behavioral>) compiled.
+
+
+Analyzing HDL attributes ...
+INFO:MDT - IPTYPE set to value : PERIPHERAL
+INFO:MDT - IMP_NETLIST set to value : TRUE
+INFO:MDT - HDL set to value : VHDL
+Copying file ft_fd_control.vhd to
+/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/ft_fd_control_v1_00_a/hdl/vhdl/ ...
+
+Thank you for using Create and Import Peripheral Wizard! Please find your
+imported peripheral under
+/home/atana/RTI/dnepr/hw/mm010_dd13/pcores/ft_fd_control_v1_00_a.
+
+Summary:
+
+  Logical library     : ft_fd_control_v1_00_a
+  Version             : 1.00.a
+  Bus interface(s)    : None
+
+The following sub-directories will be created:
+
+  - ft_fd_control_v1_00_a/data
+  - ft_fd_control_v1_00_a/hdl
+  - ft_fd_control_v1_00_a/hdl/vhdl
+
+
+The following HDL source files will be copied into the
+ft_fd_control_v1_00_a/hdl/vhdl directory:
+
+  - ft_fd_control.vhd
+
+The following files will be created under the ft_fd_control_v1_00_a/data
+directory:
+
+  - ft_fd_control_v2_1_0.mpd
+  - ft_fd_control_v2_1_0.pao
+
+

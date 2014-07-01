@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator K.39
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o /home/atana/RTI/dnepr/hw/mm010_dd13_dts/dd13 -u 0 /home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/system_cclktemp.bit -x xcf32p 
+
+PROM /home/atana/RTI/dnepr/hw/mm010_dd13_dts/dd13.prm map: Tue Jun 24 16:23:11 2014
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          4096K
+PROM start    0000:0000
+PROM end      003f:ffff
+PROM checksum 1d0e2f90
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0024:47c3     Jun 24 16:23:05 2014 /home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/system_cclktemp.bit

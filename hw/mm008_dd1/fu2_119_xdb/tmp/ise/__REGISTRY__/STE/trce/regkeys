@@ -1,0 +1,6 @@
+CommandLine
+/opt/Xilinx/10.1/ISE/bin/lin/unwrapped/trce -ise /home/atana/RTI/FPO/newwork/6ma119-6mb261-hw/hw/mpgf13_6ma119_7mm008_dd1/fu2_119.ise -intstyle ise -e 3 -s 4 -xml fu2_119 fu2_119.ncd -o fu2_119.twr fu2_119.pcf -ucf rms_fu2_pin.ucf
+s
+FormatString
+trce ([-e|-v [<limit:0,2000000000>]] [-l <limit:0,2000000000>] [-n [<limit:0,2000000000>]] [-u [<limit:0,2000000000>]] [-skew] [-a] [--p] [-s <speed>] [-o <report[.twr]>] [--m] [-stamp <stampfile>] [-tsi <tsifile[.tsi]>] [-xml <report[.twx]>] [-nodatasheet] [-timegroups] [-fastpaths] [-intstyle ise|xflow|silent] [-ise <projectfile>] [--ucf <constraint[.ucf]>] <design[.ncd]> [<constraint[.pcf]>]) | ([-run <macro[.xtm]> [<design[.ncd]> [<constraint[.pcf]>]]] [-intstyle ise|xflow|silent] [-ise <projectfile>])
+s

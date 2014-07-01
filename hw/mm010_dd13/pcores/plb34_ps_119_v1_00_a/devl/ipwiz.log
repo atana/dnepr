@@ -1,0 +1,305 @@
+Parsing PAO project file successfully ...
+Analyzing HDL source files ...
+Analyzing HDL source files successfully ...
+HDL language for the peripheral (top level) design unit SM_wait_imp is vhdl ...
+INFO:MDT - Create temparary xst project file:
+   C:\active_work\ise\sim\sym_plb34_plb_ps34_sim\pcores/plb34_ps_119.prj
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+inferred_lut4.vhd" in Library proc_common_v2_00_a.
+Entity <inferred_lut4> compiled.
+Entity <inferred_lut4> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+pf_counter_bit.vhd" in Library proc_common_v2_00_a.
+Entity <pf_counter_bit> compiled.
+Entity <pf_counter_bit> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+pf_adder_bit.vhd" in Library proc_common_v2_00_a.
+Entity <pf_adder_bit> compiled.
+Entity <pf_adder_bit> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+pf_counter.vhd" in Library proc_common_v2_00_a.
+Entity <pf_counter> compiled.
+Entity <pf_counter> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+pf_occ_counter.vhd" in Library proc_common_v2_00_a.
+Entity <pf_occ_counter> compiled.
+Entity <pf_occ_counter> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+pf_occ_counter_top.vhd" in Library proc_common_v2_00_a.
+Entity <pf_occ_counter_top> compiled.
+Entity <pf_occ_counter_top> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+pf_counter_top.vhd" in Library proc_common_v2_00_a.
+Entity <pf_counter_top> compiled.
+Entity <pf_counter_top> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+pf_adder.vhd" in Library proc_common_v2_00_a.
+Entity <pf_adder> compiled.
+Entity <pf_adder> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+proc_common_pkg.vhd" in Library proc_common_v2_00_a.
+Package <proc_common_pkg> compiled.
+Package body <proc_common_pkg> compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+counter_bit.vhd" in Library proc_common_v2_00_a.
+Entity <counter_bit> compiled.
+Entity <counter_bit> (Architecture <imp>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+or_muxcy.vhd" in Library proc_common_v2_00_a.
+Entity <or_muxcy> compiled.
+Entity <or_muxcy> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+family.vhd" in Library proc_common_v2_00_a.
+Package <family> compiled.
+Package body <family> compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+or_gate.vhd" in Library proc_common_v2_00_a.
+Entity <or_gate> compiled.
+Entity <or_gate> (Architecture <imp>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+pselect.vhd" in Library proc_common_v2_00_a.
+Entity <pselect> compiled.
+Entity <pselect> (Architecture <imp>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+srl_fifo2.vhd" in Library proc_common_v2_00_a.
+Entity <srl_fifo2> compiled.
+Entity <srl_fifo2> (Architecture <imp>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+counter.vhd" in Library proc_common_v2_00_a.
+Entity <Counter> compiled.
+Entity <Counter> (Architecture <imp>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+ipif_pkg.vhd" in Library proc_common_v2_00_a.
+Package <ipif_pkg> compiled.
+Package body <ipif_pkg> compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+ipif_steer.vhd" in Library proc_common_v2_00_a.
+Entity <IPIF_Steer> compiled.
+Entity <IPIF_Steer> (Architecture <IMP>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+pf_dpram_select.vhd" in Library proc_common_v2_00_a.
+Entity <pf_dpram_select> compiled.
+Entity <pf_dpram_select> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+srl16_fifo.vhd" in Library proc_common_v2_00_a.
+Entity <srl16_fifo> compiled.
+Entity <srl16_fifo> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/fle
+x_addr_cntr.vhd" in Library plb_ipif_v1_00_f.
+Entity <flex_addr_cntr> compiled.
+Entity <flex_addr_cntr> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/pf_d
+ly1_mux.vhd" in Library wrpfifo_v2_00_a.
+Entity <pf_dly1_mux> compiled.
+Entity <pf_dly1_mux> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/v
+hdl/SM_wait_imp.vhd" in Library plb34_ps_119_v1_00_a.
+Entity <SM_wait_imp> compiled.
+Entity <SM_wait_imp> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/v
+hdl/FIFO_uc.vhd" in Library plb34_ps_119_v1_00_a.
+Entity <FIFO_uc> compiled.
+Entity <FIFO_uc> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb
+_address_decoder.vhd" in Library plb_ipif_v1_00_f.
+Entity <plb_address_decoder> compiled.
+Entity <plb_address_decoder> (Architecture <IMP>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/bur
+st_support.vhd" in Library plb_ipif_v1_00_f.
+Entity <burst_support> compiled.
+Entity <burst_support> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/add
+r_reg_cntr_brst_flex.vhd" in Library plb_ipif_v1_00_f.
+Entity <addr_reg_cntr_brst_flex> compiled.
+Entity <addr_reg_cntr_brst_flex> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/ipif
+_control_rd.vhd" in Library rdpfifo_v2_00_a.
+Entity <ipif_control_rd> compiled.
+Entity <ipif_control_rd> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/rdpf
+ifo_dp_cntl.vhd" in Library rdpfifo_v2_00_a.
+Entity <rdpfifo_dp_cntl> compiled.
+Entity <rdpfifo_dp_cntl> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/ipif
+_control_wr.vhd" in Library wrpfifo_v2_00_a.
+Entity <ipif_control_wr> compiled.
+Entity <ipif_control_wr> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/wrpf
+ifo_dp_cntl.vhd" in Library wrpfifo_v2_00_a.
+Entity <wrpfifo_dp_cntl> compiled.
+Entity <wrpfifo_dp_cntl> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/v
+hdl/pulse_fr_form.vhd" in Library plb34_ps_119_v1_00_a.
+Entity <pulse_fr_form> compiled.
+Entity <pulse_fr_form> (Architecture <struct>) compiled.
+Compiling vhdl file
+"C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/v
+hdl/PS_isp_avt.vhd" in Library plb34_ps_119_v1_00_a.
+Entity <PS_isp_avt> compiled.
+Entity <PS_isp_avt> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/wrpf
+ifo_top.vhd" in Library wrpfifo_v2_00_a.
+Entity <wrpfifo_top> compiled.
+Entity <wrpfifo_top> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/rdpf
+ifo_top.vhd" in Library rdpfifo_v2_00_a.
+Entity <rdpfifo_top> compiled.
+Entity <rdpfifo_top> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb
+_slave_attachment_indet.vhd" in Library plb_ipif_v1_00_f.
+Entity <plb_slave_attachment_indet> compiled.
+Entity <plb_slave_attachment_indet> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb
+_ipif_reset.vhd" in Library plb_ipif_v1_00_f.
+Entity <plb_ipif_reset> compiled.
+Entity <plb_ipif_reset> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb
+_interrupt_control.vhd" in Library plb_ipif_v1_00_f.
+Entity <plb_interrupt_control> compiled.
+Entity <plb_interrupt_control> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb
+_sesr_sear.vhd" in Library plb_ipif_v1_00_f.
+Entity <plb_sesr_sear> compiled.
+Entity <plb_sesr_sear> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb
+_ipif.vhd" in Library plb_ipif_v1_00_f.
+Entity <plb_ipif> compiled.
+Entity <plb_ipif> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/v
+hdl/user_logic.vhd" in Library plb34_ps_119_v1_00_a.
+Entity <user_logic> compiled.
+Entity <user_logic> (Architecture <IMP>) compiled.
+Compiling vhdl file
+"C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/v
+hdl/plb34_ps_119.vhd" in Library plb34_ps_119_v1_00_a.
+Entity <plb34_ps_119> compiled.
+Entity <plb34_ps_119> (Architecture <IMP>) compiled.
+
+
+Analyzing HDL attributes ...
+INFO:MDT - IPTYPE set to value : PERIPHERAL
+INFO:MDT - IMP_NETLIST set to value : TRUE
+INFO:MDT - HDL set to value : VHDL
+WARNING:MDT - Unable to delete temparary project file
+   C:\active_work\ise\sim\sym_plb34_plb_ps34_sim\pcores\plb34_ps_119.prj : 13
+INFO:MDT - Infer bus clock [PLB_Clk] for bus interface SPLB ...
+INFO:MDT - Get attribute value 0x100 from previous MPD file.
+INFO:MDT - Get attribute value CONSTANT from previous MPD file.
+INFO:MDT - Get attribute value (8, 16, 32, 64) from previous MPD file.
+INFO:MDT - Get attribute value 0x100 from previous MPD file.
+INFO:MDT - Get attribute value CONSTANT from previous MPD file.
+INFO:MDT - Get attribute value (8, 16, 32, 64) from previous MPD file.
+Copying file plb34_ps_119.vhd to
+C:\active_work\ise\sim\sym_plb34_plb_ps34_sim\pcores/plb34_ps_119_v1_00_a/hdl/vh
+dl/ ...
+Copying file user_logic.vhd to
+C:\active_work\ise\sim\sym_plb34_plb_ps34_sim\pcores/plb34_ps_119_v1_00_a/hdl/vh
+dl/ ...
+Copying file PS_isp_avt.vhd to
+C:\active_work\ise\sim\sym_plb34_plb_ps34_sim\pcores/plb34_ps_119_v1_00_a/hdl/vh
+dl/ ...
+Copying file pulse_fr_form.vhd to
+C:\active_work\ise\sim\sym_plb34_plb_ps34_sim\pcores/plb34_ps_119_v1_00_a/hdl/vh
+dl/ ...
+Copying file FIFO_uc.vhd to
+C:\active_work\ise\sim\sym_plb34_plb_ps34_sim\pcores/plb34_ps_119_v1_00_a/hdl/vh
+dl/ ...
+Copying file SM_wait_imp.vhd to
+C:\active_work\ise\sim\sym_plb34_plb_ps34_sim\pcores/plb34_ps_119_v1_00_a/hdl/vh
+dl/ ...
+
+Simulation Library Compilation Wizard Xilinx EDK 10.1.03 Build EDK_K_SP3.6
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+
+-- Scanning repositories                    1  % complete,   0 errors
+-- Collecting HDL files                     5  % complete,   0 errors
+-- HDL files collected for 4 pcores         20 % complete,   0 errors
+-- Compiling pcores                         20 % complete,   0 errors
+-- Compiling plb34_ps_119_v1_00_a           98 % complete,   4 errors
+-- Compilation completed, 5 errors.         100% complete,   5 errors
+See
+C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores//plb34_ps_119_v1_00_a/devl/
+compedklib.log for execution log.
+ISim simulation model generated successfully...
+
+Thank you for using Create and Import Peripheral Wizard! Please find your
+imported peripheral under
+C:\active_work\ise\sim\sym_plb34_plb_ps34_sim\pcores\plb34_ps_119_v1_00_a.
+
+Summary:
+
+  Logical library     : plb34_ps_119_v1_00_a
+  Version             : 1.00.a
+  Bus interface(s)    : SPLB 
+
+The following sub-directories will be created:
+
+  - plb34_ps_119_v1_00_a\data
+  - plb34_ps_119_v1_00_a\doc
+  - plb34_ps_119_v1_00_a\hdl
+  - plb34_ps_119_v1_00_a\hdl\vhdl
+
+
+The following HDL source files will be copied into the
+plb34_ps_119_v1_00_a\hdl\vhdl directory:
+
+  - plb34_ps_119.vhd
+  - user_logic.vhd
+  - PS_isp_avt.vhd
+  - pulse_fr_form.vhd
+  - FIFO_uc.vhd
+  - SM_wait_imp.vhd
+
+The following files will be created under the plb34_ps_119_v1_00_a\data
+directory:
+
+  - plb34_ps_119_v2_1_0.mpd
+  - plb34_ps_119_v2_1_0.pao
+
+The following document file(s) will be copied into the plb34_ps_119_v1_00_a\doc
+directory:
+
+  - plb34_ps_119.pdf
+
+

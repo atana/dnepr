@@ -1,0 +1,184 @@
+Release 10.1.03 Map K.39 (lin)
+Xilinx Map Application Log File for Design 'system'
+
+Design Information
+------------------
+Command Line   : map -o system_map.ncd -pr b -ol high -timing system.ngd
+system.pcf 
+Target Device  : xc2vp50
+Target Package : ff1152
+Target Speed   : -6
+Mapper Version : virtex2p -- $Revision: 1.46.12.2 $
+Mapped Date    : Tue Jun 24 16:04:08 2014
+
+Mapping design into LUTs...
+Writing file system_map.ngm...
+Running directed packing...
+Running delay-based LUT packing...
+Running timing-driven packing...
+
+Phase 1.1
+Phase 1.1 (Checksum:18c0a3d9) REAL time: 28 secs 
+
+Phase 2.7
+WARNING:Place:838 - An IO Bus with more than one IO standard is found.
+   Components associated with this bus are as follows: 
+   	 Comp: Flash_A<31>   IOSTANDARD = LVCMOS25
+   	 Comp: Flash_A<30>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<29>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<28>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<27>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<26>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<25>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<24>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<23>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<22>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<21>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<20>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<19>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<18>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<17>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<16>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<15>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<14>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<13>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<12>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<11>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<10>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<9>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<8>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<7>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<6>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<5>   IOSTANDARD = LVCMOS25
+   	 Comp: Flash_A<4>   IOSTANDARD = LVCMOS25
+   	 Comp: Flash_A<3>   IOSTANDARD = LVTTL
+   	 Comp: Flash_A<2>   IOSTANDARD = LVCMOS25
+   	 Comp: Flash_A<1>   IOSTANDARD = LVCMOS25
+   	 Comp: Flash_A<0>   IOSTANDARD = LVCMOS25
+
+
+WARNING:Place:837 - Partially locked IO Bus is found. 
+    Following components of the bus are not locked: 
+   	 Comp: LEDS<0>
+
+WARNING:Place:838 - An IO Bus with more than one IO standard is found.
+   Components associated with this bus are as follows: 
+   	 Comp: LEDS<2>   IOSTANDARD = PCI33_3
+   	 Comp: LEDS<1>   IOSTANDARD = PCI33_3
+   	 Comp: LEDS<0>   IOSTANDARD = LVCMOS25
+
+
+INFO:Place:834 - Only a subset of IOs are locked. Out of 177 IOs, 173 are locked
+   and 4 are not locked. If you would like to print the names of these IOs,
+   please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1. 
+Phase 2.7 (Checksum:18c0a3d9) REAL time: 28 secs 
+
+Phase 3.31
+WARNING:Place:479 - Use of the left PPC405 has been detected. The left processor
+   requires special design considerations when operating above 350 MHz in the -7
+   speed grade part. Please see Xilinx Application Note XAPP755 for details.
+Phase 3.31 (Checksum:18c2bd91) REAL time: 28 secs 
+
+Phase 4.2
+...
+.....
+
+
+WARNING:Place:83 - This design either uses more than 8 clock buffers or has clock buffers locked into primary and
+   secondary sites. Since only one clock buffer output signal from a primary / secondary pair may enter any clock region
+   it is necessary to partition the clock logic being driven by these clocks into different clock regions. It may be
+   possible through Floorplanning all or just part of the logic being driven by the Global clocks to achieve a legal
+   placement for this design.........................................
+...........
+.................
+......
+...................
+Phase 4.2 (Checksum:890dd929) REAL time: 1 mins 17 secs 
+
+...
+Phase 5.30
+Phase 5.30 (Checksum:18ccac42) REAL time: 1 mins 18 secs 
+
+Phase 6.3
+....
+Phase 6.3 (Checksum:18d4291e) REAL time: 1 mins 19 secs 
+
+Phase 7.5
+Phase 7.5 (Checksum:18d4291e) REAL time: 1 mins 19 secs 
+
+Phase 8.4
+................................
+...........
+Phase 8.4 (Checksum:18d4291e) REAL time: 1 mins 29 secs 
+
+Phase 9.28
+Phase 9.28 (Checksum:18d4291e) REAL time: 1 mins 30 secs 
+
+Phase 10.8
+................................
+......................
+.....
+...................................
+...............
+...............
+...............
+.......................
+Phase 10.8 (Checksum:903a1a4f) REAL time: 2 mins 27 secs 
+
+Phase 11.29
+Phase 11.29 (Checksum:903a1a4f) REAL time: 2 mins 27 secs 
+
+Phase 12.5
+Phase 12.5 (Checksum:903a1a4f) REAL time: 2 mins 28 secs 
+
+Phase 13.18
+Phase 13.18 (Checksum:905ef2a4) REAL time: 3 mins 34 secs 
+
+Phase 14.5
+Phase 14.5 (Checksum:905ef2a4) REAL time: 3 mins 35 secs 
+
+Phase 15.27
+Phase 15.27 (Checksum:905ef2a4) REAL time: 3 mins 49 secs 
+
+Phase 16.24
+Phase 16.24 (Checksum:905ef2a4) REAL time: 3 mins 53 secs 
+
+REAL time consumed by placer: 3 mins 54 secs 
+CPU  time consumed by placer: 3 mins 53 secs 
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:  114
+Logic Utilization:
+  Number of Slice Flip Flops:        11,413 out of  47,232   24%
+  Number of 4 input LUTs:            14,179 out of  47,232   30%
+Logic Distribution:
+  Number of occupied Slices:         10,494 out of  23,616   44%
+    Number of Slices containing only related logic:  10,494 out of  10,494 100%
+    Number of Slices containing unrelated logic:          0 out of  10,494   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:      14,970 out of  47,232   31%
+    Number used as logic:            12,969
+    Number used as a route-thru:        791
+    Number used for Dual Port RAMs:     414
+      (Two LUTs used per Dual Port RAM)
+    Number used as Shift registers:     796
+  Number of bonded IOBs:                179 out of     692   25%
+    IOB Flip Flops:                     295
+    IOB Master Pads:                      1
+    IOB Slave Pads:                       1
+  Number of PPC405s:                      2 out of       2  100%
+  Number of JTAGPPCs:                     1 out of       1  100%
+  Number of RAMB16s:                     64 out of     232   27%
+  Number of BUFGMUXs:                    10 out of      16   62%
+  Number of DCMs:                         3 out of       8   37%
+
+Peak Memory Usage:  732 MB
+Total REAL time to MAP completion:  4 mins 36 secs 
+Total CPU time to MAP completion:   4 mins 35 secs 
+
+Mapping completed.
+See MAP report file "system_map.mrp" for details.

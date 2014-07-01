@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "D:\TEST\HW_SW_test\sym_plb34_grid_generator\pcores\plb34_grid_generator_v2_01_a\devl\synthesis\plb34_grid_generator_xst.prj"
+-top plb34_grid_generator
+-p virtex2p
+-ofn "D:\TEST\HW_SW_test\sym_plb34_grid_generator\pcores\plb34_grid_generator_v2_01_a\devl\synthesis\plb34_grid_generator_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib plb34_grid_generator_v2_01_a

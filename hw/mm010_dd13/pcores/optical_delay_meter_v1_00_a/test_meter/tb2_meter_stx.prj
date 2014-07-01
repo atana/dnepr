@@ -1,0 +1,2 @@
+vhdl isim_temp "../hdl/vhdl/meter.vhd"
+vhdl isim_temp "tb2_meter.vhd"

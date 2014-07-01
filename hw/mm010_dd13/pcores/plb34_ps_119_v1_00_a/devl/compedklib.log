@@ -1,0 +1,41 @@
+Executing: compedklib -s isim -lp C:\active_work\ise\sim\ -zip_models -o C:/DOCUME~1/Admin/LOCALS~1/Temp/xil_3136_143 -log_file C:\active_work\ise\sim\sym_plb34_plb_ps34_sim\pcores//plb34_ps_119_v1_00_a/devl/compedklib.log -X C:/DOCUME~1/Admin/LOCALS~1/Temp/xil_3136_143 -c plb34_ps_119_v1_00_a
+
+Scanning repositories
+Collecting HDL files
+Compiling pcores
+ERROR:: Cannot locate library wrpfifo_v2_00_a
+ERROR:: Cannot locate library rdpfifo_v2_00_a
+ERROR:: Cannot locate library plb_ipif_v1_00_f
+ERROR:: Cannot locate library proc_common_v2_00_a
+Compiling plb34_ps_119_v1_00_a
+Executing: vhpcomp -work plb34_ps_119_v1_00_a -prj C:/DOCUME~1/Admin/LOCALS~1/Temp/xil_3136_143/CompileListFiles/plb34_ps_119_v1_00_a_compile_order.prj
+
+Analyzing VHDL file C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd
+Restoring VHDL parse-tree ieee.std_logic_1164 from c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_1164.vdb
+Restoring VHDL parse-tree std.standard from c:/xilinx/10.1/ise/vhdl/hdp/nt/std/standard.vdb
+Restoring VHDL parse-tree ieee.std_logic_arith from c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_arith.vdb
+Restoring VHDL parse-tree ieee.std_logic_unsigned from c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_unsigned.vdb
+ERROR:HDLCompiler:104 - "C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd" Line 66. 'proc_common_pkg' is not compiled in library proc_common_v2_00_a
+ERROR:HDLCompiler:104 - "C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd" Line 67. 'ipif_pkg' is not compiled in library proc_common_v2_00_a
+ERROR:HDLCompiler:854 - "C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd" Line 128. Unit plb34_ps_119 ignored due to previous errors
+ERROR:HDLCompiler:374 - "C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd" Line 210. Entity plb34_ps_119 is not yet compiled
+ERROR:HDLCompiler:69 - "C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd" Line 215. integer_array_type is not declared
+ERROR:HDLCompiler:69 - "C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd" Line 223. std_logic_vector is not declared
+ERROR:HDLCompiler:69 - "C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd" Line 225. std_logic_vector is not declared
+ERROR:HDLCompiler:69 - "C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd" Line 226. std_logic_vector is not declared
+ERROR:HDLCompiler:69 - "C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd" Line 228. slv64_array_type is not declared
+ERROR:HDLCompiler:69 - "C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd" Line 237. integer is not declared
+ERROR:HDLCompiler:69 - "C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd" Line 239. integer_array_type is not declared
+ERROR:HDLCompiler:69 - "C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd" Line 247. integer is not declared
+ERROR:HDLCompiler:69 - "C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd" Line 249. integer_array_type is not declared
+ERROR:HDLCompiler:69 - "C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd" Line 257. integer is not declared
+ERROR:HDLCompiler:69 - "C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd" Line 262. boolean is not declared
+ERROR:HDLCompiler:69 - "C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd" Line 267. boolean is not declared
+ERROR:HDLCompiler:69 - "C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd" Line 272. boolean is not declared
+ERROR:HDLCompiler:69 - "C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd" Line 277. integer is not declared
+ERROR:HDLCompiler:69 - "C:/active_work/ise/sim/sym_plb34_plb_ps34_sim/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd" Line 282. integer is not declared
+Sorry, too many errors..
+ERROR:: Failed to execute vhpcomp -work plb34_ps_119_v1_00_a -prj C:/DOCUME~1/Admin/LOCALS~1/Temp/xil_3136_143/CompileListFiles/plb34_ps_119_v1_00_a_compile_order.prj : 
+Executing: zip -qr plb34_ps_119_v1_00_a.zip plb34_ps_119_v1_00_a
+
+Compilation completed, 5 errors.

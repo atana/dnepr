@@ -1,0 +1,106 @@
+V3 62
+FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/addr_reg_cntr_brst_flex.vhd 2006/08/22.03:25:26 K.39
+EN plb_ipif_v1_00_f/addr_reg_cntr_brst_flex 1271917203 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/addr_reg_cntr_brst_flex.vhd \
+      PB ieee/std_logic_1164 1217055545 PB ieee/std_logic_arith 1217055546 \
+      LB proc_common_v2_00_a PB proc_common_v2_00_a/proc_common_pkg 1271917170 \
+      LB plb_ipif_v1_00_f LB unisim PH unisim/VCOMPONENTS 1217055545 \
+      EN plb_ipif_v1_00_f/flex_addr_cntr 1271917191
+AR plb_ipif_v1_00_f/addr_reg_cntr_brst_flex/implementation 1271917204 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/addr_reg_cntr_brst_flex.vhd \
+      EN plb_ipif_v1_00_f/addr_reg_cntr_brst_flex 1271917203 CP natural CP FDRE \
+      CP plb_ipif_v1_00_f/flex_addr_cntr
+FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/burst_support.vhd 2004/11/23.05:11:50 K.39
+EN plb_ipif_v1_00_f/burst_support 1271917201 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/burst_support.vhd \
+      PB ieee/std_logic_1164 1217055545 PH ieee/NUMERIC_STD 1217055545 \
+      PB ieee/std_logic_arith 1217055546 PB ieee/STD_LOGIC_UNSIGNED 1217055547 \
+      LB proc_common_v2_00_a PB proc_common_v2_00_a/proc_common_pkg 1271917170 \
+      LB unisim PH unisim/VCOMPONENTS 1217055545 PB proc_common_v2_00_a/ipif_pkg 1271917178
+AR plb_ipif_v1_00_f/burst_support/implementation 1271917202 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/burst_support.vhd \
+      EN plb_ipif_v1_00_f/burst_support 1271917201 CP FDRE \
+      CP proc_common_v2_00_a/pf_counter_top
+FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/flex_addr_cntr.vhd 2004/11/16.04:16:13 K.39
+EN plb_ipif_v1_00_f/flex_addr_cntr 1271917191 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/flex_addr_cntr.vhd \
+      PB ieee/std_logic_1164 1217055545 PH ieee/NUMERIC_STD 1217055545 LB unisim \
+      PH unisim/VCOMPONENTS 1217055545
+AR plb_ipif_v1_00_f/flex_addr_cntr/implementation 1271917192 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/flex_addr_cntr.vhd \
+      EN plb_ipif_v1_00_f/flex_addr_cntr 1271917191 CP LUT4 CP MUXCY CP XORCY \
+      CP FDRE CP FDRSE
+FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_address_decoder.vhd 2006/08/22.03:25:26 K.39
+EN plb_ipif_v1_00_f/plb_address_decoder 1271917199 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_address_decoder.vhd \
+      PB ieee/std_logic_1164 1217055545 PB ieee/std_logic_arith 1217055546 \
+      PB ieee/STD_LOGIC_UNSIGNED 1217055547 LB proc_common_v2_00_a \
+      PB proc_common_v2_00_a/proc_common_pkg 1271917170 LB unisim \
+      PH unisim/VCOMPONENTS 1217055545 EN proc_common_v2_00_a/pselect 1271917173 \
+      EN proc_common_v2_00_a/or_gate 1271917175 PB proc_common_v2_00_a/ipif_pkg 1271917178
+AR plb_ipif_v1_00_f/plb_address_decoder/IMP 1271917200 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_address_decoder.vhd \
+      EN plb_ipif_v1_00_f/plb_address_decoder 1271917199 CP integer CP FDRE \
+      CP proc_common_v2_00_a/pselect CP std_logic_vector \
+      CP proc_common_v2_00_a/or_gate
+FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_interrupt_control.vhd 2004/03/31.01:19:41 K.39
+EN plb_ipif_v1_00_f/plb_interrupt_control 1271917225 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_interrupt_control.vhd \
+      PB ieee/std_logic_1164 1217055545 PB ieee/std_logic_arith 1217055546 \
+      LB proc_common_v2_00_a PB proc_common_v2_00_a/proc_common_pkg 1271917170 \
+      PB proc_common_v2_00_a/ipif_pkg 1271917178
+AR plb_ipif_v1_00_f/plb_interrupt_control/implementation 1271917226 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_interrupt_control.vhd \
+      EN plb_ipif_v1_00_f/plb_interrupt_control 1271917225 CP std_logic
+FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_ipif.vhd 2006/08/22.03:25:26 K.39
+EN plb_ipif_v1_00_f/plb_ipif 1271917229 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_ipif.vhd \
+      PB ieee/std_logic_1164 1217055545 PB ieee/STD_LOGIC_UNSIGNED 1217055547 \
+      PB ieee/std_logic_arith 1217055546 LB proc_common_v2_00_a \
+      PB proc_common_v2_00_a/proc_common_pkg 1271917170 LB wrpfifo_v2_00_a \
+      LB rdpfifo_v2_00_a LB unisim PH unisim/VCOMPONENTS 1217055545 \
+      LB plb_ipif_v1_00_f PB proc_common_v2_00_a/family 1271917190 \
+      PB proc_common_v2_00_a/ipif_pkg 1271917178 EN wrpfifo_v2_00_a/wrpfifo_top 1271917217 \
+      EN rdpfifo_v2_00_a/rdpfifo_top 1271917219
+AR plb_ipif_v1_00_f/plb_ipif/implementation 1271917230 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_ipif.vhd \
+      EN plb_ipif_v1_00_f/plb_ipif 1271917229 CP proc_common_v2_00_a/or_gate \
+      CP plb_ipif_v1_00_f/plb_slave_attachment_indet \
+      CP proc_common_v2_00_a/ipif_steer CP integer CP std_logic_vector \
+      CP plb_ipif_v1_00_f/plb_ipif_reset \
+      CP plb_ipif_v1_00_f/plb_interrupt_control CP plb_ipif_v1_00_f/plb_sesr_sear \
+      CP rdpfifo_v2_00_a/rdpfifo_top CP wrpfifo_v2_00_a/wrpfifo_top
+FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_ipif_reset.vhd 2004/04/12.19:42:20 K.39
+EN plb_ipif_v1_00_f/plb_ipif_reset 1271917223 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_ipif_reset.vhd \
+      PB ieee/std_logic_1164 1217055545 PB ieee/std_logic_arith 1217055546 \
+      LB unisim PH unisim/VCOMPONENTS 1217055545
+AR plb_ipif_v1_00_f/plb_ipif_reset/implementation 1271917224 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_ipif_reset.vhd \
+      EN plb_ipif_v1_00_f/plb_ipif_reset 1271917223 CP integer CP FDRSE \
+      CP std_logic_vector CP std_logic
+FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_sesr_sear.vhd 2004/04/12.19:42:20 K.39
+EN plb_ipif_v1_00_f/plb_sesr_sear 1271917227 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_sesr_sear.vhd \
+      PB ieee/std_logic_1164 1217055545 PB ieee/std_logic_arith 1217055546
+AR plb_ipif_v1_00_f/plb_sesr_sear/implementation 1271917228 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_sesr_sear.vhd \
+      EN plb_ipif_v1_00_f/plb_sesr_sear 1271917227 CP std_logic CP boolean \
+      CP std_logic_vector
+FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_slave_attachment_indet.vhd 2006/08/31.18:28:45 K.39
+EN plb_ipif_v1_00_f/plb_slave_attachment_indet 1271917221 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_slave_attachment_indet.vhd \
+      PB ieee/std_logic_1164 1217055545 PB ieee/STD_LOGIC_UNSIGNED 1217055547 \
+      PB ieee/std_logic_arith 1217055546 LB proc_common_v2_00_a \
+      PB proc_common_v2_00_a/proc_common_pkg 1271917170 LB unisim \
+      PH unisim/VCOMPONENTS 1217055545 LB plb_ipif_v1_00_f \
+      PB proc_common_v2_00_a/ipif_pkg 1271917178
+AR plb_ipif_v1_00_f/plb_slave_attachment_indet/implementation 1271917222 \
+      FL C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_slave_attachment_indet.vhd \
+      EN plb_ipif_v1_00_f/plb_slave_attachment_indet 1271917221 \
+      CP plb_ipif_v1_00_f/plb_address_decoder CP integer CP std_logic_vector \
+      CP std_logic CP proc_common_v2_00_a/Counter CP PLB_DATA_CNTRL_STATES \
+      CP PLB_WRDATA_CNTRL_STATES CP PLB_RDDATA_CNTRL_STATES \
+      CP IPIF_WR_CNTRL_STATES CP FDRSE CP proc_common_v2_00_a/srl_fifo2 \
+      CP plb_ipif_v1_00_f/burst_support \
+      CP plb_ipif_v1_00_f/addr_reg_cntr_brst_flex

@@ -1,0 +1,288 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    07:55:58 03/24/2010 
+-- Design Name: 
+-- Module Name:    SM_wait_imp - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+---- Uncomment the following library declaration if instantiating
+---- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity SM_wait_imp is
+    Port ( 
+				rst_sys							: in STD_LOGIC;							-- 
+				clk_sys							: in STD_LOGIC;							-- 40 ћ√ц 	от grid_generator
+				clk_d								: in STD_LOGIC;							-- 1,25 ћ√ц от grid_generator
+				takt_number						: in STD_LOGIC_VECTOR(15 downto 0); -- текущий номер такта от grid_generator
+				discr_number					: in STD_LOGIC_VECTOR(15 downto 0); -- текущий номер дискрета от grid_generator
+				
+				Ntakt_FIFO						: in STD_LOGIC_VECTOR(15 downto 0); -- номер такта импульса из Ntakt_FIFO
+				Ndiscr_FIFO						: in STD_LOGIC_VECTOR(15 downto 0);	-- номер дискрета импульса из Ndiscr_FIFO
+				Dlit_FIFO						: in STD_LOGIC_VECTOR(15 downto 0);	-- длительность импульса из Dlit_FIFO
+			
+				FIFO_not_empty					: in STD_LOGIC;							-- FIFO Ntakt и Ndiscr_FIFO и Dlit_FIFO не пустые
+				Load_Parameters				: out STD_LOGIC;							-- сигнал чтени€ FIFO
+				Parameters_valid				: in STD_LOGIC;							-- валидность параметров на Ntakt_FIFO, Ndiscr_FIFO, Dlit_FIFO
+				
+				PS_isp 							: out STD_LOGIC							-- импульс
+				);				
+end SM_wait_imp;
+
+architecture Behavioral of SM_wait_imp is
+	
+	type state_type is (		st0_RST									,	--	состо€ние "системный сброс"
+	                        st1_wait_FIFO_not_empty				,	-- ожидание "не пустоты" FIFO
+									st2_Load_Parameters					,	-- загрузка параметрой из FIFO в вектора Ntakt, Ndiscr, Dlit
+	                        st3_wait_Ntakt							,	-- ожидание такта импульса
+	                        st4_wait_Ndiscr						,	-- ожидание дискрета импульса
+	                        st5_wait_Dlit								-- ожидание прохождени€ длительности импульса
+							); 
+	signal state, next_state : state_type;
+	signal num_state	: STD_LOGIC_VECTOR(3 downto 0);
+	
+	signal Ntakt		: STD_LOGIC_VECTOR(15 downto 0);
+	signal Ndiscr		: STD_LOGIC_VECTOR(15 downto 0);
+	signal Dlit			: STD_LOGIC_VECTOR(15 downto 0);
+	
+	signal Ntakt_event		: STD_LOGIC;
+	signal Ndiscr_event  	: STD_LOGIC;
+	signal Dlit_event    	: STD_LOGIC;
+	signal count_Dlit_EN 	: STD_LOGIC;
+	signal count_Dlit_RES	: STD_LOGIC;
+	signal count_Dlit			: STD_LOGIC_VECTOR(15 downto 0);
+	
+	signal sh					: STD_LOGIC;
+	
+begin
+------------------------------------------------------------------------------------------------------------------
+-- синхронизаци€
+   SYNC_PROC: process (rst_sys, clk_sys)
+   begin
+      if (rst_sys = '1') then
+         state <= st0_RST;
+      elsif (clk_sys'event and clk_sys = '1') then
+         state <= next_state;
+      end if;
+   end process;	
+
+	Load_Parameters_DECODE: process (rst_sys, clk_sys)
+   begin
+		if (rst_sys = '1') then
+			Ntakt				<= (others => '0');
+			Ndiscr			<= (others => '0');
+			Dlit				<= (others => '0');
+		elsif (clk_sys'event and clk_sys = '1') then
+			if (state = st2_Load_Parameters and Parameters_valid = '1') then
+				Ntakt			<= Ntakt_FIFO;
+				Ndiscr		<= Ndiscr_FIFO;	
+				Dlit			<= Dlit_FIFO;
+			else
+				Ntakt			<= Ntakt;
+				Ndiscr		<= Ndiscr;
+				Dlit			<= Dlit;
+			end if;
+		end if;
+	end process;
+
+	count_Dlit_EN_DECODE: process (rst_sys, clk_sys)
+	begin
+		if (rst_sys = '1') then
+			count_Dlit_EN <= '0';
+		elsif (clk_sys'event and clk_sys = '1') then
+				if (state = st5_wait_Dlit) then
+					count_Dlit_RES <= '0';
+					if (clk_d = '1') then
+						count_Dlit_EN <= '1';
+					else
+						count_Dlit_EN <= '0';
+					end if;
+				else
+					count_Dlit_RES <= '1';
+				end if;
+		end if;
+	end process;
+	
+	
+	
+	count_Dlit_proc: process (rst_sys, clk_sys)
+	begin
+		if (rst_sys = '1') then
+			count_Dlit <= (others => '0');
+		elsif (clk_sys'event and clk_sys = '1') then
+				if (count_Dlit_RES = '1') then
+					count_Dlit <= (others => '0');
+				elsif (count_Dlit_EN = '1') then
+					count_Dlit <= count_Dlit + '1';
+				else
+					count_Dlit <= count_Dlit;
+				end if;
+		end if;
+	end process;
+
+
+	
+	comp_Ntakt_w_takt_number_DECODE: process (rst_sys, clk_sys)
+	begin
+		if (rst_sys = '1') then
+			Ntakt_event	<= '0';
+		elsif (clk_sys'event and clk_sys = '1') then
+			if (Ntakt = takt_number) then
+				Ntakt_event	<= '1';
+			else
+				Ntakt_event	<= '0';
+			end if;
+		end if;
+	end process;
+
+	comp_Ndiscr_w_discr_number_DECODE: process (rst_sys, clk_sys)
+	begin
+		if (rst_sys = '1') then
+			Ndiscr_event	<= '0';
+		elsif (clk_sys'event and clk_sys = '1') then
+			if (Ndiscr = discr_number and Ntakt_event = '1') then
+				Ndiscr_event	<= '1';
+			else
+				Ndiscr_event	<= '0';
+			end if;
+		end if;
+	end process;
+	
+	comp_count_Dlit_w_Dlit_DECODE: process (rst_sys, clk_sys)
+	begin
+		if (rst_sys = '1') then
+			Dlit_event	<= '0';
+		elsif (clk_sys'event and clk_sys = '1') then
+			if (count_Dlit = Dlit) then
+				Dlit_event	<= '1';
+			else
+				Dlit_event	<= '0';
+			end if;
+		end if;
+	end process;	
+	
+	Load_Parameters_proc: process (rst_sys, clk_sys)
+	begin
+		if (rst_sys = '1') then
+			Load_Parameters	<= '0';
+			sh <= '0';
+		elsif (clk_sys'event and clk_sys = '1') then
+			if (state = st2_Load_Parameters) then
+				if (sh = '0')	then
+					Load_Parameters <= '1';
+					sh <= '1';
+				else
+					Load_Parameters <= '0';
+					sh <= '1';
+				end if;
+			else
+				sh <= '0';
+			end if;
+		end if;
+	end process;
+	
+	PS_isp_proc: process (rst_sys, clk_sys)
+	begin
+		if (rst_sys = '1') then
+			PS_isp	<= '0';
+		elsif (clk_sys'event and clk_sys = '1') then
+			if (state = st5_wait_Dlit) then
+				PS_isp <= '1';
+			else
+				PS_isp <= '0';
+			end if;
+		end if;
+	end process;
+
+	
+	
+	
+	NEXT_STATE_DECODE: process (state, rst_sys, FIFO_not_empty, Ntakt_event, Ndiscr_event, Dlit_event)
+	begin
+
+      next_state <= state;
+
+      case (state) is
+         when st0_RST =>
+				if (rst_sys = '0') then
+					next_state <= st1_wait_FIFO_not_empty;					-- сброс Ntakt, Nach_isp_d, Dlit_isp_d, count_Dlit
+				else
+					next_state <= st0_RST;
+				end if;
+	
+			when st1_wait_FIFO_not_empty =>
+				if (FIFO_not_empty = '1') then										-- ожидание "FIFO Ntakt и Ndiscr_FIFO и Dlit_FIFO не пустые"
+					next_state <= st2_Load_Parameters;								-- count_Dlit <= (others => 0);
+				else
+					next_state <= st1_wait_FIFO_not_empty;
+				end if;
+
+			when st2_Load_Parameters =>
+				if (Parameters_valid = '1') then										-- ожидание валидности данных на выходе FIFO
+					next_state <= st3_wait_Ntakt;
+				else
+					next_state <= st2_Load_Parameters;
+				end if;					
+
+				-- загрузка номера такта импульса 		Ntakt		<= Ntakt_FIFO;
+				-- загрузка номера дискрета импульса 	Ndiscr	<= Ndiscr_FIFO;
+				-- загрузка длительности импульса 		Dlit		<= Ndiscr_Dlit;
+				-- в отдельном процессе при Parameters_valid = '1' по clk'event = '1' 
+
+			when st3_wait_Ntakt =>
+				if (Ntakt_event = '1') then											-- ожидание "наступил номер такта импульса"
+					next_state <= st4_wait_Ndiscr;
+				else
+					next_state <= st3_wait_Ntakt;
+				end if;
+
+			when st4_wait_Ndiscr =>
+				if (Ndiscr_event = '1') then					 						-- ожидание "наступил номер дискрета импульса"
+					next_state <= st5_wait_Dlit;
+				else
+					next_state <= st4_wait_Ndiscr;
+				end if;
+							
+			when st5_wait_Dlit =>	
+				if (Dlit_event	= '1') then											-- ожидание "счетчик длительности импульса закончил счЄт"
+					next_state <= st1_wait_FIFO_not_empty;
+				else
+					next_state <= st5_wait_Dlit;
+				end if;
+				
+			when others => next_state <= st0_RST;
+		end case;		
+	end process;
+
+	STATE_NUM_DECODE: process (state)
+	begin
+      case (state) is
+			when st0_RST						 => num_state <= x"0";
+			when st1_wait_FIFO_not_empty	 => num_state <= x"1";	
+			when st2_Load_Parameters		 => num_state <= x"2";
+			when st3_wait_Ntakt				 => num_state <= x"3";
+			when st4_wait_Ndiscr			 	 => num_state <= x"4";
+			when st5_wait_Dlit				 => num_state <= x"5";
+			when others 						=>  num_state <= x"A";
+		end case;
+	end process;
+	
+end Behavioral;

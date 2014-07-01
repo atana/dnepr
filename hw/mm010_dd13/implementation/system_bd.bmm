@@ -1,0 +1,63 @@
+// BMM LOC annotation file.
+//
+// Release 10.1i - Data2MEM K.39, build 1.5.7 Nov 8, 2007
+// Copyright (c) 1995-2014 Xilinx, Inc.  All rights reserved.
+//
+// Created on 06/24/14 04:12 pm
+//
+
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Processor 'ppc405_0', ID 100, memory map.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+ADDRESS_MAP ppc405_0 PPC405 100
+
+
+    ///////////////////////////////////////////////////////////////////////////////
+    //
+    // Processor 'ppc405_0' address space 'boot_ppc_bram_combined' 0xFFFF0000:0xFFFFFFFF (64 KB).
+    //
+    ///////////////////////////////////////////////////////////////////////////////
+
+    ADDRESS_SPACE boot_ppc_bram_combined RAMB16 [0xFFFF0000:0xFFFFFFFF]
+        BUS_BLOCK
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_0 [31:31] PLACED = X3Y10;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_1 [30:30] PLACED = X3Y9;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_2 [29:29] PLACED = X4Y11;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_3 [28:28] PLACED = X3Y11;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_4 [27:27] PLACED = X3Y8;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_5 [26:26] PLACED = X5Y11;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_6 [25:25] PLACED = X5Y12;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_7 [24:24] PLACED = X5Y8;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_8 [23:23] PLACED = X3Y7;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_9 [22:22] PLACED = X4Y10;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_10 [21:21] PLACED = X2Y8;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_11 [20:20] PLACED = X4Y7;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_12 [19:19] PLACED = X4Y8;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_13 [18:18] PLACED = X4Y9;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_14 [17:17] PLACED = X5Y9;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_15 [16:16] PLACED = X5Y10;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_16 [15:15] PLACED = X3Y5;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_17 [14:14] PLACED = X2Y7;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_18 [13:13] PLACED = X2Y5;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_19 [12:12] PLACED = X4Y5;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_20 [11:11] PLACED = X2Y6;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_21 [10:10] PLACED = X4Y6;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_22 [9:9] PLACED = X3Y6;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_23 [8:8] PLACED = X5Y7;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_24 [7:7] PLACED = X5Y6;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_25 [6:6] PLACED = X6Y7;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_26 [5:5] PLACED = X6Y5;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_27 [4:4] PLACED = X5Y5;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_28 [3:3] PLACED = X6Y6;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_29 [2:2] PLACED = X6Y4;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_30 [1:1] PLACED = X7Y7;
+            boot_ppc_bram/boot_ppc_bram/ramb16_s1_s1_31 [0:0] PLACED = X7Y6;
+        END_BUS_BLOCK;
+    END_ADDRESS_SPACE;
+
+END_ADDRESS_MAP;
+

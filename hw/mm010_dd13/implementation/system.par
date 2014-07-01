@@ -1,0 +1,371 @@
+Release 10.1.03 par K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+atana-dell::  Tue Jun 24 16:08:46 2014
+
+par -w -ol high system_map.ncd system.ncd system.pcf 
+
+
+Constraints file: system.pcf.
+Loading device for application Rf_Device from file '2vp50.nph' in environment /opt/Xilinx/10.1/ISE:/opt/Xilinx/10.1/EDK.
+   "system" is an NCD, version 3.2, device xc2vp50, package ff1152, speed -6
+WARNING:ConstraintSystem:64 - Constraint <NET "Eth1_PHY_tx_clk_IBUF" MAXSKEW = 1.8 ns;> [system.pcf(23360)] overrides
+   constraint <NET "Eth1_PHY_tx_clk_IBUF" MAXSKEW = 2 ns;> [system.pcf(23359)] on the design object
+   'Eth1_PHY_tx_clk_IBUF'.
+
+WARNING:ConstraintSystem:65 - Constraint <NET "Eth1_PHY_tx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;> [system.pcf(23362)]
+   overrides constraint <NET "Eth1_PHY_tx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;> [system.pcf(23361)].
+
+WARNING:ConstraintSystem:64 - Constraint <NET "Eth2_PHY_tx_clk_IBUF" MAXSKEW = 1.8 ns;> [system.pcf(23364)] overrides
+   constraint <NET "Eth2_PHY_tx_clk_IBUF" MAXSKEW = 2 ns;> [system.pcf(23363)] on the design object
+   'Eth2_PHY_tx_clk_IBUF'.
+
+WARNING:ConstraintSystem:65 - Constraint <NET "Eth2_PHY_tx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;> [system.pcf(23366)]
+   overrides constraint <NET "Eth2_PHY_tx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;> [system.pcf(23365)].
+
+WARNING:ConstraintSystem:64 - Constraint <NET "Eth1_PHY_rx_clk_IBUF" MAXSKEW = 1.8 ns;> [system.pcf(23368)] overrides
+   constraint <NET "Eth1_PHY_rx_clk_IBUF" MAXSKEW = 2 ns;> [system.pcf(23367)] on the design object
+   'Eth1_PHY_rx_clk_IBUF'.
+
+WARNING:ConstraintSystem:65 - Constraint <NET "Eth1_PHY_rx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;> [system.pcf(23370)]
+   overrides constraint <NET "Eth1_PHY_rx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;> [system.pcf(23369)].
+
+WARNING:ConstraintSystem:64 - Constraint <NET "Eth2_PHY_rx_clk_IBUF" MAXSKEW = 1.8 ns;> [system.pcf(23372)] overrides
+   constraint <NET "Eth2_PHY_rx_clk_IBUF" MAXSKEW = 2 ns;> [system.pcf(23371)] on the design object
+   'Eth2_PHY_rx_clk_IBUF'.
+
+WARNING:ConstraintSystem:65 - Constraint <NET "Eth2_PHY_rx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;> [system.pcf(23374)]
+   overrides constraint <NET "Eth2_PHY_rx_clk_IBUF" PERIOD = 40 ns HIGH 14 ns;> [system.pcf(23373)].
+
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.400 Volts. (default - Range: 1.400 to 1.600 Volts)
+
+WARNING:Timing:3223 - Timing constraint PATH "TS_RST2_path" TIG; ignored during timing analysis.
+
+Device speed data version:  "PRODUCTION 1.94 2008-07-25".
+
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                       10 out of 16     62%
+   Number of DCMs                            3 out of 8      37%
+      Number of LOCed DCMs                   2 out of 3      66%
+
+   Number of External DIFFMs                 1 out of 344     1%
+      Number of LOCed DIFFMs                 1 out of 1     100%
+
+   Number of External DIFFSs                 1 out of 344     1%
+      Number of LOCed DIFFSs                 1 out of 1     100%
+
+   Number of External IOBs                 177 out of 692    25%
+      Number of LOCed IOBs                 173 out of 177    97%
+
+   Number of JTAGPPCs                        1 out of 1     100%
+   Number of PPC405s                         2 out of 2     100%
+      Number of LOCed PPC405s                1 out of 2      50%
+
+   Number of RAMB16s                        64 out of 232    27%
+   Number of SLICEs                      10494 out of 23616  44%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 25 secs 
+Finished initial Timing Analysis.  REAL time: 26 secs 
+
+WARNING:Par:288 - The signal boot_ppc_cntrl_port_BRAM_Addr<31> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<0> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<1> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<2> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<3> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<4> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<5> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<6> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<7> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<8> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<9> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<10> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<11> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<12> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<13> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<14> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<15> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<16> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<17> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<18> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<19> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<20> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<21> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<22> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<23> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<24> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<25> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<26> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<27> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<28> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<29> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<30> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal boot_ppc_bram/boot_ppc_bram/BRAM_Din_B<31> has no load.  PAR will not attempt to route this
+   signal.
+Starting Router
+
+Phase 1: 87104 unrouted;       REAL time: 38 secs 
+
+Phase 2: 76294 unrouted;       REAL time: 44 secs 
+
+Phase 3: 22811 unrouted;       REAL time: 58 secs 
+
+Phase 4: 22811 unrouted; (376840)      REAL time: 58 secs 
+
+Phase 5: 23341 unrouted; (5696)      REAL time: 1 mins 18 secs 
+
+Phase 6: 23384 unrouted; (0)      REAL time: 1 mins 19 secs 
+
+Phase 7: 0 unrouted; (295)      REAL time: 1 mins 45 secs 
+
+Phase 8: 0 unrouted; (295)      REAL time: 1 mins 56 secs 
+
+Updating file: system.ncd with current fully routed design.
+
+Phase 9: 0 unrouted; (0)      REAL time: 2 mins 28 secs 
+
+Phase 10: 0 unrouted; (0)      REAL time: 2 mins 31 secs 
+
+Phase 11: 0 unrouted; (0)      REAL time: 3 mins 1 secs 
+
+
+Total REAL time to Router completion: 3 mins 7 secs 
+Total CPU time to Router completion: 3 mins 6 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+WARNING:ParHelpers:81 - 
+   The following Clock signals have USELOWSKEWLINES constraint
+   specified. The router was not able to completely route using
+   the LOW SKEW resources. Check the timing report to verify the
+   delay and skew for this net.
+Net Name: Eth2_PHY_tx_clk_IBUF
+Net Name: Eth1_PHY_rx_clk_IBUF
+Net Name: Eth1_PHY_tx_clk_IBUF
+Net Name: Eth2_PHY_rx_clk_IBUF
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|boot_ppc_cntrl_port_ |              |      |      |            |             |
+|            BRAM_Clk |     BUFGMUX3S| No   | 8834 |  0.615     |  1.769      |
++---------------------+--------------+------+------+------------+-------------+
+|         sys_clk_n_s |     BUFGMUX7S| No   |   36 |  0.337     |  1.729      |
++---------------------+--------------+------+------+------------+-------------+
+|      ddr_clk_90_n_s |     BUFGMUX5P| No   |   32 |  0.337     |  1.729      |
++---------------------+--------------+------+------+------------+-------------+
+|        ddr_clk_90_s |     BUFGMUX4S| No   |  139 |  0.337     |  1.729      |
++---------------------+--------------+------+------+------------+-------------+
+|          clk_90_n_s |     BUFGMUX1S| No   |    6 |  0.251     |  1.723      |
++---------------------+--------------+------+------+------------+-------------+
+|            clk_90_s |     BUFGMUX0P| No   |   15 |  0.251     |  1.723      |
++---------------------+--------------+------+------+------------+-------------+
+|             cpu_clk |     BUFGMUX4P| No   |    1 |  0.000     |  1.529      |
++---------------------+--------------+------+------+------------+-------------+
+|Eth2_PHY_tx_clk_IBUF |              |      |      |            |             |
+|                     |         Local|      |   37 |  0.244     |  1.602      |
++---------------------+--------------+------+------+------------+-------------+
+|Eth1_PHY_rx_clk_IBUF |              |      |      |            |             |
+|                     |         Local|      |   20 |  0.137     |  1.427      |
++---------------------+--------------+------+------+------------+-------------+
+|Eth1_PHY_tx_clk_IBUF |              |      |      |            |             |
+|                     |         Local|      |   36 |  0.190     |  1.590      |
++---------------------+--------------+------+------+------------+-------------+
+|Eth2_PHY_rx_clk_IBUF |              |      |      |            |             |
+|                     |         Local|      |   21 |  0.206     |  1.520      |
++---------------------+--------------+------+------+------------+-------------+
+|jtagppc_0_0_JTGC405T |              |      |      |            |             |
+|                  CK |         Local|      |    2 |  2.682     |  6.297      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 0
+
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the constraint does not cover any paths or that it has no
+   requested value.
+Number of Timing Constraints that were not applied: 14
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+------------------------------------------------------------------------------------------------------
+  Constraint                                |  Check  | Worst Case |  Best Case | Timing |   Timing   
+                                            |         |    Slack   | Achievable | Errors |    Score   
+------------------------------------------------------------------------------------------------------
+  TS_sys_clk_s = PERIOD TIMEGRP "sys_clk_s" | SETUP   |     0.039ns|     9.657ns|       0|           0
+   9.7 ns HIGH 50%                          | HOLD    |     0.068ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  TSCLK2CLK90 = MAXDELAY FROM TIMEGRP "sys_ | SETUP   |     0.259ns|     2.441ns|       0|           0
+  clk_s" TO TIMEGRP "clk_90_s" 2.7 ns       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "Eth1_PHY_tx_clk_IBUF" MAXSKEW = 1.8  | NETSKEW |     1.085ns|     0.715ns|       0|           0
+  ns                                        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "Eth2_PHY_tx_clk_IBUF" MAXSKEW = 1.8  | NETSKEW |     1.086ns|     0.714ns|       0|           0
+  ns                                        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "Eth2_PHY_rx_clk_IBUF" MAXSKEW = 1.8  | NETSKEW |     1.332ns|     0.468ns|       0|           0
+  ns                                        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "Eth1_PHY_rx_clk_IBUF" MAXSKEW = 1.8  | NETSKEW |     1.405ns|     0.395ns|       0|           0
+  ns                                        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_CLK90 = PERIOD TIMEGRP "clk_90_s" 10 n | SETUP   |     1.625ns|     6.750ns|       0|           0
+  s HIGH 50%                                | HOLD    |     5.620ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  TS_ddr_Clk_90 = PERIOD TIMEGRP "ddr_clk_9 | SETUP   |     1.721ns|     7.979ns|       0|           0
+  0_s" 9.7 ns HIGH 50%                      | HOLD    |     0.515ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  TSRX2IN = MAXDELAY FROM TIMEGRP "PADS" TO | MAXDELAY|     3.592ns|     2.408ns|       0|           0
+   TIMEGRP "RX2CLK_GRP" 6 ns                |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TSRX1IN = MAXDELAY FROM TIMEGRP "PADS" TO | MAXDELAY|     3.662ns|     2.338ns|       0|           0
+   TIMEGRP "RX1CLK_GRP" 6 ns                |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TSTX1OUT = MAXDELAY FROM TIMEGRP "TX1CLK_ | MAXDELAY|     7.122ns|     2.878ns|       0|           0
+  GRP" TO TIMEGRP "PADS" 10 ns              |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TSTX2OUT = MAXDELAY FROM TIMEGRP "TX2CLK_ | MAXDELAY|     7.130ns|     2.870ns|       0|           0
+  GRP" TO TIMEGRP "PADS" 10 ns              |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "Eth2_PHY_rx_clk_IBUF" PERIOD = 40 ns | SETUP   |    11.066ns|     8.382ns|       0|           0
+   HIGH 14 ns                               | HOLD    |     0.539ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "Eth1_PHY_rx_clk_IBUF" PERIOD = 40 ns | SETUP   |    11.104ns|     8.274ns|       0|           0
+   HIGH 14 ns                               | HOLD    |     0.533ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "Eth2_PHY_tx_clk_IBUF" PERIOD = 40 ns | SETUP   |    22.655ns|     5.146ns|       0|           0
+   HIGH 14 ns                               | HOLD    |     0.632ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "Eth1_PHY_tx_clk_IBUF" PERIOD = 40 ns | SETUP   |    22.767ns|     4.973ns|       0|           0
+   HIGH 14 ns                               | HOLD    |     0.536ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  PATH "TS_RST3_path" TIG                   | SETUP   |         N/A|     2.304ns|     N/A|           0
+------------------------------------------------------------------------------------------------------
+  PATH "TS_RST2_path" TIG                   | N/A     |         N/A|         N/A|     N/A|         N/A
+------------------------------------------------------------------------------------------------------
+  PATH "TS_RST1_path" TIG                   | SETUP   |         N/A|     4.354ns|     N/A|           0
+------------------------------------------------------------------------------------------------------
+  TS_cpu_clk = PERIOD TIMEGRP "cpu_clk" 3 n | N/A     |         N/A|         N/A|     N/A|         N/A
+  s HIGH 50%                                |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TSRXIN_plb_eth1_contr = MAXDELAY FROM TIM | N/A     |         N/A|         N/A|     N/A|         N/A
+  EGRP "PADS" TO TIMEGRP         "RXCLK_GRP |         |            |            |        |            
+  _plb_eth1_contr" 6 ns                     |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TSTXOUT_plb_eth1_contr = MAXDELAY FROM TI | N/A     |         N/A|         N/A|     N/A|         N/A
+  MEGRP "TXCLK_GRP_plb_eth1_contr" TO       |         |            |            |        |            
+     TIMEGRP "PADS" 10 ns                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TSRXIN_plb_eth2_contr = MAXDELAY FROM TIM | N/A     |         N/A|         N/A|     N/A|         N/A
+  EGRP "PADS" TO TIMEGRP         "RXCLK_GRP |         |            |            |        |            
+  _plb_eth2_contr" 6 ns                     |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TSTXOUT_plb_eth2_contr = MAXDELAY FROM TI | N/A     |         N/A|         N/A|     N/A|         N/A
+  MEGRP "TXCLK_GRP_plb_eth2_contr" TO       |         |            |            |        |            
+     TIMEGRP "PADS" 10 ns                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "Eth2_PHY_rx_clk_IBUF" PERIOD = 40 ns | N/A     |         N/A|         N/A|     N/A|         N/A
+   HIGH 14 ns                               |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "Eth2_PHY_rx_clk_IBUF" MAXSKEW = 2 ns | N/A     |         N/A|         N/A|     N/A|         N/A
+------------------------------------------------------------------------------------------------------
+  NET "Eth1_PHY_rx_clk_IBUF" PERIOD = 40 ns | N/A     |         N/A|         N/A|     N/A|         N/A
+   HIGH 14 ns                               |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "Eth1_PHY_rx_clk_IBUF" MAXSKEW = 2 ns | N/A     |         N/A|         N/A|     N/A|         N/A
+------------------------------------------------------------------------------------------------------
+  NET "Eth2_PHY_tx_clk_IBUF" PERIOD = 40 ns | N/A     |         N/A|         N/A|     N/A|         N/A
+   HIGH 14 ns                               |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "Eth2_PHY_tx_clk_IBUF" MAXSKEW = 2 ns | N/A     |         N/A|         N/A|     N/A|         N/A
+------------------------------------------------------------------------------------------------------
+  NET "Eth1_PHY_tx_clk_IBUF" PERIOD = 40 ns | N/A     |         N/A|         N/A|     N/A|         N/A
+   HIGH 14 ns                               |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "Eth1_PHY_tx_clk_IBUF" MAXSKEW = 2 ns | N/A     |         N/A|         N/A|     N/A|         N/A
+------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the 
+   constraint does not cover any paths or that it has no requested value.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 33 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 3 mins 16 secs 
+Total CPU time to PAR completion: 3 mins 16 secs 
+
+Peak Memory Usage:  651 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 45
+Number of info messages: 1
+
+Writing design to file system.ncd
+
+
+
+PAR done!

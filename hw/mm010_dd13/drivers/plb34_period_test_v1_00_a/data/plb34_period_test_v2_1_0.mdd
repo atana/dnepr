@@ -1,0 +1,15 @@
+##############################################################################
+## Filename:          C:\Xilinx\10.1\edk_user_repository\MyProcessorIPLib/drivers/plb34_period_test_v1_00_a/data/plb34_period_test_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Thu Mar 11 09:40:32 2010 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER plb34_period_test
+
+  OPTION supported_peripherals = (plb34_period_test);
+  OPTION depends = (common_v1_00_a);
+  OPTION copyfiles = all;
+
+END DRIVER

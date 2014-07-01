@@ -1,0 +1,747 @@
+Release 10.1.03 - xst K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> 
+PMSPEC -- Overriding Xilinx file </opt/Xilinx/10.1/EDK/virtex2p/data/virtex2p.acd> with local file </opt/Xilinx/10.1/ISE/virtex2p/data/virtex2p.acd>
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_xst.prj"
+
+---- Target Parameters
+Target Device                      : xc2vp50ff1152-6
+Output File Name                   : "../implementation/system.ngc"
+
+---- Source Options
+Top Module Name                    : system
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 10000
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" in Library work.
+Entity <system> compiled.
+Entity <system> (Architecture <STRUCTURE>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <system> in library <work> (architecture <STRUCTURE>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <system> in library <work> (Architecture <STRUCTURE>).
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3104: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3112: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3120: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3128: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3136: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3144: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3152: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3160: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3168: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3176: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3184: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3192: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3200: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3208: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3216: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3224: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3232: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3240: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3248: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3256: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3264: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3272: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3280: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3288: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3296: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3304: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3312: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3320: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3328: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3336: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3344: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3352: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3360: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3368: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3376: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3384: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3392: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3400: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3408: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3416: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3424: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3432: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3440: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3448: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3456: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3464: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3472: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3480: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3488: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3496: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3504: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3512: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3520: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3528: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3536: Instantiating black box module <IOBUF>.
+WARNING:Xst:2211 - "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd" line 3544: Instantiating black box module <IOBUF>.
+Entity <system> analyzed. Unit <system> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <system>.
+    Related source file is "/home/atana/RTI/dnepr/hw/mm010_dd13_dts/hdl/system.vhd".
+WARNING:Xst:646 - Signal <plb_PLB_SMErr<2:3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <plb_PLB_SMBusy<2:3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <system> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <../implementation/dnepr_wrapper.ngc>.
+Reading core <../implementation/grid_gen_wrapper.ngc>.
+Reading core <../implementation/delay_meter_wrapper.ngc>.
+Reading core <../implementation/ft_fd_input_wrapper.ngc>.
+Reading core <../implementation/ppc405_1_wrapper.ngc>.
+Reading core <../implementation/ppc405_0_wrapper.ngc>.
+Reading core <../implementation/jtagppc_0_wrapper.ngc>.
+Reading core <../implementation/plb2opb_wrapper.ngc>.
+Reading core <../implementation/opb_wrapper.ngc>.
+Reading core <../implementation/plb_wrapper.ngc>.
+Reading core <../implementation/reset_block_wrapper.ngc>.
+Reading core <../implementation/system_clk_0_wrapper.ngc>.
+Reading core <../implementation/ddr_fb_dcm_wrapper.ngc>.
+Reading core <../implementation/ddr90_dcm_wrapper.ngc>.
+Reading core <../implementation/sys_dcm_wrapper.ngc>.
+Reading core <../implementation/plb_eth2_contr_wrapper.ngc>.
+INFO:coreutil - Full license for component <plb_ethernet_v1> allows you to use this component. This license does not give you access to source code implementing this component.
+
+Reading core <../implementation/plb_eth1_contr_wrapper.ngc>.
+INFO:coreutil - Full license for component <plb_ethernet_v1> allows you to use this component. This license does not give you access to source code implementing this component.
+
+Reading core <../implementation/opb_intc_0_wrapper.ngc>.
+Reading core <../implementation/opb_flash_wrapper.ngc>.
+Reading core <../implementation/boot_ppc_cntrl_wrapper.ngc>.
+Reading core <../implementation/boot_ppc_bram_wrapper.ngc>.
+Reading core <../implementation/plb_ddr_sdram_wrapper.ngc>.
+Reading core <../implementation/uart_tuts_wrapper.ngc>.
+Reading core <../implementation/rs232_1_wrapper.ngc>.
+Reading core <../implementation/rs232_2_wrapper.ngc>.
+Reading core <../implementation/gpio_leds_wrapper.ngc>.
+Reading core <../implementation/freq_detect_wrapper.ngc>.
+Reading core <../implementation/reg_version_wrapper.ngc>.
+Reading core <../implementation/f_gen_0_wrapper.ngc>.
+Loading core <dnepr_wrapper> for timing and area information for instance <dnepr>.
+Loading core <grid_gen_wrapper> for timing and area information for instance <grid_gen>.
+Loading core <delay_meter_wrapper> for timing and area information for instance <delay_meter>.
+Loading core <ft_fd_input_wrapper> for timing and area information for instance <ft_fd_input>.
+Loading core <ppc405_1_wrapper> for timing and area information for instance <ppc405_1>.
+Loading core <ppc405_0_wrapper> for timing and area information for instance <ppc405_0>.
+Loading core <jtagppc_0_wrapper> for timing and area information for instance <jtagppc_0>.
+Loading core <plb2opb_wrapper> for timing and area information for instance <plb2opb>.
+Loading core <opb_wrapper> for timing and area information for instance <opb>.
+Loading core <plb_wrapper> for timing and area information for instance <plb>.
+Loading core <reset_block_wrapper> for timing and area information for instance <reset_block>.
+Loading core <system_clk_0_wrapper> for timing and area information for instance <system_clk_0>.
+Loading core <ddr_fb_dcm_wrapper> for timing and area information for instance <ddr_fb_dcm>.
+Loading core <ddr90_dcm_wrapper> for timing and area information for instance <ddr90_dcm>.
+Loading core <sys_dcm_wrapper> for timing and area information for instance <sys_dcm>.
+Loading core <plb_eth2_contr_wrapper> for timing and area information for instance <plb_eth2_contr>.
+Loading core <plb_eth1_contr_wrapper> for timing and area information for instance <plb_eth1_contr>.
+Loading core <opb_intc_0_wrapper> for timing and area information for instance <opb_intc_0>.
+Loading core <opb_flash_wrapper> for timing and area information for instance <opb_flash>.
+Loading core <boot_ppc_cntrl_wrapper> for timing and area information for instance <boot_ppc_cntrl>.
+Loading core <boot_ppc_bram_wrapper> for timing and area information for instance <boot_ppc_bram>.
+Loading core <plb_ddr_sdram_wrapper> for timing and area information for instance <plb_DDR_SDRAM>.
+Loading core <uart_tuts_wrapper> for timing and area information for instance <UART_TUTS>.
+Loading core <rs232_1_wrapper> for timing and area information for instance <RS232_1>.
+Loading core <rs232_2_wrapper> for timing and area information for instance <RS232_2>.
+Loading core <gpio_leds_wrapper> for timing and area information for instance <gpio_LEDS>.
+Loading core <freq_detect_wrapper> for timing and area information for instance <freq_detect>.
+Loading core <reg_version_wrapper> for timing and area information for instance <reg_version>.
+Loading core <f_gen_0_wrapper> for timing and area information for instance <f_gen_0>.
+Loading device for application Rf_Device from file '2vp50.nph' in environment /opt/Xilinx/10.1/ISE:/opt/Xilinx/10.1/EDK.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <system> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2260 - The FF/Latch <dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG1> in Unit <dnepr> is equivalent to the following FF/Latch : <dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG2> 
+INFO:Xst:2260 - The FF/Latch <grid_gen/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG1> in Unit <grid_gen> is equivalent to the following FF/Latch : <grid_gen/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG2> 
+INFO:Xst:2260 - The FF/Latch <delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG1> in Unit <delay_meter> is equivalent to the following FF/Latch : <delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG2> 
+INFO:Xst:2260 - The FF/Latch <plb2opb/Read_inprog> in Unit <plb2opb> is equivalent to the following FF/Latch : <plb2opb/Read_inprog_1> 
+INFO:Xst:2260 - The FF/Latch <plb/I_PLB_ARBITER_LOGIC/I_PRIORITY_ENCODER/I_ARBADDRSEL/arbAddrSelReg_i_1> in Unit <plb> is equivalent to the following FF/Latch : <plb/I_PLB_ARBITER_LOGIC/I_PRIORITY_ENCODER/I_ARBADDRSEL/arbAddrSelReg_i_1_1> 
+INFO:Xst:2260 - The FF/Latch <plb/I_PLB_ARBITER_LOGIC/I_PRIORITY_ENCODER/I_ARBADDRSEL/arbAddrSelReg_i_3> in Unit <plb> is equivalent to the following FF/Latch : <plb/I_PLB_ARBITER_LOGIC/I_PRIORITY_ENCODER/I_ARBADDRSEL/arbAddrSelReg_i_3_1> 
+INFO:Xst:2260 - The FF/Latch <plb/I_PLB_ARBITER_LOGIC/I_PRIORITY_ENCODER/I_ARBADDRSEL/arbAddrSelReg_i_0> in Unit <plb> is equivalent to the following FF/Latch : <plb/I_PLB_ARBITER_LOGIC/I_PRIORITY_ENCODER/I_ARBADDRSEL/arbAddrSelReg_i_0_1> 
+INFO:Xst:2260 - The FF/Latch <plb/I_PLB_ARBITER_LOGIC/I_PRIORITY_ENCODER/I_ARBADDRSEL/arbAddrSelReg_i_2> in Unit <plb> is equivalent to the following FF/Latch : <plb/I_PLB_ARBITER_LOGIC/I_PRIORITY_ENCODER/I_ARBADDRSEL/arbAddrSelReg_i_2_1> 
+INFO:Xst:2260 - The FF/Latch <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/BUSLOCK_FF_I> in Unit <plb_eth2_contr> is equivalent to the following 3 FFs/Latches : <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/TYPE_FF_GEN[2].FF_I> <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/TYPE_FF_GEN[1].FF_I> <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/TYPE_FF_GEN[0].FF_I> 
+INFO:Xst:2260 - The FF/Latch <plb_eth2_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/sl_busy_i> in Unit <plb_eth2_contr> is equivalent to the following FF/Latch : <plb_eth2_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/sl_busy_i_1> 
+INFO:Xst:2260 - The FF/Latch <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/BE_FF_GEN[7].FF_I> in Unit <plb_eth2_contr> is equivalent to the following 3 FFs/Latches : <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/BE_FF_GEN[6].FF_I> <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/BE_FF_GEN[5].FF_I> <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/BE_FF_GEN[4].FF_I> 
+INFO:Xst:2260 - The FF/Latch <plb_eth2_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_BURST.I_STEER_ADDRESS_COUNTER/reg_addr_plus_n_5> in Unit <plb_eth2_contr> is equivalent to the following FF/Latch : <plb_eth2_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_BURST.I_STEER_ADDRESS_COUNTER/reg_addr_plus_n_5_1> 
+INFO:Xst:2260 - The FF/Latch <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_DMA.I_PLB_DMA_SG/I_DMA_SG/cco_0> in Unit <plb_eth2_contr> is equivalent to the following FF/Latch : <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_DMA.I_PLB_DMA_SG/I_DMA_SG/cco_0_1> 
+INFO:Xst:2260 - The FF/Latch <plb_eth2_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/decoding_local_addr> in Unit <plb_eth2_contr> is equivalent to the following FF/Latch : <plb_eth2_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/decoding_local_addr_1> 
+INFO:Xst:2260 - The FF/Latch <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/SIZE_FF_GEN[3].FF_I> in Unit <plb_eth2_contr> is equivalent to the following 2 FFs/Latches : <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/SIZE_FF_GEN[2].FF_I> <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/SIZE_FF_GEN[0].FF_I> 
+INFO:Xst:2260 - The FF/Latch <plb_eth2_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/lcl_busy_i> in Unit <plb_eth2_contr> is equivalent to the following FF/Latch : <plb_eth2_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/lcl_busy_i_1> 
+INFO:Xst:2260 - The FF/Latch <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/SIZE_FF_GEN[3].FF_I> in Unit <plb_eth1_contr> is equivalent to the following 2 FFs/Latches : <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/SIZE_FF_GEN[2].FF_I> <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/SIZE_FF_GEN[0].FF_I> 
+INFO:Xst:2260 - The FF/Latch <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/BE_FF_GEN[7].FF_I> in Unit <plb_eth1_contr> is equivalent to the following 3 FFs/Latches : <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/BE_FF_GEN[6].FF_I> <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/BE_FF_GEN[5].FF_I> <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/BE_FF_GEN[4].FF_I> 
+INFO:Xst:2260 - The FF/Latch <plb_eth1_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_BURST.I_STEER_ADDRESS_COUNTER/reg_addr_plus_n_5> in Unit <plb_eth1_contr> is equivalent to the following FF/Latch : <plb_eth1_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_BURST.I_STEER_ADDRESS_COUNTER/reg_addr_plus_n_5_1> 
+INFO:Xst:2260 - The FF/Latch <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/BUSLOCK_FF_I> in Unit <plb_eth1_contr> is equivalent to the following 3 FFs/Latches : <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/TYPE_FF_GEN[2].FF_I> <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/TYPE_FF_GEN[1].FF_I> <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/TYPE_FF_GEN[0].FF_I> 
+INFO:Xst:2260 - The FF/Latch <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_DMA.I_PLB_DMA_SG/I_DMA_SG/cco_0> in Unit <plb_eth1_contr> is equivalent to the following FF/Latch : <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_DMA.I_PLB_DMA_SG/I_DMA_SG/cco_0_1> 
+INFO:Xst:2260 - The FF/Latch <plb_eth1_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/decoding_local_addr> in Unit <plb_eth1_contr> is equivalent to the following FF/Latch : <plb_eth1_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/decoding_local_addr_1> 
+INFO:Xst:2260 - The FF/Latch <plb_eth1_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/lcl_busy_i> in Unit <plb_eth1_contr> is equivalent to the following FF/Latch : <plb_eth1_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/lcl_busy_i_1> 
+INFO:Xst:2260 - The FF/Latch <plb_eth1_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/sl_busy_i> in Unit <plb_eth1_contr> is equivalent to the following FF/Latch : <plb_eth1_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/sl_busy_i_1> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/IRQ_GEN_I/MASKED_INTS_REG_GEN[1].MASKED_INTS_REG_BIT_I> in Unit <opb_intc_0> is equivalent to the following FF/Latch : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IPR_GEN.IPR_REG_GEN[1].IPR_REG_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/IRQ_GEN_I/MASKED_INTS_REG_GEN[5].MASKED_INTS_REG_BIT_I> in Unit <opb_intc_0> is equivalent to the following FF/Latch : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IPR_GEN.IPR_REG_GEN[5].IPR_REG_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/IRQ_GEN_I/MASKED_INTS_REG_GEN[0].MASKED_INTS_REG_BIT_I> in Unit <opb_intc_0> is equivalent to the following FF/Latch : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IPR_GEN.IPR_REG_GEN[0].IPR_REG_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IVR_GEN.IVR_REG_GEN[5].IVR_REG_BIT_I> in Unit <opb_intc_0> is equivalent to the following 2 FFs/Latches : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IVR_GEN.IVR_REG_GEN[4].IVR_REG_BIT_I> <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IVR_GEN.IVR_REG_GEN[3].IVR_REG_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/IRQ_GEN_I/MASKED_INTS_REG_GEN[4].MASKED_INTS_REG_BIT_I> in Unit <opb_intc_0> is equivalent to the following FF/Latch : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IPR_GEN.IPR_REG_GEN[4].IPR_REG_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/IRQ_GEN_I/MASKED_INTS_REG_GEN[3].MASKED_INTS_REG_BIT_I> in Unit <opb_intc_0> is equivalent to the following FF/Latch : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IPR_GEN.IPR_REG_GEN[3].IPR_REG_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[25].INTC_DBUS_BIT_I> in Unit <opb_intc_0> is equivalent to the following 25 FFs/Latches : <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[24].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[23].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[22].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[21].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[20].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[19].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[18].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[17].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[16].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[15].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[14].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[13].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[12].INTC_DBUS_BIT_I>
+   <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[11].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[10].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[9].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[8].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[7].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[6].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[5].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[4].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[3].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[2].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[1].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[0].INTC_DBUS_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/IRQ_GEN_I/MASKED_INTS_REG_GEN[2].MASKED_INTS_REG_BIT_I> in Unit <opb_intc_0> is equivalent to the following FF/Latch : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IPR_GEN.IPR_REG_GEN[2].IPR_REG_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/OE_NOPIPE_GEN.DQ_OE_REG_I> in Unit <plb_DDR_SDRAM> is equivalent to the following 4 FFs/Latches : <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[3].DQS_OE_REG_I> <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[2].DQS_OE_REG_I> <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[1].DQS_OE_REG_I> <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[0].DQS_OE_REG_I> 
+INFO:Xst:2260 - The FF/Latch <plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MODE_BURSTXFER.I_STEER_ADDRESS_COUNTER/GEN_S_H_SIZE_REG[3].I_SIZE_S_H_REG> in Unit <plb_DDR_SDRAM> is equivalent to the following FF/Latch : <plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MODE_BURSTXFER.I_BUS_ADDRESS_COUNTER/GEN_S_H_SIZE_REG[3].I_SIZE_S_H_REG> 
+INFO:Xst:2260 - The FF/Latch <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.DATASM_I/NOWRITE_PIPE_GEN.WRITE_DQS_EN_GEN[3].WR_DQS_EN_REG> in Unit <plb_DDR_SDRAM> is equivalent to the following 3 FFs/Latches : <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.DATASM_I/NOWRITE_PIPE_GEN.WRITE_DQS_EN_GEN[2].WR_DQS_EN_REG> <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.DATASM_I/NOWRITE_PIPE_GEN.WRITE_DQS_EN_GEN[1].WR_DQS_EN_REG> <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.DATASM_I/NOWRITE_PIPE_GEN.WRITE_DQS_EN_GEN[0].WR_DQS_EN_REG> 
+INFO:Xst:2260 - The FF/Latch <plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MODE_BURSTXFER.I_STEER_ADDRESS_COUNTER/I_SNGL_S_H_REG> in Unit <plb_DDR_SDRAM> is equivalent to the following FF/Latch : <plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MODE_BURSTXFER.I_BUS_ADDRESS_COUNTER/I_SNGL_S_H_REG> 
+INFO:Xst:2260 - The FF/Latch <plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MODE_BURSTXFER.I_STEER_ADDRESS_COUNTER/I_CACHLN_S_H_REG> in Unit <plb_DDR_SDRAM> is equivalent to the following FF/Latch : <plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MODE_BURSTXFER.I_BUS_ADDRESS_COUNTER/I_CACHLN_S_H_REG> 
+INFO:Xst:2260 - The FF/Latch <plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MODE_BURSTXFER.I_STEER_ADDRESS_COUNTER/GEN_S_H_SIZE_REG[2].I_SIZE_S_H_REG> in Unit <plb_DDR_SDRAM> is equivalent to the following FF/Latch : <plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MODE_BURSTXFER.I_BUS_ADDRESS_COUNTER/GEN_S_H_SIZE_REG[2].I_SIZE_S_H_REG> 
+INFO:Xst:2260 - The FF/Latch <plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MODE_BURSTXFER.I_STEER_ADDRESS_COUNTER/I_BURST_S_H_REG> in Unit <plb_DDR_SDRAM> is equivalent to the following FF/Latch : <plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MODE_BURSTXFER.I_BUS_ADDRESS_COUNTER/I_BURST_S_H_REG> 
+INFO:Xst:2260 - The FF/Latch <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[3].DQS_RST_I> in Unit <plb_DDR_SDRAM> is equivalent to the following 3 FFs/Latches : <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[2].DQS_RST_I> <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[1].DQS_RST_I> <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[0].DQS_RST_I> 
+INFO:Xst:2260 - The FF/Latch <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[3].DQS_SETRST_I> in Unit <plb_DDR_SDRAM> is equivalent to the following 3 FFs/Latches : <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[2].DQS_SETRST_I> <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[1].DQS_SETRST_I> <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[0].DQS_SETRST_I> 
+INFO:Xst:2260 - The FF/Latch <reg_version/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG1> in Unit <reg_version> is equivalent to the following FF/Latch : <reg_version/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG2> 
+INFO:Xst:2260 - The FF/Latch <f_gen_0/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG1> in Unit <f_gen_0> is equivalent to the following FF/Latch : <f_gen_0/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG2> 
+INFO:Xst:2260 - The FF/Latch <dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG1> in Unit <dnepr> is equivalent to the following FF/Latch : <dnepr/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG2> 
+INFO:Xst:2260 - The FF/Latch <grid_gen/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG1> in Unit <grid_gen> is equivalent to the following FF/Latch : <grid_gen/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG2> 
+INFO:Xst:2260 - The FF/Latch <delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG1> in Unit <delay_meter> is equivalent to the following FF/Latch : <delay_meter/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG2> 
+INFO:Xst:2260 - The FF/Latch <plb2opb/Read_inprog> in Unit <plb2opb> is equivalent to the following FF/Latch : <plb2opb/Read_inprog_1> 
+INFO:Xst:2260 - The FF/Latch <plb/I_PLB_ARBITER_LOGIC/I_PRIORITY_ENCODER/I_ARBADDRSEL/arbAddrSelReg_i_1> in Unit <plb> is equivalent to the following FF/Latch : <plb/I_PLB_ARBITER_LOGIC/I_PRIORITY_ENCODER/I_ARBADDRSEL/arbAddrSelReg_i_1_1> 
+INFO:Xst:2260 - The FF/Latch <plb/I_PLB_ARBITER_LOGIC/I_PRIORITY_ENCODER/I_ARBADDRSEL/arbAddrSelReg_i_3> in Unit <plb> is equivalent to the following FF/Latch : <plb/I_PLB_ARBITER_LOGIC/I_PRIORITY_ENCODER/I_ARBADDRSEL/arbAddrSelReg_i_3_1> 
+INFO:Xst:2260 - The FF/Latch <plb/I_PLB_ARBITER_LOGIC/I_PRIORITY_ENCODER/I_ARBADDRSEL/arbAddrSelReg_i_0> in Unit <plb> is equivalent to the following FF/Latch : <plb/I_PLB_ARBITER_LOGIC/I_PRIORITY_ENCODER/I_ARBADDRSEL/arbAddrSelReg_i_0_1> 
+INFO:Xst:2260 - The FF/Latch <plb/I_PLB_ARBITER_LOGIC/I_PRIORITY_ENCODER/I_ARBADDRSEL/arbAddrSelReg_i_2> in Unit <plb> is equivalent to the following FF/Latch : <plb/I_PLB_ARBITER_LOGIC/I_PRIORITY_ENCODER/I_ARBADDRSEL/arbAddrSelReg_i_2_1> 
+INFO:Xst:2260 - The FF/Latch <plb_eth2_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/decoding_local_addr> in Unit <plb_eth2_contr> is equivalent to the following FF/Latch : <plb_eth2_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/decoding_local_addr_1> 
+INFO:Xst:2260 - The FF/Latch <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/SIZE_FF_GEN[3].FF_I> in Unit <plb_eth2_contr> is equivalent to the following 2 FFs/Latches : <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/SIZE_FF_GEN[2].FF_I> <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/SIZE_FF_GEN[0].FF_I> 
+INFO:Xst:2260 - The FF/Latch <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/BUSLOCK_FF_I> in Unit <plb_eth2_contr> is equivalent to the following 3 FFs/Latches : <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/TYPE_FF_GEN[2].FF_I> <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/TYPE_FF_GEN[1].FF_I> <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/TYPE_FF_GEN[0].FF_I> 
+INFO:Xst:2260 - The FF/Latch <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_DMA.I_PLB_DMA_SG/I_DMA_SG/cco_0> in Unit <plb_eth2_contr> is equivalent to the following FF/Latch : <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_DMA.I_PLB_DMA_SG/I_DMA_SG/cco_0_1> 
+INFO:Xst:2260 - The FF/Latch <plb_eth2_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_BURST.I_STEER_ADDRESS_COUNTER/reg_addr_plus_n_5> in Unit <plb_eth2_contr> is equivalent to the following FF/Latch : <plb_eth2_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_BURST.I_STEER_ADDRESS_COUNTER/reg_addr_plus_n_5_1> 
+INFO:Xst:2260 - The FF/Latch <plb_eth2_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/sl_busy_i> in Unit <plb_eth2_contr> is equivalent to the following FF/Latch : <plb_eth2_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/sl_busy_i_1> 
+INFO:Xst:2260 - The FF/Latch <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/BE_FF_GEN[7].FF_I> in Unit <plb_eth2_contr> is equivalent to the following 3 FFs/Latches : <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/BE_FF_GEN[6].FF_I> <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/BE_FF_GEN[5].FF_I> <plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/BE_FF_GEN[4].FF_I> 
+INFO:Xst:2260 - The FF/Latch <plb_eth2_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/lcl_busy_i> in Unit <plb_eth2_contr> is equivalent to the following FF/Latch : <plb_eth2_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/lcl_busy_i_1> 
+INFO:Xst:2260 - The FF/Latch <plb_eth1_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/sl_busy_i> in Unit <plb_eth1_contr> is equivalent to the following FF/Latch : <plb_eth1_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/sl_busy_i_1> 
+INFO:Xst:2260 - The FF/Latch <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/SIZE_FF_GEN[3].FF_I> in Unit <plb_eth1_contr> is equivalent to the following 2 FFs/Latches : <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/SIZE_FF_GEN[2].FF_I> <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/SIZE_FF_GEN[0].FF_I> 
+INFO:Xst:2260 - The FF/Latch <plb_eth1_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/decoding_local_addr> in Unit <plb_eth1_contr> is equivalent to the following FF/Latch : <plb_eth1_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/decoding_local_addr_1> 
+INFO:Xst:2260 - The FF/Latch <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/BUSLOCK_FF_I> in Unit <plb_eth1_contr> is equivalent to the following 3 FFs/Latches : <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/TYPE_FF_GEN[2].FF_I> <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/TYPE_FF_GEN[1].FF_I> <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/TYPE_FF_GEN[0].FF_I> 
+INFO:Xst:2260 - The FF/Latch <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/BE_FF_GEN[7].FF_I> in Unit <plb_eth1_contr> is equivalent to the following 3 FFs/Latches : <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/BE_FF_GEN[6].FF_I> <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/BE_FF_GEN[5].FF_I> <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_MASTER_ATTACH.I_MASTER_ATTACH/BE_FF_GEN[4].FF_I> 
+INFO:Xst:2260 - The FF/Latch <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_DMA.I_PLB_DMA_SG/I_DMA_SG/cco_0> in Unit <plb_eth1_contr> is equivalent to the following FF/Latch : <plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_DMA.I_PLB_DMA_SG/I_DMA_SG/cco_0_1> 
+INFO:Xst:2260 - The FF/Latch <plb_eth1_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_BURST.I_STEER_ADDRESS_COUNTER/reg_addr_plus_n_5> in Unit <plb_eth1_contr> is equivalent to the following FF/Latch : <plb_eth1_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_BURST.I_STEER_ADDRESS_COUNTER/reg_addr_plus_n_5_1> 
+INFO:Xst:2260 - The FF/Latch <plb_eth1_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/lcl_busy_i> in Unit <plb_eth1_contr> is equivalent to the following FF/Latch : <plb_eth1_contr/XEMAC_I/INST_IPIF/I_SLAVE_ATTACHMENT/lcl_busy_i_1> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[25].INTC_DBUS_BIT_I> in Unit <opb_intc_0> is equivalent to the following 25 FFs/Latches : <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[24].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[23].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[22].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[21].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[20].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[19].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[18].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[17].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[16].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[15].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[14].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[13].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[12].INTC_DBUS_BIT_I>
+   <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[11].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[10].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[9].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[8].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[7].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[6].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[5].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[4].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[3].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[2].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[1].INTC_DBUS_BIT_I> <opb_intc_0/OPB_INTFC_I/INTC_DBUS_REG_GEN[0].INTC_DBUS_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/IRQ_GEN_I/MASKED_INTS_REG_GEN[2].MASKED_INTS_REG_BIT_I> in Unit <opb_intc_0> is equivalent to the following FF/Latch : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IPR_GEN.IPR_REG_GEN[2].IPR_REG_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/IRQ_GEN_I/MASKED_INTS_REG_GEN[1].MASKED_INTS_REG_BIT_I> in Unit <opb_intc_0> is equivalent to the following FF/Latch : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IPR_GEN.IPR_REG_GEN[1].IPR_REG_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IVR_GEN.IVR_REG_GEN[5].IVR_REG_BIT_I> in Unit <opb_intc_0> is equivalent to the following 2 FFs/Latches : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IVR_GEN.IVR_REG_GEN[4].IVR_REG_BIT_I> <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IVR_GEN.IVR_REG_GEN[3].IVR_REG_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/IRQ_GEN_I/MASKED_INTS_REG_GEN[0].MASKED_INTS_REG_BIT_I> in Unit <opb_intc_0> is equivalent to the following FF/Latch : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IPR_GEN.IPR_REG_GEN[0].IPR_REG_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/IRQ_GEN_I/MASKED_INTS_REG_GEN[5].MASKED_INTS_REG_BIT_I> in Unit <opb_intc_0> is equivalent to the following FF/Latch : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IPR_GEN.IPR_REG_GEN[5].IPR_REG_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/IRQ_GEN_I/MASKED_INTS_REG_GEN[4].MASKED_INTS_REG_BIT_I> in Unit <opb_intc_0> is equivalent to the following FF/Latch : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IPR_GEN.IPR_REG_GEN[4].IPR_REG_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <opb_intc_0/INTC_CORE_I/IRQ_GEN_I/MASKED_INTS_REG_GEN[3].MASKED_INTS_REG_BIT_I> in Unit <opb_intc_0> is equivalent to the following FF/Latch : <opb_intc_0/INTC_CORE_I/REGS_I/OPT_REGS_I/IPR_GEN.IPR_REG_GEN[3].IPR_REG_BIT_I> 
+INFO:Xst:2260 - The FF/Latch <plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MODE_BURSTXFER.I_STEER_ADDRESS_COUNTER/I_SNGL_S_H_REG> in Unit <plb_DDR_SDRAM> is equivalent to the following FF/Latch : <plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MODE_BURSTXFER.I_BUS_ADDRESS_COUNTER/I_SNGL_S_H_REG> 
+INFO:Xst:2260 - The FF/Latch <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/OE_NOPIPE_GEN.DQ_OE_REG_I> in Unit <plb_DDR_SDRAM> is equivalent to the following 4 FFs/Latches : <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[3].DQS_OE_REG_I> <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[2].DQS_OE_REG_I> <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[1].DQS_OE_REG_I> <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[0].DQS_OE_REG_I> 
+INFO:Xst:2260 - The FF/Latch <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[3].DQS_RST_I> in Unit <plb_DDR_SDRAM> is equivalent to the following 3 FFs/Latches : <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[2].DQS_RST_I> <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[1].DQS_RST_I> <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[0].DQS_RST_I> 
+INFO:Xst:2260 - The FF/Latch <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.DATASM_I/NOWRITE_PIPE_GEN.WRITE_DQS_EN_GEN[3].WR_DQS_EN_REG> in Unit <plb_DDR_SDRAM> is equivalent to the following 3 FFs/Latches : <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.DATASM_I/NOWRITE_PIPE_GEN.WRITE_DQS_EN_GEN[2].WR_DQS_EN_REG> <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.DATASM_I/NOWRITE_PIPE_GEN.WRITE_DQS_EN_GEN[1].WR_DQS_EN_REG> <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.DATASM_I/NOWRITE_PIPE_GEN.WRITE_DQS_EN_GEN[0].WR_DQS_EN_REG> 
+INFO:Xst:2260 - The FF/Latch <plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MODE_BURSTXFER.I_STEER_ADDRESS_COUNTER/I_BURST_S_H_REG> in Unit <plb_DDR_SDRAM> is equivalent to the following FF/Latch : <plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MODE_BURSTXFER.I_BUS_ADDRESS_COUNTER/I_BURST_S_H_REG> 
+INFO:Xst:2260 - The FF/Latch <plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MODE_BURSTXFER.I_STEER_ADDRESS_COUNTER/I_CACHLN_S_H_REG> in Unit <plb_DDR_SDRAM> is equivalent to the following FF/Latch : <plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MODE_BURSTXFER.I_BUS_ADDRESS_COUNTER/I_CACHLN_S_H_REG> 
+INFO:Xst:2260 - The FF/Latch <plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MODE_BURSTXFER.I_STEER_ADDRESS_COUNTER/GEN_S_H_SIZE_REG[2].I_SIZE_S_H_REG> in Unit <plb_DDR_SDRAM> is equivalent to the following FF/Latch : <plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MODE_BURSTXFER.I_BUS_ADDRESS_COUNTER/GEN_S_H_SIZE_REG[2].I_SIZE_S_H_REG> 
+INFO:Xst:2260 - The FF/Latch <plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MODE_BURSTXFER.I_STEER_ADDRESS_COUNTER/GEN_S_H_SIZE_REG[3].I_SIZE_S_H_REG> in Unit <plb_DDR_SDRAM> is equivalent to the following FF/Latch : <plb_DDR_SDRAM/WO_ECC.PLB_IPIF_I/I_SLAVE_ATTACHMENT/GEN_FAST_MODE_BURSTXFER.I_BUS_ADDRESS_COUNTER/GEN_S_H_SIZE_REG[3].I_SIZE_S_H_REG> 
+INFO:Xst:2260 - The FF/Latch <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[3].DQS_SETRST_I> in Unit <plb_DDR_SDRAM> is equivalent to the following 3 FFs/Latches : <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[2].DQS_SETRST_I> <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[1].DQS_SETRST_I> <plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.COMMAND_STATEMACHINE_I/DQS_OE_SETRST_GEN[0].DQS_SETRST_I> 
+INFO:Xst:2260 - The FF/Latch <reg_version/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG1> in Unit <reg_version> is equivalent to the following FF/Latch : <reg_version/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG2> 
+INFO:Xst:2260 - The FF/Latch <f_gen_0/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG1> in Unit <f_gen_0> is equivalent to the following FF/Latch : <f_gen_0/PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG2> 
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+Top Level Output File Name         : ../implementation/system.ngc
+Output Format                      : ngc
+Optimization Goal                  : speed
+Keep Hierarchy                     : no
+
+Design Statistics
+# IOs                              : 179
+
+Cell Usage :
+# BELS                             : 22082
+#      GND                         : 35
+#      INV                         : 310
+#      LUT1                        : 697
+#      LUT2                        : 1699
+#      LUT2_D                      : 53
+#      LUT2_L                      : 27
+#      LUT3                        : 3571
+#      LUT3_D                      : 111
+#      LUT3_L                      : 47
+#      LUT4                        : 7143
+#      LUT4_D                      : 207
+#      LUT4_L                      : 335
+#      MULT_AND                    : 519
+#      MUXCY                       : 3170
+#      MUXCY_D                     : 20
+#      MUXCY_L                     : 352
+#      MUXF5                       : 1192
+#      MUXF6                       : 71
+#      VCC                         : 34
+#      XORCY                       : 2489
+# FlipFlops/Latches                : 12325
+#      FD                          : 662
+#      FD_1                        : 5
+#      FDC                         : 125
+#      FDCE                        : 364
+#      FDCPE                       : 4
+#      FDDRRSE                     : 42
+#      FDE                         : 389
+#      FDP                         : 27
+#      FDPE                        : 126
+#      FDR                         : 3145
+#      FDR_1                       : 12
+#      FDRE                        : 6435
+#      FDRS                        : 321
+#      FDRS_1                      : 1
+#      FDRSE                       : 125
+#      FDS                         : 99
+#      FDS_1                       : 17
+#      FDSE                        : 426
+# RAMS                             : 274
+#      RAM16X1D                    : 210
+#      RAMB16_S1_S1                : 32
+#      RAMB16_S9_S9                : 32
+# Shift Registers                  : 928
+#      SRL16                       : 46
+#      SRL16E                      : 702
+#      SRLC16E                     : 180
+# Clock Buffers                    : 10
+#      BUFG                        : 10
+# IO Buffers                       : 178
+#      IBUF                        : 26
+#      IBUFG                       : 1
+#      IBUFGDS_LVPECL_25           : 1
+#      IOBUF                       : 56
+#      OBUF                        : 94
+# DCMs                             : 3
+#      DCM                         : 3
+# Others                           : 5
+#      JTAGPPC                     : 1
+#      PPC405                      : 2
+#      TIMESPEC                    : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2vp50ff1152-6 
+
+ Number of Slices:                    11085  out of  23616    46%  
+ Number of Slice Flip Flops:          12136  out of  47232    25%  
+ Number of 4 input LUTs:              15548  out of  47232    32%  
+    Number used as logic:             14200
+    Number used as Shift registers:     928
+    Number used as RAMs:                420
+ Number of IOs:                         179
+ Number of bonded IOBs:                 177  out of    692    25%  
+    IOB Flip Flops:                     189
+ Number of BRAMs:                        64  out of    232    27%  
+ Number of GCLKs:                        10  out of     16    62%  
+ Number of PPC405s:                       2  out of      2   100%  
+ Number of DCMs:                          3  out of      8    37%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+--------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+-------+
+Clock Signal                                                                                                  | Clock buffer(FF name)                                                                                                  | Load  |
+--------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+-------+
+plb_eth2_contr/PHY_tx_clk                                                                                     | NONE(plb_eth2_contr/plb_eth2_contr/IOFFS_GEN[3].TX_FF_I)                                                               | 57    |
+plb_eth2_contr/PHY_rx_clk                                                                                     | NONE(plb_eth2_contr/plb_eth2_contr/IOFFS_GEN[3].RX_FF_I)                                                               | 31    |
+plb_eth1_contr/PHY_tx_clk                                                                                     | NONE(plb_eth1_contr/plb_eth1_contr/IOFFS_GEN[3].TX_FF_I)                                                               | 57    |
+plb_eth1_contr/PHY_rx_clk                                                                                     | NONE(plb_eth1_contr/plb_eth1_contr/IOFFS_GEN[3].RX_FF_I)                                                               | 31    |
+LVPECLK_p                                                                                                     | sys_dcm/Using_Virtex.DCM_INST:CLK0                                                                                     | 12987 |
+plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/INST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/N0| NONE(plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/INST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU130)| 2     |
+plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_WRAP_FIFO/N0           | NONE(plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_WRAP_FIFO/BU130)           | 2     |
+plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_RX_FIFO/N0             | NONE(plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_RX_FIFO/BU130)             | 2     |
+plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/INST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/N0| NONE(plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/INST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU130)| 2     |
+plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_WRAP_FIFO/N0           | NONE(plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_WRAP_FIFO/BU130)           | 2     |
+plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_RX_FIFO/N0             | NONE(plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_RX_FIFO/BU130)             | 2     |
+LVPECLK_p                                                                                                     | ddr90_dcm/Using_Virtex.DCM_INST:CLK90                                                                                  | 26    |
+LVPECLK_p                                                                                                     | ddr90_dcm/Using_Virtex.DCM_INST:CLK270                                                                                 | 6     |
+LVPECLK_p                                                                                                     | ddr90_dcm/Using_Virtex.DCM_INST:CLK180                                                                                 | 36    |
+DDR_CLK_FB                                                                                                    | ddr_fb_dcm/Using_Virtex.DCM_INST:CLK270                                                                                | 32    |
+DDR_CLK_FB                                                                                                    | ddr_fb_dcm/Using_Virtex.DCM_INST:CLK90                                                                                 | 222   |
+plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[3].V2_ASYNCH_FIFO_I/N0            | NONE(plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[3].V2_ASYNCH_FIFO_I/BU173)            | 2     |
+plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[2].V2_ASYNCH_FIFO_I/N0            | NONE(plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[2].V2_ASYNCH_FIFO_I/BU173)            | 2     |
+plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[1].V2_ASYNCH_FIFO_I/N0            | NONE(plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[1].V2_ASYNCH_FIFO_I/BU173)            | 2     |
+plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[0].V2_ASYNCH_FIFO_I/N0            | NONE(plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[0].V2_ASYNCH_FIFO_I/BU173)            | 2     |
+--------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+-------+
+Control Signal                                                                                                                                                                                                                   | Buffer(FF name)                                                                                                                 | Load  |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+-------+
+plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/fifo_rst(plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/fifo_rst:Q)                                                                       | NONE(plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[2].V2_ASYNCH_FIFO_I/BU267)                     | 120   |
+opb/OPB_Rst(opb/opb/POR_FF_I:Q)                                                                                                                                                                                                  | NONE(UART_TUTS/UART_TUTS/OPB_UARTLITE_Core_I/Interrupt)                                                                         | 76    |
+plb/PLB_Rst(plb/plb/POR_FF2_I:Q)                                                                                                                                                                                                 | NONE(plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.IO_REG_I/NOT_VIRTEX4_IOREGS.INPUT_DDR_REGS_GEN[3].RDDATA_LOREG)       | 66    |
+plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/rxChannelReset(plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/rxChannelReset1:O)                                                                      | NONE(plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_WRAP_FIFO/BU201)                    | 62    |
+plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/rxChannelReset(plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/rxChannelReset1:O)                                                                      | NONE(plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_WRAP_FIFO/BU133)                    | 62    |
+plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_RESET.I_RESET_CONTROL/Reset2IP_Reset1_1(plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_RESET.I_RESET_CONTROL/Reset2IP_Reset1_1:O)                               | NONE(plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP/I_IPIF_INTERFACE_BLOCK/reg_vacancy_0)         | 54    |
+plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_RESET.I_RESET_CONTROL/Reset2IP_Reset1_1(plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_RESET.I_RESET_CONTROL/Reset2IP_Reset1_1:O)                               | NONE(plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP/I_IPIF_INTERFACE_BLOCK/fifo_errack_inhibit)   | 54    |
+plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/txComboBusFifoRst(plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/txComboBusFifoRst20_f5:O)                                  | NONE(plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/INST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU220)         | 31    |
+plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/txComboBusFifoRst(plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/txComboBusFifoRst20_f5:O)                                  | NONE(plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/INST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU226)         | 31    |
+plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP/I_IPIF_INTERFACE_BLOCK/Fifo_Reset(plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP/I_IPIF_INTERFACE_BLOCK/Fifo_Reset:Q) | NONE(plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP/USE_BLOCK_RAM.I_DP_CONTROLLER/back_to_back_rd)| 16    |
+plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP/I_IPIF_INTERFACE_BLOCK/Fifo_Reset(plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP/I_IPIF_INTERFACE_BLOCK/Fifo_Reset:Q) | NONE(plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_WRFIFO.I_WRPFIFO_TOP/USE_BLOCK_RAM.I_DP_CONTROLLER/hold_ack)       | 16    |
+plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/I_IPIF_INTERFACE_BLOCK/Fifo_rst(plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/I_IPIF_INTERFACE_BLOCK/Fifo_rst:Q)               | NONE(plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_BLOCK_RAM.I_DP_CONTROLLER/trans_state_FSM_FFd1)| 12    |
+plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/I_IPIF_INTERFACE_BLOCK/Fifo_rst(plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/I_IPIF_INTERFACE_BLOCK/Fifo_rst:Q)               | NONE(plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_IPIF/INCLUDE_RDFIFO.I_RDFIFO/USE_BLOCK_RAM.I_DP_CONTROLLER/trans_state_FSM_FFd2)| 12    |
+plb2opb/BGO_dcrDBus<31>(plb2opb/XST_GND:G)                                                                                                                                                                                       | NONE(plb2opb/plb2opb/I_OPB_timeout_Reg)                                                                                         | 4     |
+plb_DDR_SDRAM/DDR_DQ_ECC_T<6>(plb_DDR_SDRAM/XST_GND:G)                                                                                                                                                                           | NONE(plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.IO_REG_I/NOT_VIRTEX4_IOREGS.INPUT_DQS_REG_GEN[1].RDDQS_REG)           | 4     |
+plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[0].V2_ASYNCH_FIFO_I/N0(plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[0].V2_ASYNCH_FIFO_I/GND:G)                        | NONE(plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[0].V2_ASYNCH_FIFO_I/BU280)                     | 2     |
+plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[1].V2_ASYNCH_FIFO_I/N0(plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[1].V2_ASYNCH_FIFO_I/GND:G)                        | NONE(plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[1].V2_ASYNCH_FIFO_I/BU173)                     | 2     |
+plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[2].V2_ASYNCH_FIFO_I/N0(plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[2].V2_ASYNCH_FIFO_I/GND:G)                        | NONE(plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[2].V2_ASYNCH_FIFO_I/BU280)                     | 2     |
+plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[3].V2_ASYNCH_FIFO_I/N0(plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[3].V2_ASYNCH_FIFO_I/GND:G)                        | NONE(plb_DDR_SDRAM/plb_DDR_SDRAM/WO_ECC.DDR_CTRL_I/WO_ECC.RDDATA_PATH_I/FIFO_GEN[3].V2_ASYNCH_FIFO_I/BU280)                     | 2     |
+plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_RX_FIFO/N0(plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_RX_FIFO/GND:G)                          | NONE(plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_RX_FIFO/BU237)                      | 2     |
+plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_WRAP_FIFO/N0(plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_WRAP_FIFO/GND:G)                      | NONE(plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_WRAP_FIFO/BU130)                    | 2     |
+plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/INST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/N0(plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/INST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/GND:G)| NONE(plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/INST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU130)         | 2     |
+plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_RX_FIFO/N0(plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_RX_FIFO/GND:G)                          | NONE(plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_RX_FIFO/BU130)                      | 2     |
+plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_WRAP_FIFO/N0(plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_WRAP_FIFO/GND:G)                      | NONE(plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_WRAP_FIFO/BU237)                    | 2     |
+plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/INST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/N0(plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/INST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/GND:G)| NONE(plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/INST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU237)         | 2     |
+RS232_1/RS232_1/OPB_UARTLITE_Core_I/reset_RX_FIFO(RS232_1/RS232_1/OPB_UARTLITE_Core_I/reset_RX_FIFO:Q)                                                                                                                           | NONE(RS232_1/RS232_1/OPB_UARTLITE_Core_I/OPB_UARTLITE_RX_I/SRL_FIFO_I/data_Exists_I)                                            | 1     |
+RS232_1/RS232_1/OPB_UARTLITE_Core_I/reset_TX_FIFO(RS232_1/RS232_1/OPB_UARTLITE_Core_I/reset_TX_FIFO:Q)                                                                                                                           | NONE(RS232_1/RS232_1/OPB_UARTLITE_Core_I/OPB_UARTLITE_TX_I/SRL_FIFO_I/data_Exists_I)                                            | 1     |
+RS232_2/RS232_2/OPB_UARTLITE_Core_I/reset_RX_FIFO(RS232_2/RS232_2/OPB_UARTLITE_Core_I/reset_RX_FIFO:Q)                                                                                                                           | NONE(RS232_2/RS232_2/OPB_UARTLITE_Core_I/OPB_UARTLITE_RX_I/SRL_FIFO_I/data_Exists_I)                                            | 1     |
+RS232_2/RS232_2/OPB_UARTLITE_Core_I/reset_TX_FIFO(RS232_2/RS232_2/OPB_UARTLITE_Core_I/reset_TX_FIFO:Q)                                                                                                                           | NONE(RS232_2/RS232_2/OPB_UARTLITE_Core_I/OPB_UARTLITE_TX_I/SRL_FIFO_I/data_Exists_I)                                            | 1     |
+UART_TUTS/UART_TUTS/OPB_UARTLITE_Core_I/reset_RX_FIFO(UART_TUTS/UART_TUTS/OPB_UARTLITE_Core_I/reset_RX_FIFO:Q)                                                                                                                   | NONE(UART_TUTS/UART_TUTS/OPB_UARTLITE_Core_I/OPB_UARTLITE_RX_I/SRL_FIFO_I/data_Exists_I)                                        | 1     |
+UART_TUTS/UART_TUTS/OPB_UARTLITE_Core_I/reset_TX_FIFO(UART_TUTS/UART_TUTS/OPB_UARTLITE_Core_I/reset_TX_FIFO:Q)                                                                                                                   | NONE(UART_TUTS/UART_TUTS/OPB_UARTLITE_Core_I/OPB_UARTLITE_TX_I/SRL_FIFO_I/data_Exists_I)                                        | 1     |
+plb2opb/plb2opb/OPBside_reset_Read_inprog_negedge_regd(plb2opb/plb2opb/I_OPBside_reset_Read_inprog_negedge_regd:O)                                                                                                               | NONE(plb2opb/plb2opb/I_Read_inprog_negedge_Reg)                                                                                 | 1     |
+plb2opb/plb2opb/PLB_abort_regd_clear(plb2opb/plb2opb/I_PLB_abort_regd_clear:O)                                                                                                                                                   | NONE(plb2opb/plb2opb/I_PLB_abort_Reg)                                                                                           | 1     |
+plb2opb/plb2opb/PLBside_reset_OPB_retry_onRd(plb2opb/plb2opb/I_B_side_Reg_CLR:O)                                                                                                                                                 | NONE(plb2opb/plb2opb/I_A_side_Reg)                                                                                              | 1     |
+plb2opb/plb2opb/PLBside_reset_OPB_timeout_onRd(plb2opb/plb2opb/I_OPB_timeout_side_Reg_CLR:O)                                                                                                                                     | NONE(plb2opb/plb2opb/I_OPB_timeout_Reg)                                                                                         | 1     |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: 9.154ns (Maximum Frequency: 109.240MHz)
+   Minimum input arrival time before clock: 2.836ns
+   Maximum output required time after clock: 6.354ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Timing constraint: TSTXOUT_plb_eth2_contr = MAXDELAY FROM TIMEGRP "TXCLK_GRP_plb_eth2_contr" TO TIMEGRP "PADS" 10 nS
+  Total number of paths / destination ports: 6 / 6
+  Number of failed paths / ports: 0 (0.00%) / 0 (0.00%)
+-------------------------------------------------------------------------
+Slack:                  6.385ns
+  Source:               plb_eth2_contr/plb_eth2_contr/IOFFS_GEN[3].TX_FF_I (FF)
+  Destination:          Eth2_PHY_tx_data<3> (PAD)
+  Data Path Delay:      3.615ns (Levels of Logic = 2)
+  Source Clock:         plb_eth2_contr/PHY_tx_clk rising at 0.000ns
+
+  Data Path: plb_eth2_contr/plb_eth2_contr/IOFFS_GEN[3].TX_FF_I (FF) to Eth2_PHY_tx_data<3> (PAD)
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             1   0.374   0.390  plb_eth2_contr/IOFFS_GEN[3].TX_FF_I (PHY_tx_data<3>)
+     end scope: 'plb_eth2_contr'
+     OBUF:I->O                 2.851          Eth2_PHY_tx_data_3_OBUF (Eth2_PHY_tx_data<3>)
+    ----------------------------------------
+    Total                      3.615ns (3.225ns logic, 0.390ns route)
+                                       (89.2% logic, 10.8% route)
+
+=========================================================================
+Timing constraint: TSRXIN_plb_eth2_contr = MAXDELAY FROM TIMEGRP "PADS" TO TIMEGRP "RXCLK_GRP_plb_eth2_contr" 6 nS
+  Total number of paths / destination ports: 6 / 6
+  Number of failed paths / ports: 0 (0.00%) / 0 (0.00%)
+-------------------------------------------------------------------------
+Slack:                  4.457ns
+  Source:               Eth2_PHY_rx_er (PAD)
+  Destination:          plb_eth2_contr/plb_eth2_contr/IOFFS_GEN2.RER_FF (FF)
+  Data Path Delay:      1.543ns (Levels of Logic = 2)
+  Destination Clock:    plb_eth2_contr/PHY_rx_clk rising at 6.000ns
+
+  Data Path: Eth2_PHY_rx_er (PAD) to plb_eth2_contr/plb_eth2_contr/IOFFS_GEN2.RER_FF (FF)
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.919   0.390  Eth2_PHY_rx_er_IBUF (Eth2_PHY_rx_er_IBUF)
+     begin scope: 'plb_eth2_contr'
+     FDRE:D                    0.234          plb_eth2_contr/IOFFS_GEN2.RER_FF
+    ----------------------------------------
+    Total                      1.543ns (1.153ns logic, 0.390ns route)
+                                       (74.7% logic, 25.3% route)
+
+=========================================================================
+Timing constraint: TSTXOUT_plb_eth1_contr = MAXDELAY FROM TIMEGRP "TXCLK_GRP_plb_eth1_contr" TO TIMEGRP "PADS" 10 nS
+  Total number of paths / destination ports: 6 / 6
+  Number of failed paths / ports: 0 (0.00%) / 0 (0.00%)
+-------------------------------------------------------------------------
+Slack:                  6.385ns
+  Source:               plb_eth1_contr/plb_eth1_contr/IOFFS_GEN[3].TX_FF_I (FF)
+  Destination:          Eth1_PHY_tx_data<3> (PAD)
+  Data Path Delay:      3.615ns (Levels of Logic = 2)
+  Source Clock:         plb_eth1_contr/PHY_tx_clk rising at 0.000ns
+
+  Data Path: plb_eth1_contr/plb_eth1_contr/IOFFS_GEN[3].TX_FF_I (FF) to Eth1_PHY_tx_data<3> (PAD)
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             1   0.374   0.390  plb_eth1_contr/IOFFS_GEN[3].TX_FF_I (PHY_tx_data<3>)
+     end scope: 'plb_eth1_contr'
+     OBUF:I->O                 2.851          Eth1_PHY_tx_data_3_OBUF (Eth1_PHY_tx_data<3>)
+    ----------------------------------------
+    Total                      3.615ns (3.225ns logic, 0.390ns route)
+                                       (89.2% logic, 10.8% route)
+
+=========================================================================
+Timing constraint: TSRXIN_plb_eth1_contr = MAXDELAY FROM TIMEGRP "PADS" TO TIMEGRP "RXCLK_GRP_plb_eth1_contr" 6 nS
+  Total number of paths / destination ports: 6 / 6
+  Number of failed paths / ports: 0 (0.00%) / 0 (0.00%)
+-------------------------------------------------------------------------
+Slack:                  4.457ns
+  Source:               Eth1_PHY_dv (PAD)
+  Destination:          plb_eth1_contr/plb_eth1_contr/IOFFS_GEN2.DVD_FF (FF)
+  Data Path Delay:      1.543ns (Levels of Logic = 2)
+  Destination Clock:    plb_eth1_contr/PHY_rx_clk rising at 6.000ns
+
+  Data Path: Eth1_PHY_dv (PAD) to plb_eth1_contr/plb_eth1_contr/IOFFS_GEN2.DVD_FF (FF)
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.919   0.390  Eth1_PHY_dv_IBUF (Eth1_PHY_dv_IBUF)
+     begin scope: 'plb_eth1_contr'
+     FDRE:D                    0.234          plb_eth1_contr/IOFFS_GEN2.DVD_FF
+    ----------------------------------------
+    Total                      1.543ns (1.153ns logic, 0.390ns route)
+                                       (74.7% logic, 25.3% route)
+
+=========================================================================
+Timing constraint: NET plb_eth2_contr/PHY_rx_clk PERIOD = 40 nS HIGH 14 nS
+  Clock period: 3.383ns (frequency: 295.552MHz)
+  Total number of paths / destination ports: 114 / 68
+  Number of failed paths / ports: 0 (0.00%) / 0 (0.00%)
+-------------------------------------------------------------------------
+Slack:                  36.617ns
+  Source:               plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_RX_FIFO/BU194 (FF)
+  Destination:          plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_RX_FIFO/BU249 (FF)
+  Data Path Delay:      3.383ns (Levels of Logic = 6)
+  Source Clock:         plb_eth2_contr/PHY_rx_clk falling at 20.000ns
+  Destination Clock:    plb_eth2_contr/PHY_rx_clk falling at 60.000ns
+
+  Data Path: plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_RX_FIFO/BU194 (FF) to plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_RX_FIFO/BU249 (FF)
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             3   0.374   0.610  BU194 (N422)
+     LUT4:I0->O            1   0.313   0.000  BU235 (N1564)
+     MUXCY:S->O            1   0.377   0.000  BU236 (N1568)
+     MUXCY:CI->O           1   0.041   0.000  BU239 (N1567)
+     MUXCY:CI->O           1   0.041   0.000  BU242 (N1566)
+     MUXCY_D:CI->LO        0   0.525   0.000  BU245 (N1565)
+     XORCY:CI->O           1   0.868   0.000  BU248 (N1571)
+     FDPE:D                    0.234          BU249
+    ----------------------------------------
+    Total                      3.383ns (2.773ns logic, 0.610ns route)
+                                       (82.0% logic, 18.0% route)
+
+=========================================================================
+Timing constraint: NET plb_eth2_contr/PHY_tx_clk PERIOD = 40 nS HIGH 14 nS
+  Clock period: 3.410ns (frequency: 293.212MHz)
+  Total number of paths / destination ports: 231 / 121
+  Number of failed paths / ports: 0 (0.00%) / 0 (0.00%)
+-------------------------------------------------------------------------
+Slack:                  36.590ns
+  Source:               plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/INST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU142 (FF)
+  Destination:          plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/INST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU142 (FF)
+  Data Path Delay:      3.410ns (Levels of Logic = 6)
+  Source Clock:         plb_eth2_contr/PHY_tx_clk falling at 20.000ns
+  Destination Clock:    plb_eth2_contr/PHY_tx_clk falling at 60.000ns
+
+  Data Path: plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/INST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU142 (FF) to plb_eth2_contr/plb_eth2_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/INST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU142 (FF)
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDPE:C->Q             9   0.374   0.637  BU142 (empty)
+     LUT4:I3->O            1   0.313   0.000  BU128 (N982)
+     MUXCY:S->O            1   0.377   0.000  BU129 (N986)
+     MUXCY:CI->O           1   0.041   0.000  BU132 (N985)
+     MUXCY:CI->O           1   0.041   0.000  BU135 (N984)
+     MUXCY_D:CI->LO        0   0.525   0.000  BU138 (N983)
+     XORCY:CI->O           1   0.868   0.000  BU141 (N989)
+     FDPE:D                    0.234          BU142
+    ----------------------------------------
+    Total                      3.410ns (2.773ns logic, 0.637ns route)
+                                       (81.3% logic, 18.7% route)
+
+=========================================================================
+Timing constraint: NET plb_eth1_contr/PHY_rx_clk PERIOD = 40 nS HIGH 14 nS
+  Clock period: 3.383ns (frequency: 295.552MHz)
+  Total number of paths / destination ports: 114 / 68
+  Number of failed paths / ports: 0 (0.00%) / 0 (0.00%)
+-------------------------------------------------------------------------
+Slack:                  36.617ns
+  Source:               plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_RX_FIFO/BU194 (FF)
+  Destination:          plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_RX_FIFO/BU249 (FF)
+  Data Path Delay:      3.383ns (Levels of Logic = 6)
+  Source Clock:         plb_eth1_contr/PHY_rx_clk falling at 20.000ns
+  Destination Clock:    plb_eth1_contr/PHY_rx_clk falling at 60.000ns
+
+  Data Path: plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_RX_FIFO/BU194 (FF) to plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/inst_receive/INST_RX_INTRFCE/V2_DMEM.I_RX_FIFO/BU249 (FF)
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             3   0.374   0.610  BU194 (N422)
+     LUT4:I0->O            1   0.313   0.000  BU235 (N1564)
+     MUXCY:S->O            1   0.377   0.000  BU236 (N1568)
+     MUXCY:CI->O           1   0.041   0.000  BU239 (N1567)
+     MUXCY:CI->O           1   0.041   0.000  BU242 (N1566)
+     MUXCY_D:CI->LO        0   0.525   0.000  BU245 (N1565)
+     XORCY:CI->O           1   0.868   0.000  BU248 (N1571)
+     FDPE:D                    0.234          BU249
+    ----------------------------------------
+    Total                      3.383ns (2.773ns logic, 0.610ns route)
+                                       (82.0% logic, 18.0% route)
+
+=========================================================================
+Timing constraint: NET plb_eth1_contr/PHY_tx_clk PERIOD = 40 nS HIGH 14 nS
+  Clock period: 3.410ns (frequency: 293.212MHz)
+  Total number of paths / destination ports: 231 / 121
+  Number of failed paths / ports: 0 (0.00%) / 0 (0.00%)
+-------------------------------------------------------------------------
+Slack:                  36.590ns
+  Source:               plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/INST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU142 (FF)
+  Destination:          plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/INST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU142 (FF)
+  Data Path Delay:      3.410ns (Levels of Logic = 6)
+  Source Clock:         plb_eth1_contr/PHY_tx_clk falling at 20.000ns
+  Destination Clock:    plb_eth1_contr/PHY_tx_clk falling at 60.000ns
+
+  Data Path: plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/INST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU142 (FF) to plb_eth1_contr/plb_eth1_contr/XEMAC_I/INST_EMAC/tx_generate.inst_transmit/INST_TX_INTRFCE/V2_DMEM.I_TX_FIFO/BU142 (FF)
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDPE:C->Q             9   0.374   0.637  BU142 (empty)
+     LUT4:I3->O            1   0.313   0.000  BU128 (N982)
+     MUXCY:S->O            1   0.377   0.000  BU129 (N986)
+     MUXCY:CI->O           1   0.041   0.000  BU132 (N985)
+     MUXCY:CI->O           1   0.041   0.000  BU135 (N984)
+     MUXCY_D:CI->LO        0   0.525   0.000  BU138 (N983)
+     XORCY:CI->O           1   0.868   0.000  BU141 (N989)
+     FDPE:D                    0.234          BU142
+    ----------------------------------------
+    Total                      3.410ns (2.773ns logic, 0.637ns route)
+                                       (81.3% logic, 18.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 57.00 secs
+Total CPU time to Xst completion: 56.89 secs
+ 
+--> 
+
+
+Total memory usage is 343184 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   58 (   0 filtered)
+Number of infos    :   89 (   0 filtered)
+

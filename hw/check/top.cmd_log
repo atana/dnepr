@@ -1,0 +1,47 @@
+xst -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -ifn "/home/atana/RTI/dnepr/check/ise/top.xst" -ofn "/home/atana/RTI/dnepr/check/ise/top.syr"
+xst -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -ifn "/home/atana/RTI/dnepr/check/ise/top.xst" -ofn "/home/atana/RTI/dnepr/check/ise/top.syr"
+ngdbuild -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700an-fgg484-4 "top.ngc" top.ngd
+map -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -p xc3s700an-fgg484-4 -cm area -pr off -k 4 -c 100 -o top_map.ncd top.ngd top.pcf
+par -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -v 3 -s 4 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -ifn "/home/atana/RTI/dnepr/check/ise/top.xst" -ofn "/home/atana/RTI/dnepr/check/ise/top.syr"
+ngdbuild -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700an-fgg484-4 "top.ngc" top.ngd
+map -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -p xc3s700an-fgg484-4 -cm area -pr off -k 4 -c 100 -o top_map.ncd top.ngd top.pcf
+par -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -v 3 -s 4 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -ifn "/home/atana/RTI/dnepr/check/ise/top.xst" -ofn "/home/atana/RTI/dnepr/check/ise/top.syr"
+ngdbuild -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700an-fgg484-4 "top_cs.ngc" top.ngd
+map -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -p xc3s700an-fgg484-4 -cm area -pr off -k 4 -c 100 -o top_map.ncd top.ngd top.pcf
+par -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -v 3 -s 4 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -f top.ut top.ncd
+ngdbuild -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700an-fgg484-4 "top_cs.ngc" top.ngd
+map -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -p xc3s700an-fgg484-4 -cm area -pr off -k 4 -c 100 -o top_map.ncd top.ngd top.pcf
+par -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -v 3 -s 4 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -f top.ut top.ncd
+ngdbuild -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700an-fgg484-4 "top_cs.ngc" top.ngd
+map -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -p xc3s700an-fgg484-4 -cm area -pr off -k 4 -c 100 -o top_map.ncd top.ngd top.pcf
+par -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -v 3 -s 4 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -ifn "/home/atana/RTI/dnepr/check/ise/top.xst" -ofn "/home/atana/RTI/dnepr/check/ise/top.syr"
+xst -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -ifn "/home/atana/RTI/dnepr/check/ise/top.xst" -ofn "/home/atana/RTI/dnepr/check/ise/top.syr"
+xst -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -ifn "/home/atana/RTI/dnepr/check/ise/top.xst" -ofn "/home/atana/RTI/dnepr/check/ise/top.syr"
+xst -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -ifn "/home/atana/RTI/dnepr/check/ise/top.xst" -ofn "/home/atana/RTI/dnepr/check/ise/top.syr"
+xst -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -ifn "/home/atana/RTI/dnepr/check/ise/top.xst" -ofn "/home/atana/RTI/dnepr/check/ise/top.syr"
+xst -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -ifn "/home/atana/RTI/dnepr/check/ise/top.xst" -ofn "/home/atana/RTI/dnepr/check/ise/top.syr"
+xst -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -ifn "/home/atana/RTI/dnepr/check/ise/top.xst" -ofn "/home/atana/RTI/dnepr/check/ise/top.syr"
+xst -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -ifn "/home/atana/RTI/dnepr/check/ise/top.xst" -ofn "/home/atana/RTI/dnepr/check/ise/top.syr"
+ngdbuild -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700an-fgg484-4 "top_cs.ngc" top.ngd
+map -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -p xc3s700an-fgg484-4 -cm area -pr off -k 4 -c 100 -o top_map.ncd top.ngd top.pcf
+par -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -v 3 -s 4 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -ifn "/home/atana/RTI/dnepr/check/ise/top.xst" -ofn "/home/atana/RTI/dnepr/check/ise/top.syr"
+xst -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -ifn "/home/atana/RTI/dnepr/check/ise/top.xst" -ofn "/home/atana/RTI/dnepr/check/ise/top.syr"
+xst -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -ifn "/home/atana/RTI/dnepr/check/ise/top.xst" -ofn "/home/atana/RTI/dnepr/check/ise/top.syr"
+xst -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -ifn "/home/atana/RTI/dnepr/check/ise/top.xst" -ofn "/home/atana/RTI/dnepr/check/ise/top.syr"
+xst -ise "/home/atana/RTI/dnepr/check/ise/check.ise" -intstyle ise -ifn "/home/atana/RTI/dnepr/check/ise/top.xst" -ofn "/home/atana/RTI/dnepr/check/ise/top.syr"

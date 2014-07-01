@@ -1,0 +1,6 @@
+VHDL opb_flash_controller_v1_00_a /home/atana/RTI/dnepr/hw/mm010_dd13_dts/pcores/opb_flash_controller_v1_00_a/hdl/vhdl/opb_addr_dec.vhd
+VHDL opb_flash_controller_v1_00_a /home/atana/RTI/dnepr/hw/mm010_dd13_dts/pcores/opb_flash_controller_v1_00_a/hdl/vhdl/opb_flash_control.vhd
+VHDL opb_flash_controller_v1_00_a /home/atana/RTI/dnepr/hw/mm010_dd13_dts/pcores/opb_flash_controller_v1_00_a/hdl/vhdl/opb_inreg.vhd
+VHDL opb_flash_controller_v1_00_a /home/atana/RTI/dnepr/hw/mm010_dd13_dts/pcores/opb_flash_controller_v1_00_a/hdl/vhdl/opb_outreg.vhd
+VHDL opb_flash_controller_v1_00_a /home/atana/RTI/dnepr/hw/mm010_dd13_dts/pcores/opb_flash_controller_v1_00_a/hdl/vhdl/opb_flash_controller.vhd
+vhdl work ../hdl/opb_flash_wrapper.vhd

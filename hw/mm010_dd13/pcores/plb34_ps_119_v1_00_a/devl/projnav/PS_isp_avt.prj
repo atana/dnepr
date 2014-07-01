@@ -1,0 +1,3 @@
+vhdl work "SM_wait_imp.vhd"
+vhdl work "FIFO_secure_uc.vhd"
+vhdl work "PS_isp_avt.vhd"

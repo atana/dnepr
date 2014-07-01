@@ -1,0 +1,52 @@
+# Reading C:/modeltech_6.5d/tcl/vsim/pref.tcl 
+# //  ModelSim SE 6.5d Nov 18 2009 
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {tb_fifo_secure_uc.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE vcom 6.5d Compiler 2009.11 Nov 18 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package vcomponents
+# -- Compiling entity fifo_secure_uc
+# -- Compiling architecture behavioral of fifo_secure_uc
+# Model Technology ModelSim SE vcom 6.5d Compiler 2009.11 Nov 18 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Compiling entity tb_fifo_secure_uc
+# -- Compiling architecture behavior of tb_fifo_secure_uc
+# vsim -lib work -t 1ps tb_fifo_secure_uc 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading C:\Xilinx\10.1\ISE\smartmodel\nt\installed_nt/lib/pcnt.lib/swiftpli_mti.dll
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_fifo_secure_uc(behavior)#1
+# Loading unisim.vcomponents
+# Loading work.fifo_secure_uc(behavioral)#1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /tb_fifo_secure_uc/uut
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 5 ns  Iteration: 1  Instance: /tb_fifo_secure_uc/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /tb_fifo_secure_uc/uut
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 5 ns  Iteration: 1  Instance: /tb_fifo_secure_uc/uut

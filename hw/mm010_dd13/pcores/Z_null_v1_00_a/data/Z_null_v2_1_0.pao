@@ -1,0 +1,7 @@
+##############################################################################
+## Filename:          D:\work\project_work\6M073\prj\6MM073\pcores/Z_null_v1_00_a/data/Z_null_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Wed Oct 21 15:32:16 2009 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib Z_null_v1_00_a Z_null vhdl

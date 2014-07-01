@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!--
+########################################################################
+##
+## Copyright (c) 2005 Xilinx, Inc.  All rights reserved.
+##
+########################################################################
+-->
+
+
+<!DOCTYPE doc SYSTEM "../../ipdialog.dtd" [
+	<!-- -->
+	<!ENTITY C_INCLUDE_BURST_CACHELN_SUPPORT '
+	<widget id="C_INCLUDE_BURST_CACHELN_SUPPORT">
+		<key>C_INCLUDE_BURST_CACHELN_SUPPORT</key>
+		<label>Support PLB Bursts and Cache Line Transactions </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_REG_DIMM '
+	<widget id="C_REG_DIMM">
+		<key>C_REG_DIMM</key>
+		<label>Support Registered DIMMs </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_NUM_BANKS_MEM '
+	<widget id="C_NUM_BANKS_MEM">
+		<key>C_NUM_BANKS_MEM</key>
+		<label>Number of DDR Memory Banks </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_NUM_CLK_PAIRS '
+	<widget id="C_NUM_CLK_PAIRS">
+		<key>C_NUM_CLK_PAIRS</key>
+		<label>Number of DDR Clock Pairs </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_INCLUDE_ECC_SUPPORT '
+	<widget id="C_INCLUDE_ECC_SUPPORT">
+		<key>C_INCLUDE_ECC_SUPPORT</key>
+		<label>Support ECC Logic </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_ENABLE_ECC_REG '
+	<widget id="C_ENABLE_ECC_REG">
+		<key>C_ENABLE_ECC_REG</key>
+		<label>Enable Use of ECC Registers </label>
+		<tip>ECC registers include: ECCCR, ECCSR, ECCSEC, ECCDEC, ECCPEC</tip>
+	</widget>
+	'>
+	<!ENTITY C_ECC_DEFAULT_ON '
+	<widget id="C_ECC_DEFAULT_ON">
+		<key>C_ECC_DEFAULT_ON</key>
+		<label>ECC is On </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_INCLUDE_ECC_INTR '
+	<widget id="C_INCLUDE_ECC_INTR">
+		<key>C_INCLUDE_ECC_INTR</key>
+		<label>Support Interrupts for ECC Error Condition </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_INCLUDE_ECC_TEST '
+	<widget id="C_INCLUDE_ECC_TEST">
+		<key>C_INCLUDE_ECC_TEST</key>
+		<label>Support ECC Force Error Testing </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_ECC_SEC_THRESHOLD '
+	<widget id="C_ECC_SEC_THRESHOLD">
+		<key>C_ECC_SEC_THRESHOLD</key>
+		<label>Single Bit Error Interrupt Threshold Counter Value </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_ECC_DEC_THRESHOLD '
+	<widget id="C_ECC_DEC_THRESHOLD">
+		<key>C_ECC_DEC_THRESHOLD</key>
+		<label>Double Bit Error Interrupt Threshold Counter Value </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_ECC_PEC_THRESHOLD '
+	<widget id="C_ECC_PEC_THRESHOLD">
+		<key>C_ECC_PEC_THRESHOLD</key>
+		<label>Parity Field Bit Error Interrupt Threshold Counter Value </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY NUM_ECC_BITS '
+	<widget id="NUM_ECC_BITS">
+		<key>NUM_ECC_BITS</key>
+		<label>Number of ECC Bits </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_DDR_TMRD '
+	<widget id="C_DDR_TMRD">
+		<key>C_DDR_TMRD</key>
+		<label>TMRD </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_DDR_TWR '
+	<widget id="C_DDR_TWR">
+		<key>C_DDR_TWR</key>
+		<label>TWR </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_DDR_TWTR '
+	<widget id="C_DDR_TWTR">
+		<key>C_DDR_TWTR</key>
+		<label>TWTR </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_DDR_TRAS '
+	<widget id="C_DDR_TRAS">
+		<key>C_DDR_TRAS</key>
+		<label>TRAS </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_DDR_TRC '
+	<widget id="C_DDR_TRC">
+		<key>C_DDR_TRC</key>
+		<label>TRC </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_DDR_TRFC '
+	<widget id="C_DDR_TRFC">
+		<key>C_DDR_TRFC</key>
+		<label>TRFC </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_DDR_TRCD '
+	<widget id="C_DDR_TRCD">
+		<key>C_DDR_TRCD</key>
+		<label>TRCD </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_DDR_TRRD '
+	<widget id="C_DDR_TRRD">
+		<key>C_DDR_TRRD</key>
+		<label>TRRD </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_DDR_TREFC '
+	<widget id="C_DDR_TREFC">
+		<key>C_DDR_TREFC</key>
+		<label>TREFC </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_DDR_TREFI '
+	<widget id="C_DDR_TREFI">
+		<key>C_DDR_TREFI</key>
+		<label>TREFI </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_DDR_TRP '
+	<widget id="C_DDR_TRP">
+		<key>C_DDR_TRP</key>
+		<label>TRP </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_DDR_CAS_LAT '
+	<widget id="C_DDR_CAS_LAT">
+		<key>C_DDR_CAS_LAT</key>
+		<label>CAS Latency </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_DDR_DWIDTH '
+	<widget id="C_DDR_DWIDTH">
+		<key>C_DDR_DWIDTH</key>
+		<label>Cumulative Data Width of DDR Device (not Including ECC Bits) </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_DDR_AWIDTH '
+	<widget id="C_DDR_AWIDTH">
+		<key>C_DDR_AWIDTH</key>
+		<label>DDR Address Bus Width </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_DDR_COL_AWIDTH '
+	<widget id="C_DDR_COL_AWIDTH">
+		<key>C_DDR_COL_AWIDTH</key>
+		<label>DDR Column Address Bus Width </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_DDR_BANK_AWIDTH '
+	<widget id="C_DDR_BANK_AWIDTH">
+		<key>C_DDR_BANK_AWIDTH</key>
+		<label>DDR Bank Address Width </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_MEM0_BASEADDR '
+	<widget id="C_MEM0_BASEADDR">
+		<key>C_MEM0_BASEADDR</key>
+		<label>Base Address for Bank 0 </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_MEM0_HIGHADDR '
+	<widget id="C_MEM0_HIGHADDR">
+		<key>C_MEM0_HIGHADDR</key>
+		<label>High Address for Bank 0 </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_MEM1_BASEADDR '
+	<widget id="C_MEM1_BASEADDR">
+		<key>C_MEM1_BASEADDR</key>
+		<label>Base Address for Bank 1 </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_MEM1_HIGHADDR '
+	<widget id="C_MEM1_HIGHADDR">
+		<key>C_MEM1_HIGHADDR</key>
+		<label>High Address for Bank 1 </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_MEM2_BASEADDR '
+	<widget id="C_MEM2_BASEADDR">
+		<key>C_MEM2_BASEADDR</key>
+		<label>Base Address for Bank 2 </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_MEM2_HIGHADDR '
+	<widget id="C_MEM2_HIGHADDR">
+		<key>C_MEM2_HIGHADDR</key>
+		<label>High Address for Bank 2 </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_MEM3_BASEADDR '
+	<widget id="C_MEM3_BASEADDR">
+		<key>C_MEM3_BASEADDR</key>
+		<label>Base Address for Bank 3 </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_MEM3_HIGHADDR '
+	<widget id="C_MEM3_HIGHADDR">
+		<key>C_MEM3_HIGHADDR</key>
+		<label>High Address for Bank 3 </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_ECC_BASEADDR '
+	<widget id="C_ECC_BASEADDR">
+		<key>C_ECC_BASEADDR</key>
+		<label>ECC Registers Base Address </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_ECC_HIGHADDR '
+	<widget id="C_ECC_HIGHADDR">
+		<key>C_ECC_HIGHADDR</key>
+		<label>ECC Register for High Address </label>
+		<tip></tip>
+	</widget>
+	'>
+	<!ENTITY C_SIM_INIT_TIME_PS '
+	<widget id="C_SIM_INIT_TIME_PS">
+		<key>C_SIM_INIT_TIME_PS</key>
+		<label>Simulation Initialization Time </label>
+		<tip></tip>
+	</widget>
+	'>
+]>
+
+<doc>
+	<view id="User">
+		<display>User</display>
+		<group id="Misc">
+			<display>Misc</display>
+			<item>&C_INCLUDE_BURST_CACHELN_SUPPORT;</item>
+			<item>&C_REG_DIMM;</item>
+			<item>&C_NUM_BANKS_MEM;</item>
+			<item>&C_NUM_CLK_PAIRS;</item>
+			<item>&C_SIM_INIT_TIME_PS;</item>
+		</group>
+		<group id="ECC">
+			<display>ECC</display>
+			<item>&C_ECC_DEFAULT_ON;</item>
+			<item>&C_ECC_BASEADDR;</item>
+			<item>&C_ECC_HIGHADDR;</item>
+			<item>&C_INCLUDE_ECC_SUPPORT;</item>
+			<item>&C_ENABLE_ECC_REG;</item>
+			<item>&C_INCLUDE_ECC_INTR;</item>
+			<item>&C_INCLUDE_ECC_TEST;</item>
+			<item>&C_ECC_SEC_THRESHOLD;</item>
+			<item>&C_ECC_DEC_THRESHOLD;</item>
+			<item>&C_ECC_PEC_THRESHOLD;</item>
+		</group>
+		<group id="DDR_PARAMETERS">
+			<display>DDR Parameters</display>
+			<item>&C_DDR_DWIDTH;</item>
+			<item>&C_DDR_AWIDTH;</item>
+			<item>&C_DDR_COL_AWIDTH;</item>
+			<item>&C_DDR_BANK_AWIDTH;</item>
+			<item>&C_DDR_TMRD;</item>
+			<item>&C_DDR_TWR;</item>
+			<item>&C_DDR_TWTR;</item>
+			<item>&C_DDR_TRAS;</item>
+			<item>&C_DDR_TRC;</item>
+			<item>&C_DDR_TRFC;</item>
+			<item>&C_DDR_TRCD;</item>
+			<item>&C_DDR_TRRD;</item>
+			<item>&C_DDR_TREFC;</item>
+			<item>&C_DDR_TREFI;</item>
+			<item>&C_DDR_TRP;</item>
+			<item>&C_DDR_CAS_LAT;</item>
+		</group>
+	</view>
+	<view id="System">
+		<display>System</display>
+		<group id="PLB">
+			<display>PLB</display>
+			<item>&C_PLB_NUM_MASTERS;</item>
+			<item>&C_PLB_MID_WIDTH;</item>
+			<item>&C_PLB_AWIDTH;</item>
+			<item>&C_PLB_DWIDTH;</item>
+			<item>&C_PLB_CLK_PERIOD_PS;</item>
+		</group>
+		<group id="Address">
+			<display>Address</display>
+			<item>&C_MEM0_BASEADDR;</item>
+			<item>&C_MEM0_HIGHADDR;</item>
+			<item>&C_MEM1_BASEADDR;</item>
+			<item>&C_MEM1_HIGHADDR;</item>
+			<item>&C_MEM2_BASEADDR;</item>
+			<item>&C_MEM2_HIGHADDR;</item>
+			<item>&C_MEM3_BASEADDR;</item>
+			<item>&C_MEM3_HIGHADDR;</item>
+		</group>
+		<group id="Hidden">
+			<display>Hidden</display>
+			<item>&C_FAMILY;</item>
+			<item>&NUM_ECC_BITS;</item>
+		</group>
+	</view>
+</doc>

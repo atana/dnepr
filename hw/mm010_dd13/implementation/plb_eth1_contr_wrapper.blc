@@ -1,0 +1,41 @@
+Release 10.1.03 ngcbuild K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/10.1/ISE/bin/lin/unwrapped/ngcbuild -p xc2vp50ff1152-6
+-intstyle silent -uc plb_eth1_contr_wrapper.ucf -sd ..
+plb_eth1_contr_wrapper.ngc ../plb_eth1_contr_wrapper.ngc
+
+Reading NGO file
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/plb_eth1_contr_wrapper/p
+lb_eth1_contr_wrapper.ngc" ...
+Executing edif2ngd -noa "ethernet_v1_01_a_dmem_v2.edn"
+"ethernet_v1_01_a_dmem_v2.ngo"
+Release 10.1.03 - edif2ngd K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 10.1.03 edif2ngd K.39 (lin)
+INFO:NgdBuild - Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file </opt/Xilinx/10.1/EDK/data/edif2ngd.pfd> with
+local file </opt/Xilinx/10.1/ISE/data/edif2ngd.pfd>
+Writing module to "ethernet_v1_01_a_dmem_v2.ngo"...
+Loading design module
+"/home/atana/RTI/dnepr/hw/mm010_dd13_dts/implementation/plb_eth1_contr_wrapper/e
+thernet_v1_01_a_dmem_v2.ngo"...
+
+Applying constraints in "plb_eth1_contr_wrapper.ucf" to the design...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 78052 kilobytes
+
+Writing NGC file "../plb_eth1_contr_wrapper.ngc" ...
+
+Writing NGCBUILD log file "../plb_eth1_contr_wrapper.blc"...

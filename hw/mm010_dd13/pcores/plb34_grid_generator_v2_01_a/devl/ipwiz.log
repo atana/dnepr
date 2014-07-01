@@ -1,0 +1,315 @@
+
+----------------------------------------------------------------------------
+--                            Design Analysis                             --
+----------------------------------------------------------------------------
+Analyze pcore plb34_grid_generator ...
+
+INFO:MDT - Generic parameter C_USER_ID_CODE will not be used since user does not
+   use Module Identification Register (MIR) ...
+
+----------------------------------------------------------------------------
+--                            File Generation                             --
+----------------------------------------------------------------------------
+Creating HDL source directory ...
+Generating top peripheral VHDL template ...
+Generating stub user logic VHDL template ...
+HDL templates successfully generated ...
+Creating data directory ...
+Generating XPS inteface files ...
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+inferred_lut4.vhd" in Library proc_common_v2_00_a.
+Entity <inferred_lut4> compiled.
+Entity <inferred_lut4> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+pf_counter_bit.vhd" in Library proc_common_v2_00_a.
+Entity <pf_counter_bit> compiled.
+Entity <pf_counter_bit> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+pf_adder_bit.vhd" in Library proc_common_v2_00_a.
+Entity <pf_adder_bit> compiled.
+Entity <pf_adder_bit> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+pf_counter.vhd" in Library proc_common_v2_00_a.
+Entity <pf_counter> compiled.
+Entity <pf_counter> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+pf_occ_counter.vhd" in Library proc_common_v2_00_a.
+Entity <pf_occ_counter> compiled.
+Entity <pf_occ_counter> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+pf_occ_counter_top.vhd" in Library proc_common_v2_00_a.
+Entity <pf_occ_counter_top> compiled.
+Entity <pf_occ_counter_top> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+pf_counter_top.vhd" in Library proc_common_v2_00_a.
+Entity <pf_counter_top> compiled.
+Entity <pf_counter_top> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+pf_adder.vhd" in Library proc_common_v2_00_a.
+Entity <pf_adder> compiled.
+Entity <pf_adder> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+proc_common_pkg.vhd" in Library proc_common_v2_00_a.
+Package <proc_common_pkg> compiled.
+Package body <proc_common_pkg> compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+counter_bit.vhd" in Library proc_common_v2_00_a.
+Entity <counter_bit> compiled.
+Entity <counter_bit> (Architecture <imp>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+or_muxcy.vhd" in Library proc_common_v2_00_a.
+Entity <or_muxcy> compiled.
+Entity <or_muxcy> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+family.vhd" in Library proc_common_v2_00_a.
+Package <family> compiled.
+Package body <family> compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+or_gate.vhd" in Library proc_common_v2_00_a.
+Entity <or_gate> compiled.
+Entity <or_gate> (Architecture <imp>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+pselect.vhd" in Library proc_common_v2_00_a.
+Entity <pselect> compiled.
+Entity <pselect> (Architecture <imp>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+srl_fifo2.vhd" in Library proc_common_v2_00_a.
+Entity <srl_fifo2> compiled.
+Entity <srl_fifo2> (Architecture <imp>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+counter.vhd" in Library proc_common_v2_00_a.
+Entity <Counter> compiled.
+Entity <Counter> (Architecture <imp>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+ipif_pkg.vhd" in Library proc_common_v2_00_a.
+Package <ipif_pkg> compiled.
+Package body <ipif_pkg> compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+ipif_steer.vhd" in Library proc_common_v2_00_a.
+Entity <IPIF_Steer> compiled.
+Entity <IPIF_Steer> (Architecture <IMP>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+pf_dpram_select.vhd" in Library proc_common_v2_00_a.
+Entity <pf_dpram_select> compiled.
+Entity <pf_dpram_select> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/
+srl16_fifo.vhd" in Library proc_common_v2_00_a.
+Entity <srl16_fifo> compiled.
+Entity <srl16_fifo> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/fle
+x_addr_cntr.vhd" in Library plb_ipif_v1_00_f.
+Entity <flex_addr_cntr> compiled.
+Entity <flex_addr_cntr> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/pf_d
+ly1_mux.vhd" in Library wrpfifo_v2_00_a.
+Entity <pf_dly1_mux> compiled.
+Entity <pf_dly1_mux> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb
+_address_decoder.vhd" in Library plb_ipif_v1_00_f.
+Entity <plb_address_decoder> compiled.
+Entity <plb_address_decoder> (Architecture <IMP>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/bur
+st_support.vhd" in Library plb_ipif_v1_00_f.
+Entity <burst_support> compiled.
+Entity <burst_support> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/add
+r_reg_cntr_brst_flex.vhd" in Library plb_ipif_v1_00_f.
+Entity <addr_reg_cntr_brst_flex> compiled.
+Entity <addr_reg_cntr_brst_flex> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/ipif
+_control_rd.vhd" in Library rdpfifo_v2_00_a.
+Entity <ipif_control_rd> compiled.
+Entity <ipif_control_rd> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/rdpf
+ifo_dp_cntl.vhd" in Library rdpfifo_v2_00_a.
+Entity <rdpfifo_dp_cntl> compiled.
+Entity <rdpfifo_dp_cntl> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/ipif
+_control_wr.vhd" in Library wrpfifo_v2_00_a.
+Entity <ipif_control_wr> compiled.
+Entity <ipif_control_wr> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/wrpf
+ifo_dp_cntl.vhd" in Library wrpfifo_v2_00_a.
+Entity <wrpfifo_dp_cntl> compiled.
+Entity <wrpfifo_dp_cntl> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v2_00_a/hdl/vhdl/wrpf
+ifo_top.vhd" in Library wrpfifo_v2_00_a.
+Entity <wrpfifo_top> compiled.
+Entity <wrpfifo_top> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v2_00_a/hdl/vhdl/rdpf
+ifo_top.vhd" in Library rdpfifo_v2_00_a.
+Entity <rdpfifo_top> compiled.
+Entity <rdpfifo_top> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb
+_slave_attachment_indet.vhd" in Library plb_ipif_v1_00_f.
+Entity <plb_slave_attachment_indet> compiled.
+Entity <plb_slave_attachment_indet> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb
+_ipif_reset.vhd" in Library plb_ipif_v1_00_f.
+Entity <plb_ipif_reset> compiled.
+Entity <plb_ipif_reset> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb
+_interrupt_control.vhd" in Library plb_ipif_v1_00_f.
+Entity <plb_interrupt_control> compiled.
+Entity <plb_interrupt_control> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb
+_sesr_sear.vhd" in Library plb_ipif_v1_00_f.
+Entity <plb_sesr_sear> compiled.
+Entity <plb_sesr_sear> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb
+_ipif.vhd" in Library plb_ipif_v1_00_f.
+Entity <plb_ipif> compiled.
+Entity <plb_ipif> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"D:/TEST/HW_SW_test/sym_plb34_grid_generator/pcores/plb34_grid_generator_v2_01_a
+/data/../hdl/vhdl/user_logic.vhd" in Library plb34_grid_generator_v2_01_a.
+Entity <user_logic> compiled.
+Entity <user_logic> (Architecture <IMP>) compiled.
+Compiling vhdl file
+"D:/TEST/HW_SW_test/sym_plb34_grid_generator/pcores/plb34_grid_generator_v2_01_a
+/data/../hdl/vhdl/plb34_grid_generator.vhd" in Library
+plb34_grid_generator_v2_01_a.
+Entity <plb34_grid_generator> compiled.
+Entity <plb34_grid_generator> (Architecture <IMP>) compiled.
+
+
+Analyzing HDL attributes ...
+INFO:MDT - IPTYPE set to value : PERIPHERAL
+INFO:MDT - IMP_NETLIST set to value : TRUE
+INFO:MDT - HDL set to value : VHDL
+WARNING:MDT - Unable to delete temparary XST project file
+   D:\TEST\HW_SW_test\sym_plb34_grid_generator\pcores\plb34_grid_generator_v2_01
+   _a\data\_plb34_grid_generator_xst.prj : 13
+XPS interface files successfully generated ...
+Creating development directory ...
+Generating command option file ...
+Generating readme file ...
+Development misc files successfully generated ...
+Creating projnav directory ...
+Generating ProjNav support files ...
+ProjNav support files successfully generated ...
+Creating synthesis directory ...
+Generating XST synthesis support files ...
+XST synthesis support files successfully generated ...
+No BFM simulation files will be generated at this time ...
+Creating software driver data directory ...
+Generating software driver XPS interface (mdd/tcl) files ...
+Software driver data definition file (.mdd) successfully generated ...
+Software driver data generation file (.tcl) successfully generated ...
+Creating software driver src directory ...
+Generating software driver template files ...
+Software driver compile file (Makefile) successfully generated ...
+output user slave register(s) offset to software driver header ...
+Software driver header file (.h) successfully generated ...
+Software driver source file (.c) successfully generated ...
+Software driver SelfTest file (.c) successfully generated ...
+Software driver template files successfully generated ...
+
+----------------------------------------------------------------------------
+--                              Final Report                              --
+----------------------------------------------------------------------------
+Thank you for using Create and Import Peripheral Wizard! Please find your
+peripheral hardware templates under
+D:\TEST\HW_SW_test\sym_plb34_grid_generator/pcores/plb34_grid_generator_v2_01_a
+and peripheral software templates under
+D:\TEST\HW_SW_test\sym_plb34_grid_generator/drivers/plb34_grid_generator_v2_01_a
+respectively.
+
+Peripheral Summary:
+
+  top name       : plb34_grid_generator
+  version        : 2.01.a
+  type           : PLB slave
+  features       : slave attachment
+                   user s/w registers
+
+Address Block Summary:
+
+  user logic slv : C_BASEADDR + 0x00000000
+                 : C_BASEADDR + 0x000000FF
+
+File Summary
+
+  - HDL source -
+D:\TEST\HW_SW_test\sym_plb34_grid_generator/pcores/plb34_grid_generator_v2_01_a/
+hdl
+  top entity     : vhdl/plb34_grid_generator.vhd
+  user logic     : vhdl/user_logic.vhd
+
+  - XPS interface -
+D:\TEST\HW_SW_test\sym_plb34_grid_generator/pcores/plb34_grid_generator_v2_01_a/
+data
+  mpd            : plb34_grid_generator_v2_1_0.mpd
+  pao            : plb34_grid_generator_v2_1_0.pao
+
+  - ISE project -
+D:\TEST\HW_SW_test\sym_plb34_grid_generator/pcores/plb34_grid_generator_v2_01_a/
+devl/projnav
+  ise project    : plb34_grid_generator.ise
+  cli command    : plb34_grid_generator.cli
+
+
+  - XST synthesis -
+D:\TEST\HW_SW_test\sym_plb34_grid_generator/pcores/plb34_grid_generator_v2_01_a/
+devl/synthesis
+  xst script     : plb34_grid_generator_xst.scr
+  xst project    : plb34_grid_generator_xst.prj
+
+  - Misc file -
+D:\TEST\HW_SW_test\sym_plb34_grid_generator/pcores/plb34_grid_generator_v2_01_a/
+devl
+  help           : README.txt
+  option         : ipwiz.opt
+  log            : ipwiz.log
+
+  - Driver source -
+D:\TEST\HW_SW_test\sym_plb34_grid_generator/drivers/plb34_grid_generator_v2_01_a
+/src
+  makefile       : Makefile
+  header         : plb34_grid_generator.h
+  source         : plb34_grid_generator.c
+  selftest       : plb34_grid_generator_selftest.c
+
+  - Driver interface -
+D:\TEST\HW_SW_test\sym_plb34_grid_generator/drivers/plb34_grid_generator_v2_01_a
+/data
+  mdd            : plb34_grid_generator_v2_1_0.mdd
+  tcl            : plb34_grid_generator_v2_1_0.tcl
+
+

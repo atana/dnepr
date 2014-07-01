@@ -1,0 +1,1507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">SIGIS</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">SIGIS</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">IP2INTC_Irpt</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">M_request</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">M_priority</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">M_buslock</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">M_RNW</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">M_BE</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">M_MSize</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">M_size</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">M_type</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">M_compress</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">M_guarded</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">M_ordered</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">M_lockErr</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">M_abort</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">M_ABus</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">M_wrDBus</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">M_wrBurst</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">M_rdBurst</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bus2IP_Freeze</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bus2IP_Addr</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bus2IP_RNW</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bus2IP_Burst</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bus2IP_IBurst</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bus2IP_RNW_Early</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bus2IP_PselHit</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bus2IP_CS</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bus2IP_CE</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bus2IP_MstWrAck</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bus2IP_MstRdAck</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bus2IP_MstRetry</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bus2IP_MstError</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bus2IP_MstTimeOut</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bus2IP_MstLastAck</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">RFIFO2IP_WrAck</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">RFIFO2IP_AlmostFull</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">RFIFO2IP_Full</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">RFIFO2IP_Vacancy</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">WFIFO2IP_Data</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">WFIFO2IP_RdAck</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">WFIFO2IP_AlmostEmpty</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">WFIFO2IP_Empty</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">WFIFO2IP_Occupancy</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/plb34_ps_119.vhd</arg>&quot; line <arg fmt="%d" index="2">401</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bus2IP_DMA_Ack</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_ipif</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">SIGIS</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">SIGIS</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_ipif.vhd</arg>&quot; line <arg fmt="%d" index="2">1412</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Sl_SSize</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_slave_attachment_indet</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_ipif.vhd</arg>&quot; line <arg fmt="%d" index="2">1412</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bus2IP_BE</arg>&apos; of component &apos;<arg fmt="%s" index="4">plb_slave_attachment_indet</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/plb_ipif_v1_00_f/hdl/vhdl/plb_slave_attachment_indet.vhd</arg>&quot; line <arg fmt="%d" index="2">1579</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Count_Out</arg>&apos; of component &apos;<arg fmt="%s" index="4">Counter</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot; line <arg fmt="%d" index="2">281</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/counter_bit.vhd</arg>&quot; line <arg fmt="%d" index="2">126</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">LUT4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/counter_bit.vhd</arg>&quot; line <arg fmt="%d" index="2">137</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">MUXCY_L</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/counter_bit.vhd</arg>&quot; line <arg fmt="%d" index="2">144</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">XORCY</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/counter_bit.vhd</arg>&quot; line <arg fmt="%d" index="2">150</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDRE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">SIGIS</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">SIGIS</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/hdl/vhdl/user_logic.vhd</arg>&quot; line <arg fmt="%d" index="2">336</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;RST_reg&gt;, &lt;count_fall_preload&gt;, &lt;count_fall_wait&gt;, &lt;count_isp&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/devl/projnav/PS_isp_avt.vhd</arg>&quot; line <arg fmt="%d" index="2">187</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">wr_ack</arg>&apos; of component &apos;<arg fmt="%s" index="4">FIFO_secure_uc</arg>&apos;.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">Status_reg&lt;3&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">PS_isp_avt</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">Status_reg&lt;2&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">PS_isp_avt</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">Status_reg&lt;15&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">PS_isp_avt</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">Status_reg&lt;31&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">PS_isp_avt</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">Status_reg&lt;30&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">PS_isp_avt</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">Status_reg&lt;29&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">PS_isp_avt</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">Status_reg&lt;28&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">PS_isp_avt</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">Status_reg&lt;27&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">PS_isp_avt</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">Status_reg&lt;26&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">PS_isp_avt</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">Status_reg&lt;25&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">PS_isp_avt</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">Status_reg&lt;24&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">PS_isp_avt</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">Status_reg&lt;23&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">PS_isp_avt</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">Status_reg&lt;22&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">PS_isp_avt</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">Status_reg&lt;21&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">PS_isp_avt</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">Status_reg&lt;20&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">PS_isp_avt</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">Status_reg&lt;19&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">PS_isp_avt</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">Status_reg&lt;18&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">PS_isp_avt</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">Status_reg&lt;17&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">PS_isp_avt</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/active_work/ise/debug/6MPGM_6MPS5_6B261_6A119_7M010_DD13/system/pcores/plb34_ps_119_v1_00_a/devl/projnav/FIFO_secure_uc.vhd</arg>&quot; line <arg fmt="%d" index="2">63</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;word_count&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">test</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">test</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">Addr&lt;0:28&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">Addr&lt;30:31&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">A</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">lut_out</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">test</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">test</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">Addr_Out_S_H&lt;3:4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">Nach_isp_d_reg&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">Dlit_isp_d_reg&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">Ntakt_reg&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">Control_reg&lt;31:5&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">Control_reg&lt;3:1&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">Ntakt_Ndistr_Dlit</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">Bus2IP_RdReq</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">Bus2IP_WrReq</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">count_isp&lt;31:16&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">count_fall_wait&lt;31:8&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">count_fall_preload&lt;31:8&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">count_clk100</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">MA2SA_Num</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">MUX2SA_BTerm</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">MA2SA_XferAck</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">MUX2SA_Retry</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">MUX2SA_AddrAck</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">MA2SA_Rd</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">MA2SA_Select</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">sl_wrdack_ns</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">sl_wrcomp_ns</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">sl_wrbterm_ns</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">sl_rdwdaddr_ns</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">sl_rddack_ns</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">sl_rdcomp_ns</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">sl_rdbterm_ns</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">single_transfer_reg</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">single_transfer</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">sig_inhib_Addr_cntr_ld</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">read_data_xfer</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">rdwdaddr</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">rd_dphase_active_ns</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">rd_ce_ld_enable</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">plb_wrprim_reg</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">plb_wrburst_reg</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">plb_savalid_reg</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">plb_reqpri_reg</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">plb_rdprim_reg</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">plb_rdburst_reg</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">plb_pendreq_reg</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">plb_pendpri_reg</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">plb_ordered_reg</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">plb_msize_reg</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">plb_lockerr_reg</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">plb_guarded_reg</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">plb_compress_reg</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">plb_buslock_reg</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">line_count_done</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">line_count_almostdone</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">indeterminate_burst_reg</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">indeterminate_burst</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">clear_sl_rd_busy_ns</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">clear_sl_rd_busy</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">clear_rd_ce</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">cacheln_transfer</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">cacheln_burst_reg</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">bus2ip_rdreq_ns</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">burst_transfer_reg</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">addr_cntr_clken_i</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">CS_Early_i&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">Bus2IP_RdBurst_ns</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2DMA_RxLength_Empty</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2Bus_DMA_Req</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">PLB_MWrBTerm</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2RFIFO_WrRelease</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">PLB_MWrDAck</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2Bus_MstWrReq</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2Bus_MstBusLock</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2RFIFO_WrRestore</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2RFIFO_WrMark</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2WFIFO_RdMark</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2Bus_Clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2DMA_RxStatus_Empty</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">PLB_MRdWdAddr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2Bus_PostedWrInh</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2IP_Addr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">PLB_MBusy</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">PLB_MRdDBus</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2Bus_MstBurst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">PLB_MSSize</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2DMA_TxLength_Full</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">PLB_MAddrAck</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">PLB_MRdBTerm</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2Bus_MstBE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2RFIFO_Data</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2RFIFO_WrReq</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2DMA_TxStatus_Empty</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2WFIFO_RdRelease</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">PLB_MRearbitrate</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">PLB_MRdDAck</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">PLB_MErr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2Bus_Addr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2WFIFO_RdReq</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2WFIFO_RdRestore</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IP2Bus_MstRdReq</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">WFIFO2DMA_Vacancy</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">WFIFO2DMA_Full</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">WFIFO2DMA_AlmostFull</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">SA2MA_WrAck</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">SA2MA_Retry</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">SA2MA_RdRdy</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">SA2MA_ErrAck</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">RFIFO2DMA_Occupancy</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">RFIFO2DMA_Empty</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">RFIFO2DMA_AlmostEmpty</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">Intr2Bus_WrAck</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">Intr2Bus_ToutSup</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">Intr2Bus_Retry</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">Intr2Bus_RdAck</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">Intr2Bus_Error</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">IRPT2Bus_Data</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">IPIF_Reg_Interrupts</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">IPIF_Lvl_Interrupts</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">IP2Bus_AddrSel_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">DMA_SG_WrAck</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">DMA_SG_ToutSup</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">DMA_SG_Retry</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">DMA_SG_RdAck</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">DMA_SG_Error</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">DMA_MstWrReq</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">DMA_MstRdReq</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">DMA_MstBusLock</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">DMA_MstBurst</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">DMA_MstBE</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">DMA2Intr_Intr</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">DMA2IP_Addr</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">DMA2Bus_Data</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">DMA2Bus_Addr</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">Bus_MnGrant</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">Bus2IP_type_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">Bus2IP_size_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">Bus2IP_masterID_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">Bus2IP_SSize_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">Bus2IP_Freeze_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">Bus2IP_BE_sa</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">iIP2Bus_Data&lt;32:63&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00000000000000000000000000000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">iBus2IP_Data&lt;32:63&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">iBus2IP_BE&lt;4:7&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">ZERO_PLB_MSSize</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">ZERO_PLB_MRdWdAddr</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">ZERO_PLB_MRdDBus</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0000000000000000000000000000000000000000000000000000000000000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">ZERO_IP2RFIFO_Data</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0000000000000000000000000000000000000000000000000000000000000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">ZERO_IP2IP_Addr</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00000000000000000000000000000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">ZERO_IP2Bus_MstBE</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">ZERO_IP2Bus_IntrEvent&lt;0&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">ZERO_IP2Bus_Addr</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00000000000000000000000000000000</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="0" delta="unknown" >The RAM &lt;<arg fmt="%s" index="1">Mram_RAM</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">sl_rddack_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">plb_slave_attachment_indet</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;sl_rdcomp_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">master_id_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">plb_slave_attachment_indet</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Bus2IP_masterID_i_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">sl_wrdack_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">plb_slave_attachment_indet</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;sl_wrcomp_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">master_id_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">plb_slave_attachment_indet</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Bus2IP_masterID_i_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">master_id_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">plb_slave_attachment_indet</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Bus2IP_masterID_i_0&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">sl_rearbitrate_i</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">I_SLAVE_ATTACHMENT</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_wrreq_i</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_rdreq_i</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_rnw_i</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_size_i_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_size_i_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_size_i_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_size_i_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_type_i_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_type_i_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_type_i_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">bus2ip_addr_i_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">wr_ack_in</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FIFO_uc_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">wr_ack</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">FIFO_uc_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">plb34_ps_119</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/icount_fall_preload_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_isp_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_isp_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_isp_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_isp_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_isp_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_isp_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_isp_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_isp_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_isp_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_isp_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_isp_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_isp_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_isp_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_isp_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_isp_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_isp_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/SM_wait_imp_inst/icount_fall_wait_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/FIFO_uc_inst/wr_ack</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">USER_LOGIC_I/PS_isp_avt_inst/FIFO_uc_inst/wr_ack_in</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_type_i_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_type_i_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_type_i_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_size_i_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_size_i_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_size_i_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_size_i_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_rdreq_i</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/plb_abus_reg_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/bus2ip_wrreq_i</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/addr_cntl_state_FSM_FFd1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PLB_IPIF_I/I_SLAVE_ATTACHMENT/sl_wait_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">plb34_ps_119</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;PLB_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/I_CS_SIZE_REG2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="unknown" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

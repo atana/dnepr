@@ -1,0 +1,10 @@
+-batch 
+-create plb34_period_test 
+-ver 1.00.a 
+-dir "C:\Xilinx\10.1\edk_user_repository\MyProcessorIPLib" 
+-lang vhdl 
+-bus plb s 
+-regn 8 32 
+-xps 
+-ise 
+-driver 

@@ -1,0 +1,62 @@
+
+<RENDERBATCH>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/dnepr.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/dnepr.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/dnepr.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/grid_gen.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/grid_gen.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/grid_gen.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/delay_meter.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/delay_meter.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/delay_meter.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/ft_fd_input.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/ft_fd_input.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/ft_fd_input.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/ppc405_1.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/ppc405_1.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/ppc405_1.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/ppc405_0.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/ppc405_0.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/ppc405_0.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/jtagppc_0.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/jtagppc_0.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/jtagppc_0.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/plb2opb.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/plb2opb.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/plb2opb.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/opb.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/opb.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/opb.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/plb.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/plb.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/plb.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/reset_block.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/reset_block.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/reset_block.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/system_clk_0.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/system_clk_0.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/system_clk_0.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/ddr_fb_dcm.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/ddr_fb_dcm.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/ddr_fb_dcm.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/ddr90_dcm.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/ddr90_dcm.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/ddr90_dcm.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/sys_dcm.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/sys_dcm.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/sys_dcm.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/plb_eth2_contr.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/plb_eth2_contr.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/plb_eth2_contr.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/plb_eth1_contr.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/plb_eth1_contr.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/plb_eth1_contr.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/opb_intc_0.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/opb_intc_0.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/opb_intc_0.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/opb_flash.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/opb_flash.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/opb_flash.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/boot_ppc_cntrl.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/boot_ppc_cntrl.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/boot_ppc_cntrl.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/boot_ppc_bram.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/boot_ppc_bram.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/boot_ppc_bram.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/plb_DDR_SDRAM.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/plb_DDR_SDRAM.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/plb_DDR_SDRAM.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/UART_TUTS.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/UART_TUTS.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/UART_TUTS.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/RS232_1.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/RS232_1.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/RS232_1.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/RS232_2.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/RS232_2.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/RS232_2.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/gpio_LEDS.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/gpio_LEDS.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/gpio_LEDS.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/freq_detect.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/freq_detect.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/freq_detect.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/reg_version.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/reg_version.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/reg_version.svg"/>
+
+  <RENDERIMG RASNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/system_blkd.jpg" SVGNAME="/home/atana/RTI/dnepr/hw/mm010_dd13/report/imgs/system_blkd.svg" TMPSVGFN="/home/atana/RTI/dnepr/hw/mm010_dd13/__xps/.dswkshop/system_blkd.svg"/>
+
+</RENDERBATCH>

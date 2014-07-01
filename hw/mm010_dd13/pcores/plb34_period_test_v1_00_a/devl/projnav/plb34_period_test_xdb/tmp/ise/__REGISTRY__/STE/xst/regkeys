@@ -1,0 +1,6 @@
+CommandLine
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\xst.exe -ise C:/Xilinx/10.1/edk_user_repository/MyProcessorIPLib/pcores/plb34_period_test_v1_00_a/devl/projnav/plb34_period_test.ise -intstyle ise -ifn C:/Xilinx/10.1/edk_user_repository/MyProcessorIPLib/pcores/plb34_period_test_v1_00_a/devl/projnav/user_logic.xst -ofn C:/Xilinx/10.1/edk_user_repository/MyProcessorIPLib/pcores/plb34_period_test_v1_00_a/devl/projnav/user_logic.syr -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s

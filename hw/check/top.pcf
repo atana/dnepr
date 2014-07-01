@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map K.39 on Tue Jul 01 18:45:17 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "dnepr_rc_stop" LOCATE = SITE "B6" LEVEL 1;
+COMP "dnepr_rc_start" LOCATE = SITE "A5" LEVEL 1;
+COMP "voronej_fu1" LOCATE = SITE "A6" LEVEL 1;
+COMP "voronej_fu2" LOCATE = SITE "A7" LEVEL 1;
+COMP "dnepr_tr_start" LOCATE = SITE "B4" LEVEL 1;
+COMP "dnepr_tr_stop" LOCATE = SITE "A4" LEVEL 1;
+COMP "clk" LOCATE = SITE "E12" LEVEL 1;
+COMP "err" LOCATE = SITE "R20" LEVEL 1;
+COMP "rst" LOCATE = SITE "T15" LEVEL 1;
+SCHEMATIC END;
+

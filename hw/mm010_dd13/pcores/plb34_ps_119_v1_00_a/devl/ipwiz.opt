@@ -1,0 +1,10 @@
+-batch 
+-create plb34_ps_119 
+-ver 1.00.a 
+-dir "C:\active_work\ise\sim\sym_plb34_plb_ps34_sim" 
+-lang vhdl 
+-bus plb s 
+-regn 8 32 
+-xps 
+-ise 
+-driver 

@@ -1,0 +1,24 @@
+CommandLine-Map
+
+s
+CommandLine-Ngdbuild
+/opt/Xilinx/10.1/ISE/bin/lin/unwrapped/ngdbuild -ise /home/atana/RTI/dnepr/hw/mm008_dd1/fu2_119.ise -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg676-4 fu2_119.ngc fu2_119.ngd
+s
+CommandLine-Par
+
+s
+CommandLine-Xst
+
+s
+Previous-NGD
+fu2_119_prev_built.ngd
+s
+Previous-NGM
+
+s
+Previous-Packed-NCD
+
+s
+Previous-Routed-NCD
+
+s

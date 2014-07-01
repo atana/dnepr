@@ -1,0 +1,20 @@
+ppc405_0
+LED_SOURCES = led/led.c 
+LED_HEADERS = 
+LED_CC = powerpc-eabi-gcc
+LED_CC_SIZE = powerpc-eabi-size
+LED_CC_OPT = -O0
+LED_CFLAGS = 
+LED_CC_SEARCH = # -B
+LED_LIBPATH = -L./ppc405_0/lib/ # -L
+LED_INCLUDES = -I./ppc405_0/include/ # -I
+LED_LFLAGS = # -l
+LED_LINKER_SCRIPT = led/led_linker_script.ld
+LED_CC_DEBUG_FLAG =  -g 
+LED_CC_PROFILE_FLAG = # -pg
+LED_CC_GLOBPTR_FLAG= # -msdata=eabi
+LED_CC_INFERRED_FLAGS= 
+LED_CC_START_ADDR_FLAG=  # -Wl,-defsym -Wl,_START_ADDR=0xFFFFE000
+LED_CC_STACK_SIZE_FLAG=  # -Wl,-defsym -Wl,_STACK_SIZE=0x200
+LED_CC_HEAP_SIZE_FLAG=  # -Wl,-defsym -Wl,_HEAP_SIZE=0x200
+                  $(LED_CC_INFERRED_FLAGS)  \

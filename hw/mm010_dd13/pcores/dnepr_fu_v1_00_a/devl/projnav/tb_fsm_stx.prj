@@ -1,0 +1,2 @@
+vhdl isim_temp "../../hdl/vhdl/fsm.vhd"
+vhdl isim_temp "tb_fsm.vhd"

@@ -1,0 +1,50 @@
+WARNING:PhysDesignRules:812 - Dangling pin <DOB0> on
+   block:<U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BR
+   AM[9].U_BRAM/ram_rt1_s1_s1_if.ram_rt1_s1_s1_i>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB0> on
+   block:<U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BR
+   AM[8].U_BRAM/ram_rt1_s1_s1_if.ram_rt1_s1_s1_i>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB0> on
+   block:<U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BR
+   AM[7].U_BRAM/ram_rt1_s1_s1_if.ram_rt1_s1_s1_i>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB0> on
+   block:<U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BR
+   AM[6].U_BRAM/ram_rt1_s1_s1_if.ram_rt1_s1_s1_i>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB0> on
+   block:<U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BR
+   AM[5].U_BRAM/ram_rt1_s1_s1_if.ram_rt1_s1_s1_i>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB0> on
+   block:<U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BR
+   AM[4].U_BRAM/ram_rt1_s1_s1_if.ram_rt1_s1_s1_i>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB0> on
+   block:<U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BR
+   AM[3].U_BRAM/ram_rt1_s1_s1_if.ram_rt1_s1_s1_i>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB0> on
+   block:<U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BR
+   AM[2].U_BRAM/ram_rt1_s1_s1_if.ram_rt1_s1_s1_i>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB0> on
+   block:<U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BR
+   AM[1].U_BRAM/ram_rt1_s1_s1_if.ram_rt1_s1_s1_i>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB0> on
+   block:<U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BR
+   AM[15].U_BRAM/ram_rt1_s1_s1_if.ram_rt1_s1_s1_i>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB0> on
+   block:<U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BR
+   AM[14].U_BRAM/ram_rt1_s1_s1_if.ram_rt1_s1_s1_i>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB0> on
+   block:<U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BR
+   AM[13].U_BRAM/ram_rt1_s1_s1_if.ram_rt1_s1_s1_i>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB0> on
+   block:<U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BR
+   AM[12].U_BRAM/ram_rt1_s1_s1_if.ram_rt1_s1_s1_i>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB0> on
+   block:<U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BR
+   AM[11].U_BRAM/ram_rt1_s1_s1_if.ram_rt1_s1_s1_i>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB0> on
+   block:<U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BR
+   AM[10].U_BRAM/ram_rt1_s1_s1_if.ram_rt1_s1_s1_i>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB0> on
+   block:<U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BR
+   AM[0].U_BRAM/ram_rt1_s1_s1_if.ram_rt1_s1_s1_i>:<RAMB16BWE_RAMB16BWE>.
+DRC detected 0 errors and 16 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

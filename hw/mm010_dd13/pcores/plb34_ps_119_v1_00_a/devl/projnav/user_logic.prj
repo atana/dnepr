@@ -1,0 +1,6 @@
+vhdl work "SM_wait_imp.vhd"
+vhdl work "FIFO_secure_uc.vhd"
+vhdl proc_common_v2_00_a "../../../../../../../../../Xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd"
+vhdl work "pulse_fr_form.vhd"
+vhdl work "PS_isp_avt.vhd"
+vhdl plb34_ps_119_v1_00_a "../../hdl/vhdl/user_logic.vhd"
