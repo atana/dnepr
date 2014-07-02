@@ -1,5 +1,5 @@
 #ChipScope Core Generator Project File Version 3.0
-#Втр Июл 01 18:45:10 MSK 2014
+#Срд Июл 02 15:19:28 MSK 2014
 SignalExport.bus<0000>.channelList=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14
 SignalExport.bus<0000>.name=TRIG0
 SignalExport.bus<0000>.offset=0.0

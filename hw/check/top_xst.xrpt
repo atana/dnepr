@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Tue Jul  1 19:04:27 2014">
+  <application stringID="Xst" timeStamp="Wed Jul  2 15:18:39 2014">
     <section stringID="XST_HDL_SYNTHESIS_REPORT">
       <item dataType="int" stringID="XST_COUNTERS" value="1"></item>
       <item dataType="int" stringID="XST_REGISTERS" value="9">
@@ -40,13 +40,12 @@
         <item stringID="XST_IOS" value="9"/>
       </section>
       <section stringID="XST_CELL_USAGE">
-        <item dataType="int" stringID="XST_BELS" value="99">
+        <item dataType="int" stringID="XST_BELS" value="98">
           <item dataType="int" stringID="XST_GND" value="1"/>
           <item dataType="int" stringID="XST_INV" value="2"/>
           <item dataType="int" stringID="XST_LUT1" value="26"/>
           <item dataType="int" stringID="XST_LUT2" value="1"/>
           <item dataType="int" stringID="XST_LUT3" value="2"/>
-          <item dataType="int" stringID="XST_LUT3L" value="1"/>
           <item dataType="int" stringID="XST_LUT4" value="9"/>
           <item dataType="int" stringID="XST_LUT4L" value="1"/>
           <item dataType="int" stringID="XST_MUXCY" value="26"/>
@@ -71,9 +70,9 @@
     </section>
     <section stringID="XST_DEVICE_UTILIZATION_SUMMARY">
       <item stringID="XST_SELECTED_DEVICE" value="3s700anfgg484-4"/>
-      <item AVAILABLE="5888" dataType="int" stringID="XST_NUMBER_OF_SLICES" value="24"/>
+      <item AVAILABLE="5888" dataType="int" stringID="XST_NUMBER_OF_SLICES" value="23"/>
       <item AVAILABLE="11776" dataType="int" stringID="XST_NUMBER_OF_SLICE_FLIP_FLOPS" value="39"/>
-      <item AVAILABLE="11776" dataType="int" stringID="XST_NUMBER_OF_4_INPUT_LUTS" value="42"/>
+      <item AVAILABLE="11776" dataType="int" stringID="XST_NUMBER_OF_4_INPUT_LUTS" value="41"/>
       <item dataType="int" stringID="XST_NUMBER_OF_IOS" value="9"/>
       <item AVAILABLE="372" dataType="int" stringID="XST_NUMBER_OF_BONDED_IOBS" value="9"/>
       <item AVAILABLE="24" dataType="int" stringID="XST_NUMBER_OF_GCLKS" value="1"/>

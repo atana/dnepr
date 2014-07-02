@@ -8,7 +8,7 @@
 -- \   \   \/     Version    : 1.0
 --  \   \         Application: Xilinx CORE Generator
 --  /   /         Filename   : icon_pro.vho
--- /___/   /\     Timestamp  : Втр Июл 01 18:44:45 MSK 2014
+-- /___/   /\     Timestamp  : Срд Июл 02 15:19:02 MSK 2014
 -- \   \  /  \
 --  \___\/\___\
 --

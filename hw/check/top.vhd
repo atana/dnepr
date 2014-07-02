@@ -116,9 +116,9 @@ begin
 	overlay : process(clk)
 	begin
 		if (clk'event and clk = '1') then
-			if (voronej_fu1 = '1' and (rc_start = '1' or rc_stop = '1')) then
+			if (voronej_fu1 = '1' and state = st4_wait_rc_stop) then
 				err_overlay <= '1';
-			elsif (voronej_fu2 = '1' and (tr_start = '1' or tr_stop = '1')) then
+			elsif (voronej_fu2 = '1' and state = st2_wait_tr_stop) then
 				err_overlay <= '1';
 			else
 				err_overlay <= '0';

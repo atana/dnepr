@@ -5,14 +5,14 @@ Parameter TMPDIR set to /home/atana/RTI/dnepr/check/ise/xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 Parameter xsthdpdir set to /home/atana/RTI/dnepr/check/ise/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 Reading design: top.prj
@@ -141,7 +141,7 @@ Synthesizing Unit <top>.
     | States             | 5                                              |
     | Transitions        | 21                                             |
     | Inputs             | 4                                              |
-    | Outputs            | 1                                              |
+    | Outputs            | 3                                              |
     | Clock              | clk (rising_edge)                              |
     | Reset              | rst (positive)                                 |
     | Reset type         | synchronous                                    |
@@ -251,13 +251,12 @@ Design Statistics
 # IOs                              : 9
 
 Cell Usage :
-# BELS                             : 99
+# BELS                             : 98
 #      GND                         : 1
 #      INV                         : 2
 #      LUT1                        : 26
 #      LUT2                        : 1
 #      LUT3                        : 2
-#      LUT3_L                      : 1
 #      LUT4                        : 9
 #      LUT4_L                      : 1
 #      MUXCY                       : 26
@@ -282,9 +281,9 @@ Device utilization summary:
 
 Selected Device : 3s700anfgg484-4 
 
- Number of Slices:                       24  out of   5888     0%  
+ Number of Slices:                       23  out of   5888     0%  
  Number of Slice Flip Flops:             39  out of  11776     0%  
- Number of 4 input LUTs:                 42  out of  11776     0%  
+ Number of 4 input LUTs:                 41  out of  11776     0%  
  Number of IOs:                           9
  Number of bonded IOBs:                   9  out of    372     2%  
  Number of GCLKs:                         1  out of     24     4%  
@@ -333,7 +332,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
   Clock period: 5.090ns (frequency: 196.464MHz)
-  Total number of paths / destination ports: 535 / 91
+  Total number of paths / destination ports: 533 / 91
 -------------------------------------------------------------------------
 Delay:               5.090ns (Levels of Logic = 27)
   Source:            err_cnt_1 (FF)
@@ -422,12 +421,12 @@ Offset:              7.467ns (Levels of Logic = 2)
 
 
 Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 3.07 secs
+Total CPU time to Xst completion: 3.00 secs
  
 --> 
 
 
-Total memory usage is 163912 kilobytes
+Total memory usage is 163908 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

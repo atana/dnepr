@@ -10,7 +10,7 @@ Target Device  : xc3s700an
 Target Package : fgg484
 Target Speed   : -4
 Mapper Version : spartan3a -- $Revision: 1.46.12.2 $
-Mapped Date    : Tue Jul  1 18:45:15 2014
+Mapped Date    : Wed Jul  2 15:19:33 2014
 
 Mapping design into LUTs...
 Running directed packing...
@@ -27,9 +27,9 @@ Logic Utilization:
   Number of Slice Flip Flops:           314 out of  11,776    2%
   Number of 4 input LUTs:               297 out of  11,776    2%
 Logic Distribution:
-  Number of occupied Slices:            337 out of   5,888    5%
-    Number of Slices containing only related logic:     337 out of     337 100%
-    Number of Slices containing unrelated logic:          0 out of     337   0%
+  Number of occupied Slices:            336 out of   5,888    5%
+    Number of Slices containing only related logic:     336 out of     336 100%
+    Number of Slices containing unrelated logic:          0 out of     336   0%
       *See NOTES below for an explanation of the effects of unrelated logic.
   Total Number of 4 input LUTs:         406 out of  11,776    3%
     Number used as logic:               211
